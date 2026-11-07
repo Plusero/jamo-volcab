@@ -1,0 +1,1955 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-stalknecht-noun",
+   "lemma": "stalknecht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stalknechten"
+  },
+  {
+   "id": "lx-armoedegrens-noun",
+   "lemma": "armoedegrens",
+   "pos": "noun",
+   "article": "de",
+   "plural": "armoedegrenzen"
+  },
+  {
+   "id": "lx-bestrijding-noun",
+   "lemma": "bestrijding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bestrijdingen"
+  },
+  {
+   "id": "lx-feestvreugde-noun",
+   "lemma": "feestvreugde",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-rap-adjective",
+   "lemma": "rap",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-salsa-noun",
+   "lemma": "salsa",
+   "pos": "noun",
+   "article": "de",
+   "plural": "salsa's"
+  },
+  {
+   "id": "lx-uithoek-noun",
+   "lemma": "uithoek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "uithoeken"
+  },
+  {
+   "id": "lx-werkeloosheid-noun",
+   "lemma": "werkeloosheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-basketbalclub-noun",
+   "lemma": "basketbalclub",
+   "pos": "noun",
+   "article": "de",
+   "plural": "basketbalclubs"
+  },
+  {
+   "id": "lx-busstation-noun",
+   "lemma": "busstation",
+   "pos": "noun",
+   "article": "het",
+   "plural": "busstations"
+  },
+  {
+   "id": "lx-ongenoegen-noun",
+   "lemma": "ongenoegen",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-populariteit-noun",
+   "lemma": "populariteit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-prioriteit-noun",
+   "lemma": "prioriteit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "prioriteiten"
+  },
+  {
+   "id": "lx-sportaanbod-noun",
+   "lemma": "sportaanbod",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-vacantieland-noun",
+   "lemma": "vacantieland",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vacantielanden"
+  },
+  {
+   "id": "lx-voetlicht-noun",
+   "lemma": "voetlicht",
+   "pos": "noun",
+   "article": "het",
+   "plural": "voetlichten"
+  },
+  {
+   "id": "lx-vrouwentennis-noun",
+   "lemma": "vrouwentennis",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-zichtbaarheid-noun",
+   "lemma": "zichtbaarheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-behandelmethode-noun",
+   "lemma": "behandelmethode",
+   "pos": "noun",
+   "article": "de",
+   "plural": "behandelmethoden"
+  },
+  {
+   "id": "lx-bonbini-handdoek-noun",
+   "lemma": "bonbini-handdoek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bonbini-handdoeken"
+  },
+  {
+   "id": "lx-chirurg-noun",
+   "lemma": "chirurg",
+   "pos": "noun",
+   "article": "de",
+   "plural": "chirurgen"
+  },
+  {
+   "id": "lx-consequentie-noun",
+   "lemma": "consequentie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "consequenties"
+  },
+  {
+   "id": "lx-doch-conjunction",
+   "lemma": "doch",
+   "pos": "conjunction"
+  },
+  {
+   "id": "lx-gegeven-adjective",
+   "lemma": "gegeven",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-inpakken-verb",
+   "lemma": "inpakken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "pakte in",
+    "pastParticiple": "ingepakt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-regenkleding-noun",
+   "lemma": "regenkleding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-scan-noun",
+   "lemma": "scan",
+   "pos": "noun",
+   "article": "de",
+   "plural": "scans"
+  },
+  {
+   "id": "lx-sinterklaaspapier-noun",
+   "lemma": "sinterklaaspapier",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-skate-noun",
+   "lemma": "skate",
+   "pos": "noun",
+   "article": "de",
+   "plural": "skates"
+  },
+  {
+   "id": "lx-spuitsneeuw-noun",
+   "lemma": "spuitsneeuw",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-terugdoen-verb",
+   "lemma": "terugdoen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deed terug",
+    "pastParticiple": "teruggedaan",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-aankomsthal-noun",
+   "lemma": "aankomsthal",
+   "pos": "noun",
+   "article": "de",
+   "plural": "aankomsthallen"
+  },
+  {
+   "id": "lx-bijpraten-verb",
+   "lemma": "bijpraten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "praatte bij",
+    "pastParticiple": "bijgepraat",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-huiduitslag-noun",
+   "lemma": "huiduitslag",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-nachtlawaai-noun",
+   "lemma": "nachtlawaai",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-scarlet-noun",
+   "lemma": "scarlet",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-verzenden-verb",
+   "lemma": "verzenden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verzond",
+    "pastParticiple": "verzonden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-zaterdagochtend-noun",
+   "lemma": "zaterdagochtend",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zaterdagochtenden"
+  },
+  {
+   "id": "lx-zomerkleed-noun",
+   "lemma": "zomerkleed",
+   "pos": "noun",
+   "article": "het",
+   "plural": "zomerkleden"
+  },
+  {
+   "id": "lx-acne-noun",
+   "lemma": "acne",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-adolescentie-noun",
+   "lemma": "adolescentie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-allerhoogst-adjective",
+   "lemma": "allerhoogst",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-biseksueel-adjective",
+   "lemma": "biseksueel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-brooddeeg-noun",
+   "lemma": "brooddeeg",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-decimaal-noun",
+   "lemma": "decimaal",
+   "pos": "noun",
+   "article": "het",
+   "plural": "decimalen"
+  },
+  {
+   "id": "lx-helium-noun",
+   "lemma": "helium",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-hetero-relatie-noun",
+   "lemma": "hetero-relatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "heterorelaties"
+  },
+  {
+   "id": "lx-heteroseksueel-adjective",
+   "lemma": "heteroseksueel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-holebijongere-noun",
+   "lemma": "holebijongere",
+   "pos": "noun",
+   "article": "de",
+   "plural": "holebijongeren"
+  },
+  {
+   "id": "lx-homepage-noun",
+   "lemma": "homepage",
+   "pos": "noun",
+   "article": "de",
+   "plural": "homepages"
+  },
+  {
+   "id": "lx-homoseksueel-adjective",
+   "lemma": "homoseksueel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hp-rekenmachine-noun",
+   "lemma": "hp-rekenmachine",
+   "pos": "noun",
+   "article": "de",
+   "plural": "HP-rekenmachines"
+  },
+  {
+   "id": "lx-inbeelden-verb",
+   "lemma": "inbeelden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "beeldde in",
+    "pastParticiple": "ingebeeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-inhaleren-verb",
+   "lemma": "inhaleren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "inhaleerde",
+    "pastParticiple": "geïnhaleerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-leesopdracht-noun",
+   "lemma": "leesopdracht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "leesopdrachten"
+  },
+  {
+   "id": "lx-legeronderdeel-noun",
+   "lemma": "legeronderdeel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "legeronderdelen"
+  },
+  {
+   "id": "lx-lesbisch-adjective",
+   "lemma": "lesbisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-notitie-noun",
+   "lemma": "notitie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "notities"
+  },
+  {
+   "id": "lx-onduidelijkheid-noun",
+   "lemma": "onduidelijkheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "onduidelijkheden"
+  },
+  {
+   "id": "lx-oscilloscoop-noun",
+   "lemma": "oscilloscoop",
+   "pos": "noun",
+   "article": "de",
+   "plural": "oscilloscopen"
+  },
+  {
+   "id": "lx-pc-spel-noun",
+   "lemma": "pc-spel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "pc-spellen"
+  },
+  {
+   "id": "lx-plakband-noun",
+   "lemma": "plakband",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-slijmering-noun",
+   "lemma": "slijmering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "slijmeringen"
+  },
+  {
+   "id": "lx-slotering-noun",
+   "lemma": "slotering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "sloteringen"
+  },
+  {
+   "id": "lx-werklast-noun",
+   "lemma": "werklast",
+   "pos": "noun",
+   "article": "de",
+   "plural": "werklasten"
+  },
+  {
+   "id": "lx-wetenschapsquiz-noun",
+   "lemma": "wetenschapsquiz",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wetenschapsquizzen"
+  },
+  {
+   "id": "lx-argwanend-adjective",
+   "lemma": "argwanend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-bemoeizuchtig-adjective",
+   "lemma": "bemoeizuchtig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-erboven-adverb",
+   "lemma": "erboven",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-forens-adjective",
+   "lemma": "forens",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hang-noun",
+   "lemma": "hang",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hangen"
+  },
+  {
+   "id": "lx-hiervandaan-adverb",
+   "lemma": "hiervandaan",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-kort-geleden-phrase",
+   "lemma": "kort geleden",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-mensenhuis-noun",
+   "lemma": "mensenhuis",
+   "pos": "noun",
+   "article": "het",
+   "plural": "mensenhuizen"
+  },
+  {
+   "id": "lx-zandvlakte-noun",
+   "lemma": "zandvlakte",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zandvlaktes"
+  },
+  {
+   "id": "lx-zuidwesten-noun",
+   "lemma": "zuidwesten",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-afsprakenlijn-noun",
+   "lemma": "afsprakenlijn",
+   "pos": "noun",
+   "article": "de",
+   "plural": "afsprakenlijnen"
+  },
+  {
+   "id": "lx-inzamelen-verb",
+   "lemma": "inzamelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zamelde in",
+    "pastParticiple": "ingezameld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-amusement-noun",
+   "lemma": "amusement",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-eetbel-noun",
+   "lemma": "eetbel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "eetbellen"
+  },
+  {
+   "id": "lx-evenwel-adverb",
+   "lemma": "evenwel",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-handdouche-noun",
+   "lemma": "handdouche",
+   "pos": "noun",
+   "article": "de",
+   "plural": "handdouches"
+  },
+  {
+   "id": "lx-middageten-noun",
+   "lemma": "middageten",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-natekenen-verb",
+   "lemma": "natekenen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "tekende na",
+    "pastParticiple": "nagetekend",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-proefdier-noun",
+   "lemma": "proefdier",
+   "pos": "noun",
+   "article": "het",
+   "plural": "proefdieren"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-stalknecht-noun-1",
+   "lexemeId": "lx-stalknecht-noun",
+   "zh": "马夫；马厩工人",
+   "examples": [
+    {
+     "nl": "De stalknecht verzorgde de paarden voor de wedstrijd.",
+     "zh": "马厩工人在比赛前照料了这些马。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-armoedegrens-noun-1",
+   "lexemeId": "lx-armoedegrens-noun",
+   "zh": "贫困线",
+   "examples": [
+    {
+     "nl": "Het gezin leeft al jaren onder de armoedegrens.",
+     "zh": "这家人多年来一直生活在贫困线以下。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bestrijding-noun-1",
+   "lexemeId": "lx-bestrijding-noun",
+   "zh": "防治；打击",
+   "examples": [
+    {
+     "nl": "De bestrijding van de ziekte vraagt veel onderzoek.",
+     "zh": "防治这种疾病需要大量研究。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-feestvreugde-noun-1",
+   "lexemeId": "lx-feestvreugde-noun",
+   "zh": "节日的喜悦",
+   "examples": [
+    {
+     "nl": "De muziek bracht feestvreugde in de hele straat.",
+     "zh": "音乐给整条街带来了节日的喜悦。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-rap-adjective-1",
+   "lexemeId": "lx-rap-adjective",
+   "zh": "迅速的；敏捷的",
+   "examples": [
+    {
+     "nl": "De rappe fietser haalde ons bij de brug in.",
+     "zh": "那位骑车很快的人在桥边赶上了我们。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-salsa-noun-1",
+   "lexemeId": "lx-salsa-noun",
+   "zh": "莎莎舞；莎莎酱",
+   "examples": [
+    {
+     "nl": "We leerden salsa dansen tijdens onze vakantie.",
+     "zh": "我们在假期里学了跳莎莎舞。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uithoek-noun-1",
+   "lexemeId": "lx-uithoek-noun",
+   "zh": "偏远角落；边远地区",
+   "examples": [
+    {
+     "nl": "Het dorp ligt in een uithoek van de provincie.",
+     "zh": "这个村庄位于省内一个偏远地区。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-werkeloosheid-noun-1",
+   "lexemeId": "lx-werkeloosheid-noun",
+   "zh": "失业；无所事事",
+   "examples": [
+    {
+     "nl": "De werkeloosheid daalde vorig jaar in deze regio.",
+     "zh": "去年这个地区的失业率下降了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-basketbalclub-noun-1",
+   "lexemeId": "lx-basketbalclub-noun",
+   "zh": "篮球俱乐部",
+   "examples": [
+    {
+     "nl": "Mijn dochter traint twee keer per week bij een basketbalclub.",
+     "zh": "我女儿每周在一家篮球俱乐部训练两次。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-busstation-noun-1",
+   "lexemeId": "lx-busstation-noun",
+   "zh": "公交车站；巴士总站",
+   "examples": [
+    {
+     "nl": "We ontmoeten elkaar om acht uur bij het busstation.",
+     "zh": "我们八点在公交总站见面。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ongenoegen-noun-1",
+   "lexemeId": "lx-ongenoegen-noun",
+   "zh": "不满；不悦",
+   "examples": [
+    {
+     "nl": "De bewoners uitten hun ongenoegen over het lawaai.",
+     "zh": "居民们表达了对噪声的不满。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-populariteit-noun-1",
+   "lexemeId": "lx-populariteit-noun",
+   "zh": "受欢迎程度",
+   "examples": [
+    {
+     "nl": "De populariteit van de serie groeide na het tweede seizoen.",
+     "zh": "这部剧在第二季播出后更受欢迎了。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-prioriteit-noun-1",
+   "lexemeId": "lx-prioriteit-noun",
+   "zh": "优先事项；优先权",
+   "examples": [
+    {
+     "nl": "Veiligheid heeft bij deze werkzaamheden de hoogste prioriteit.",
+     "zh": "安全在这项工作中具有最高优先级。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-sportaanbod-noun-1",
+   "lexemeId": "lx-sportaanbod-noun",
+   "zh": "体育项目；体育活动供给",
+   "examples": [
+    {
+     "nl": "Het sportaanbod voor kinderen is dit jaar uitgebreid.",
+     "zh": "今年面向儿童的体育项目增加了。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vacantieland-noun-1",
+   "lexemeId": "lx-vacantieland-noun",
+   "zh": "度假国（旧拼法）",
+   "examples": [
+    {
+     "nl": "Spanje is voor veel Nederlanders een populair vacantieland.",
+     "zh": "西班牙是许多荷兰人喜爱的度假国。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voetlicht-noun-1",
+   "lexemeId": "lx-voetlicht-noun",
+   "zh": "舞台灯光；聚光灯",
+   "examples": [
+    {
+     "nl": "De jonge acteur stond voor het eerst in het voetlicht.",
+     "zh": "这位年轻演员第一次站在聚光灯下。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vrouwentennis-noun-1",
+   "lexemeId": "lx-vrouwentennis-noun",
+   "zh": "女子网球",
+   "examples": [
+    {
+     "nl": "Vrouwentennis trekt dit jaar veel nieuwe kijkers.",
+     "zh": "今年女子网球吸引了许多新观众。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zichtbaarheid-noun-1",
+   "lexemeId": "lx-zichtbaarheid-noun",
+   "zh": "可见度；能见度",
+   "examples": [
+    {
+     "nl": "Reflecterende kleding verhoogt je zichtbaarheid in het donker.",
+     "zh": "反光衣物能提高你在黑暗中的可见度。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-behandelmethode-noun-1",
+   "lexemeId": "lx-behandelmethode-noun",
+   "zh": "治疗方法",
+   "examples": [
+    {
+     "nl": "De arts stelde een nieuwe behandelmethode voor.",
+     "zh": "医生提出了一种新的治疗方法。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bonbini-handdoek-noun-1",
+   "lexemeId": "lx-bonbini-handdoek-noun",
+   "zh": "欢迎主题的毛巾（bon bini 意为欢迎）",
+   "examples": [
+    {
+     "nl": "Op de bonbini-handdoek stond een vrolijke eilandgroet.",
+     "zh": "这条欢迎主题的毛巾上印着愉快的岛屿问候语。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-chirurg-noun-1",
+   "lexemeId": "lx-chirurg-noun",
+   "zh": "外科医生",
+   "examples": [
+    {
+     "nl": "De chirurg legde de operatie rustig aan de familie uit.",
+     "zh": "外科医生平静地向家属解释了手术。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-consequentie-noun-1",
+   "lexemeId": "lx-consequentie-noun",
+   "zh": "后果；结果",
+   "examples": [
+    {
+     "nl": "Elke keuze heeft een consequentie voor het team.",
+     "zh": "每个选择都会对团队产生后果。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-doch-conjunction-1",
+   "lexemeId": "lx-doch-conjunction",
+   "zh": "但是；然而（较书面）",
+   "examples": [
+    {
+     "nl": "Ik wilde meegaan, doch ik had geen tijd.",
+     "zh": "我本想一起去，但当时没有时间。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gegeven-adjective-1",
+   "lexemeId": "lx-gegeven-adjective",
+   "zh": "给定的；已知的",
+   "examples": [
+    {
+     "nl": "Gegeven de omstandigheden is dit een goed resultaat.",
+     "zh": "考虑到这些情况，这已经是不错的结果。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-inpakken-verb-1",
+   "lexemeId": "lx-inpakken-verb",
+   "zh": "打包；包装",
+   "examples": [
+    {
+     "nl": "We pakken de cadeaus vanavond samen in.",
+     "zh": "今晚我们一起包装礼物。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-regenkleding-noun-1",
+   "lexemeId": "lx-regenkleding-noun",
+   "zh": "雨具；防雨衣物",
+   "examples": [
+    {
+     "nl": "Neem regenkleding mee, want het blijft waarschijnlijk nat.",
+     "zh": "带上雨具，因为天气可能会一直潮湿。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-scan-noun-1",
+   "lexemeId": "lx-scan-noun",
+   "zh": "扫描件；扫描",
+   "examples": [
+    {
+     "nl": "Stuur me een scan van het ondertekende formulier.",
+     "zh": "把签好字的表格扫描件发给我。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-sinterklaaspapier-noun-1",
+   "lexemeId": "lx-sinterklaaspapier-noun",
+   "zh": "圣尼古拉节礼物包装纸",
+   "examples": [
+    {
+     "nl": "De cadeaus liggen al ingepakt in Sinterklaaspapier.",
+     "zh": "礼物已经用圣尼古拉节包装纸包好了。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-skate-noun-1",
+   "lexemeId": "lx-skate-noun",
+   "zh": "滑板鞋；旱冰鞋",
+   "examples": [
+    {
+     "nl": "Hij kocht nieuwe skates voor het park.",
+     "zh": "他为去公园买了新的旱冰鞋。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-spuitsneeuw-noun-1",
+   "lexemeId": "lx-spuitsneeuw-noun",
+   "zh": "喷雪；人造雪",
+   "examples": [
+    {
+     "nl": "De winkel versierde de ramen met spuitsneeuw.",
+     "zh": "商店用喷雪装饰了橱窗。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-terugdoen-verb-1",
+   "lexemeId": "lx-terugdoen-verb",
+   "zh": "放回去；重新放入",
+   "examples": [
+    {
+     "nl": "Doe de boeken na het lezen terug in de kast.",
+     "zh": "读完后把书放回柜子里。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aankomsthal-noun-1",
+   "lexemeId": "lx-aankomsthal-noun",
+   "zh": "到达大厅",
+   "examples": [
+    {
+     "nl": "We wachten in de aankomsthal op onze vrienden.",
+     "zh": "我们在到达大厅等朋友。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bijpraten-verb-1",
+   "lexemeId": "lx-bijpraten-verb",
+   "zh": "叙旧；聊近况",
+   "examples": [
+    {
+     "nl": "Na de vakantie praten we rustig bij.",
+     "zh": "假期结束后，我们会好好聊聊近况。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-huiduitslag-noun-1",
+   "lexemeId": "lx-huiduitslag-noun",
+   "zh": "皮疹",
+   "examples": [
+    {
+     "nl": "Na het eten kreeg hij huiduitslag op zijn armen.",
+     "zh": "吃完饭后，他的手臂起了皮疹。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-nachtlawaai-noun-1",
+   "lexemeId": "lx-nachtlawaai-noun",
+   "zh": "夜间噪声",
+   "examples": [
+    {
+     "nl": "De buren klaagden over het nachtlawaai op straat.",
+     "zh": "邻居们抱怨街上的夜间噪声。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-scarlet-noun-1",
+   "lexemeId": "lx-scarlet-noun",
+   "zh": "猩红热（旧称）",
+   "examples": [
+    {
+     "nl": "De arts onderzocht het kind op scarlet.",
+     "zh": "医生检查孩子是否患有猩红热。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verzenden-verb-1",
+   "lexemeId": "lx-verzenden-verb",
+   "zh": "寄送；发送",
+   "examples": [
+    {
+     "nl": "We verzenden de bestelling nog dezelfde dag.",
+     "zh": "我们当天就会寄出订单。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zaterdagochtend-noun-1",
+   "lexemeId": "lx-zaterdagochtend-noun",
+   "zh": "星期六早晨",
+   "examples": [
+    {
+     "nl": "Op zaterdagochtend drinken we koffie bij oma.",
+     "zh": "星期六早晨我们会去奶奶家喝咖啡。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zomerkleed-noun-1",
+   "lexemeId": "lx-zomerkleed-noun",
+   "zh": "夏季连衣裙；夏日罩衫",
+   "examples": [
+    {
+     "nl": "Ze droeg een licht zomerkleed naar het strand.",
+     "zh": "她穿着一条轻薄的夏日连衣裙去海滩。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-acne-noun-1",
+   "lexemeId": "lx-acne-noun",
+   "zh": "痤疮；青春痘",
+   "examples": [
+    {
+     "nl": "Acne komt vaak voor tijdens de puberteit.",
+     "zh": "痤疮在青春期很常见。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-adolescentie-noun-1",
+   "lexemeId": "lx-adolescentie-noun",
+   "zh": "青春期；青少年时期",
+   "examples": [
+    {
+     "nl": "Tijdens de adolescentie veranderen veel interesses.",
+     "zh": "在青春期，许多兴趣都会发生变化。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-allerhoogst-adjective-1",
+   "lexemeId": "lx-allerhoogst-adjective",
+   "zh": "最高的；至高无上的",
+   "examples": [
+    {
+     "nl": "De allerhoogste toren staat midden in de stad.",
+     "zh": "最高的塔矗立在市中心。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-biseksueel-adjective-1",
+   "lexemeId": "lx-biseksueel-adjective",
+   "zh": "双性恋的",
+   "examples": [
+    {
+     "nl": "Hij is biseksueel en heeft daar openlijk over verteld.",
+     "zh": "他是双性恋者，并公开谈过这件事。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-brooddeeg-noun-1",
+   "lexemeId": "lx-brooddeeg-noun",
+   "zh": "面包面团",
+   "examples": [
+    {
+     "nl": "Laat het brooddeeg een uur op een warme plek rijzen.",
+     "zh": "把面包面团放在温暖处发酵一小时。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-decimaal-noun-1",
+   "lexemeId": "lx-decimaal-noun",
+   "zh": "小数；十进制数",
+   "examples": [
+    {
+     "nl": "Schrijf het decimaal met een komma in plaats van een punt.",
+     "zh": "请用逗号而不是句点来写这个小数。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-helium-noun-1",
+   "lexemeId": "lx-helium-noun",
+   "zh": "氦气",
+   "examples": [
+    {
+     "nl": "Ballonnen blijven langer zweven als ze helium bevatten.",
+     "zh": "气球里充入氦气后会飘得更久。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hetero-relatie-noun-1",
+   "lexemeId": "lx-hetero-relatie-noun",
+   "zh": "异性恋关系",
+   "examples": [
+    {
+     "nl": "Hun hetero-relatie duurde bijna tien jaar.",
+     "zh": "他们的异性恋关系持续了近十年。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-heteroseksueel-adjective-1",
+   "lexemeId": "lx-heteroseksueel-adjective",
+   "zh": "异性恋的",
+   "examples": [
+    {
+     "nl": "Zij heeft een heteroseksuele relatie met haar partner.",
+     "zh": "她和伴侣保持着异性恋关系。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-holebijongere-noun-1",
+   "lexemeId": "lx-holebijongere-noun",
+   "zh": "LGBTQ+ 青少年",
+   "examples": [
+    {
+     "nl": "De holebijongere vond steun bij een lokale vereniging.",
+     "zh": "这位 LGBTQ+ 青少年在当地协会获得了支持。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-homepage-noun-1",
+   "lexemeId": "lx-homepage-noun",
+   "zh": "主页；网站首页",
+   "examples": [
+    {
+     "nl": "Op de homepage vind je alle praktische informatie.",
+     "zh": "你可以在主页上找到所有实用信息。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-homoseksueel-adjective-1",
+   "lexemeId": "lx-homoseksueel-adjective",
+   "zh": "同性恋的",
+   "examples": [
+    {
+     "nl": "De homoseksuele schrijver sprak over zijn ervaringen.",
+     "zh": "这位同性恋作家谈到了自己的经历。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hp-rekenmachine-noun-1",
+   "lexemeId": "lx-hp-rekenmachine-noun",
+   "zh": "惠普计算器",
+   "examples": [
+    {
+     "nl": "Met de HP-rekenmachine controleerde ze haar berekeningen.",
+     "zh": "她用惠普计算器核对了计算结果。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-inbeelden-verb-1",
+   "lexemeId": "lx-inbeelden-verb",
+   "zh": "想象；设想",
+   "examples": [
+    {
+     "nl": "Ik kan me niet inbeelden dat hij zoiets zou doen.",
+     "zh": "我无法想象他会做出这种事。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-inhaleren-verb-1",
+   "lexemeId": "lx-inhaleren-verb",
+   "zh": "吸入",
+   "examples": [
+    {
+     "nl": "Patiënten inhaleren het medicijn via een apparaat.",
+     "zh": "患者通过设备吸入药物。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-leesopdracht-noun-1",
+   "lexemeId": "lx-leesopdracht-noun",
+   "zh": "阅读作业",
+   "examples": [
+    {
+     "nl": "De leesopdracht moet voor vrijdag af zijn.",
+     "zh": "阅读作业必须在星期五前完成。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-legeronderdeel-noun-1",
+   "lexemeId": "lx-legeronderdeel-noun",
+   "zh": "军队组成部分；部队单位",
+   "examples": [
+    {
+     "nl": "Dit legeronderdeel oefent deze week in Duitsland.",
+     "zh": "这支部队本周在德国演习。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lesbisch-adjective-1",
+   "lexemeId": "lx-lesbisch-adjective",
+   "zh": "女同性恋的",
+   "examples": [
+    {
+     "nl": "Ze woont samen met haar lesbische partner in Gent.",
+     "zh": "她和女同性恋伴侣一起住在根特。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-notitie-noun-1",
+   "lexemeId": "lx-notitie-noun",
+   "zh": "笔记；便条",
+   "examples": [
+    {
+     "nl": "Ik maakte een korte notitie tijdens het gesprek.",
+     "zh": "谈话时我记了一条简短的笔记。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onduidelijkheid-noun-1",
+   "lexemeId": "lx-onduidelijkheid-noun",
+   "zh": "不明确；模糊之处",
+   "examples": [
+    {
+     "nl": "Er bestaat nog onduidelijkheid over de nieuwe regels.",
+     "zh": "新规定仍有一些不明确之处。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-oscilloscoop-noun-1",
+   "lexemeId": "lx-oscilloscoop-noun",
+   "zh": "示波器",
+   "examples": [
+    {
+     "nl": "De technicus gebruikte een oscilloscoop om het signaal te meten.",
+     "zh": "技术员用示波器测量信号。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-pc-spel-noun-1",
+   "lexemeId": "lx-pc-spel-noun",
+   "zh": "电脑游戏",
+   "examples": [
+    {
+     "nl": "Mijn broer speelt na het werk een pc-spel.",
+     "zh": "我哥哥下班后会玩电脑游戏。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-plakband-noun-1",
+   "lexemeId": "lx-plakband-noun",
+   "zh": "胶带",
+   "examples": [
+    {
+     "nl": "Gebruik plakband om de doos goed dicht te maken.",
+     "zh": "用胶带把盒子封好。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slijmering-noun-1",
+   "lexemeId": "lx-slijmering-noun",
+   "zh": "黏液；分泌物",
+   "examples": [
+    {
+     "nl": "De slijmering beschermt het slijmvlies tegen uitdroging.",
+     "zh": "黏液可以防止黏膜干燥。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-slotering-noun-1",
+   "lexemeId": "lx-slotering-noun",
+   "zh": "闭合装置；锁扣",
+   "examples": [
+    {
+     "nl": "De slotering van de koffer was kapot.",
+     "zh": "行李箱的锁扣坏了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-werklast-noun-1",
+   "lexemeId": "lx-werklast-noun",
+   "zh": "工作量",
+   "examples": [
+    {
+     "nl": "Door de extra taken steeg haar werklast aanzienlijk.",
+     "zh": "额外任务让她的工作量明显增加。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wetenschapsquiz-noun-1",
+   "lexemeId": "lx-wetenschapsquiz-noun",
+   "zh": "科学知识竞赛",
+   "examples": [
+    {
+     "nl": "De wetenschapsquiz begint vanavond na het journaal.",
+     "zh": "科学知识竞赛今晚在新闻后开始。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-argwanend-adjective-1",
+   "lexemeId": "lx-argwanend-adjective",
+   "zh": "疑心的；猜疑的",
+   "examples": [
+    {
+     "nl": "De argwanende buurman stelde veel vragen.",
+     "zh": "那位心存怀疑的邻居问了很多问题。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bemoeizuchtig-adjective-1",
+   "lexemeId": "lx-bemoeizuchtig-adjective",
+   "zh": "爱管闲事的",
+   "examples": [
+    {
+     "nl": "Mijn bemoeizuchtige oom gaf iedereen ongevraagd advies.",
+     "zh": "我那爱管闲事的叔叔给每个人都提了不请自来的建议。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-erboven-adverb-1",
+   "lexemeId": "lx-erboven-adverb",
+   "zh": "在其上方；比它多",
+   "examples": [
+    {
+     "nl": "De lamp hangt erboven, vlak bij het plafond.",
+     "zh": "灯挂在它上方，靠近天花板。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-forens-adjective-1",
+   "lexemeId": "lx-forens-adjective",
+   "zh": "通勤的",
+   "examples": [
+    {
+     "nl": "Forens verkeer neemt iedere ochtend rond de stad toe.",
+     "zh": "每天早晨，城市周边的通勤交通都会增加。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hang-noun-1",
+   "lexemeId": "lx-hang-noun",
+   "zh": "倾向；爱好",
+   "examples": [
+    {
+     "nl": "Zij heeft een hang naar oude verhalen.",
+     "zh": "她喜欢听古老的故事。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hiervandaan-adverb-1",
+   "lexemeId": "lx-hiervandaan-adverb",
+   "zh": "从这里",
+   "examples": [
+    {
+     "nl": "Hiervandaan zie je de toren aan de overkant.",
+     "zh": "从这里可以看到对岸的塔。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kort-geleden-phrase-1",
+   "lexemeId": "lx-kort-geleden-phrase",
+   "zh": "不久前；前些时候",
+   "examples": [
+    {
+     "nl": "Kort geleden verhuisden onze buren naar Antwerpen.",
+     "zh": "不久前，我们的邻居搬到了安特卫普。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-mensenhuis-noun-1",
+   "lexemeId": "lx-mensenhuis-noun",
+   "zh": "收容所；供人居住的房屋",
+   "examples": [
+    {
+     "nl": "Het mensenhuis biedt tijdelijk onderdak aan gezinnen.",
+     "zh": "这所收容房为家庭提供临时住所。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zandvlakte-noun-1",
+   "lexemeId": "lx-zandvlakte-noun",
+   "zh": "沙地；沙漠平原",
+   "examples": [
+    {
+     "nl": "Een brede zandvlakte strekte zich voor ons uit.",
+     "zh": "一片宽阔的沙地展现在我们面前。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zuidwesten-noun-1",
+   "lexemeId": "lx-zuidwesten-noun",
+   "zh": "西南方",
+   "examples": [
+    {
+     "nl": "Donkere wolken kwamen vanuit het zuidwesten aanwaaien.",
+     "zh": "乌云从西南方飘了过来。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-afsprakenlijn-noun-1",
+   "lexemeId": "lx-afsprakenlijn-noun",
+   "zh": "预约热线",
+   "examples": [
+    {
+     "nl": "Bel de afsprakenlijn om een consult in te plannen.",
+     "zh": "请拨打预约热线安排就诊。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-inzamelen-verb-1",
+   "lexemeId": "lx-inzamelen-verb",
+   "zh": "收集；回收",
+   "examples": [
+    {
+     "nl": "Vrijwilligers zamelen morgen kleding voor het goede doel in.",
+     "zh": "志愿者明天会为慈善事业收集衣物。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-amusement-noun-1",
+   "lexemeId": "lx-amusement-noun",
+   "zh": "娱乐；消遣",
+   "examples": [
+    {
+     "nl": "Het park biedt amusement voor bezoekers van alle leeftijden.",
+     "zh": "公园为各年龄段的游客提供娱乐活动。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-eetbel-noun-1",
+   "lexemeId": "lx-eetbel-noun",
+   "zh": "用餐铃",
+   "examples": [
+    {
+     "nl": "De kok luidde de eetbel toen het eten klaar was.",
+     "zh": "饭菜准备好后，厨师摇响了用餐铃。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-evenwel-adverb-1",
+   "lexemeId": "lx-evenwel-adverb",
+   "zh": "然而；不过",
+   "examples": [
+    {
+     "nl": "De reis was lang, maar evenwel erg de moeite waard.",
+     "zh": "旅程虽然很长，但仍然非常值得。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-handdouche-noun-1",
+   "lexemeId": "lx-handdouche-noun",
+   "zh": "手持花洒",
+   "examples": [
+    {
+     "nl": "De handdouche hangt naast het bad.",
+     "zh": "手持花洒挂在浴缸旁边。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-middageten-noun-1",
+   "lexemeId": "lx-middageten-noun",
+   "zh": "午餐",
+   "examples": [
+    {
+     "nl": "We eten meestal om twaalf uur ons middageten.",
+     "zh": "我们通常十二点吃午餐。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-natekenen-verb-1",
+   "lexemeId": "lx-natekenen-verb",
+   "zh": "照着画；临摹",
+   "examples": [
+    {
+     "nl": "De kinderen tekenden het dier van een foto na.",
+     "zh": "孩子们照着照片临摹那只动物。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-proefdier-noun-1",
+   "lexemeId": "lx-proefdier-noun",
+   "zh": "实验动物",
+   "examples": [
+    {
+     "nl": "De onderzoekers gebruikten geen proefdieren in deze studie.",
+     "zh": "研究人员在这项研究中没有使用实验动物。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  }
+ ]
+}
