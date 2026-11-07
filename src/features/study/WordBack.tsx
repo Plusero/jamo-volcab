@@ -3,18 +3,15 @@ import { useApp } from '../../app/AppContext';
 import { getNote, updateNote } from '../../application/notes';
 import { LookupActions } from '../shared/LookupActions';
 import type { Lexeme, Note, Sense } from '../../domain/types';
-import { SpeakButton } from './SpeakButton';
 import styles from './StudyPage.module.css';
 
 type Props = {
   sense: Sense;
   lexeme: Lexeme;
-  voice: SpeechSynthesisVoice | null;
-  rate: 'normal' | 'slow';
 };
 
 /** 用 `key={sense.id}` 渲染，切换词义时状态自然重置。 */
-export function WordBack({ sense, lexeme, voice, rate }: Props) {
+export function WordBack({ sense, lexeme }: Props) {
   const forms = [
     lexeme.plural && `复数 ${lexeme.plural}`,
     lexeme.verbForms && `${lexeme.verbForms.past} · ${lexeme.verbForms.pastParticiple} · ${lexeme.verbForms.aux}`,
@@ -23,18 +20,6 @@ export function WordBack({ sense, lexeme, voice, rate }: Props) {
   return (
     <div className={`card ${styles.back}`}>
       <div className={styles.zh}>{sense.zh}</div>
-
-      <ul className={styles.examples}>
-        {sense.examples.map((ex) => (
-          <li key={ex.nl}>
-            <div className={styles.exNl}>
-              <span>{ex.nl}</span>
-              <SpeakButton text={ex.nl} voice={voice} rate={rate} label="朗读例句" small />
-            </div>
-            <div className="muted">{ex.zh}</div>
-          </li>
-        ))}
-      </ul>
 
       {forms.length > 0 && <div className={styles.forms}>{forms.join('　')}</div>}
       {sense.collocations && sense.collocations.length > 0 && (

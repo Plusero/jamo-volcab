@@ -25,13 +25,20 @@ it.each(['reliable', 'needs_review', 'insufficient_evidence'] as const)('学习�
   if (review_status === 'insufficient_evidence') expect(screen.getByText('证据不足')).toBeVisible();
 });
 
-it('揭晓前显示荷兰语例句而不显示中文翻译，揭晓后移除正面例句以免重复', () => {
+it('揭晓后保留原来的荷兰语例句节点，并在原处展示中文翻译', () => {
   const props = { lexeme: { id: 'een', lemma: 'een', pos: 'article' }, examples, isNew: true, voice: null, rate: 'normal' as const };
   const { rerender } = render(<WordFront {...props} revealed={false} />);
+  const dutchSentences = examples.map((example) => screen.getByText(example.nl));
   for (const example of examples) {
     expect(screen.getByText(example.nl)).toBeVisible();
     expect(screen.queryByText(example.zh)).not.toBeInTheDocument();
   }
   rerender(<WordFront {...props} revealed />);
-  expect(screen.queryByRole('list', { name: '语境例句' })).not.toBeInTheDocument();
+  for (const [index, example] of examples.entries()) {
+    expect(screen.getByText(example.nl)).toBe(dutchSentences[index]);
+    expect(screen.getByText(example.zh)).toBeVisible();
+  }
+  expect(screen.getAllByRole('list', { name: '语境例句' })).toHaveLength(1);
+  rerender(<WordFront {...props} revealed={false} />);
+  for (const example of examples) expect(screen.queryByText(example.zh)).not.toBeInTheDocument();
 });

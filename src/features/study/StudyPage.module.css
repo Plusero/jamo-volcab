@@ -10,6 +10,17 @@
 
 /* 背面 */
 .back { display: flex; flex-direction: column; gap: var(--gap); }
+.reveal { display: grid; grid-template-rows: 1fr; animation: revealContent 200ms ease-out; }
+.revealContent { min-height: 0; overflow: hidden; overflow-wrap: anywhere; }
+.answerReveal { animation: revealContent 200ms ease-out, revealGap 200ms ease-out; }
+@keyframes revealContent {
+  from { grid-template-rows: 0fr; opacity: 0; transform: translateY(4px); }
+  to { grid-template-rows: 1fr; opacity: 1; transform: translateY(0); }
+}
+@keyframes revealGap {
+  from { margin-top: calc(-1 * var(--gap)); }
+  to { margin-top: 0; }
+}
 .zh { font-size: 1.5rem; font-weight: 600; }
 .examples { display: flex; flex-direction: column; gap: 12px; margin: 0; padding: 0; list-style: none; }
 .frontExamples { align-self: stretch; margin-top: 8px; padding-top: 16px; border-top: 1px solid var(--border); text-align: left; }

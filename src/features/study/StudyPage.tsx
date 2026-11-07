@@ -118,7 +118,13 @@ export function StudyPage() {
     <div className={styles.page}>
       <WordFront lexeme={lexeme} examples={sense.examples} revealed={view.revealed}
         isNew={current.isNew} voice={voice} rate={settings.speechRate} />
-      {view.revealed && <WordBack key={sense.id} sense={sense} lexeme={lexeme} voice={voice} rate={settings.speechRate} />}
+      {view.revealed && (
+        <section key={sense.id} className={`${styles.reveal} ${styles.answerReveal}`} aria-label="答案">
+          <div className={styles.revealContent}>
+            <WordBack sense={sense} lexeme={lexeme} />
+          </div>
+        </section>
+      )}
 
       <div className="row">
         <button type="button" className="btn" disabled={busy || undoable === 0} onClick={onUndo}>撤销</button>

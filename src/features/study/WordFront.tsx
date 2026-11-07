@@ -25,16 +25,21 @@ export function WordFront({ lexeme, examples, revealed, isNew, voice, rate }: Pr
       </div>
       <TextbookFrequency rank={lexeme.textbookFrequencyRank} />
       <SpeakButton text={spokenForm(lexeme)} voice={voice} rate={rate} label="朗读单词" />
-      {!revealed && (
-        <ul className={`${styles.examples} ${styles.frontExamples}`} aria-label="语境例句">
-          {examples.map((ex) => (
-            <li key={ex.nl} className={styles.exNl}>
+      <ul className={`${styles.examples} ${styles.frontExamples}`} aria-label="语境例句">
+        {examples.map((ex) => (
+          <li key={ex.nl}>
+            <div className={styles.exNl}>
               <span lang="nl">{ex.nl}</span>
               <SpeakButton text={ex.nl} voice={voice} rate={rate} label="朗读例句" small />
-            </li>
-          ))}
-        </ul>
-      )}
+            </div>
+            {revealed && (
+              <div className={styles.reveal}>
+                <div className={styles.revealContent}><div className="muted">{ex.zh}</div></div>
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
