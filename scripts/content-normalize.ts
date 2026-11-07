@@ -129,6 +129,66 @@ writeFileSync('content/manifests/nt2lex-cefr-v1.json', '{\n'
   + `  "thresholds": ${JSON.stringify(cefrThresholds)},\n`
   + '  "entries": {\n' + cefrEntries.join(',\n') + '\n  }\n}\n');
 
+// Full A1–C1 reference set. Keep the B1 manifest above as its own frozen output.
+const ALL_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
+type AllLevel = (typeof ALL_LEVELS)[number];
+type AllFreq = Record<AllLevel, number>;
+type AllGroup = { lemma: string; pos: string; tags: Set<string>; words: Set<string>; freq: AllFreq; specOnly: boolean; tokens: number };
+const allFCols = ALL_LEVELS.map((l) => col(`F@${l}`));
+const allGroups = new Map<string, AllGroup>();
+for (const row of lines) {
+  const { word, lemma, pos, specOnly } = normalizeNt2LexEntry(row[0], row[1]);
+  const key = `${lemma}\t${pos}`;
+  const f = allFCols.map((i) => num(row[i]));
+  if (f.some(Number.isNaN)) throw new Error(`频次不是数字: ${row[0]}`);
+  const g = allGroups.get(key) ?? { lemma, pos, tags: new Set(), words: new Set(), freq: { A1: 0, A2: 0, B1: 0, B2: 0, C1: 0 }, specOnly: true, tokens: word.split(' ').length };
+  g.tags.add(row[1]);
+  g.words.add(word);
+  ALL_LEVELS.forEach((l, i) => (g.freq[l] += f[i]));
+  g.specOnly &&= specOnly;
+  allGroups.set(key, g);
+}
+const allNonSpecLemmas = new Set([...allGroups.values()].filter((g) => g.pos !== 'special').map((g) => g.lemma));
+const allReason = (g: AllGroup): string | null => {
+  if (!ALL_LEVELS.some((l) => g.freq[l] > 0)) return 'A1–C1 均无正频次';
+  if (/\[\[:|[()]/.test(g.lemma)) return '数字/括号占位符（语料切分产物）';
+  if (!/\p{L}/u.test(g.lemma)) return '纯标点或数字';
+  if ([...g.tags].some((t) => t.split(' ').length !== g.tokens)) return '词与 tag 的 token 数不一致（语料标注噪声）';
+  if ([...g.lemma].length === 1 && g.pos !== 'pronoun') return '单字母';
+  if (g.specOnly && g.tokens > 1) return 'SPEC 多词专有名词';
+  if (g.pos === 'special' && allNonSpecLemmas.has(g.lemma)) return 'SPEC 标注噪声（同形词已有正常词性）';
+  return null;
+};
+const b1Ids = new Map(items.map((x) => {
+  const i = x as { id: string; lemma: string; pos: string };
+  return [`${i.lemma}\t${i.pos}`, i.id];
+}));
+const rankByKey = textbookRanks;
+const allItems: object[] = [];
+const allExcluded: { lemma: string; pos: string; tags: string[]; reason: string }[] = [];
+const usedIds = new Set<string>();
+const allSorted = [...allGroups.entries()].sort(([ka, a], [kb, b]) => (rankByKey[ka] ?? Number.MAX_SAFE_INTEGER) - (rankByKey[kb] ?? Number.MAX_SAFE_INTEGER) || a.lemma.localeCompare(b.lemma) || a.pos.localeCompare(b.pos));
+for (const [key, g] of allSorted) {
+  const why = allReason(g);
+  if (why) {
+    allExcluded.push({ lemma: g.lemma, pos: g.pos, tags: [...g.tags], reason: why });
+    continue;
+  }
+  const id = b1Ids.get(key) ?? `ref-${slug(g.lemma)}-${g.pos}`;
+  if (usedIds.has(id)) throw new Error(`id 重复: ${id}`);
+  usedIds.add(id);
+  const words = [...g.words].filter((w) => w !== g.lemma).sort();
+  const level = ALL_LEVELS.find((l) => g.freq[l] > 0)!;
+  allItems.push({ id, lemma: g.lemma, pos: g.pos, tags: [...g.tags].sort(), ...(words.length ? { words } : {}), freq: g.freq, level });
+}
+const allCounts = { rows: lines.length, normalizedKeys: allGroups.size, included: allItems.length, excluded: allExcluded.length };
+writeFileSync('content/manifests/reference-set-all-v1.json', JSON.stringify({
+  version: 'all-v1', source: out.source,
+  rule: 'NT2Lex 基础版中 F@A1/F@A2/F@B1/F@B2/F@C1 任一 > 0，按 (lemma, pos) 去重；与 B1 清单使用相同噪声排除规则，按既有 SFI@TOTAL 词频排名排序',
+  counts: allCounts, items: allItems, excluded: allExcluded,
+}, null, 2) + '\n');
+console.log('A1–C1', allCounts);
+
 console.log(counts);
 const byReason = new Map<string, number>();
 for (const e of excluded) byReason.set(e.reason, (byReason.get(e.reason) ?? 0) + 1);

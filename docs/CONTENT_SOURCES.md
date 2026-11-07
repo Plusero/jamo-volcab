@@ -40,6 +40,14 @@ CEFR 没有官方穷尽的荷兰语 B1 词表。本项目承诺的是：完整�
 
 覆盖账本 `content/coverage/b1-ledger.jsonl` 逐条记录每个参考项是 `included`（指向词义）还是 `excluded`（带理由）；`npm run content:coverage -- --strict` 要求 `missing = 0` 且无错误。
 
+## 完整 A1–C1 参考集（`all-v1`）
+
+`npm run content:normalize` 同时生成 `content/manifests/reference-set-all-v1.json`：全部 15,227 行按既有词形/词性规则规范化为 15,120 项，其中 15,034 项进入编写清单，86 项因占位符、无字母、切词标注问题或专名噪声等被逐项排除。包含 B2、C1，初始等级为 A1 → C1 中首次 F > 0 的等级；缺失频次在本清单中计为 0，但 CEFR 原始证据仍以 null 保留缺失。
+
+完整清单按 `SFI@TOTAL` 的既有排名排列，保留各级原始计数之和及来源标签；所有 B1 参考项继续使用原 ID，原 B1 清单内容保持不变。新增的中文释义、自然例句和词形由 GPT-6 Luna 子代理编写，统一标记为草稿；NT2Lex 数据不含这些中文内容。来源词形/词性错误、专名等可在账本中进一步逐项排除，不能因为生僻或难写而排除。
+
+`npm run content:coverage -- --all --strict` 检查完整清单没有遗漏、重复账本或未知词义；默认命令仍检查冻结 B1 清单。构建保留现有词条及词义 ID，沿用 A1+A2+B1 频次的新词排序，不更改用户 IndexedDB 或 SRS 卡片记录。纯 B2/C1 新词在该排序中的计数为 0，其间按完整 SFI 词频排名排列，避免按编写者的分片顺序分组。
+
 ## 教材词频排名
 
 `npm run content:normalize` 同时生成 `content/manifests/nt2lex-frequency-v1.json`，供词库构建时写入 `Lexeme.textbookFrequencyRank`。

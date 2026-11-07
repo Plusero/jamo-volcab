@@ -1,6 +1,6 @@
 # 词义编写规范（批次任务）
 
-给中文母语者学荷兰语用的 B1 词库。每个批次文件 `content/work/batch-NNN.json` 含约 100 个参考项（按词频降序），格式：
+给中文母语者学荷兰语用的 NT2Lex 词库（A1–C1）。每个批次文件 `content/work/batch-NNN.json` 含约 100 个参考项（按词频降序）；本次全量增量编写任务位于 `content/work/full-import/shard-N.json`，格式：
 
 ```json
 { "batch": "batch-001", "items": [{ "id": "ref-huis-noun", "lemma": "huis", "pos": "noun", "tags": ["N(soort)"], "freq": {...}, "level": "A1", "totalFreq": 812 }] }
@@ -32,7 +32,7 @@
 - **`examples`**：1–2 句自然、地道的荷兰语例句（A2–B1 难度，5–12 个词），必须用到这个词的**这个词义**；`zh` 是准确的中文翻译。不要用词典式的短语充当例句。
 - **`collocations`**（可选）：常见搭配，格式 `"een beslissing nemen 做决定"`。
 - **`topics`**：1–2 个，从这里选：日常、家庭、住房、饮食、购物、出行、工作、学习、健康、身体、时间、数量、天气、自然、社会、情感、交流、休闲、文化、语法。功能词用「语法」。
-- **`level`**：照抄参考项的 `level`（A1/A2/B1）。
+- **`level`**：照抄参考项的 `level`（A1/A2/B1/B2/C1）。
 - **`review`**：一律 `"draft"`。
 - 词义在 `senses` 数组中的顺序 = 批次文件中参考项的顺序（词频高的在前）。
 

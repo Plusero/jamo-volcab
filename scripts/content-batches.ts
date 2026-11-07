@@ -1,21 +1,24 @@
 /**
- * npm run content:batches -- <topN> [batchSize]
+ * npm run content:batches -- <topN> [batchSize] [--all]
  * 1. 把 content/curated/sample.json 中能对上参考项 (lemma, pos) 的词条写进 ledger/sample.jsonl；
- * 2. 参考集按 A1+A2+B1 总词频降序取前 topN，去掉账本里已覆盖的，
+ * 2. 默认按总词频降序取前 topN；--all 按清单中的 SFI@TOTAL 排名取前 topN；
+ *    去掉账本里已覆盖的，
  *    每 batchSize 个写一个 content/work/batch-NNN.json，供编写词义用（见 content/work/GUIDE.md）。
  * 已存在的 batch 文件不会覆盖：编号接着往后排。
  */
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 
-type Item = { id: string; lemma: string; pos: string; tags: string[]; freq: { A1: number; A2: number; B1: number } };
+type Item = { id: string; lemma: string; pos: string; tags: string[]; freq: Record<string, number>; level?: string };
 type Ledger = { referenceId: string };
 
-const topN = Number(process.argv[2]);
-const size = Number(process.argv[3] ?? 100);
+const args = process.argv.slice(2).filter((arg) => arg !== '--all');
+const all = process.argv.includes('--all');
+const topN = Number(args[0]);
+const size = Number(args[1] ?? 100);
 if (!topN) throw new Error('用法：npm run content:batches -- <topN> [batchSize]');
 
 const read = (p: string) => JSON.parse(readFileSync(p, 'utf8'));
-const items: Item[] = read('content/manifests/reference-set-b1-v1.json').items;
+const items: Item[] = read(all ? 'content/manifests/reference-set-all-v1.json' : 'content/manifests/reference-set-b1-v1.json').items;
 const ledgerDir = 'content/coverage/ledger';
 mkdirSync(ledgerDir, { recursive: true });
 mkdirSync('content/work', { recursive: true });
@@ -37,9 +40,10 @@ const covered = new Set(readdirSync(ledgerDir).filter((f) => f.endsWith('.jsonl'
 const existing = readdirSync('content/work').filter((f) => /^batch-\d+\.json$/.test(f)).sort();
 const assigned = new Set(existing.flatMap((f) => (read(`content/work/${f}`).items as Item[]).map((i) => i.id)));
 
-const total = (i: Item) => i.freq.A1 + i.freq.A2 + i.freq.B1;
-const level = (i: Item) => (i.freq.A1 > 0 ? 'A1' : i.freq.A2 > 0 ? 'A2' : 'B1');
-const todo = [...items].sort((a, b) => total(b) - total(a)).slice(0, topN)
+const total = (i: Item) => Object.values(i.freq).reduce((sum, f) => sum + f, 0);
+const level = (i: Item) => i.level ?? (i.freq.A1 > 0 ? 'A1' : i.freq.A2 > 0 ? 'A2' : 'B1');
+const ranked = all ? [...items] : [...items].sort((a, b) => total(b) - total(a));
+const todo = ranked.slice(0, topN)
   .filter((i) => !covered.has(i.id) && !assigned.has(i.id));
 
 let n = existing.length;

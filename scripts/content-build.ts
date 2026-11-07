@@ -31,7 +31,7 @@ for (const sense of vocab.senses) {
 // 新词学习顺序：按对应参考项的 A1+A2+B1 词频降序；没对上参考项的（如 extra.json）排在最后。
 type Freq = { A1: number; A2: number; B1: number };
 const freqByRef = new Map<string, number>(
-  (JSON.parse(readFileSync('content/manifests/reference-set-b1-v1.json', 'utf8')).items as { id: string; freq: Freq }[])
+  (JSON.parse(readFileSync('content/manifests/reference-set-all-v1.json', 'utf8')).items as { id: string; freq: Freq }[])
     .map((i) => [i.id, i.freq.A1 + i.freq.A2 + i.freq.B1]),
 );
 const freqBySense = new Map<string, number>();
@@ -41,7 +41,17 @@ for (const f of readdirSync('content/coverage/ledger').filter((f) => f.endsWith(
     for (const id of l.senseIds ?? []) freqBySense.set(id, freqByRef.get(l.referenceId)!);
   }
 }
-vocab.senses.sort((a, b) => (freqBySense.get(b.id) ?? -1) - (freqBySense.get(a.id) ?? -1)); // 稳定排序，同词的多个词义保持原顺序
+vocab.senses.sort((a, b) => {
+  const fa = freqBySense.get(a.id) ?? -1;
+  const fb = freqBySense.get(b.id) ?? -1;
+  if (fa !== fb) return fb - fa;
+  // 纯 B2/C1 词的 A1–B1 频次均为 0，用完整教材词频排名排列，避免按作者分片分组。
+  if (fa === 0) {
+    return lexemesById.get(a.lexemeId)!.textbookFrequencyRank!
+      - lexemesById.get(b.lexemeId)!.textbookFrequencyRank!;
+  }
+  return 0; // 保留原 B1 同频词及同词多个词义的相对顺序。
+});
 const problems = validateVocab(vocab);
 if (problems.length > 0) {
   for (const p of problems) console.error(`✘ ${p}`);

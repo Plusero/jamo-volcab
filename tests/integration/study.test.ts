@@ -4,6 +4,23 @@ import { saveSettings } from '../../src/application/settings';
 import { DAY, MIN, newDb, SENSES, T0 } from './helpers';
 
 describe('学习流程', () => {
+  it('词库扩充到完整 NT2Lex 规模后，已有评分、备注与到期卡仍然保留', async () => {
+    const db = await newDb();
+    const original = SENSES.slice(0, 20);
+    await rate(db, original[0], 'Good', T0 - 30 * DAY);
+    await db.notes.put({ senseId: original[0], text: '原有学习备注', starred: true });
+    const card = await db.cards.get(original[0]);
+    const logs = await db.reviewLogs.toArray();
+    const expanded = [...original, ...Array.from({ length: 15_000 }, (_, i) => `imported-${i}`)];
+    const today = await getToday(db, expanded, T0);
+    expect(today.queue.due.map((c) => c.senseId)).toContain(original[0]);
+    expect(today.queue.newSenseIds).not.toContain(original[0]);
+    expect(await db.cards.get(original[0])).toEqual(card);
+    expect(await db.reviewLogs.toArray()).toEqual(logs);
+    expect(await db.notes.get(original[0])).toEqual({ senseId: original[0], text: '原有学习备注', starred: true });
+    await db.delete();
+  });
+
   it('评分新卡：写入一张卡和一条日志，扣减新词额度', async () => {
     const db = await newDb();
     const t0 = await getToday(db, SENSES, T0);
