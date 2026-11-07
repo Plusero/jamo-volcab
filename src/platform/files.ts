@@ -6,13 +6,23 @@ export function downloadFile(fileName: string, text: string, type = 'application
   URL.revokeObjectURL(url);
 }
 
-/** 支持分享文件时走系统分享面板，否则下载。用户在分享面板里取消不算错误。 */
+const isDomError = (e: unknown, name: string) => e instanceof DOMException && e.name === name;
+
+/**
+ * 手机上用系统分享面板（iPhone 靠它「存储到文件」），电脑上直接下载。
+ * 用户在分享面板里取消不算错误。
+ */
 export async function shareOrDownload(fileName: string, text: string): Promise<void> {
   const file = new File([text], fileName, { type: 'application/json' });
-  if (!navigator.canShare?.({ files: [file] })) return downloadFile(fileName, text);
-  try {
-    await navigator.share({ files: [file], title: fileName });
-  } catch (e) {
-    if (!(e instanceof DOMException && e.name === 'AbortError')) throw e;
+  if (navigator.maxTouchPoints > 0 && navigator.canShare?.({ files: [file] })) {
+    try {
+      await navigator.share({ files: [file], title: fileName });
+      return;
+    } catch (e) {
+      if (isDomError(e, 'AbortError')) return;
+      // canShare 说可以、share 却拒绝（Chromium 不分享 .json；或用户手势已过期）：改为下载。
+      if (!isDomError(e, 'NotAllowedError')) throw e;
+    }
   }
+  downloadFile(fileName, text);
 }
