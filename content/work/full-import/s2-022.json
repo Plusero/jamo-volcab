@@ -1,0 +1,999 @@
+[
+ [
+  "ref-te-minst-phrase",
+  {
+   "exclude": "De gebruikelijke uitdrukking is “ten minste”; “te minst” is geen correcte vaste frase."
+  }
+ ],
+ [
+  "ref-voortgestudeerd-noun",
+  {
+   "exclude": "“voortgestudeerd” is een voltooid deelwoord/adjectief van “voortstuderen”, geen zelfstandig naamwoordlemma."
+  }
+ ],
+ [
+  "ref-zelfvernietigend-verb",
+  {
+   "exclude": "“zelfvernietigend” is een bijvoeglijk naamwoord, geen werkwoord; de bronwoordsoort is fout."
+  }
+ ],
+ [
+  "ref-babbelen-verb",
+  "闲聊；唠叨",
+  "De kinderen babbelden zachtjes terwijl ze naar huis liepen.",
+  "孩子们回家时轻声聊天。",
+  [
+   "babbelde",
+   "gebabbeld",
+   "hebben"
+  ],
+  "交流"
+ ],
+ [
+  "ref-goedkomen-noun",
+  "好转；顺利解决",
+  "Na een rustig gesprek kwam alles weer goed.",
+  "平静交谈后，一切又好起来了。",
+  [
+   "het",
+   "—"
+  ],
+  "情感"
+ ],
+ [
+  "ref-bloedtransfusie-noun",
+  "输血",
+  "Na het ongeluk kreeg de patiënt een bloedtransfusie.",
+  "事故后，病人接受了输血。",
+  [
+   "de",
+   "bloedtransfusies"
+  ],
+  "健康"
+ ],
+ [
+  "ref-forens-noun",
+  "通勤者",
+  "De forens neemt iedere ochtend de trein naar Utrecht.",
+  "这位通勤者每天早上坐火车去乌得勒支。",
+  [
+   "de",
+   "forensen"
+  ],
+  "出行"
+ ],
+ [
+  "ref-internetten-verb",
+  "上网",
+  "Mijn grootouders internetten iedere avond om nieuws te lezen.",
+  "我的祖父母每天晚上上网看新闻。",
+  [
+   "internette",
+   "geïnternet",
+   "hebben"
+  ],
+  "交流"
+ ],
+ [
+  "ref-medium-noun",
+  "媒介；媒介形式",
+  "Televisie is voor veel mensen nog steeds een belangrijk medium.",
+  "电视对许多人来说仍然是一种重要媒介。",
+  [
+   "het",
+   "media"
+  ],
+  "交流"
+ ],
+ [
+  "ref-rechtvaardigen-verb",
+  "证明合理；使正当",
+  "De hoge kosten rechtvaardigen een grondige controle.",
+  "高昂的成本使彻底检查成为合理之举。",
+  [
+   "rechtvaardigde",
+   "gerechtvaardigd",
+   "hebben"
+  ],
+  "工作"
+ ],
+ [
+  "ref-trendbewusten-noun",
+  {
+   "exclude": "“trendbewusten” is een meervoudige, gesubstantiveerde adjectiefvorm; het lemma hoort “trendbewuste” te zijn."
+  }
+ ],
+ [
+  "ref-twitteren-verb",
+  "发推文；使用推特",
+  "Veel jongeren twitteren over nieuws en muziek.",
+  "许多年轻人在推特上谈论新闻和音乐。",
+  [
+   "twitterde",
+   "getwitterd",
+   "hebben"
+  ],
+  "交流"
+ ],
+ [
+  "ref-hongaars-adjective",
+  "匈牙利的",
+  "We proefden een Hongaars gerecht met paprika.",
+  "我们品尝了一道用甜椒做的匈牙利菜。",
+  null,
+  "饮食"
+ ],
+ [
+  "ref-baren-verb",
+  "分娩；生育",
+  "De koe baarde vroeg in de ochtend een kalf.",
+  "母牛清晨生下了一头小牛。",
+  [
+   "baarde",
+   "gebaard",
+   "hebben"
+  ],
+  "自然"
+ ],
+ [
+  "ref-bonafide-adjective",
+  "诚实可靠的；正当的",
+  "De winkel is een bonafide bedrijf met goede recensies.",
+  "这家商店是一家评价良好的正规企业。",
+  null,
+  "购物"
+ ],
+ [
+  "ref-crash-noun",
+  "碰撞；崩溃",
+  "Door de computercrash raakte ik al mijn werk kwijt.",
+  "电脑崩溃后，我丢失了所有工作。",
+  [
+   "de",
+   "crashes"
+  ],
+  "工作"
+ ],
+ [
+  "ref-drugsgeld-verb",
+  {
+   "exclude": "“drugsgeld” is een zelfstandig naamwoord voor geld uit drugshandel, geen werkwoord; bronwoordsoort fout."
+  }
+ ],
+ [
+  "ref-fiscus-noun",
+  "税务机关；国库",
+  "De fiscus controleerde de inkomsten van het bedrijf.",
+  "税务机关检查了这家公司的收入。",
+  [
+   "de",
+   "—"
+  ],
+  "工作"
+ ],
+ [
+  "ref-gerimpeld-adjective",
+  "起皱的；有皱纹的",
+  "De gerimpelde appel lag al dagen in de fruitmand.",
+  "这个皱巴巴的苹果在果篮里放了好几天。",
+  null,
+  "饮食"
+ ],
+ [
+  "ref-kabouterboek-noun",
+  "小矮人故事书",
+  "Mijn dochter koos een kabouterboek uit de bibliotheek.",
+  "我女儿从图书馆选了一本小矮人故事书。",
+  [
+   "het",
+   "kabouterboeken"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-luxeappartement-noun",
+  "豪华公寓",
+  "Het luxeappartement heeft een balkon met uitzicht op zee.",
+  "这间豪华公寓有一个可以看海的阳台。",
+  [
+   "het",
+   "luxeappartementen"
+  ],
+  "住房"
+ ],
+ [
+  "ref-opstrijken-verb",
+  "领取；赚取",
+  "Hij streek een bonus op na het goede jaar.",
+  "业绩良好的一年后，他领到了一笔奖金。",
+  [
+   "streek op",
+   "opgestreken",
+   "hebben"
+  ],
+  "工作"
+ ],
+ [
+  "ref-reissector-noun",
+  "旅游业",
+  "De reissector herstelde langzaam na de moeilijke periode.",
+  "困难时期后，旅游业慢慢恢复了。",
+  [
+   "de",
+   "reissectoren"
+  ],
+  "出行"
+ ],
+ [
+  "ref-spinnen-verb",
+  "纺纱；吐丝",
+  "De spin spinde een web tussen de struiken.",
+  "蜘蛛在灌木之间织了一张网。",
+  [
+   "spinde",
+   "gesponnen",
+   "hebben"
+  ],
+  "自然"
+ ],
+ [
+  "ref-vastgoedsector-noun",
+  "房地产行业",
+  "De vastgoedsector zoekt meer betaalbare woningen.",
+  "房地产行业正在寻找更多价格合理的住房。",
+  [
+   "de",
+   "vastgoedsectoren"
+  ],
+  "住房"
+ ],
+ [
+  "ref-wantrouwen-verb",
+  "不信任；猜疑",
+  "De bewoners wantrouwden de belofte van de projectontwikkelaar.",
+  "居民们不信任开发商的承诺。",
+  [
+   "wantrouwde",
+   "wantrouwd",
+   "hebben"
+  ],
+  "情感"
+ ],
+ [
+  "ref-wisselkantoor-noun",
+  "兑换处；外币兑换所",
+  "We wisselden geld bij een wisselkantoor op het station.",
+  "我们在车站的兑换处换了钱。",
+  [
+   "het",
+   "wisselkantoren"
+  ],
+  "出行"
+ ],
+ [
+  "ref-avondmaal-noun",
+  "晚餐",
+  "Het avondmaal stond klaar toen de gasten aankwamen.",
+  "客人到达时，晚餐已经准备好了。",
+  [
+   "het",
+   "avondmalen"
+  ],
+  "饮食"
+ ],
+ [
+  "ref-bezint-noun",
+  {
+   "exclude": "“bezint” is een vervoegde vorm van “bezinnen” (hij bezint zich), geen zelfstandig naamwoordlemma."
+  }
+ ],
+ [
+  "ref-boost-noun",
+  "提振；推动",
+  "De nieuwe campagne gaf de verkoop een flinke boost.",
+  "新活动大大提振了销售。",
+  [
+   "de",
+   "boosts"
+  ],
+  "工作"
+ ],
+ [
+  "ref-decemberstress-noun",
+  "十二月压力；年末压力",
+  "Decemberstress begint vaak door drukte en cadeaus.",
+  "十二月的压力常常来自忙碌和送礼。",
+  [
+   "de",
+   "—"
+  ],
+  "情感"
+ ],
+ [
+  "ref-ex-sinterklaas-noun",
+  "前圣诞老人扮演者",
+  "De ex-Sinterklaas vertelde verhalen aan de kinderen.",
+  "这位以前扮演圣诞老人的人给孩子们讲故事。",
+  [
+   "de",
+   "ex-Sinterklazen"
+  ],
+  "文化"
+ ],
+ [
+  "ref-gum-noun",
+  "橡皮；树胶",
+  "Met een gum haalde ik de fout uit mijn schrift.",
+  "我用橡皮擦掉了本子里的错误。",
+  [
+   "de/het",
+   "gummen"
+  ],
+  "学习"
+ ],
+ [
+  "ref-initiatiefneemster-noun",
+  "女性发起人",
+  "De initiatiefneemster nodigde alle buren uit voor overleg.",
+  "这位女性发起人邀请所有邻居来协商。",
+  [
+   "de",
+   "initiatiefneemsters"
+  ],
+  "社会"
+ ],
+ [
+  "ref-klef-adjective",
+  "黏糊糊的；闷热潮湿的",
+  "Door de hitte voelde de kamer klef en benauwd.",
+  "天气炎热，房间里又黏又闷。",
+  null,
+  "天气"
+ ],
+ [
+  "ref-lekken-verb",
+  "漏水；泄露",
+  "De kraan lekte de hele nacht in de keuken.",
+  "水龙头在厨房里漏了一整夜。",
+  [
+   "lekte",
+   "gelekt",
+   "hebben"
+  ],
+  "住房"
+ ],
+ [
+  "ref-niet-eens-alleen-phrase",
+  "甚至不只是；不仅仅是",
+  "Het ging niet eens alleen om geld, maar ook om vertrouwen.",
+  "这甚至不只是钱的问题，也关乎信任。",
+  null,
+  "语法"
+ ],
+ [
+  "ref-popcorn-noun",
+  "爆米花",
+  "We maakten popcorn voor de filmavond thuis.",
+  "我们为家庭电影之夜做了爆米花。",
+  [
+   "de",
+   "popcorns"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-radbraken-verb",
+  "施车轮刑",
+  "In vroegere tijden radbraakte men zware misdadigers.",
+  "过去人们会对重罪犯施以车轮刑。",
+  [
+   "radbraakte",
+   "geradbraakt",
+   "hebben"
+  ],
+  "文化"
+ ],
+ [
+  "ref-schlager-noun",
+  "流行小调；通俗歌曲",
+  "De schlager werd luid meegezongen op het feest.",
+  "派对上，大家大声跟唱这首通俗歌曲。",
+  [
+   "de",
+   "schlagers"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-sprookjesachtig-adjective",
+  "童话般的",
+  "Het sprookjesachtige kasteel stond midden in het bos.",
+  "这座童话般的城堡位于森林中央。",
+  null,
+  "文化"
+ ],
+ [
+  "ref-strandtas-noun",
+  "沙滩包",
+  "Ik pakte mijn strandtas met handdoek en zonnebrand in.",
+  "我把毛巾和防晒霜装进沙滩包。",
+  [
+   "de",
+   "strandtassen"
+  ],
+  "出行"
+ ],
+ [
+  "ref-taxirit-noun",
+  "出租车行程",
+  "De taxirit naar het vliegveld duurde twintig minuten.",
+  "去机场的出租车行程持续了二十分钟。",
+  [
+   "de",
+   "taxiritten"
+  ],
+  "出行"
+ ],
+ [
+  "ref-vakantieparadijs-noun",
+  "度假天堂",
+  "Het eiland is een vakantieparadijs voor gezinnen.",
+  "这个岛是家庭度假的天堂。",
+  [
+   "het",
+   "vakantieparadijzen"
+  ],
+  "出行"
+ ],
+ [
+  "ref-verkeerstoren-noun",
+  "机场塔台",
+  "De verkeerstoren houdt alle vliegtuigen veilig in de lucht.",
+  "机场塔台确保所有飞机安全飞行。",
+  [
+   "de",
+   "verkeerstorens"
+  ],
+  "出行"
+ ],
+ [
+  "ref-voorbijrennen-verb",
+  "跑过；从旁边跑过",
+  "De kinderen renden lachend voorbij de oude kerk.",
+  "孩子们笑着跑过了老教堂。",
+  [
+   "rende voorbij",
+   "voorbijgerend",
+   "zijn"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-zuurverdiende-verb",
+  {
+   "exclude": "“zuurverdiende” is een verbogen adjectief (“zuurverdiend geld”), geen werkwoordlemma."
+  }
+ ],
+ [
+  "ref-beeldverhaal-noun",
+  "图像故事；漫画",
+  "Het beeldverhaal vertelt het avontuur zonder veel tekst.",
+  "这个图像故事不用太多文字讲述冒险。",
+  [
+   "het",
+   "beeldverhalen"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-brusselaars-noun",
+  {
+   "exclude": "“Brusselaars” is een meervoudige demoniemvorm; de enkelvoudsvorm is “Brusselaar” en hoort met hoofdletter."
+  }
+ ],
+ [
+  "ref-entreekaart-noun",
+  "入场券",
+  "Bewaar je entreekaart tot na het concert.",
+  "音乐会结束前请保留好入场券。",
+  [
+   "de",
+   "entreekaarten"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-fantasiewereld-noun",
+  "幻想世界",
+  "De schrijver bouwde een fantasiewereld vol vreemde dieren.",
+  "作家构建了一个充满奇怪动物的幻想世界。",
+  [
+   "de",
+   "fantasiewerelden"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-garde-noun",
+  "厨房打蛋器；护卫",
+  "Met de garde klopte ze de eieren luchtig.",
+  "她用打蛋器把鸡蛋打得蓬松。",
+  [
+   "de",
+   "gardes"
+  ],
+  "饮食"
+ ],
+ [
+  "ref-kinderhand-noun",
+  "孩子的手",
+  "Het kleine boek paste precies in haar kinderhand.",
+  "这本小书正好适合她的小手。",
+  [
+   "de",
+   "kinderhanden"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-middaguur-noun",
+  "中午时分",
+  "Rond het middaguur eten veel kinderen hun lunch.",
+  "许多孩子在中午左右吃午餐。",
+  [
+   "het",
+   "middaguren"
+  ],
+  "时间"
+ ],
+ [
+  "ref-opspringen-verb",
+  "跳起来；弹起",
+  "De hond sprong op toen de bel ging.",
+  "门铃响时，狗跳了起来。",
+  [
+   "sprong op",
+   "opgesprongen",
+   "zijn"
+  ],
+  "自然"
+ ],
+ [
+  "ref-peuter-noun",
+  "幼儿；学步儿童",
+  "De peuter bouwde een hoge toren van blokken.",
+  "这个幼儿用积木搭了一座高塔。",
+  [
+   "de",
+   "peuters"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-rondgang-noun",
+  "巡视；参观路线",
+  "De directeur maakte een rondgang door de school.",
+  "校长巡视了学校。",
+  [
+   "de",
+   "rondgangen"
+  ],
+  "学习"
+ ],
+ [
+  "ref-stripuitgave-noun",
+  "漫画出版物",
+  "De stripuitgave verscheen deze maand in een nieuwe editie.",
+  "这本漫画出版物本月推出了新版本。",
+  [
+   "de",
+   "stripuitgaven"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-textielmagazijn-noun",
+  "纺织品仓库",
+  "Het textielmagazijn bewaart stoffen uit verschillende landen.",
+  "纺织品仓库保存着来自不同国家的布料。",
+  [
+   "het",
+   "textielmagazijnen"
+  ],
+  "工作"
+ ],
+ [
+  "ref-wijds-adjective",
+  "辽阔的；宽广的",
+  "Vanaf de dijk hadden we een wijds uitzicht.",
+  "从堤坝上望去，景色十分辽阔。",
+  null,
+  "自然"
+ ],
+ [
+  "ref-droomwereld-noun",
+  "梦境；幻想世界",
+  "In haar droomwereld kon ze overal naartoe vliegen.",
+  "在她的梦境里，她可以飞去任何地方。",
+  [
+   "de",
+   "droomwerelden"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-glinstering-noun",
+  "闪光；微光",
+  "Er was een glinstering in haar ogen toen ze lachte.",
+  "她笑的时候，眼里闪着微光。",
+  [
+   "de",
+   "glinsterings"
+  ],
+  "情感"
+ ],
+ [
+  "ref-omslag-noun",
+  "封面；转变",
+  "De omslag van het boek is blauw met gouden letters.",
+  "这本书的封面是蓝色的，上面有金字。",
+  [
+   "de/het",
+   "omslagen"
+  ],
+  "学习"
+ ],
+ [
+  "ref-sprookjeswereld-noun",
+  "童话世界",
+  "De kinderen stapten met plezier een sprookjeswereld binnen.",
+  "孩子们高兴地走进了童话世界。",
+  [
+   "de",
+   "sprookjeswerelden"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-allergrootst-adjective",
+  "最大的",
+  "Dit is het allergrootste gebouw in onze stad.",
+  "这是我们城市里最大的建筑。",
+  null,
+  "住房"
+ ],
+ [
+  "ref-herleiden-verb",
+  "追溯；推导",
+  "De onderzoeker herleidde de fout tot een oude formule.",
+  "研究人员把错误追溯到一个旧公式。",
+  [
+   "herleidde",
+   "herleid",
+   "hebben"
+  ],
+  "学习"
+ ],
+ [
+  "ref-levenswandel-noun",
+  "人生经历；生活道路",
+  "Zijn levenswandel veranderde na een lange reis.",
+  "长途旅行后，他的人生道路发生了变化。",
+  [
+   "de",
+   "levenswandel"
+  ],
+  "情感"
+ ],
+ [
+  "ref-nevel-noun",
+  "薄雾；雾霭",
+  "Een lichte nevel hing vroeg boven de velden.",
+  "清晨，田野上笼罩着一层薄雾。",
+  [
+   "de",
+   "nevels"
+  ],
+  "天气"
+ ],
+ [
+  "ref-oost-indische-adjective",
+  "东印度的",
+  "Het museum toont een Oost-Indische kaart uit de achttiende eeuw.",
+  "博物馆展出了一幅十八世纪的东印度地图。",
+  null,
+  "文化"
+ ],
+ [
+  "ref-snob-noun",
+  "势利眼；附庸风雅的人",
+  "De snob bestelde dure wijn om indruk te maken.",
+  "这个势利眼点了昂贵的酒来给人留下印象。",
+  [
+   "de",
+   "snobs"
+  ],
+  "社会"
+ ],
+ [
+  "ref-tegenin-adverb",
+  "反对；顶着",
+  "Hij ging tegen de stroom in naar de overkant.",
+  "他逆着水流游向对岸。",
+  null,
+  "语法"
+ ],
+ [
+  "ref-doorrijden-verb",
+  "继续开车；驶过",
+  "De taxi reed door tot aan de hoofdingang.",
+  "出租车一直开到了正门。",
+  [
+   "reed door",
+   "doorgegaan",
+   "hebben"
+  ],
+  "出行"
+ ],
+ [
+  "ref-navelpiercing-noun",
+  "肚脐穿孔饰品",
+  "Ze liet vorige maand een navelpiercing zetten.",
+  "她上个月打了肚脐穿孔。",
+  [
+   "de",
+   "navelpiercings"
+  ],
+  "身体"
+ ],
+ [
+  "ref-dejauaans-adjective",
+  {
+   "exclude": "“dejauaans” is geen correcte spelling; voor de taal/afkomst van Java is “Javaans” gebruikelijk."
+  }
+ ],
+ [
+  "ref-regentijd-noun",
+  "雨季",
+  "Tijdens de regentijd valt er bijna elke dag regen.",
+  "雨季期间几乎每天都会下雨。",
+  [
+   "de",
+   "regentijden"
+  ],
+  "天气"
+ ],
+ [
+  "ref-zwerver-noun",
+  "流浪汉",
+  "Een zwerver sliep vannacht onder een brug.",
+  "一名流浪汉昨晚睡在桥下。",
+  [
+   "de",
+   "zwervers"
+  ],
+  "社会"
+ ],
+ [
+  "ref-deurbalk-noun",
+  "门梁",
+  "De deurbalk van het oude huis was van eikenhout.",
+  "老房子的门梁是橡木做的。",
+  [
+   "de",
+   "deurbalken"
+  ],
+  "住房"
+ ],
+ [
+  "ref-jonge-noun",
+  "年轻人；小伙子",
+  "De jonge vroeg zijn oudere broer om advies.",
+  "这位年轻人向哥哥征求意见。",
+  [
+   "de",
+   "jongen"
+  ],
+  "日常"
+ ],
+ [
+  "ref-meermaals-adverb",
+  "多次；几次",
+  "Ik heb deze film meermaals gezien met vrienden.",
+  "我和朋友们看过这部电影好几次。",
+  null,
+  "数量"
+ ],
+ [
+  "ref-ouderpaar-noun",
+  "一对父母",
+  "Het ouderpaar kwam samen naar de afspraak op school.",
+  "这对父母一起来参加学校的约谈。",
+  [
+   "het",
+   "ouderparen"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-reclamebureaus-noun",
+  {
+   "exclude": "“reclamebureaus” is de meervoudsvorm van “reclamebureau”, geen standaard enkelvoudige lemma."
+  }
+ ],
+ [
+  "ref-satelliet-noun",
+  "卫星",
+  "De satelliet stuurt dagelijks beelden naar het grondstation.",
+  "卫星每天向地面站发送图像。",
+  [
+   "de",
+   "satellieten"
+  ],
+  "自然"
+ ],
+ [
+  "ref-undercovermarketing-noun",
+  "隐性营销",
+  "Undercovermarketing laat reclame soms op gewone berichten lijken.",
+  "隐性营销有时会让广告看起来像普通信息。",
+  [
+   "de",
+   "—"
+  ],
+  "购物"
+ ],
+ [
+  "ref-vernoemen-verb",
+  "以……命名",
+  "De ouders vernoemden hun dochter naar haar grootmoeder.",
+  "父母以祖母的名字给女儿命名。",
+  [
+   "vernoemde",
+   "vernoemd",
+   "hebben"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-zuid-amerikaanse-adjective",
+  "南美的",
+  "De Zuid-Amerikaanse markt groeit snel voor deze producten.",
+  "这些产品在南美市场增长很快。",
+  null,
+  "工作"
+ ],
+ [
+  "ref-dvd-s-noun",
+  {
+   "exclude": "“dvd's” is een meervoudsvorm, niet de enkelvoudige lemma-vorm; bronwoordvorm fout."
+  }
+ ],
+ [
+  "ref-reservatiekost-noun",
+  "预订费用",
+  "De reservatiekost staat apart op de hotelrekening.",
+  "预订费用单独列在酒店账单上。",
+  [
+   "de",
+   "reservatiekosten"
+  ],
+  "出行"
+ ],
+ [
+  "ref-geschenk-noun",
+  "礼物；赠品",
+  "Mijn buurman gaf ons een geschenk voor de verhuizing.",
+  "邻居送给我们一份乔迁礼物。",
+  [
+   "het",
+   "geschenken"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-verwaandheid-noun",
+  "傲慢；自负",
+  "Zijn verwaandheid maakte samenwerken met hem moeilijk.",
+  "他的傲慢让人很难和他合作。",
+  [
+   "de",
+   "—"
+  ],
+  "情感"
+ ],
+ [
+  "ref-bedrogenen-noun",
+  {
+   "exclude": "“bedrogenen” is een meervoudige gesubstantiveerde vorm van “bedrogene”, geen enkelvoudige lemma-vorm."
+  }
+ ],
+ [
+  "ref-boerengezin-noun",
+  "农民家庭",
+  "Het boerengezin werkte samen op het land.",
+  "这个农民家庭一起在田里干活。",
+  [
+   "het",
+   "boerengezinnen"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-eigentijds-adjective",
+  "当代的；现代的",
+  "Het museum toont eigentijdse kunst van jonge makers.",
+  "博物馆展出年轻创作者的当代艺术。",
+  null,
+  "文化"
+ ],
+ [
+  "ref-ik-zal-ze-eens-wat-laten-zien-noun",
+  {
+   "exclude": "Dit is een volledige zin (“ik zal ze eens wat laten zien”), geen zelfstandig naamwoordlemma."
+  }
+ ],
+ [
+  "ref-kunstenaarsziel-noun",
+  "艺术家的灵魂",
+  "De kunstenaarsziel van de schilder spreekt uit elk doek.",
+  "画家的艺术灵魂在每幅画布中都能体现。",
+  [
+   "de",
+   "kunstenaarszielen"
+  ],
+  "文化"
+ ],
+ [
+  "ref-machina-bekentenis-noun",
+  {
+   "exclude": "“machina-bekentenis” is geen gangbaar Nederlands woord of correcte samenstelling; vermoedelijk bronruis."
+  }
+ ],
+ [
+  "ref-onopgemerkt-adjective",
+  "未被注意到的",
+  "De kleine wijziging bleef onopgemerkt bij de meeste lezers.",
+  "大多数读者没有注意到这个小改动。",
+  null,
+  "学习"
+ ],
+ [
+  "ref-pal-adjective",
+  "亲密的；紧挨着的",
+  "De twee vrienden zaten pal naast elkaar in de trein.",
+  "两位朋友在火车上紧挨着坐。",
+  null,
+  "出行"
+ ],
+ [
+  "ref-restaurator-vervalser-noun",
+  "修复者兼伪造者",
+  "De restaurator-vervalser verkocht het schilderij als echt.",
+  "这名修复兼伪造者把画当真品出售。",
+  [
+   "de",
+   "restaurator-vervalsers"
+  ],
+  "文化"
+ ],
+ [
+  "ref-tentoon-adverb",
+  "展示出来；公开展出",
+  "De schilder stelde zijn nieuwste werk tentoon in het museum.",
+  "画家在博物馆展出了最新作品。",
+  null,
+  "文化"
+ ],
+ [
+  "ref-verhoor-noun",
+  "审讯；询问",
+  "Na het verhoor mocht de getuige naar huis.",
+  "询问结束后，证人可以回家了。",
+  [
+   "het",
+   "verhoren"
+  ],
+  "社会"
+ ]
+]

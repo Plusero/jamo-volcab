@@ -1,0 +1,1151 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-beschikbaar-adjective",
+   "lemma": "beschikbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-verband-noun",
+   "lemma": "verband",
+   "pos": "noun",
+   "article": "het",
+   "plural": "verbanden"
+  },
+  {
+   "id": "lx-gedurende-preposition",
+   "lemma": "gedurende",
+   "pos": "preposition"
+  },
+  {
+   "id": "lx-game-noun",
+   "lemma": "game",
+   "pos": "noun",
+   "article": "de",
+   "plural": "games"
+  },
+  {
+   "id": "lx-systeem-noun",
+   "lemma": "systeem",
+   "pos": "noun",
+   "article": "het",
+   "plural": "systemen"
+  },
+  {
+   "id": "lx-elektronisch-adjective",
+   "lemma": "elektronisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-beschikken-verb",
+   "lemma": "beschikken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "beschikte",
+    "pastParticiple": "beschikt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-publiek-adjective",
+   "lemma": "publiek",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-westers-adjective",
+   "lemma": "westers",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-term-noun",
+   "lemma": "term",
+   "pos": "noun",
+   "article": "de",
+   "plural": "termen"
+  },
+  {
+   "id": "lx-wekelijks-adjective",
+   "lemma": "wekelijks",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-factor-noun",
+   "lemma": "factor",
+   "pos": "noun",
+   "article": "de",
+   "plural": "factoren"
+  },
+  {
+   "id": "lx-variant-noun",
+   "lemma": "variant",
+   "pos": "noun",
+   "article": "de",
+   "plural": "varianten"
+  },
+  {
+   "id": "lx-behouden-verb",
+   "lemma": "behouden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "behield",
+    "pastParticiple": "behouden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-duurzaam-adjective",
+   "lemma": "duurzaam",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-oplopen-verb",
+   "lemma": "oplopen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liep op",
+    "pastParticiple": "opgelopen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-verwijzen-verb",
+   "lemma": "verwijzen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verwees",
+    "pastParticiple": "verwezen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-indien-conjunction",
+   "lemma": "indien",
+   "pos": "conjunction"
+  },
+  {
+   "id": "lx-scheiding-noun",
+   "lemma": "scheiding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "scheidingen"
+  },
+  {
+   "id": "lx-baseren-verb",
+   "lemma": "baseren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "baseerde",
+    "pastParticiple": "gebaseerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-ontwerpen-verb",
+   "lemma": "ontwerpen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "ontwierp",
+    "pastParticiple": "ontworpen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-op-het-gebied-van-phrase",
+   "lemma": "op het gebied van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-succesvol-adjective",
+   "lemma": "succesvol",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-nood-noun",
+   "lemma": "nood",
+   "pos": "noun",
+   "article": "de",
+   "plural": "noden"
+  },
+  {
+   "id": "lx-aansluiten-verb",
+   "lemma": "aansluiten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "sloot aan",
+    "pastParticiple": "aangesloten",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verkiezen-verb",
+   "lemma": "verkiezen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verkoos",
+    "pastParticiple": "verkozen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-hierbij-adverb",
+   "lemma": "hierbij",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-waaraan-adverb",
+   "lemma": "waaraan",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-zorgvuldig-adjective",
+   "lemma": "zorgvuldig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hanteren-verb",
+   "lemma": "hanteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "hanteerde",
+    "pastParticiple": "gehanteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-romantisch-adjective",
+   "lemma": "romantisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hechten-verb",
+   "lemma": "hechten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "hechtte",
+    "pastParticiple": "gehecht",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verzameling-noun",
+   "lemma": "verzameling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verzamelingen"
+  },
+  {
+   "id": "lx-indienen-verb",
+   "lemma": "indienen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "diende in",
+    "pastParticiple": "ingediend",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-commissie-noun",
+   "lemma": "commissie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "commissies"
+  },
+  {
+   "id": "lx-aanpak-noun",
+   "lemma": "aanpak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "aanpakken"
+  },
+  {
+   "id": "lx-klasgenoot-noun",
+   "lemma": "klasgenoot",
+   "pos": "noun",
+   "article": "de",
+   "plural": "klasgenoten"
+  },
+  {
+   "id": "lx-verder-adverb",
+   "lemma": "verder",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-druk-noun",
+   "lemma": "druk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "drukken"
+  },
+  {
+   "id": "lx-op-de-hoogte-phrase",
+   "lemma": "op de hoogte",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-rijkdom-noun",
+   "lemma": "rijkdom",
+   "pos": "noun",
+   "article": "de",
+   "plural": "rijkdommen"
+  },
+  {
+   "id": "lx-professioneel-adjective",
+   "lemma": "professioneel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-uitdrukking-noun",
+   "lemma": "uitdrukking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "uitdrukkingen"
+  },
+  {
+   "id": "lx-graan-noun",
+   "lemma": "graan",
+   "pos": "noun",
+   "article": "het",
+   "plural": "granen"
+  },
+  {
+   "id": "lx-religie-noun",
+   "lemma": "religie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "religies"
+  },
+  {
+   "id": "lx-integratie-noun",
+   "lemma": "integratie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "integraties"
+  },
+  {
+   "id": "lx-schuin-adjective",
+   "lemma": "schuin",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-pardon-noun",
+   "lemma": "pardon",
+   "pos": "noun",
+   "article": "het",
+   "plural": "pardons"
+  },
+  {
+   "id": "lx-landbouw-noun",
+   "lemma": "landbouw",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-gebruikelijk-adjective",
+   "lemma": "gebruikelijk",
+   "pos": "adjective"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-beschikbaar-adjective-1",
+   "lexemeId": "lx-beschikbaar-adjective",
+   "zh": "可用的；有空的",
+   "examples": [
+    {
+     "nl": "Is er morgen nog een kamer beschikbaar?",
+     "zh": "明天还有空房间吗？"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verband-noun-1",
+   "lexemeId": "lx-verband-noun",
+   "zh": "联系；关系",
+   "examples": [
+    {
+     "nl": "Er is een duidelijk verband tussen die keuzes.",
+     "zh": "这些选择之间有明显的联系。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gedurende-preposition-1",
+   "lexemeId": "lx-gedurende-preposition",
+   "zh": "在……期间",
+   "examples": [
+    {
+     "nl": "Gedurende de winter blijft deze weg vaak gesloten.",
+     "zh": "冬季期间，这条路常常关闭。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-game-noun-1",
+   "lexemeId": "lx-game-noun",
+   "zh": "电子游戏；游戏",
+   "examples": [
+    {
+     "nl": "Mijn broer speelt elke avond een nieuwe game.",
+     "zh": "我哥哥每晚都玩一个新游戏。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-systeem-noun-1",
+   "lexemeId": "lx-systeem-noun",
+   "zh": "系统；制度",
+   "examples": [
+    {
+     "nl": "Het nieuwe systeem bespaart ons veel tijd.",
+     "zh": "新系统为我们节省了很多时间。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-elektronisch-adjective-1",
+   "lexemeId": "lx-elektronisch-adjective",
+   "zh": "电子的",
+   "examples": [
+    {
+     "nl": "Je ontvangt de rekening in een elektronisch bericht.",
+     "zh": "你会通过电子信息收到账单。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-beschikken-verb-1",
+   "lexemeId": "lx-beschikken-verb",
+   "zh": "拥有；具备",
+   "examples": [
+    {
+     "nl": "De school beschikt over een grote sportzaal.",
+     "zh": "这所学校有一间宽敞的体育馆。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-publiek-adjective-1",
+   "lexemeId": "lx-publiek-adjective",
+   "zh": "公共的；公众的",
+   "examples": [
+    {
+     "nl": "Het zwembad is publiek toegankelijk voor iedereen.",
+     "zh": "这个游泳池向所有人开放。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-westers-adjective-1",
+   "lexemeId": "lx-westers-adjective",
+   "zh": "西方的",
+   "examples": [
+    {
+     "nl": "Zij groeide op in een westers land.",
+     "zh": "她在一个西方国家长大。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-term-noun-1",
+   "lexemeId": "lx-term-noun",
+   "zh": "术语；期限",
+   "examples": [
+    {
+     "nl": "Deze term staat niet in mijn woordenboek.",
+     "zh": "这个术语不在我的词典里。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wekelijks-adjective-1",
+   "lexemeId": "lx-wekelijks-adjective",
+   "zh": "每周的",
+   "examples": [
+    {
+     "nl": "We hebben een wekelijks overleg met het team.",
+     "zh": "我们每周和团队开一次会。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-factor-noun-1",
+   "lexemeId": "lx-factor-noun",
+   "zh": "因素；要素",
+   "examples": [
+    {
+     "nl": "Prijs is een belangrijke factor bij deze keuze.",
+     "zh": "价格是这个选择中的一个重要因素。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-variant-noun-1",
+   "lexemeId": "lx-variant-noun",
+   "zh": "变体；版本",
+   "examples": [
+    {
+     "nl": "De winkel verkoopt ook een kleinere variant.",
+     "zh": "这家商店也出售一个较小的版本。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-behouden-verb-1",
+   "lexemeId": "lx-behouden-verb",
+   "zh": "保留；保持",
+   "examples": [
+    {
+     "nl": "We willen dit oude gebouw graag behouden.",
+     "zh": "我们很想保留这座老建筑。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-duurzaam-adjective-1",
+   "lexemeId": "lx-duurzaam-adjective",
+   "zh": "可持续的；耐用的",
+   "examples": [
+    {
+     "nl": "Duurzame kleding gaat vaak langer mee.",
+     "zh": "可持续服装通常更耐穿。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-oplopen-verb-1",
+   "lexemeId": "lx-oplopen-verb",
+   "zh": "增加；上升",
+   "examples": [
+    {
+     "nl": "Door de regen liep de schade snel op.",
+     "zh": "由于下雨，损失很快增加了。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verwijzen-verb-1",
+   "lexemeId": "lx-verwijzen-verb",
+   "zh": "指向；转介",
+   "examples": [
+    {
+     "nl": "De arts verwijst haar naar een specialist.",
+     "zh": "医生把她转诊给一位专科医生。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-indien-conjunction-1",
+   "lexemeId": "lx-indien-conjunction",
+   "zh": "如果；倘若（较正式）",
+   "examples": [
+    {
+     "nl": "Indien u vragen heeft, kunt u ons bellen.",
+     "zh": "如果您有问题，可以给我们打电话。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-scheiding-noun-1",
+   "lexemeId": "lx-scheiding-noun",
+   "zh": "分离；离婚",
+   "examples": [
+    {
+     "nl": "Na de scheiding wonen de kinderen bij hun moeder.",
+     "zh": "离婚后，孩子们和母亲住在一起。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-baseren-verb-1",
+   "lexemeId": "lx-baseren-verb",
+   "zh": "以……为依据",
+   "examples": [
+    {
+     "nl": "We baseren ons plan op jouw ervaring.",
+     "zh": "我们的计划以你的经验为依据。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ontwerpen-verb-1",
+   "lexemeId": "lx-ontwerpen-verb",
+   "zh": "设计",
+   "examples": [
+    {
+     "nl": "Een lokale architect ontwierp het nieuwe museum.",
+     "zh": "一位当地建筑师设计了这座新博物馆。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-op-het-gebied-van-phrase-1",
+   "lexemeId": "lx-op-het-gebied-van-phrase",
+   "zh": "在……领域",
+   "examples": [
+    {
+     "nl": "Zij heeft veel ervaring op het gebied van onderwijs.",
+     "zh": "她在教育领域有丰富经验。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-succesvol-adjective-1",
+   "lexemeId": "lx-succesvol-adjective",
+   "zh": "成功的",
+   "examples": [
+    {
+     "nl": "Het team had een succesvol jaar achter de rug.",
+     "zh": "这个团队刚刚度过了成功的一年。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-nood-noun-1",
+   "lexemeId": "lx-nood-noun",
+   "zh": "紧急情况；困境",
+   "examples": [
+    {
+     "nl": "In geval van nood bel je dit nummer.",
+     "zh": "遇到紧急情况时，请拨打这个号码。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aansluiten-verb-1",
+   "lexemeId": "lx-aansluiten-verb",
+   "zh": "连接；加入",
+   "examples": [
+    {
+     "nl": "Sluit de kabel aan voordat je de computer start.",
+     "zh": "启动电脑前先连接电缆。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verkiezen-verb-1",
+   "lexemeId": "lx-verkiezen-verb",
+   "zh": "选择；更喜欢",
+   "examples": [
+    {
+     "nl": "Veel bewoners verkiezen de fiets boven de auto.",
+     "zh": "许多居民更喜欢骑自行车而不是开车。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hierbij-adverb-1",
+   "lexemeId": "lx-hierbij-adverb",
+   "zh": "随此；在此",
+   "examples": [
+    {
+     "nl": "Hierbij stuur ik de gevraagde documenten mee.",
+     "zh": "随信附上您要的文件。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-waaraan-adverb-1",
+   "lexemeId": "lx-waaraan-adverb",
+   "zh": "对什么；从中",
+   "examples": [
+    {
+     "nl": "Weet je waaraan deze machine haar naam dankt?",
+     "zh": "你知道这台机器的名字由来吗？"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zorgvuldig-adjective-1",
+   "lexemeId": "lx-zorgvuldig-adjective",
+   "zh": "仔细的；谨慎的",
+   "examples": [
+    {
+     "nl": "Lees het formulier zorgvuldig voordat je tekent.",
+     "zh": "签字前请仔细阅读表格。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hanteren-verb-1",
+   "lexemeId": "lx-hanteren-verb",
+   "zh": "使用；处理",
+   "examples": [
+    {
+     "nl": "De medewerkers hanteren duidelijke veiligheidsregels.",
+     "zh": "员工执行明确的安全规定。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-romantisch-adjective-1",
+   "lexemeId": "lx-romantisch-adjective",
+   "zh": "浪漫的",
+   "examples": [
+    {
+     "nl": "Ze maakten een romantische wandeling langs het water.",
+     "zh": "他们沿着水边散步，十分浪漫。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hechten-verb-1",
+   "lexemeId": "lx-hechten-verb",
+   "zh": "重视；依恋",
+   "examples": [
+    {
+     "nl": "Mijn ouders hechten veel waarde aan eerlijkheid.",
+     "zh": "我的父母非常看重诚实。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verzameling-noun-1",
+   "lexemeId": "lx-verzameling-noun",
+   "zh": "收藏；集合",
+   "examples": [
+    {
+     "nl": "Haar verzameling oude munten staat in de kast.",
+     "zh": "她收藏的旧硬币放在柜子里。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-indienen-verb-1",
+   "lexemeId": "lx-indienen-verb",
+   "zh": "提交",
+   "examples": [
+    {
+     "nl": "Je moet het formulier vóór vrijdag indienen.",
+     "zh": "你必须在星期五前提交表格。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-commissie-noun-1",
+   "lexemeId": "lx-commissie-noun",
+   "zh": "委员会",
+   "examples": [
+    {
+     "nl": "De commissie bespreekt morgen alle nieuwe voorstellen.",
+     "zh": "委员会明天讨论所有新提案。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanpak-noun-1",
+   "lexemeId": "lx-aanpak-noun",
+   "zh": "做法；方法",
+   "examples": [
+    {
+     "nl": "Deze aanpak werkt goed voor jonge leerlingen.",
+     "zh": "这种方法对年轻学生很有效。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-klasgenoot-noun-1",
+   "lexemeId": "lx-klasgenoot-noun",
+   "zh": "同班同学",
+   "examples": [
+    {
+     "nl": "Een klasgenoot hielp mij met mijn huiswerk.",
+     "zh": "一位同班同学帮我做作业。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verder-adverb-1",
+   "lexemeId": "lx-verder-adverb",
+   "zh": "继续；此外",
+   "examples": [
+    {
+     "nl": "We praten morgen verder over het belangrijke voorstel.",
+     "zh": "我们明天继续讨论这个重要提案。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-druk-noun-1",
+   "lexemeId": "lx-druk-noun",
+   "zh": "压力；忙碌",
+   "examples": [
+    {
+     "nl": "Door de druk op het werk slaap ik slecht.",
+     "zh": "工作压力让我睡不好。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-op-de-hoogte-phrase-1",
+   "lexemeId": "lx-op-de-hoogte-phrase",
+   "zh": "了解情况；知情",
+   "examples": [
+    {
+     "nl": "Houd me op de hoogte van de veranderingen.",
+     "zh": "有变化请随时告诉我。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-rijkdom-noun-1",
+   "lexemeId": "lx-rijkdom-noun",
+   "zh": "财富；丰富",
+   "examples": [
+    {
+     "nl": "De rijkdom van deze stad verrast veel bezoekers.",
+     "zh": "这座城市的丰富多彩令许多游客惊讶。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-professioneel-adjective-1",
+   "lexemeId": "lx-professioneel-adjective",
+   "zh": "专业的",
+   "examples": [
+    {
+     "nl": "Zij gaf een professioneel antwoord op onze vragen.",
+     "zh": "她对我们的问题给出了专业的回答。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitdrukking-noun-1",
+   "lexemeId": "lx-uitdrukking-noun",
+   "zh": "表达；习语",
+   "examples": [
+    {
+     "nl": "Deze uitdrukking hoor ik vaak op mijn werk.",
+     "zh": "我在工作中经常听到这个表达。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-graan-noun-1",
+   "lexemeId": "lx-graan-noun",
+   "zh": "谷物；粮食",
+   "examples": [
+    {
+     "nl": "Boeren verbouwen graan op de velden rond het dorp.",
+     "zh": "农民在村子周围的田地里种植谷物。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-religie-noun-1",
+   "lexemeId": "lx-religie-noun",
+   "zh": "宗教",
+   "examples": [
+    {
+     "nl": "In Nederland mag iedereen zijn eigen religie volgen.",
+     "zh": "在荷兰，每个人都可以信奉自己的宗教。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-integratie-noun-1",
+   "lexemeId": "lx-integratie-noun",
+   "zh": "融入；整合",
+   "examples": [
+    {
+     "nl": "Goede taallessen helpen bij de integratie van nieuwkomers.",
+     "zh": "好的语言课程有助于新来者融入社会。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schuin-adjective-1",
+   "lexemeId": "lx-schuin-adjective",
+   "zh": "倾斜的；斜的",
+   "examples": [
+    {
+     "nl": "De kast staat een beetje schuin tegen de muur.",
+     "zh": "柜子有点倾斜地靠着墙。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-pardon-noun-1",
+   "lexemeId": "lx-pardon-noun",
+   "zh": "原谅；宽恕",
+   "examples": [
+    {
+     "nl": "Na zijn pardon kreeg de gevangene een nieuw leven.",
+     "zh": "获得赦免后，囚犯开始了新生活。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-landbouw-noun-1",
+   "lexemeId": "lx-landbouw-noun",
+   "zh": "农业",
+   "examples": [
+    {
+     "nl": "Landbouw is belangrijk voor veel dorpen in deze regio.",
+     "zh": "农业对这个地区的许多村庄很重要。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gebruikelijk-adjective-1",
+   "lexemeId": "lx-gebruikelijk-adjective",
+   "zh": "通常的；常见的",
+   "examples": [
+    {
+     "nl": "Het is gebruikelijk om hier schoenen uit te doen.",
+     "zh": "在这里脱鞋是常见做法。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

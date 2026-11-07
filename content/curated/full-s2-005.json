@@ -1,0 +1,1170 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-huisvrouw-noun",
+   "lemma": "huisvrouw",
+   "pos": "noun",
+   "article": "de",
+   "plural": "huisvrouwen"
+  },
+  {
+   "id": "lx-plak-noun",
+   "lemma": "plak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "plakken"
+  },
+  {
+   "id": "lx-bruto-adjective",
+   "lemma": "bruto",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-geneesmiddel-noun",
+   "lemma": "geneesmiddel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "geneesmiddelen"
+  },
+  {
+   "id": "lx-ziekenfonds-noun",
+   "lemma": "ziekenfonds",
+   "pos": "noun",
+   "article": "het",
+   "plural": "ziekenfondsen"
+  },
+  {
+   "id": "lx-uiting-noun",
+   "lemma": "uiting",
+   "pos": "noun",
+   "article": "de",
+   "plural": "uitingen"
+  },
+  {
+   "id": "lx-jaja-interjection",
+   "lemma": "jaja",
+   "pos": "interjection"
+  },
+  {
+   "id": "lx-tabak-noun",
+   "lemma": "tabak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-dateren-verb",
+   "lemma": "dateren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "dateerde",
+    "pastParticiple": "gedateerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-openlijk-adjective",
+   "lemma": "openlijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-landschap-noun",
+   "lemma": "landschap",
+   "pos": "noun",
+   "article": "het",
+   "plural": "landschappen"
+  },
+  {
+   "id": "lx-namens-preposition",
+   "lemma": "namens",
+   "pos": "preposition"
+  },
+  {
+   "id": "lx-rommelig-adjective",
+   "lemma": "rommelig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-innovatie-noun",
+   "lemma": "innovatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "innovaties"
+  },
+  {
+   "id": "lx-dominee-noun",
+   "lemma": "dominee",
+   "pos": "noun",
+   "article": "de",
+   "plural": "dominees"
+  },
+  {
+   "id": "lx-opinie-noun",
+   "lemma": "opinie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "opinies"
+  },
+  {
+   "id": "lx-alarm-noun",
+   "lemma": "alarm",
+   "pos": "noun",
+   "article": "het",
+   "plural": "alarmen"
+  },
+  {
+   "id": "lx-onderjurk-noun",
+   "lemma": "onderjurk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "onderjurken"
+  },
+  {
+   "id": "lx-productiviteit-noun",
+   "lemma": "productiviteit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-kloof-noun",
+   "lemma": "kloof",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kloven"
+  },
+  {
+   "id": "lx-mop-noun",
+   "lemma": "mop",
+   "pos": "noun",
+   "article": "de",
+   "plural": "moppen"
+  },
+  {
+   "id": "lx-gebruiker-noun",
+   "lemma": "gebruiker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gebruikers"
+  },
+  {
+   "id": "lx-vereisen-verb",
+   "lemma": "vereisen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "vereiste",
+    "pastParticiple": "vereist",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-heersen-verb",
+   "lemma": "heersen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "heerste",
+    "pastParticiple": "geheerst",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-oneerlijk-adjective",
+   "lemma": "oneerlijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-schoonvader-noun",
+   "lemma": "schoonvader",
+   "pos": "noun",
+   "article": "de",
+   "plural": "schoonvaders"
+  },
+  {
+   "id": "lx-initiatiefnemer-noun",
+   "lemma": "initiatiefnemer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "initiatiefnemers"
+  },
+  {
+   "id": "lx-experiment-noun",
+   "lemma": "experiment",
+   "pos": "noun",
+   "article": "het",
+   "plural": "experimenten"
+  },
+  {
+   "id": "lx-armenhuis-noun",
+   "lemma": "armenhuis",
+   "pos": "noun",
+   "article": "het",
+   "plural": "armenhuizen"
+  },
+  {
+   "id": "lx-agentschap-noun",
+   "lemma": "agentschap",
+   "pos": "noun",
+   "article": "het",
+   "plural": "agentschappen"
+  },
+  {
+   "id": "lx-tekort-noun",
+   "lemma": "tekort",
+   "pos": "noun",
+   "article": "het",
+   "plural": "tekorten"
+  },
+  {
+   "id": "lx-zoektocht-noun",
+   "lemma": "zoektocht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zoektochten"
+  },
+  {
+   "id": "lx-maanlicht-noun",
+   "lemma": "maanlicht",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-horizontaal-adjective",
+   "lemma": "horizontaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-meel-noun",
+   "lemma": "meel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-begeleider-noun",
+   "lemma": "begeleider",
+   "pos": "noun",
+   "article": "de",
+   "plural": "begeleiders"
+  },
+  {
+   "id": "lx-bederven-verb",
+   "lemma": "bederven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bedierf",
+    "pastParticiple": "bedorven",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-scheldwoord-noun",
+   "lemma": "scheldwoord",
+   "pos": "noun",
+   "article": "het",
+   "plural": "scheldwoorden"
+  },
+  {
+   "id": "lx-kostuum-noun",
+   "lemma": "kostuum",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kostuums"
+  },
+  {
+   "id": "lx-bukken-verb",
+   "lemma": "bukken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bukte",
+    "pastParticiple": "gebukt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kalmeren-verb",
+   "lemma": "kalmeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kalmeerde",
+    "pastParticiple": "gekalmeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bij-wijze-van-phrase",
+   "lemma": "bij wijze van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-afdoen-verb",
+   "lemma": "afdoen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deed af",
+    "pastParticiple": "afgedaan",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-langskomen-verb",
+   "lemma": "langskomen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kwam langs",
+    "pastParticiple": "langsgekomen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-rit-noun",
+   "lemma": "rit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "ritten"
+  },
+  {
+   "id": "lx-dwalen-verb",
+   "lemma": "dwalen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "dwaalde",
+    "pastParticiple": "gedwaald",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-razen-verb",
+   "lemma": "razen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "raasde",
+    "pastParticiple": "geraasd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-eettafel-noun",
+   "lemma": "eettafel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "eettafels"
+  },
+  {
+   "id": "lx-computerprogramma-noun",
+   "lemma": "computerprogramma",
+   "pos": "noun",
+   "article": "het",
+   "plural": "computerprogramma's"
+  },
+  {
+   "id": "lx-onderdrukking-noun",
+   "lemma": "onderdrukking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "onderdrukkingen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-huisvrouw-noun-1",
+   "lexemeId": "lx-huisvrouw-noun",
+   "zh": "家庭主妇；妻子",
+   "examples": [
+    {
+     "nl": "De huisvrouw verzorgt samen met haar partner de kinderen.",
+     "zh": "这位主妇和伴侣一起照顾孩子。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-plak-noun-1",
+   "lexemeId": "lx-plak-noun",
+   "zh": "一片；一块",
+   "examples": [
+    {
+     "nl": "Leg een plak kaas op het brood.",
+     "zh": "在面包上放一片奶酪。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bruto-adjective-1",
+   "lexemeId": "lx-bruto-adjective",
+   "zh": "税前的；毛的",
+   "examples": [
+    {
+     "nl": "Mijn bruto salaris staat duidelijk op dit formulier.",
+     "zh": "我的税前工资清楚地写在这张表上。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-geneesmiddel-noun-1",
+   "lexemeId": "lx-geneesmiddel-noun",
+   "zh": "药物；药品",
+   "examples": [
+    {
+     "nl": "Dit geneesmiddel helpt tegen de pijn in mijn rug.",
+     "zh": "这种药能缓解我的背痛。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ziekenfonds-noun-1",
+   "lexemeId": "lx-ziekenfonds-noun",
+   "zh": "医疗保险基金",
+   "examples": [
+    {
+     "nl": "Het ziekenfonds vergoedt een deel van de behandeling.",
+     "zh": "医疗保险基金报销部分治疗费用。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uiting-noun-1",
+   "lexemeId": "lx-uiting-noun",
+   "zh": "表达；表现",
+   "examples": [
+    {
+     "nl": "Haar lach was een uiting van opluchting.",
+     "zh": "她的笑容表达了如释重负。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-jaja-interjection-1",
+   "lexemeId": "lx-jaja-interjection",
+   "zh": "是啊；嗯嗯（表示回应）",
+   "examples": [
+    {
+     "nl": "Jaja, ik begrijp wat je bedoelt.",
+     "zh": "嗯嗯，我明白你的意思。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-tabak-noun-1",
+   "lexemeId": "lx-tabak-noun",
+   "zh": "烟草",
+   "examples": [
+    {
+     "nl": "De verkoop van tabak aan kinderen is verboden.",
+     "zh": "禁止向儿童出售烟草。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dateren-verb-1",
+   "lexemeId": "lx-dateren-verb",
+   "zh": "追溯到；注明日期",
+   "examples": [
+    {
+     "nl": "De oudste delen van het gebouw dateren uit 1650.",
+     "zh": "这座建筑最古老的部分可以追溯到1650年。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-openlijk-adjective-1",
+   "lexemeId": "lx-openlijk-adjective",
+   "zh": "公开的；公开地",
+   "examples": [
+    {
+     "nl": "De krant sprak openlijk haar steun voor het plan uit.",
+     "zh": "报纸公开表达了对该计划的支持。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-landschap-noun-1",
+   "lexemeId": "lx-landschap-noun",
+   "zh": "风景；地貌",
+   "examples": [
+    {
+     "nl": "Vanaf de heuvel zagen we een prachtig landschap.",
+     "zh": "从山丘上我们看见了美丽的风景。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-namens-preposition-1",
+   "lexemeId": "lx-namens-preposition",
+   "zh": "代表；以……的名义",
+   "examples": [
+    {
+     "nl": "Namens mijn collega's wil ik je bedanken.",
+     "zh": "我谨代表同事们向你表示感谢。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-rommelig-adjective-1",
+   "lexemeId": "lx-rommelig-adjective",
+   "zh": "凌乱的；杂乱的",
+   "examples": [
+    {
+     "nl": "De keuken was rommelig na het verjaardagsfeest.",
+     "zh": "生日聚会后，厨房一片凌乱。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-innovatie-noun-1",
+   "lexemeId": "lx-innovatie-noun",
+   "zh": "创新",
+   "examples": [
+    {
+     "nl": "Innovatie zorgt soms voor nieuwe banen in de regio.",
+     "zh": "创新有时会为这个地区带来新的工作岗位。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dominee-noun-1",
+   "lexemeId": "lx-dominee-noun",
+   "zh": "新教牧师",
+   "examples": [
+    {
+     "nl": "De dominee bezocht de familie in het ziekenhuis.",
+     "zh": "牧师去医院探望了这家人。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opinie-noun-1",
+   "lexemeId": "lx-opinie-noun",
+   "zh": "意见；看法",
+   "examples": [
+    {
+     "nl": "Iedereen mag zijn opinie over het voorstel geven.",
+     "zh": "每个人都可以发表对这项提案的看法。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-alarm-noun-1",
+   "lexemeId": "lx-alarm-noun",
+   "zh": "警报；闹钟",
+   "examples": [
+    {
+     "nl": "Het alarm ging af toen iemand de deur opende.",
+     "zh": "有人打开门时，警报响了。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderjurk-noun-1",
+   "lexemeId": "lx-onderjurk-noun",
+   "zh": "衬裙",
+   "examples": [
+    {
+     "nl": "Ze droeg een warme onderjurk onder haar feestjurk.",
+     "zh": "她在礼服里面穿了一条保暖衬裙。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-productiviteit-noun-1",
+   "lexemeId": "lx-productiviteit-noun",
+   "zh": "生产率；效率",
+   "examples": [
+    {
+     "nl": "Goede pauzes kunnen de productiviteit van werknemers verhogen.",
+     "zh": "适当休息可以提高员工的工作效率。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kloof-noun-1",
+   "lexemeId": "lx-kloof-noun",
+   "zh": "鸿沟；差距",
+   "examples": [
+    {
+     "nl": "Er bestaat nog een grote kloof tussen arm en rijk.",
+     "zh": "贫富之间仍然存在巨大差距。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-mop-noun-1",
+   "lexemeId": "lx-mop-noun",
+   "zh": "笑话",
+   "examples": [
+    {
+     "nl": "Mijn opa vertelt altijd dezelfde mop aan tafel.",
+     "zh": "我爷爷在餐桌上总讲同一个笑话。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gebruiker-noun-1",
+   "lexemeId": "lx-gebruiker-noun",
+   "zh": "用户；使用者",
+   "examples": [
+    {
+     "nl": "Elke gebruiker krijgt een eigen wachtwoord voor de website.",
+     "zh": "每位用户都会获得一个网站专用密码。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vereisen-verb-1",
+   "lexemeId": "lx-vereisen-verb",
+   "zh": "要求；需要",
+   "examples": [
+    {
+     "nl": "Deze baan vereist goede kennis van het Nederlands.",
+     "zh": "这份工作要求良好的荷兰语知识。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-heersen-verb-1",
+   "lexemeId": "lx-heersen-verb",
+   "zh": "盛行；统治",
+   "examples": [
+    {
+     "nl": "Tijdens de vakantie heerste er rust in het dorp.",
+     "zh": "假期期间，村里一片宁静。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-oneerlijk-adjective-1",
+   "lexemeId": "lx-oneerlijk-adjective",
+   "zh": "不公平的；不诚实的",
+   "examples": [
+    {
+     "nl": "Het voelt oneerlijk dat alleen zij moet wachten.",
+     "zh": "只有她必须等待，这让人觉得不公平。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schoonvader-noun-1",
+   "lexemeId": "lx-schoonvader-noun",
+   "zh": "岳父；公公",
+   "examples": [
+    {
+     "nl": "Mijn schoonvader maakt iedere zondag verse soep.",
+     "zh": "我岳父每周日都做新鲜的汤。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-initiatiefnemer-noun-1",
+   "lexemeId": "lx-initiatiefnemer-noun",
+   "zh": "发起人",
+   "examples": [
+    {
+     "nl": "De initiatiefnemer nodigde alle buren uit voor overleg.",
+     "zh": "发起人邀请所有邻居来商议。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-experiment-noun-1",
+   "lexemeId": "lx-experiment-noun",
+   "zh": "实验；尝试",
+   "examples": [
+    {
+     "nl": "De leerlingen deden een experiment met water en zout.",
+     "zh": "学生们做了一个水和盐的实验。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-armenhuis-noun-1",
+   "lexemeId": "lx-armenhuis-noun",
+   "zh": "济贫院",
+   "examples": [
+    {
+     "nl": "Het oude armenhuis staat nu naast het museum.",
+     "zh": "那座旧济贫院现在就在博物馆旁边。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-agentschap-noun-1",
+   "lexemeId": "lx-agentschap-noun",
+   "zh": "机构；代理处",
+   "examples": [
+    {
+     "nl": "Het agentschap zoekt een nieuwe directeur voor volgend jaar.",
+     "zh": "这家机构正在为明年寻找新主管。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tekort-noun-1",
+   "lexemeId": "lx-tekort-noun",
+   "zh": "短缺；不足",
+   "examples": [
+    {
+     "nl": "Door het tekort aan personeel sluit het loket eerder.",
+     "zh": "由于人手短缺，服务窗口提前关闭。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zoektocht-noun-1",
+   "lexemeId": "lx-zoektocht-noun",
+   "zh": "寻找；探索",
+   "examples": [
+    {
+     "nl": "Na een lange zoektocht vonden we eindelijk een huis.",
+     "zh": "经过长时间寻找，我们终于找到了一所房子。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-maanlicht-noun-1",
+   "lexemeId": "lx-maanlicht-noun",
+   "zh": "月光",
+   "examples": [
+    {
+     "nl": "We wandelden in het zachte maanlicht langs het strand.",
+     "zh": "我们在柔和的月光下沿着海滩散步。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-horizontaal-adjective-1",
+   "lexemeId": "lx-horizontaal-adjective",
+   "zh": "水平的；横向的",
+   "examples": [
+    {
+     "nl": "Teken een horizontale lijn onder de titel.",
+     "zh": "在标题下画一条水平线。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-meel-noun-1",
+   "lexemeId": "lx-meel-noun",
+   "zh": "面粉",
+   "examples": [
+    {
+     "nl": "Voor deze taart heb je bloem en meel nodig.",
+     "zh": "做这个蛋糕需要花和面粉。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-begeleider-noun-1",
+   "lexemeId": "lx-begeleider-noun",
+   "zh": "陪同者；指导者",
+   "examples": [
+    {
+     "nl": "Een begeleider helpt de kinderen tijdens de excursie.",
+     "zh": "一位带队老师在远足期间照看孩子们。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bederven-verb-1",
+   "lexemeId": "lx-bederven-verb",
+   "zh": "变质；弄坏",
+   "examples": [
+    {
+     "nl": "De melk bederft snel buiten de koelkast.",
+     "zh": "牛奶放在冰箱外很快就会变质。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-scheldwoord-noun-1",
+   "lexemeId": "lx-scheldwoord-noun",
+   "zh": "辱骂的话；脏话",
+   "examples": [
+    {
+     "nl": "Gebruik geen scheldwoord wanneer je boos bent.",
+     "zh": "生气时不要说脏话。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kostuum-noun-1",
+   "lexemeId": "lx-kostuum-noun",
+   "zh": "戏服；套装",
+   "examples": [
+    {
+     "nl": "Voor het toneelstuk draagt hij een zwart kostuum.",
+     "zh": "演出时他穿一套黑色戏服。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bukken-verb-1",
+   "lexemeId": "lx-bukken-verb",
+   "zh": "弯腰",
+   "examples": [
+    {
+     "nl": "Je moet bukken om onder de lage deur door te gaan.",
+     "zh": "你得弯腰才能从低矮的门下通过。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kalmeren-verb-1",
+   "lexemeId": "lx-kalmeren-verb",
+   "zh": "使平静；平静下来",
+   "examples": [
+    {
+     "nl": "De verpleegkundige kalmeerde het kind met een rustig verhaal.",
+     "zh": "护士用一个平静的故事安抚了孩子。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bij-wijze-van-phrase-1",
+   "lexemeId": "lx-bij-wijze-van-phrase",
+   "zh": "作为；以……的方式",
+   "examples": [
+    {
+     "nl": "Bij wijze van afscheid gaf ze iedereen een kaart.",
+     "zh": "作为告别，她给每个人一张卡片。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-afdoen-verb-1",
+   "lexemeId": "lx-afdoen-verb",
+   "zh": "脱下；摘下",
+   "examples": [
+    {
+     "nl": "Hij deed zijn jas af voordat hij ging zitten.",
+     "zh": "坐下前他脱下了外套。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-langskomen-verb-1",
+   "lexemeId": "lx-langskomen-verb",
+   "zh": "顺道来访",
+   "examples": [
+    {
+     "nl": "Kom morgen gerust even bij ons langskomen.",
+     "zh": "明天尽管顺道来我们家坐坐。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-rit-noun-1",
+   "lexemeId": "lx-rit-noun",
+   "zh": "车程；行程",
+   "examples": [
+    {
+     "nl": "De rit naar het vliegveld duurde bijna een uur.",
+     "zh": "去机场的车程将近一个小时。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dwalen-verb-1",
+   "lexemeId": "lx-dwalen-verb",
+   "zh": "漫游；迷路",
+   "examples": [
+    {
+     "nl": "We dwaalden door de oude straten van het centrum.",
+     "zh": "我们在市中心的老街里漫步。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-razen-verb-1",
+   "lexemeId": "lx-razen-verb",
+   "zh": "呼啸；狂奔",
+   "examples": [
+    {
+     "nl": "De wind raasde de hele nacht langs de kust.",
+     "zh": "风整夜沿着海岸呼啸。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-eettafel-noun-1",
+   "lexemeId": "lx-eettafel-noun",
+   "zh": "餐桌",
+   "examples": [
+    {
+     "nl": "De eettafel staat dicht bij het grote raam.",
+     "zh": "餐桌紧挨着大窗户。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-computerprogramma-noun-1",
+   "lexemeId": "lx-computerprogramma-noun",
+   "zh": "计算机程序",
+   "examples": [
+    {
+     "nl": "Met dit computerprogramma bewerk ik mijn foto's.",
+     "zh": "我用这个计算机程序编辑照片。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderdrukking-noun-1",
+   "lexemeId": "lx-onderdrukking-noun",
+   "zh": "压迫；镇压",
+   "examples": [
+    {
+     "nl": "De roman beschrijft de onderdrukking van een kleine groep.",
+     "zh": "这部小说描写了对一个小群体的压迫。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

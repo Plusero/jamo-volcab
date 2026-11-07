@@ -1,0 +1,532 @@
+[
+ [
+  "ref-datzelfde-adjective",
+  "同一个；同样的",
+  "We kozen datzelfde restaurant voor ons familiediner.",
+  "我们为家庭聚餐选了同一家餐馆。",
+  null,
+  "饮食"
+ ],
+ [
+  "ref-afkomstig-adjective",
+  "来自；出身于",
+  "Mijn collega is afkomstig uit een klein dorp.",
+  "我的同事来自一个小村庄。",
+  null,
+  "社会"
+ ],
+ [
+  "ref-in-aanraking-phrase",
+  "接触；联系",
+  "Tijdens het werk kwam hij met veel mensen in aanraking.",
+  "工作期间，他接触了很多人。",
+  null,
+  "工作"
+ ],
+ [
+  "ref-inzien-verb",
+  "认识到；看懂",
+  "Na het gesprek zag zij haar fout eindelijk in.",
+  "谈话后，她终于认识到了自己的错误。",
+  [
+   "zag in",
+   "ingezien",
+   "hebben"
+  ],
+  "情感"
+ ],
+ [
+  "ref-aspect-noun",
+  "方面；角度",
+  "We bespreken morgen elk aspect van het nieuwe plan.",
+  "我们明天讨论新计划的每个方面。",
+  [
+   "het",
+   "aspecten"
+  ],
+  "工作"
+ ],
+ [
+  "ref-te-ver-phrase",
+  "太远",
+  "De bushalte is vanaf hier te ver om te lopen.",
+  "从这里走到公交站太远了。",
+  null,
+  "出行"
+ ],
+ [
+  "ref-ruilen-verb",
+  "交换；退换",
+  "Kan ik deze trui ruilen voor een grotere maat?",
+  "我可以把这件毛衣换成大一号吗？",
+  [
+   "ruilde",
+   "geruild",
+   "hebben"
+  ],
+  "购物"
+ ],
+ [
+  "ref-criticus-noun",
+  "评论家；批评者",
+  "Een criticus schreef een positieve recensie over de film.",
+  "一位评论家为这部电影写了好评。",
+  [
+   "de",
+   "critici"
+  ],
+  "文化"
+ ],
+ [
+  "ref-identificeren-verb",
+  "识别；确认身份",
+  "De politie kon de fietser op de foto identificeren.",
+  "警方能够确认照片中骑车人的身份。",
+  [
+   "identificeerde",
+   "geïdentificeerd",
+   "hebben"
+  ],
+  "社会"
+ ],
+ [
+  "ref-solliciteren-verb",
+  "求职；申请职位",
+  "Zij solliciteerde vorige week naar een baan in Utrecht.",
+  "她上周申请了乌得勒支的一份工作。",
+  [
+   "solliciteerde",
+   "gesolliciteerd",
+   "hebben"
+  ],
+  "工作"
+ ],
+ [
+  "ref-boel-noun",
+  "一大堆；许多",
+  "Er ligt nog een hele boel wasgoed op bed.",
+  "床上还堆着一大堆待洗的衣服。",
+  [
+   "de",
+   "boelen"
+  ],
+  "住房"
+ ],
+ [
+  "ref-wie-weten-phrase",
+  {
+   "exclude": "规范说法是“wie weet”（说不定），不是“wie weten”；此词条的短语词形还原错误。"
+  }
+ ],
+ [
+  "ref-vouwen-verb",
+  "折叠",
+  "Na het eten vouwden we samen de servetten.",
+  "吃完饭后，我们一起折餐巾。",
+  [
+   "vouwde",
+   "gevouwen",
+   "hebben"
+  ],
+  "日常"
+ ],
+ [
+  "ref-beheren-verb",
+  "管理；经营",
+  "Een klein team beheert de website van de school.",
+  "一个小团队负责管理学校的网站。",
+  [
+   "beheerde",
+   "beheerd",
+   "hebben"
+  ],
+  "工作"
+ ],
+ [
+  "ref-sowieso-adverb",
+  "无论如何；反正",
+  "Ik kom morgen sowieso even bij je langs.",
+  "无论如何，我明天都会去看你一下。",
+  null,
+  "交流"
+ ],
+ [
+  "ref-pleiten-verb",
+  "辩护；主张",
+  "De advocaat pleitte voor een lagere straf.",
+  "律师主张减轻处罚。",
+  [
+   "pleitte",
+   "gepleit",
+   "hebben"
+  ],
+  "社会"
+ ],
+ [
+  "ref-voltooien-verb",
+  "完成",
+  "De studenten voltooiden hun opdracht op tijd.",
+  "学生们按时完成了任务。",
+  [
+   "voltooide",
+   "voltooid",
+   "hebben"
+  ],
+  "学习"
+ ],
+ [
+  "ref-oppassen-verb",
+  "照看；小心",
+  "Mijn buurvrouw past vanavond op de kinderen.",
+  "今晚我的邻居照看孩子们。",
+  [
+   "paste op",
+   "opgepast",
+   "hebben"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-tenslotte-adverb",
+  "最后；毕竟",
+  "We gingen tenslotte samen naar huis.",
+  "最后我们还是一起回家了。",
+  null,
+  "时间"
+ ],
+ [
+  "ref-boekwinkel-noun",
+  "书店",
+  "In die boekwinkel vind je veel kinderboeken.",
+  "那家书店里有很多儿童读物。",
+  [
+   "de",
+   "boekwinkels"
+  ],
+  "购物"
+ ],
+ [
+  "ref-werkkamer-noun",
+  "书房；工作室",
+  "Mijn vader werkt thuis in een kleine werkkamer.",
+  "我父亲在家里的小书房工作。",
+  [
+   "de",
+   "werkkamers"
+  ],
+  "住房"
+ ],
+ [
+  "ref-particulier-adjective",
+  "私人的；个人的",
+  "Particuliere klanten kunnen hier online een afspraak maken.",
+  "个人客户可以在这里在线预约。",
+  null,
+  "工作"
+ ],
+ [
+  "ref-teruggeven-verb",
+  "归还；还给",
+  "Geef het boek morgen terug aan de bibliotheek.",
+  "明天把书还给图书馆。",
+  [
+   "gaf terug",
+   "teruggegeven",
+   "hebben"
+  ],
+  "学习"
+ ],
+ [
+  "ref-accent-noun",
+  "口音；重音",
+  "Je hoort aan haar accent dat ze uit België komt.",
+  "从她的口音可以听出她来自比利时。",
+  [
+   "het",
+   "accenten"
+  ],
+  "交流"
+ ],
+ [
+  "ref-opkijken-verb",
+  "抬头看",
+  "Hij keek op toen iemand zijn naam riep.",
+  "有人叫他的名字时，他抬起了头。",
+  [
+   "keek op",
+   "opgekeken",
+   "hebben"
+  ],
+  "日常"
+ ],
+ [
+  "ref-imiteren-verb",
+  "模仿",
+  "Kinderen imiteren soms de woorden van hun ouders.",
+  "孩子有时会模仿父母说的话。",
+  [
+   "imiteerde",
+   "geïmiteerd",
+   "hebben"
+  ],
+  "家庭"
+ ],
+ [
+  "ref-opmerken-verb",
+  "注意到；发现",
+  "Ik merkte meteen op dat het raam openstond.",
+  "我马上注意到窗户开着。",
+  [
+   "merkte op",
+   "opgemerkt",
+   "hebben"
+  ],
+  "日常"
+ ],
+ [
+  "ref-verplaatsen-verb",
+  "移动；搬动",
+  "We verplaatsen de tafel naar de andere kamer.",
+  "我们把桌子搬到另一个房间。",
+  [
+   "verplaatste",
+   "verplaatst",
+   "hebben"
+  ],
+  "住房"
+ ],
+ [
+  "ref-boven-water-phrase",
+  "浮出水面；被发现",
+  "Na lang zoeken kwam de waarheid eindelijk boven water.",
+  "经过长时间寻找，真相终于浮出水面。",
+  null,
+  "社会"
+ ],
+ [
+  "ref-koppelen-verb",
+  "连接；配对",
+  "De docent koppelt de studenten aan een taalmaatje.",
+  "老师给学生们配了一位语言伙伴。",
+  [
+   "koppelde",
+   "gekoppeld",
+   "hebben"
+  ],
+  "学习"
+ ],
+ [
+  "ref-bijlage-noun",
+  "附件",
+  "De bijlage bevat alle informatie over de cursus.",
+  "附件包含了课程的所有信息。",
+  [
+   "de",
+   "bijlagen"
+  ],
+  "学习"
+ ],
+ [
+  "ref-buis-noun",
+  "管子；管道",
+  "De loodgieter verving de oude buis onder de gootsteen.",
+  "水管工更换了水槽下面的旧管子。",
+  [
+   "de",
+   "buizen"
+  ],
+  "住房"
+ ],
+ [
+  "ref-serie-noun",
+  "系列；连续剧",
+  "We kijken samen naar een nieuwe serie op televisie.",
+  "我们一起看电视上的一部新剧。",
+  [
+   "de",
+   "series"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-illustratie-noun",
+  "插图；说明",
+  "De illustratie maakt de uitleg voor kinderen duidelijker.",
+  "这幅插图让孩子们更容易理解说明。",
+  [
+   "de",
+   "illustraties"
+  ],
+  "学习"
+ ],
+ [
+  "ref-oorsprong-noun",
+  "起源；来源",
+  "De oorsprong van dit woord is niet helemaal duidelijk.",
+  "这个词的起源并不完全清楚。",
+  [
+   "de",
+   "oorsprongen"
+  ],
+  "学习"
+ ],
+ [
+  "ref-heftig-adjective",
+  "激烈的；强烈的",
+  "Na de heftige storm lagen takken overal op straat.",
+  "猛烈的风暴过后，树枝散落在街上。",
+  null,
+  "天气"
+ ],
+ [
+  "ref-dagen-verb",
+  "传唤；起诉",
+  "De aanklager daagde de verdachte voor de rechter.",
+  "检察官传唤嫌疑人出庭。",
+  [
+   "daagde",
+   "gedaagd",
+   "hebben"
+  ],
+  "工作"
+ ],
+ [
+  "ref-data-noun",
+  "数据；资料",
+  "De data van het onderzoek staan in dit overzicht.",
+  "研究的数据列在这份摘要里。",
+  [
+   "de",
+   "data"
+  ],
+  "学习"
+ ],
+ [
+  "ref-voorkant-noun",
+  "正面；前面",
+  "Aan de voorkant van het huis staat een bankje.",
+  "房子前面有一张长椅。",
+  [
+   "de",
+   "voorkanten"
+  ],
+  "住房"
+ ],
+ [
+  "ref-methode-noun",
+  "方法",
+  "Deze methode helpt mij nieuwe woorden onthouden.",
+  "这个方法帮助我记住新词。",
+  [
+   "de",
+   "methoden"
+  ],
+  "学习"
+ ],
+ [
+  "ref-uittrekken-verb",
+  "脱下；拔出",
+  "Trek je schoenen uit voordat je naar binnen gaat.",
+  "进屋前请脱鞋。",
+  [
+   "trok uit",
+   "uitgetrokken",
+   "hebben"
+  ],
+  "日常"
+ ],
+ [
+  "ref-mug-noun",
+  "蚊子",
+  "Een mug zoemde de hele nacht rond mijn hoofd.",
+  "一只蚊子整晚在我头边嗡嗡飞。",
+  [
+   "de",
+   "muggen"
+  ],
+  "自然"
+ ],
+ [
+  "ref-pikken-verb",
+  "偷；啄",
+  "Die vogel pikte een stukje brood van de tafel.",
+  "那只鸟从桌上啄走了一小块面包。",
+  [
+   "pikte",
+   "gepikt",
+   "hebben"
+  ],
+  "自然"
+ ],
+ [
+  "ref-vrijdagavond-noun",
+  "星期五晚上",
+  "Op vrijdagavond eten we vaak samen met vrienden.",
+  "星期五晚上我们常和朋友一起吃饭。",
+  [
+   "de",
+   "vrijdagavonden"
+  ],
+  "时间"
+ ],
+ [
+  "ref-expeditie-noun",
+  "探险；远征",
+  "De expeditie trok wekenlang door het koude noorden.",
+  "这支探险队在寒冷的北方行进了好几周。",
+  [
+   "de",
+   "expedities"
+  ],
+  "出行"
+ ],
+ [
+  "ref-optie-noun",
+  "选择；选项",
+  "Je kunt deze optie kiezen als je vroeg vertrekt.",
+  "如果你早点出发，可以选择这个选项。",
+  [
+   "de",
+   "opties"
+  ],
+  "出行"
+ ],
+ [
+  "ref-muzikaal-adjective",
+  "有音乐天赋的；音乐的",
+  "Mijn dochter is muzikaal en speelt prachtig piano.",
+  "我女儿有音乐天赋，钢琴弹得很好。",
+  null,
+  "休闲"
+ ],
+ [
+  "ref-camping-noun",
+  "露营地",
+  "We zetten onze tent op een rustige camping.",
+  "我们在一个安静的露营地搭起帐篷。",
+  [
+   "de",
+   "campings"
+  ],
+  "休闲"
+ ],
+ [
+  "ref-schoorsteen-noun",
+  "烟囱",
+  "De schoorsteen moet voor de winter worden schoongemaakt.",
+  "烟囱必须在冬天前清理。",
+  [
+   "de",
+   "schoorstenen"
+  ],
+  "住房"
+ ],
+ [
+  "ref-minderjarig-adjective",
+  "未成年的",
+  "Minderjarige kinderen mogen deze film niet bekijken.",
+  "未成年儿童不能观看这部电影。",
+  null,
+  "家庭"
+ ]
+]

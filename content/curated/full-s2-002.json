@@ -1,0 +1,1170 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-bezwaar-noun",
+   "lemma": "bezwaar",
+   "pos": "noun",
+   "article": "het",
+   "plural": "bezwaren"
+  },
+  {
+   "id": "lx-tenzij-conjunction",
+   "lemma": "tenzij",
+   "pos": "conjunction"
+  },
+  {
+   "id": "lx-dynamisch-adjective",
+   "lemma": "dynamisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-som-noun",
+   "lemma": "som",
+   "pos": "noun",
+   "article": "de",
+   "plural": "sommen"
+  },
+  {
+   "id": "lx-fenomeen-noun",
+   "lemma": "fenomeen",
+   "pos": "noun",
+   "article": "het",
+   "plural": "fenomenen"
+  },
+  {
+   "id": "lx-verenigen-verb",
+   "lemma": "verenigen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verenigde",
+    "pastParticiple": "verenigd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-commercieel-adjective",
+   "lemma": "commercieel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vertaling-noun",
+   "lemma": "vertaling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vertalingen"
+  },
+  {
+   "id": "lx-manager-noun",
+   "lemma": "manager",
+   "pos": "noun",
+   "article": "de",
+   "plural": "managers"
+  },
+  {
+   "id": "lx-romeins-adjective",
+   "lemma": "romeins",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-erom-adverb",
+   "lemma": "erom",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-aanleiding-noun",
+   "lemma": "aanleiding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "aanleidingen"
+  },
+  {
+   "id": "lx-grieks-adjective",
+   "lemma": "grieks",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-indelen-verb",
+   "lemma": "indelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deelde in",
+    "pastParticiple": "ingedeeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-voorstel-noun",
+   "lemma": "voorstel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "voorstellen"
+  },
+  {
+   "id": "lx-afstuderen-verb",
+   "lemma": "afstuderen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "studeerde af",
+    "pastParticiple": "afgestudeerd",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-molen-noun",
+   "lemma": "molen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "molens"
+  },
+  {
+   "id": "lx-zichtbaar-adjective",
+   "lemma": "zichtbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-subsidie-noun",
+   "lemma": "subsidie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "subsidies"
+  },
+  {
+   "id": "lx-toelaten-verb",
+   "lemma": "toelaten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liet toe",
+    "pastParticiple": "toegelaten",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-waarna-adverb",
+   "lemma": "waarna",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-letterlijk-adjective",
+   "lemma": "letterlijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-uitbreiden-verb",
+   "lemma": "uitbreiden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "breidde uit",
+    "pastParticiple": "uitgebreid",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-firma-noun",
+   "lemma": "firma",
+   "pos": "noun",
+   "article": "de",
+   "plural": "firma's"
+  },
+  {
+   "id": "lx-multiculturalisme-noun",
+   "lemma": "multiculturalisme",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-migrant-noun",
+   "lemma": "migrant",
+   "pos": "noun",
+   "article": "de",
+   "plural": "migranten"
+  },
+  {
+   "id": "lx-balans-noun",
+   "lemma": "balans",
+   "pos": "noun",
+   "article": "de",
+   "plural": "balansen"
+  },
+  {
+   "id": "lx-onderling-adjective",
+   "lemma": "onderling",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-spectaculair-adjective",
+   "lemma": "spectaculair",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hoogte-noun",
+   "lemma": "hoogte",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hoogtes"
+  },
+  {
+   "id": "lx-verwerven-verb",
+   "lemma": "verwerven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verwierf",
+    "pastParticiple": "verworven",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-concentreren-verb",
+   "lemma": "concentreren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "concentreerde",
+    "pastParticiple": "geconcentreerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-veel-en-veel-phrase",
+   "lemma": "veel en veel",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-belanden-verb",
+   "lemma": "belanden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "belandde",
+    "pastParticiple": "beland",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-literatuur-noun",
+   "lemma": "literatuur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-omroep-noun",
+   "lemma": "omroep",
+   "pos": "noun",
+   "article": "de",
+   "plural": "omroepen"
+  },
+  {
+   "id": "lx-specerij-noun",
+   "lemma": "specerij",
+   "pos": "noun",
+   "article": "de",
+   "plural": "specerijen"
+  },
+  {
+   "id": "lx-knuffel-noun",
+   "lemma": "knuffel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "knuffels"
+  },
+  {
+   "id": "lx-enquête-noun",
+   "lemma": "enquête",
+   "pos": "noun",
+   "article": "de",
+   "plural": "enquêtes"
+  },
+  {
+   "id": "lx-aan-bod-phrase",
+   "lemma": "aan bod",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-schooljaar-noun",
+   "lemma": "schooljaar",
+   "pos": "noun",
+   "article": "het",
+   "plural": "schooljaren"
+  },
+  {
+   "id": "lx-sjaal-noun",
+   "lemma": "sjaal",
+   "pos": "noun",
+   "article": "de",
+   "plural": "sjaals"
+  },
+  {
+   "id": "lx-verbreken-verb",
+   "lemma": "verbreken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verbrak",
+    "pastParticiple": "verbroken",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-strekken-verb",
+   "lemma": "strekken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "strekte",
+    "pastParticiple": "gestrekt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bewonderen-verb",
+   "lemma": "bewonderen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bewonderde",
+    "pastParticiple": "bewonderd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-met-behulp-van-phrase",
+   "lemma": "met behulp van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-verwarren-verb",
+   "lemma": "verwarren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verwarde",
+    "pastParticiple": "verward",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bewaken-verb",
+   "lemma": "bewaken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bewaakte",
+    "pastParticiple": "bewaakt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-concluderen-verb",
+   "lemma": "concluderen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "concludeerde",
+    "pastParticiple": "geconcludeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-opzet-noun",
+   "lemma": "opzet",
+   "pos": "noun",
+   "article": "de",
+   "plural": "opzetten"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-bezwaar-noun-1",
+   "lexemeId": "lx-bezwaar-noun",
+   "zh": "反对意见；异议",
+   "examples": [
+    {
+     "nl": "Mijn grootste bezwaar is de hoge prijs.",
+     "zh": "我最大的异议是价格太高。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tenzij-conjunction-1",
+   "lexemeId": "lx-tenzij-conjunction",
+   "zh": "除非",
+   "examples": [
+    {
+     "nl": "We gaan wandelen, tenzij het straks hard regent.",
+     "zh": "除非一会儿下大雨，否则我们就去散步。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-dynamisch-adjective-1",
+   "lexemeId": "lx-dynamisch-adjective",
+   "zh": "充满活力的；动态的",
+   "examples": [
+    {
+     "nl": "De stad heeft een dynamische en jonge bevolking.",
+     "zh": "这座城市的人口年轻而充满活力。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-som-noun-1",
+   "lexemeId": "lx-som-noun",
+   "zh": "总和；金额",
+   "examples": [
+    {
+     "nl": "De som van deze bedragen klopt niet.",
+     "zh": "这些金额的总和不对。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-fenomeen-noun-1",
+   "lexemeId": "lx-fenomeen-noun",
+   "zh": "现象",
+   "examples": [
+    {
+     "nl": "De regenboog is een prachtig natuurfenomeen.",
+     "zh": "彩虹是一种美丽的自然现象。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verenigen-verb-1",
+   "lexemeId": "lx-verenigen-verb",
+   "zh": "联合；团结",
+   "examples": [
+    {
+     "nl": "De buurtbewoners verenigen zich voor een schonere straat.",
+     "zh": "邻居们团结起来，让街道更干净。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-commercieel-adjective-1",
+   "lexemeId": "lx-commercieel-adjective",
+   "zh": "商业的；营利的",
+   "examples": [
+    {
+     "nl": "De zender toont veel commerciële reclames.",
+     "zh": "这个频道播放很多商业广告。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vertaling-noun-1",
+   "lexemeId": "lx-vertaling-noun",
+   "zh": "翻译；译文",
+   "examples": [
+    {
+     "nl": "De vertaling van dit boek is heel duidelijk.",
+     "zh": "这本书的译文非常清楚。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-manager-noun-1",
+   "lexemeId": "lx-manager-noun",
+   "zh": "经理；管理者",
+   "examples": [
+    {
+     "nl": "De manager bespreekt het plan met haar team.",
+     "zh": "经理和她的团队讨论这个计划。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-romeins-adjective-1",
+   "lexemeId": "lx-romeins-adjective",
+   "zh": "罗马的；古罗马的",
+   "examples": [
+    {
+     "nl": "We bezochten een oud Romeins theater in Italië.",
+     "zh": "我们参观了意大利一座古罗马剧场。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-erom-adverb-1",
+   "lexemeId": "lx-erom-adverb",
+   "zh": "为此；对此",
+   "examples": [
+    {
+     "nl": "Hij vroeg erom, maar kreeg geen antwoord.",
+     "zh": "他为此提出了请求，却没有得到答复。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanleiding-noun-1",
+   "lexemeId": "lx-aanleiding-noun",
+   "zh": "起因；契机",
+   "examples": [
+    {
+     "nl": "De brief was aanleiding voor een lang gesprek.",
+     "zh": "这封信引发了一场长谈。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-grieks-adjective-1",
+   "lexemeId": "lx-grieks-adjective",
+   "zh": "希腊的",
+   "examples": [
+    {
+     "nl": "We aten gisteren in een Grieks restaurant.",
+     "zh": "我们昨天在一家希腊餐馆吃了饭。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-indelen-verb-1",
+   "lexemeId": "lx-indelen-verb",
+   "zh": "分组；划分",
+   "examples": [
+    {
+     "nl": "De leraar deelt de klas in kleine groepen in.",
+     "zh": "老师把班级分成几个小组。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voorstel-noun-1",
+   "lexemeId": "lx-voorstel-noun",
+   "zh": "提议；建议",
+   "examples": [
+    {
+     "nl": "Ik heb een voorstel voor onze vakantie.",
+     "zh": "我对我们的假期有一个建议。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-afstuderen-verb-1",
+   "lexemeId": "lx-afstuderen-verb",
+   "zh": "毕业",
+   "examples": [
+    {
+     "nl": "Na haar studie studeerde ze in Leiden af.",
+     "zh": "完成学业后，她在莱顿毕业了。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-molen-noun-1",
+   "lexemeId": "lx-molen-noun",
+   "zh": "风车；磨坊",
+   "examples": [
+    {
+     "nl": "De oude molen draait weer elke zaterdag.",
+     "zh": "这座老风车每周六又开始转动了。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zichtbaar-adjective-1",
+   "lexemeId": "lx-zichtbaar-adjective",
+   "zh": "看得见的；明显的",
+   "examples": [
+    {
+     "nl": "De sterren zijn vanavond goed zichtbaar.",
+     "zh": "今晚星星看得很清楚。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-subsidie-noun-1",
+   "lexemeId": "lx-subsidie-noun",
+   "zh": "补贴；资助",
+   "examples": [
+    {
+     "nl": "De gemeente geeft subsidie voor duurzame woningen.",
+     "zh": "市政府为可持续住房提供补贴。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-toelaten-verb-1",
+   "lexemeId": "lx-toelaten-verb",
+   "zh": "允许；准许",
+   "examples": [
+    {
+     "nl": "Het museum laat bezoekers gratis toe op zondag.",
+     "zh": "博物馆周日免费允许游客入内。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-waarna-adverb-1",
+   "lexemeId": "lx-waarna-adverb",
+   "zh": "之后；随后",
+   "examples": [
+    {
+     "nl": "Ze zette thee, waarna we samen gingen praten.",
+     "zh": "她泡了茶，之后我们一起聊天。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-letterlijk-adjective-1",
+   "lexemeId": "lx-letterlijk-adjective",
+   "zh": "字面上的；确切的",
+   "examples": [
+    {
+     "nl": "De letterlijke vertaling klinkt vreemd in het Nederlands.",
+     "zh": "这个直译在荷兰语里听起来很奇怪。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitbreiden-verb-1",
+   "lexemeId": "lx-uitbreiden-verb",
+   "zh": "扩大；扩展",
+   "examples": [
+    {
+     "nl": "Het bedrijf wil zijn kantoor volgend jaar uitbreiden.",
+     "zh": "这家公司想在明年扩大办公室。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-firma-noun-1",
+   "lexemeId": "lx-firma-noun",
+   "zh": "公司；商号",
+   "examples": [
+    {
+     "nl": "Een kleine firma verkoopt hier handgemaakte meubels.",
+     "zh": "一家小公司在这里出售手工家具。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-multiculturalisme-noun-1",
+   "lexemeId": "lx-multiculturalisme-noun",
+   "zh": "多元文化主义",
+   "examples": [
+    {
+     "nl": "Multiculturalisme speelt een grote rol in deze stad.",
+     "zh": "多元文化主义在这座城市中很重要。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-migrant-noun-1",
+   "lexemeId": "lx-migrant-noun",
+   "zh": "移民",
+   "examples": [
+    {
+     "nl": "De migrant leerde snel de Nederlandse taal.",
+     "zh": "这位移民很快学会了荷兰语。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-balans-noun-1",
+   "lexemeId": "lx-balans-noun",
+   "zh": "平衡；余额",
+   "examples": [
+    {
+     "nl": "Zij zoekt een goede balans tussen werk en gezin.",
+     "zh": "她在寻找工作与家庭之间的良好平衡。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderling-adjective-1",
+   "lexemeId": "lx-onderling-adjective",
+   "zh": "彼此的；相互的",
+   "examples": [
+    {
+     "nl": "De buren maken onderling afspraken over het schoonmaken.",
+     "zh": "邻居们相互约定谁来打扫。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-spectaculair-adjective-1",
+   "lexemeId": "lx-spectaculair-adjective",
+   "zh": "壮观的；惊人的",
+   "examples": [
+    {
+     "nl": "Vanaf de berg hadden we een spectaculair uitzicht.",
+     "zh": "从山上望去，景色十分壮观。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoogte-noun-1",
+   "lexemeId": "lx-hoogte-noun",
+   "zh": "高度；高处",
+   "examples": [
+    {
+     "nl": "De hoogte van deze tafel past bij de stoel.",
+     "zh": "这张桌子的高度和椅子很合适。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verwerven-verb-1",
+   "lexemeId": "lx-verwerven-verb",
+   "zh": "获得；取得",
+   "examples": [
+    {
+     "nl": "Met ervaring verwierf hij meer vertrouwen van collega's.",
+     "zh": "凭借经验，他获得了同事更多的信任。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-concentreren-verb-1",
+   "lexemeId": "lx-concentreren-verb",
+   "zh": "集中；专心",
+   "examples": [
+    {
+     "nl": "Ik concentreer me beter in een stille kamer.",
+     "zh": "我在安静的房间里更容易集中注意力。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-veel-en-veel-phrase-1",
+   "lexemeId": "lx-veel-en-veel-phrase",
+   "zh": "多得多；远远更多",
+   "examples": [
+    {
+     "nl": "Er zijn veel en veel meer fietsen dan auto's.",
+     "zh": "自行车比汽车多得多。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-belanden-verb-1",
+   "lexemeId": "lx-belanden-verb",
+   "zh": "最终到达；落入",
+   "examples": [
+    {
+     "nl": "Na een lange wandeling belandden we bij het meer.",
+     "zh": "走了很久后，我们最终到了湖边。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-literatuur-noun-1",
+   "lexemeId": "lx-literatuur-noun",
+   "zh": "文学；文献",
+   "examples": [
+    {
+     "nl": "Voor haar studie leest zij veel Nederlandse literatuur.",
+     "zh": "为了学业，她读了很多荷兰文学作品。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-omroep-noun-1",
+   "lexemeId": "lx-omroep-noun",
+   "zh": "广播机构；广播业",
+   "examples": [
+    {
+     "nl": "De omroep zendt iedere ochtend het nieuws uit.",
+     "zh": "这家广播机构每天早晨播报新闻。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-specerij-noun-1",
+   "lexemeId": "lx-specerij-noun",
+   "zh": "香料",
+   "examples": [
+    {
+     "nl": "Deze specerij geeft de soep een warme smaak.",
+     "zh": "这种香料让汤有一种温和的味道。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-knuffel-noun-1",
+   "lexemeId": "lx-knuffel-noun",
+   "zh": "拥抱；毛绒玩具",
+   "examples": [
+    {
+     "nl": "Het kind gaf haar moeder een lange knuffel.",
+     "zh": "孩子紧紧拥抱了妈妈。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-enquête-noun-1",
+   "lexemeId": "lx-enquête-noun",
+   "zh": "问卷调查",
+   "examples": [
+    {
+     "nl": "We vullen online een enquête over de buurt in.",
+     "zh": "我们在线填写一份关于社区的问卷。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aan-bod-phrase-1",
+   "lexemeId": "lx-aan-bod-phrase",
+   "zh": "被提及；轮到",
+   "examples": [
+    {
+     "nl": "Tijdens de les kwam ook klimaatverandering aan bod.",
+     "zh": "课上也提到了气候变化。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schooljaar-noun-1",
+   "lexemeId": "lx-schooljaar-noun",
+   "zh": "学年",
+   "examples": [
+    {
+     "nl": "Het schooljaar begint hier in september.",
+     "zh": "这里的学年在九月开始。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-sjaal-noun-1",
+   "lexemeId": "lx-sjaal-noun",
+   "zh": "围巾",
+   "examples": [
+    {
+     "nl": "Bij koud weer draag ik graag een warme sjaal.",
+     "zh": "天冷时我喜欢戴一条暖和的围巾。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verbreken-verb-1",
+   "lexemeId": "lx-verbreken-verb",
+   "zh": "打破；中断",
+   "examples": [
+    {
+     "nl": "Hij verbrak het contact na hun ruzie.",
+     "zh": "争吵后，他中断了联系。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-strekken-verb-1",
+   "lexemeId": "lx-strekken-verb",
+   "zh": "伸展；伸开",
+   "examples": [
+    {
+     "nl": "Na het zitten strek ik mijn benen even.",
+     "zh": "坐了一会儿后，我伸伸腿。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bewonderen-verb-1",
+   "lexemeId": "lx-bewonderen-verb",
+   "zh": "欣赏；钦佩",
+   "examples": [
+    {
+     "nl": "We bewonderden de oude schilderijen in het museum.",
+     "zh": "我们欣赏了博物馆里的古画。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-met-behulp-van-phrase-1",
+   "lexemeId": "lx-met-behulp-van-phrase",
+   "zh": "借助；利用",
+   "examples": [
+    {
+     "nl": "Met behulp van een kaart vonden we het hotel.",
+     "zh": "借助地图，我们找到了酒店。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verwarren-verb-1",
+   "lexemeId": "lx-verwarren-verb",
+   "zh": "弄混；使困惑",
+   "examples": [
+    {
+     "nl": "De moeilijke uitleg verwarde de nieuwe studenten.",
+     "zh": "这段难懂的说明让新生们很困惑。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bewaken-verb-1",
+   "lexemeId": "lx-bewaken-verb",
+   "zh": "看守；守护",
+   "examples": [
+    {
+     "nl": "Een beveiliger bewaakt de ingang van het gebouw.",
+     "zh": "一名保安看守着大楼入口。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-concluderen-verb-1",
+   "lexemeId": "lx-concluderen-verb",
+   "zh": "得出结论",
+   "examples": [
+    {
+     "nl": "Na het onderzoek concludeerden we dat de weg veilig was.",
+     "zh": "调查后，我们得出结论，这条路是安全的。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opzet-noun-1",
+   "lexemeId": "lx-opzet-noun",
+   "zh": "计划；构思",
+   "examples": [
+    {
+     "nl": "De opzet van het feest was eenvoudig maar gezellig.",
+     "zh": "派对的安排简单但很温馨。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  }
+ ]
+}
