@@ -3,7 +3,7 @@
 给中文母语者用的荷兰语背单词网页：先回忆、再揭晓、按记忆情况评分，FSRS 自动安排复习。学习记录只保存在你自己的浏览器里，没有账号，也没有服务器。
 
 - 线上地址：`https://plusero.github.io/jamo-volcab/`（部署后可用，见「部署」）
-- 词库：按 NT2Lex 冻结的 B1 参考清单编写，当前进度见 [docs/PROGRESS.md](docs/PROGRESS.md)
+- 词库：覆盖 NT2Lex 的 A1–C1 完整参考清单；中文释义和例句为草稿，当前数量及审校状态见 [docs/PROGRESS.md](docs/PROGRESS.md)
 
 ---
 
@@ -156,6 +156,7 @@ npm run content:batches -- 6000   # 按词频取前 6000 项，把还没做的�
 #   content/coverage/ledger/batch-NNN.jsonl  每个参考项一行：included 或 excluded + 理由
 npm run content:validate          # 结构和必需字段检查
 npm run content:coverage          # 生成 content/coverage/coverage-report.md 和 missing-items.csv
+npm run content:coverage -- --all --strict # A1–C1 全量覆盖与账本检查
 npm run content:build             # 生成 vocab.json（新词顺序按词频自动排序）
 ```
 
@@ -169,6 +170,8 @@ npm run content:build             # 生成 vocab.json（新词顺序按词频自
 ### 来源与许可
 
 参考清单来自 NT2Lex（CC BY-NC-SA 4.0，**禁止商业用途**），详见 [docs/CONTENT_SOURCES.md](docs/CONTENT_SOURCES.md)。原始 TSV 不放进仓库，需要时运行 `npm run content:fetch` 下载，会自动校验 hash。
+
+完整清单在 `content/manifests/reference-set-all-v1.json`，含 A1–C1 各级频次、首次出现等级，以及逐项说明原因的噪声排除项；原 B1 清单继续保留。NT2Lex 本身不提供中文释义和例句，新增中文词卡由 GPT-6 Luna 子代理分批编写，统一标记为 `draft`，仍需人工审校。每个参考项的收录词义或排除原因均记录在覆盖账本中。
 
 ## 目录
 

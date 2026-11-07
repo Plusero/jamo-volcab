@@ -2,42 +2,32 @@
 
 更新：2026-11-07
 
-## 步骤状态
+## 完整 NT2Lex 导入：完成
 
-| 步骤 | 状态 | 说明 |
-|---|---|---|
-| S1 骨架 | ✅ | domain / data / application 层、单元与集成测试 |
-| S2 学习闭环 | ✅ | 今日页、学习页 |
-| S3 备份与查词 | ✅ | 导出（分享/下载）、导入（校验 → 确认 → 事务替换）、Google/Van Dale、发音、词条详情 |
-| S4 B1 词库 | 🟡 词频前 3000 项已完成，总覆盖 27.2% | 见下文 |
-| S5 其余页面 | ✅ | 词库搜索筛选、统计、设置 |
-| S6 上线 | 🟡 | PWA、Pages workflow 已写；尚未推送部署；iPhone 实机未测 |
+- 范围：NT2Lex-CGN-v01 全部 15,227 原始行，覆盖 A1–C1。
+- 规范化为 15,120 个词形/词性键：15,034 个参考项、86 个带原因的基础噪声排除项。
+- 全部 15,034 个参考项已处理，覆盖率 100%，遗漏 0、错误 0；其中 14,099 项对应词卡，935 项在账本中逐项说明来源错误、专名等排除原因。
+- 五个 GPT-6 Luna 子代理完成全部 12,030 项增量任务：新增 11,160 个词条/词义，另有 870 项具体排除原因。
+- 当前发布词库：**14,122 个词条、14,497 个词义**（含既有补充词条）；所有词义均为 `draft`，未经人工语言审校。
+- 词库版本：`20261107-61103682`；生成的 vocab.json 为 9,790,816 字节（约 9.8 MB）。
+- 原有词条/词义 ID 保留；未更改用户数据库或 SRS 卡片记录。原 B1 清单保持不变，覆盖率同为 100%。
+- 新词继续按 A1+A2+B1 频次排列；纯 B2/C1 词在末段按完整教材词频排名排列。
 
-## 已运行的检查
+## 相关检查
 
-- `npm run typecheck`、`npm run lint`：通过
-- `npm test`：24 通过；`npm run test:integration`：10 通过
-- `npm run content:validate` / `content:build`：通过（2962 词条 / 3337 词义，vocab.json 1.4 MB）
-- `npx playwright test --project=desktop-chrome`：主流程（学习 → 刷新 → 导出 → 清库后导入）通过
-- 320px 宽度下各页面无横向溢出（截图人工查看）
-- **未运行**：Playwright iPhone/WebKit 项目（本机没装 WebKit）、iPhone 实机检查（计划 §10 清单全部未做）
+- `node --import tsx scripts/content-normalize.ts`：通过，生成完整 A1–C1 清单。
+- `node --import tsx scripts/content-validate.ts`：通过。
+- `node --import tsx scripts/content-coverage.ts --all --strict`：15,034 / 15,034，missing 0、errors 0。
+- `node --import tsx scripts/content-coverage.ts --strict`：11,052 / 11,052，missing 0、errors 0。
+- `node --import tsx scripts/content-build.ts`：通过。
+- `npx vitest run --project unit tests/unit/full-reference.test.ts`：2 项通过。
+- `npx vitest run --project integration tests/integration/study.test.ts`：9 项通过，包含扩充词库后保留已有卡片、日志及备注的测试。
+- `npm run lint`、`npm run build`（含类型检查）：通过。
+- 完整发布数据在本机 Node 下读取、解析及索引约 76 ms；全词库搜索中位数约 1.8 ms、P95 约 2.3 ms。该测量不代表浏览器或手机实测。
+- CI 已加入完整参考集的严格覆盖检查。
 
-## B1 词库（S4）
+## 未验证事项
 
-- 参考集 `content/manifests/reference-set-b1-v1.json`：NT2Lex 15227 行 → 候选 11215 → 去重 11118 → 排除 66 → **需覆盖 11052 项**
-- **已完成：按 A1+A2+B1 词频排序的前 3000 项**——包含 2935 项、排除 65 项（每项都有理由，多为词性标注错误、专有名词、语料噪声），missing 0
-  - 来源：`batch-001`…`batch-028`（由 Sonnet 子 agent 按 `content/work/GUIDE.md` 编写）+ `sample.json` 中对上参考项的 238 项
-  - `extra.json`：6 个因词性标错被排除、但实际常用的感叹词/问候语（goedemiddag、hè、jawel、jazeker、tja、proost），不计入覆盖
-- 总覆盖：3003 / 11052（27.2%）；全部词义 `review: draft`，**尚未人工审核**
-- 新词学习顺序由 `content:build` 按参考项词频排序
-- 继续：`npm run content:batches -- 6000` 生成下一段批次（编号从 batch-029 起），按同样流程编写
-
-## 已知问题 / 待人工核对
-
-- 需人工核对：
-  - 名词/动词的形式按词义不同时（如 `scheppen` schepte/schiep、`blad` bladeren/bladen），schema 只能存一组，另一组写在中文释义里
-  - 少量 hebben/zijn、复数取舍由 agent 判断（各批次报告中已列出）
-  - 样例词库：`vergeten` 等动词的 hebben/zijn；`ziekte` 复数取 `ziekten`；反身动词的词形写法（`herinnerde zich`）——schema 里没有专门的反身标记。
-- 参考集里有少量两字母名词（`pa`、`wc`、`tv`、`cd` 等），需要在账本里逐个决定收录或排除。
-- 主 JS 包超过 500 kB（Vite 警告），暂不处理。
-- 还没有 README。
+- 浏览器 E2E 本轮未运行；此前本地预览服务受执行环境端口权限限制。iPhone 实机未测。
+- 中文释义、名词/动词形式和例句仍需人工语言审校；结构及覆盖检查通过不代表语言内容已审定。
+- 主 JS 包仍有大于 500 kB 的既有 Vite 构建提示。
