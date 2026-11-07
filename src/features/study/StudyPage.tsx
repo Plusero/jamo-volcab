@@ -117,7 +117,7 @@ export function StudyPage() {
   return (
     <div className={styles.page}>
       <WordFront key={sense.id} lexeme={lexeme} examples={sense.examples} revealed={view.revealed}
-        isNew={current.isNew} voice={voice} rate={settings.speechRate} />
+        isNew={current.isNew} voice={voice} rate={settings.speechRate} speechMode={settings.speechMode} />
       {view.revealed && (
         <section key={sense.id} className={`${styles.reveal} ${styles.answerReveal}`} aria-label="答案">
           <div className={styles.revealContent}>

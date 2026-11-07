@@ -129,19 +129,19 @@ it('新语句取代旧语句后，旧事件和旧计时器不影响新播放', (
   expect(newError).toHaveBeenCalledExactlyOnceWith('start-timeout');
 });
 
-it('支持 AudioSession 时使用 playback，在结束后还原原来的类型', () => {
-  const audioSession = { type: 'auto' };
-  vi.stubGlobal('navigator', { audioSession });
-  speak('fiets', voice, 'normal', vi.fn());
-  expect(audioSession.type).toBe('playback');
-  synth.speak.mock.calls[0]![0].onend!();
-  expect(audioSession.type).toBe('auto');
+it('页面释放自己的朗读时不会停止另一张卡片随后发起的朗读', () => {
+  const stopOld = speak('fiets', voice, 'normal', vi.fn());
+  const stopNew = speak('boek', voice, 'normal', vi.fn());
+  stopOld();
+  expect(synth.cancel).not.toHaveBeenCalled();
+  stopNew();
+  expect(synth.cancel).toHaveBeenCalledOnce();
 });
 
 it('单词与例句通过同一播放逻辑朗读，显示系统错误，再次点击清除旧错误', () => {
   render(<WordFront lexeme={{ id: 'fiets', lemma: 'fiets', pos: 'noun' }}
     examples={[{ nl: 'Ik heb een fiets.', zh: '我有一辆自行车。' }]}
-    revealed={false} isNew voice={voice} rate="normal" />);
+    revealed={false} isNew voice={voice} rate="normal" speechMode="system" />);
   synth.speak.mockImplementationOnce((utterance) => {
     utterance.onerror!({ error: 'synthesis-failed' } as SpeechSynthesisErrorEvent);
   });
@@ -155,14 +155,14 @@ it('单词与例句通过同一播放逻辑朗读，显示系统错误，再次�
 
 it('设置列出设备荷兰语语音，保存选择并用选中的语音试听', () => {
   const updateSettings = vi.fn();
-  vi.mocked(useApp).mockReturnValue({ settings: DEFAULT_SETTINGS, updateSettings } as unknown as AppState);
+  vi.mocked(useApp).mockReturnValue({ settings: { ...DEFAULT_SETTINGS, speechMode: 'system' }, updateSettings } as unknown as AppState);
   const { rerender } = render(<PrefsSettings />);
   const select = screen.getByRole('combobox', { name: '朗读语音' });
   expect(screen.getByRole('option', { name: 'Ellen（nl-BE）' })).toBeInTheDocument();
   expect(screen.queryByRole('option', { name: /English/ })).not.toBeInTheDocument();
   fireEvent.change(select, { target: { value: 'ellen' } });
   expect(updateSettings).toHaveBeenCalledWith({ speechVoiceURI: 'ellen' });
-  vi.mocked(useApp).mockReturnValue({ settings: { ...DEFAULT_SETTINGS, speechVoiceURI: 'ellen' }, updateSettings } as unknown as AppState);
+  vi.mocked(useApp).mockReturnValue({ settings: { ...DEFAULT_SETTINGS, speechMode: 'system', speechVoiceURI: 'ellen' }, updateSettings } as unknown as AppState);
   rerender(<PrefsSettings />);
   fireEvent.click(screen.getByRole('button', { name: '试听 Ellen' }));
   expect(synth.speak.mock.calls[0]![0].voice).toBe(ellen);

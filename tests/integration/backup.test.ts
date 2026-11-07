@@ -29,7 +29,7 @@ async function seeded() {
 describe('备份', () => {
   it('导出后导入空库，数据一致，下一次调度结果相同', async () => {
     const a = await seeded();
-    await saveSettings(a, { speechVoiceURI: 'ellen' });
+    await saveSettings(a, { speechVoiceURI: 'ellen', speechMode: 'system' });
     const { json, fileName } = await exportBackup(a, T0);
     expect(fileName).toMatch(/^dutch-vocab-backup-\d{8}T\d{6}Z\.json$/);
 
@@ -37,6 +37,7 @@ describe('备份', () => {
     await restoreBackup(b, parseBackup(json));
     expect(await dump(b)).toEqual(await dump(a));
     expect((await b.settings.get('main'))?.speechVoiceURI).toBe('ellen');
+    expect((await b.settings.get('main'))?.speechMode).toBe('system');
 
     const s = await getScheduler();
     const [ca, cb] = [(await a.cards.get('s-0'))!, (await b.cards.get('s-0'))!];
@@ -53,10 +54,12 @@ describe('备份', () => {
     const a = await seeded();
     const file = parseBackup((await exportBackup(a, T0)).json);
     delete file.data.settings!.speechVoiceURI;
+    delete file.data.settings!.speechMode;
     const b = await newDb();
     await restoreBackup(b, parseBackup(JSON.stringify(file)));
     expect(await dump(b)).toEqual(await dump(a));
     expect((await b.settings.get('main'))?.speechVoiceURI).toBeUndefined();
+    expect((await b.settings.get('main'))?.speechMode).toBeUndefined();
   });
 
   it('旧版备份中的 { newQuota } 当日计划会被丢弃，其余数据照常恢复', async () => {

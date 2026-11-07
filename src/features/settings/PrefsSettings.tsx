@@ -4,6 +4,7 @@ import { pickDutchVoice, useDutchVoices, useSpeak } from '../../platform/speech'
 import styles from './SettingsPage.module.css';
 
 const RATES: [Settings['speechRate'], string][] = [['normal', '正常'], ['slow', '慢速']];
+const SPEECH_MODES: [NonNullable<Settings['speechMode']>, string][] = [['online', '在线发音（Google）'], ['system', '设备语音']];
 const THEMES: [Settings['theme'], string][] = [['system', '跟随系统'], ['light', '浅色'], ['dark', '深色']];
 
 function Radios<T extends string>({ name, options, value, onChange }: {
@@ -25,28 +26,39 @@ export function PrefsSettings() {
   const { settings, updateSettings } = useApp();
   const voices = useDutchVoices();
   const voice = pickDutchVoice(voices, settings.speechVoiceURI);
-  const { play, error, status } = useSpeak();
+  const mode = settings.speechMode ?? 'online';
+  const { play, error, status } = useSpeak(mode);
   return (
     <>
       <section className="card">
         <h2>发音</h2>
+        <Radios name="speech-mode" options={SPEECH_MODES} value={mode} onChange={(speechMode) => updateSettings({ speechMode })} />
         <Radios name="rate" options={RATES} value={settings.speechRate} onChange={(speechRate) => updateSettings({ speechRate })} />
-        <label className={styles.field}>
-          朗读语音
-          <select className={styles.voiceSelect} value={voices.some((v) => v.voiceURI === settings.speechVoiceURI) ? settings.speechVoiceURI ?? '' : ''}
-            onChange={(event) => updateSettings({ speechVoiceURI: event.target.value || null })}>
-            <option value="">自动选择</option>
-            {voices.map((v) => <option key={v.voiceURI} value={v.voiceURI}>{v.name}（{v.lang}）</option>)}
-          </select>
-        </label>
-        <div className="muted">{voice ? `语音：${voice.name}` : '未找到荷兰语语音'}</div>
-        {voice && (
+        {mode === 'online' ? (
           <>
-            <div className={styles.choices}>
-              <button type="button" className="btn" onClick={() => play('Goedemorgen! Hoe gaat het met je?', voice, settings.speechRate)}>试听 {voice.name}</button>
-              <button type="button" className="btn" onClick={() => play('Goedemorgen! Hoe gaat het met je?', null, settings.speechRate)}>试听系统默认荷兰语</button>
-            </div>
-            <p className="muted">若当前语音无声，可选择列表中的其他荷兰语语音试听。选择会保存，并用于单词和例句朗读。</p>
+            <p className="muted">需联网。点击喇叭时，将当前荷兰语单词或例句发送给 Google 合成并直接播放。兼容接口可能限流或暂时不可用。</p>
+            <button type="button" className="btn" onClick={() => play('Goedemorgen! Hoe gaat het met je?', null, settings.speechRate)}>试听在线发音</button>
+          </>
+        ) : (
+          <>
+            <label className={styles.field}>
+              朗读语音
+              <select className={styles.voiceSelect} value={voices.some((v) => v.voiceURI === settings.speechVoiceURI) ? settings.speechVoiceURI ?? '' : ''}
+                onChange={(event) => updateSettings({ speechVoiceURI: event.target.value || null })}>
+                <option value="">自动选择</option>
+                {voices.map((v) => <option key={v.voiceURI} value={v.voiceURI}>{v.name}（{v.lang}）</option>)}
+              </select>
+            </label>
+            <div className="muted">{voice ? `语音：${voice.name}` : '未找到荷兰语语音'}</div>
+            {voice && (
+              <>
+                <div className={styles.choices}>
+                  <button type="button" className="btn" onClick={() => play('Goedemorgen! Hoe gaat het met je?', voice, settings.speechRate)}>试听 {voice.name}</button>
+                  <button type="button" className="btn" onClick={() => play('Goedemorgen! Hoe gaat het met je?', null, settings.speechRate)}>试听系统默认荷兰语</button>
+                </div>
+                <p className="muted">若当前语音无声，可选择列表中的其他荷兰语语音试听。选择会保存，并用于单词和例句朗读。</p>
+              </>
+            )}
           </>
         )}
         {error && <p className={styles.error} role="alert">{error}</p>}

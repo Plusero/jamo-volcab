@@ -8,6 +8,7 @@ export const DEFAULT_SETTINGS: Settings = {
   dayBoundaryHour: 4,
   easyButton: false,
   speechRate: 'normal',
+  speechMode: 'online',
   speechVoiceURI: null,
   theme: 'system',
   lastExportAtMs: null,

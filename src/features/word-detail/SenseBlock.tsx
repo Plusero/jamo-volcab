@@ -5,8 +5,9 @@ import styles from './WordDetailPage.module.css';
 
 /** 一个词义：中文义、例句（带发音）、搭配、主题、等级和审校状态。 */
 export function SenseBlock({ sense, current }: { sense: Sense; current: boolean }) {
-  const { play, error } = useSpeak();
   const { settings, vocab } = useApp();
+  const mode = settings.speechMode ?? 'online';
+  const { play, error, status } = useSpeak(mode);
   const voice = useDutchVoice(settings.speechVoiceURI);
   const cefr = vocab.lexemeById.get(sense.lexemeId)?.cefr;
   return (
@@ -15,7 +16,7 @@ export function SenseBlock({ sense, current }: { sense: Sense; current: boolean 
       <ul className={styles.examples}>
         {sense.examples.map((ex) => (
           <li key={ex.nl} className={styles.example}>
-            {voice && (
+            {(mode === 'online' || voice) && (
               <button type="button" className="btn" aria-label="播放例句" onClick={() => play(ex.nl, voice, settings.speechRate)}>🔊</button>
             )}
             <div className={styles.exampleText}>
@@ -26,6 +27,7 @@ export function SenseBlock({ sense, current }: { sense: Sense; current: boolean 
         ))}
       </ul>
       {error && <p role="alert">{error}</p>}
+      {mode === 'online' && status && <div className="muted" role="status">{status}</div>}
       {sense.collocations && sense.collocations.length > 0 && (
         <div><span className="muted">搭配：</span>{sense.collocations.join('；')}</div>
       )}

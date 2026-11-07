@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { playOnlineSpeech, stopOnlineSpeech } from './online-speech';
 
 type SpeechErrorCode = SpeechSynthesisErrorCode | 'start-timeout' | 'ended-before-start';
 type SpeechState = 'started' | 'ended';
-type AudioSessionNavigator = Navigator & { audioSession?: { type: string } };
 
 // 保持当前语句的引用，直到播放结束、出错或被下一次点击取代。
 let activeSpeech: { utterance: SpeechSynthesisUtterance; dispose: () => boolean } | null = null;
@@ -39,15 +39,12 @@ export function useDutchVoice(preferredURI?: string | null): SpeechSynthesisVoic
 }
 
 /** 同步在点击事件中朗读；voice 为 null 时由系统按 nl-NL 选择语音。 */
-export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'normal' | 'slow', onError: (code: SpeechErrorCode) => void, onState?: (state: SpeechState) => void): void {
+export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'normal' | 'slow', onError: (code: SpeechErrorCode) => void, onState?: (state: SpeechState) => void): () => void {
+  stopOnlineSpeech();
   const synth = window.speechSynthesis;
   activeSpeech?.dispose();
   if (synth.speaking || synth.pending) synth.cancel();
   if (synth.paused) synth.resume();
-
-  const audioSession = (navigator as AudioSessionNavigator).audioSession;
-  const previousSessionType = audioSession?.type;
-  if (audioSession) audioSession.type = 'playback';
 
   const utterance = new SpeechSynthesisUtterance(text);
   if (voice) utterance.voice = voice;
@@ -59,7 +56,6 @@ export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'n
     if (activeSpeech?.utterance !== utterance) return false;
     window.clearTimeout(startTimer);
     activeSpeech = null;
-    if (audioSession) audioSession.type = previousSessionType!;
     return true;
   }
 
@@ -86,16 +82,35 @@ export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'n
   };
   activeSpeech = { utterance, dispose };
   synth.speak(utterance);
+  return () => { if (dispose()) synth.cancel(); };
 }
 
-/** 页面内显示系统报告的朗读错误；不自动重试或更换语音。 */
-export function useSpeak() {
+/** 在线发音为默认方式；系统语音由用户手动选择，不自动切换服务。 */
+export function useSpeak(mode: 'online' | 'system' = 'online') {
   const [error, setError] = useState('');
   const [status, setStatus] = useState('');
+  const stopPlayback = useRef<(() => void) | null>(null);
+  useEffect(() => {
+    setError('');
+    setStatus('');
+    return () => { stopPlayback.current?.(); };
+  }, [mode]);
   function play(text: string, voice: SpeechSynthesisVoice | null, rate: 'normal' | 'slow') {
     setError('');
+    if (mode === 'online') {
+      if (activeSpeech) {
+        activeSpeech.dispose();
+        window.speechSynthesis.cancel();
+      }
+      setStatus('正在获取在线发音…');
+      stopPlayback.current = playOnlineSpeech(text, rate, (message) => {
+        setStatus('');
+        setError(message);
+      }, (state) => setStatus(state === 'playing' ? '正在播放…' : '播放结束。'));
+      return;
+    }
     setStatus('正在请求朗读…');
-    speak(text, voice, rate, (code) => {
+    stopPlayback.current = speak(text, voice, rate, (code) => {
       setStatus('');
       if (code === 'start-timeout') {
         setError('浏览器在 8 秒内没有开始朗读（start-timeout）。可在网站「设置 → 发音」中选择其他荷兰语语音试听。');

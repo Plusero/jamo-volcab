@@ -49,6 +49,7 @@ export const Settings = z.object({
   dayBoundaryHour: z.number().int().min(0).max(23),
   easyButton: z.boolean(),
   speechRate: z.enum(['normal', 'slow']),
+  speechMode: z.enum(['online', 'system']).optional(),
   speechVoiceURI: z.string().nullable().optional(),
   theme: z.enum(['system', 'light', 'dark']),
   lastExportAtMs: z.number().nullable(),

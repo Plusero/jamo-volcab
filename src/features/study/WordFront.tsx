@@ -13,10 +13,12 @@ type Props = {
   isNew: boolean;
   voice: SpeechSynthesisVoice | null;
   rate: 'normal' | 'slow';
+  speechMode?: 'online' | 'system';
 };
 
-export function WordFront({ lexeme, examples, revealed, isNew, voice, rate }: Props) {
-  const { play, error } = useSpeak();
+export function WordFront({ lexeme, examples, revealed, isNew, voice, rate, speechMode = 'online' }: Props) {
+  const { play, error, status } = useSpeak(speechMode);
+  const canSpeak = speechMode === 'online' || voice !== null;
   return (
     <div className={`card ${styles.front}`}>
       {isNew && <span className={styles.badge}>新词</span>}
@@ -26,13 +28,13 @@ export function WordFront({ lexeme, examples, revealed, isNew, voice, rate }: Pr
         <CefrBadge assessment={lexeme.cefr} />
       </div>
       <TextbookFrequency rank={lexeme.textbookFrequencyRank} />
-      {voice && <SpeakButton onClick={() => play(spokenForm(lexeme), voice, rate)} label="朗读单词" />}
+      {canSpeak && <SpeakButton onClick={() => play(spokenForm(lexeme), voice, rate)} label="朗读单词" />}
       <ul className={`${styles.examples} ${styles.frontExamples}`} aria-label="语境例句">
         {examples.map((ex) => (
           <li key={ex.nl}>
             <div className={styles.exNl}>
               <span lang="nl">{ex.nl}</span>
-              {voice && <SpeakButton onClick={() => play(ex.nl, voice, rate)} label="朗读例句" small />}
+              {canSpeak && <SpeakButton onClick={() => play(ex.nl, voice, rate)} label="朗读例句" small />}
             </div>
             {revealed && (
               <div className={styles.reveal}>
@@ -43,6 +45,7 @@ export function WordFront({ lexeme, examples, revealed, isNew, voice, rate }: Pr
         ))}
       </ul>
       {error && <p role="alert">{error}</p>}
+      {speechMode === 'online' && status && <div className="muted" role="status">{status}</div>}
     </div>
   );
 }
