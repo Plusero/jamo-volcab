@@ -116,7 +116,8 @@ export function StudyPage() {
 
   return (
     <div className={styles.page}>
-      <WordFront lexeme={lexeme} isNew={current.isNew} voice={voice} rate={settings.speechRate} />
+      <WordFront lexeme={lexeme} examples={sense.examples} revealed={view.revealed}
+        isNew={current.isNew} voice={voice} rate={settings.speechRate} />
       {view.revealed && <WordBack key={sense.id} sense={sense} lexeme={lexeme} voice={voice} rate={settings.speechRate} />}
 
       <div className="row">
