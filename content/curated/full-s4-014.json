@@ -1,0 +1,1135 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-studentenkamer-noun",
+   "lemma": "studentenkamer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "studentenkamers"
+  },
+  {
+   "id": "lx-andijviestamppot-noun",
+   "lemma": "andijviestamppot",
+   "pos": "noun",
+   "article": "de",
+   "plural": "andijviestamppotten"
+  },
+  {
+   "id": "lx-vmbo-noun",
+   "lemma": "vmbo",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-achtertuin-noun",
+   "lemma": "achtertuin",
+   "pos": "noun",
+   "article": "de",
+   "plural": "achtertuinen"
+  },
+  {
+   "id": "lx-onderdak-noun",
+   "lemma": "onderdak",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-slapeloosheid-noun",
+   "lemma": "slapeloosheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-toets-noun",
+   "lemma": "toets",
+   "pos": "noun",
+   "article": "de",
+   "plural": "toetsen"
+  },
+  {
+   "id": "lx-lavendel-noun",
+   "lemma": "lavendel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-bejaardentehuis-noun",
+   "lemma": "bejaardentehuis",
+   "pos": "noun",
+   "article": "het",
+   "plural": "bejaardentehuizen"
+  },
+  {
+   "id": "lx-rijstrook-noun",
+   "lemma": "rijstrook",
+   "pos": "noun",
+   "article": "de",
+   "plural": "rijstroken"
+  },
+  {
+   "id": "lx-wisselvallig-adjective",
+   "lemma": "wisselvallig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-meezingsessie-noun",
+   "lemma": "meezingsessie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "meezingsessies"
+  },
+  {
+   "id": "lx-poep-noun",
+   "lemma": "poep",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-pinksterdag-noun",
+   "lemma": "pinksterdag",
+   "pos": "noun",
+   "article": "de",
+   "plural": "pinksterdagen"
+  },
+  {
+   "id": "lx-ofzo-adverb",
+   "lemma": "ofzo",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-lieveling-noun",
+   "lemma": "lieveling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "lievelingen"
+  },
+  {
+   "id": "lx-omarmen-verb",
+   "lemma": "omarmen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "omarmde",
+    "pastParticiple": "omarmd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bui-noun",
+   "lemma": "bui",
+   "pos": "noun",
+   "article": "de",
+   "plural": "buien"
+  },
+  {
+   "id": "lx-piekeren-verb",
+   "lemma": "piekeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "piekerde",
+    "pastParticiple": "gepiekerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-vervloeken-verb",
+   "lemma": "vervloeken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "vervloekte",
+    "pastParticiple": "vervloekt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-affaire-noun",
+   "lemma": "affaire",
+   "pos": "noun",
+   "article": "de",
+   "plural": "affaires"
+  },
+  {
+   "id": "lx-aanbidden-verb",
+   "lemma": "aanbidden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "aanbad",
+    "pastParticiple": "aanbeden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-wegvegen-verb",
+   "lemma": "wegvegen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "veegde weg",
+    "pastParticiple": "weggeveegd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-weeskind-noun",
+   "lemma": "weeskind",
+   "pos": "noun",
+   "article": "het",
+   "plural": "weeskinderen"
+  },
+  {
+   "id": "lx-overmorgen-adverb",
+   "lemma": "overmorgen",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-palmblad-noun",
+   "lemma": "palmblad",
+   "pos": "noun",
+   "article": "het",
+   "plural": "palmbladeren"
+  },
+  {
+   "id": "lx-zalig-adjective",
+   "lemma": "zalig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-wekker-noun",
+   "lemma": "wekker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wekkers"
+  },
+  {
+   "id": "lx-voogd-noun",
+   "lemma": "voogd",
+   "pos": "noun",
+   "article": "de",
+   "plural": "voogden"
+  },
+  {
+   "id": "lx-van-de-grond-phrase",
+   "lemma": "van de grond",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-indringer-noun",
+   "lemma": "indringer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "indringers"
+  },
+  {
+   "id": "lx-landhuis-noun",
+   "lemma": "landhuis",
+   "pos": "noun",
+   "article": "het",
+   "plural": "landhuizen"
+  },
+  {
+   "id": "lx-bovenbeen-noun",
+   "lemma": "bovenbeen",
+   "pos": "noun",
+   "article": "het",
+   "plural": "bovenbenen"
+  },
+  {
+   "id": "lx-gejuich-noun",
+   "lemma": "gejuich",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-hoofddoek-noun",
+   "lemma": "hoofddoek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hoofddoeken"
+  },
+  {
+   "id": "lx-long-noun",
+   "lemma": "long",
+   "pos": "noun",
+   "article": "de",
+   "plural": "longen"
+  },
+  {
+   "id": "lx-angstzweet-noun",
+   "lemma": "angstzweet",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-snellen-verb",
+   "lemma": "snellen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "snelde",
+    "pastParticiple": "gesneld",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-zakenmens-noun",
+   "lemma": "zakenmens",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zakenmensen"
+  },
+  {
+   "id": "lx-opstappen-verb",
+   "lemma": "opstappen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "stapte op",
+    "pastParticiple": "opgestapt",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-slagroom-noun",
+   "lemma": "slagroom",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-koperen-adjective",
+   "lemma": "koperen",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-drijfnat-adjective",
+   "lemma": "drijfnat",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-in-combinatie-met-phrase",
+   "lemma": "in combinatie met",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-loffelijk-adjective",
+   "lemma": "loffelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-ondenkbaar-adjective",
+   "lemma": "ondenkbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-omgekeerd-adjective",
+   "lemma": "omgekeerd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-dichtslibben-verb",
+   "lemma": "dichtslibben",
+   "pos": "verb",
+   "verbForms": {
+    "past": "slibde dicht",
+    "pastParticiple": "dichtgeslibd",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-schil-noun",
+   "lemma": "schil",
+   "pos": "noun",
+   "article": "de",
+   "plural": "schillen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-studentenkamer-noun-1",
+   "lexemeId": "lx-studentenkamer-noun",
+   "zh": "学生宿舍；学生房间",
+   "examples": [
+    {
+     "nl": "In haar studentenkamer staan een bed en een bureau.",
+     "zh": "她的学生宿舍里有一张床和一张书桌。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-andijviestamppot-noun-1",
+   "lexemeId": "lx-andijviestamppot-noun",
+   "zh": "菊苣土豆泥（荷兰菜）",
+   "examples": [
+    {
+     "nl": "Mijn oma maakt andijviestamppot met spekjes en aardappelen.",
+     "zh": "我奶奶用培根丁和土豆做菊苣土豆泥。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vmbo-noun-1",
+   "lexemeId": "lx-vmbo-noun",
+   "zh": "荷兰中等职业预备教育",
+   "examples": [
+    {
+     "nl": "Na de basisschool ging hij naar het vmbo.",
+     "zh": "小学毕业后，他进入了荷兰中等职业预备教育阶段。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-achtertuin-noun-1",
+   "lexemeId": "lx-achtertuin-noun",
+   "zh": "后院",
+   "examples": [
+    {
+     "nl": "In de achtertuin groeien tomaten en rode aardbeien.",
+     "zh": "后院里种着番茄和红草莓。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderdak-noun-1",
+   "lexemeId": "lx-onderdak-noun",
+   "zh": "住所；栖身之处",
+   "examples": [
+    {
+     "nl": "De familie vond tijdelijk onderdak bij vrienden.",
+     "zh": "这家人暂时在朋友家找到了住处。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slapeloosheid-noun-1",
+   "lexemeId": "lx-slapeloosheid-noun",
+   "zh": "失眠",
+   "examples": [
+    {
+     "nl": "Door haar slapeloosheid voelde ze zich overdag erg moe.",
+     "zh": "失眠让她白天感到非常疲倦。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-toets-noun-1",
+   "lexemeId": "lx-toets-noun",
+   "zh": "考试；测试；按键",
+   "examples": [
+    {
+     "nl": "Morgen hebben we een toets over de hoofdstukken drie en vier.",
+     "zh": "明天我们要考第三章和第四章。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-lavendel-noun-1",
+   "lexemeId": "lx-lavendel-noun",
+   "zh": "薰衣草",
+   "examples": [
+    {
+     "nl": "Lavendel ruikt heerlijk en trekt veel bijen aan.",
+     "zh": "薰衣草气味很香，还能吸引许多蜜蜂。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bejaardentehuis-noun-1",
+   "lexemeId": "lx-bejaardentehuis-noun",
+   "zh": "养老院",
+   "examples": [
+    {
+     "nl": "Mijn tante woont sinds vorig jaar in een bejaardentehuis.",
+     "zh": "我姑妈从去年起住在一家养老院。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-rijstrook-noun-1",
+   "lexemeId": "lx-rijstrook-noun",
+   "zh": "车道；行车道",
+   "examples": [
+    {
+     "nl": "De auto bleef netjes op de rechterrijstrook rijden.",
+     "zh": "汽车一直规矩地行驶在右侧车道上。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wisselvallig-adjective-1",
+   "lexemeId": "lx-wisselvallig-adjective",
+   "zh": "变化无常的；多变的",
+   "examples": [
+    {
+     "nl": "Het weer is deze week wisselvallig met zon en regen.",
+     "zh": "本周天气多变，时晴时雨。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-meezingsessie-noun-1",
+   "lexemeId": "lx-meezingsessie-noun",
+   "zh": "合唱活动；跟唱会",
+   "examples": [
+    {
+     "nl": "De meezingsessie begon met een bekend lied van vroeger.",
+     "zh": "跟唱活动以一首经典老歌开场。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-poep-noun-1",
+   "lexemeId": "lx-poep-noun",
+   "zh": "大便；屎（口语）",
+   "examples": [
+    {
+     "nl": "De hond deed poep op het gras naast het pad.",
+     "zh": "狗在人行道旁的草地上拉了屎。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-pinksterdag-noun-1",
+   "lexemeId": "lx-pinksterdag-noun",
+   "zh": "圣灵降临节当天",
+   "examples": [
+    {
+     "nl": "Op Pinksterdag bezochten we een kerkdienst in het dorp.",
+     "zh": "圣灵降临节当天，我们参加了村里的礼拜。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ofzo-adverb-1",
+   "lexemeId": "lx-ofzo-adverb",
+   "zh": "之类的；什么的（口语）",
+   "examples": [
+    {
+     "nl": "Neem wat fruit ofzo mee voor onderweg.",
+     "zh": "带点水果之类的路上吃。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lieveling-noun-1",
+   "lexemeId": "lx-lieveling-noun",
+   "zh": "心爱的人；宠儿",
+   "examples": [
+    {
+     "nl": "Kom maar hier, lieveling, dan help ik je.",
+     "zh": "过来吧，亲爱的，我来帮你。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-omarmen-verb-1",
+   "lexemeId": "lx-omarmen-verb",
+   "zh": "拥抱；欣然接受",
+   "examples": [
+    {
+     "nl": "De moeder omarmde haar dochter na de lange reis.",
+     "zh": "长途旅行后，母亲拥抱了女儿。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bui-noun-1",
+   "lexemeId": "lx-bui-noun",
+   "zh": "阵雨；一阵情绪",
+   "examples": [
+    {
+     "nl": "Een korte bui trok over de stad na de lunch.",
+     "zh": "午饭后，一阵短暂的阵雨掠过城市。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-piekeren-verb-1",
+   "lexemeId": "lx-piekeren-verb",
+   "zh": "忧虑；苦思",
+   "examples": [
+    {
+     "nl": "Ze piekerde de hele nacht over haar sollicitatiegesprek.",
+     "zh": "她整夜都在为求职面试担忧。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vervloeken-verb-1",
+   "lexemeId": "lx-vervloeken-verb",
+   "zh": "咒骂；诅咒",
+   "examples": [
+    {
+     "nl": "De boze man vervloekte de storm die zijn boot beschadigde.",
+     "zh": "愤怒的男人咒骂那场损坏了他船只的风暴。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-affaire-noun-1",
+   "lexemeId": "lx-affaire-noun",
+   "zh": "风波；丑闻；恋情",
+   "examples": [
+    {
+     "nl": "De affaire kreeg veel aandacht in de Nederlandse kranten.",
+     "zh": "这场风波受到荷兰报纸的广泛关注。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanbidden-verb-1",
+   "lexemeId": "lx-aanbidden-verb",
+   "zh": "崇拜；热爱",
+   "examples": [
+    {
+     "nl": "De fans aanbidden de zanger om zijn bijzondere stem.",
+     "zh": "歌迷们崇拜这位歌手独特的嗓音。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wegvegen-verb-1",
+   "lexemeId": "lx-wegvegen-verb",
+   "zh": "扫掉；擦掉",
+   "examples": [
+    {
+     "nl": "Veeg de kruimels van tafel voordat de gasten komen.",
+     "zh": "客人来之前把桌上的碎屑擦掉。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-weeskind-noun-1",
+   "lexemeId": "lx-weeskind-noun",
+   "zh": "孤儿",
+   "examples": [
+    {
+     "nl": "Het weeskind vond een liefdevol thuis bij een nieuw gezin.",
+     "zh": "这名孤儿在一个新家庭里找到了充满关爱的家。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-overmorgen-adverb-1",
+   "lexemeId": "lx-overmorgen-adverb",
+   "zh": "后天",
+   "examples": [
+    {
+     "nl": "Overmorgen vertrekken we vroeg naar het vliegveld.",
+     "zh": "后天我们一早就出发去机场。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-palmblad-noun-1",
+   "lexemeId": "lx-palmblad-noun",
+   "zh": "棕榈叶",
+   "examples": [
+    {
+     "nl": "Een groot palmblad lag op het zand na de storm.",
+     "zh": "风暴过后，一片大棕榈叶落在沙滩上。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zalig-adjective-1",
+   "lexemeId": "lx-zalig-adjective",
+   "zh": "极好的；幸福的；神圣的",
+   "examples": [
+    {
+     "nl": "Na de wandeling was een warme douche zalig.",
+     "zh": "散步后，洗个热水澡简直太舒服了。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wekker-noun-1",
+   "lexemeId": "lx-wekker-noun",
+   "zh": "闹钟",
+   "examples": [
+    {
+     "nl": "Mijn wekker gaat iedere ochtend om kwart voor zeven.",
+     "zh": "我的闹钟每天早上六点四十五分响。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voogd-noun-1",
+   "lexemeId": "lx-voogd-noun",
+   "zh": "监护人",
+   "examples": [
+    {
+     "nl": "De voogd regelde een afspraak met de schooldirecteur.",
+     "zh": "监护人为校长安排了一次会面。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-van-de-grond-phrase-1",
+   "lexemeId": "lx-van-de-grond-phrase",
+   "zh": "启动；开始运作",
+   "examples": [
+    {
+     "nl": "Met hulp van vrijwilligers kwam het project van de grond.",
+     "zh": "在志愿者的帮助下，这个项目启动了。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-indringer-noun-1",
+   "lexemeId": "lx-indringer-noun",
+   "zh": "闯入者；入侵者",
+   "examples": [
+    {
+     "nl": "De indringer vluchtte toen het alarm afging.",
+     "zh": "警报响起后，闯入者逃走了。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-landhuis-noun-1",
+   "lexemeId": "lx-landhuis-noun",
+   "zh": "乡间别墅",
+   "examples": [
+    {
+     "nl": "Het oude landhuis staat midden in een groot park.",
+     "zh": "这座古老的乡间别墅坐落在一座大公园中央。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bovenbeen-noun-1",
+   "lexemeId": "lx-bovenbeen-noun",
+   "zh": "大腿",
+   "examples": [
+    {
+     "nl": "Na het fietsen voelde ik pijn in mijn bovenbeen.",
+     "zh": "骑车后，我的大腿感到疼痛。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gejuich-noun-1",
+   "lexemeId": "lx-gejuich-noun",
+   "zh": "欢呼声",
+   "examples": [
+    {
+     "nl": "Het gejuich van het publiek klonk tot buiten het stadion.",
+     "zh": "观众的欢呼声传到了体育场外。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoofddoek-noun-1",
+   "lexemeId": "lx-hoofddoek-noun",
+   "zh": "头巾",
+   "examples": [
+    {
+     "nl": "Ze droeg een blauwe hoofddoek naar de moskee.",
+     "zh": "她戴着蓝色头巾去清真寺。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-long-noun-1",
+   "lexemeId": "lx-long-noun",
+   "zh": "肺",
+   "examples": [
+    {
+     "nl": "Roken beschadigt de longen en maakt ademhalen moeilijker.",
+     "zh": "吸烟会损害肺部，让呼吸更困难。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-angstzweet-noun-1",
+   "lexemeId": "lx-angstzweet-noun",
+   "zh": "因恐惧而出的冷汗",
+   "examples": [
+    {
+     "nl": "Toen hij de hond zag, brak het angstzweet hem uit.",
+     "zh": "看到那只狗时，他吓得直冒冷汗。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-snellen-verb-1",
+   "lexemeId": "lx-snellen-verb",
+   "zh": "疾驰；飞奔",
+   "examples": [
+    {
+     "nl": "De verpleegkundige snelde naar de kamer van de patiënt.",
+     "zh": "护士飞快地跑向病人的房间。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zakenmens-noun-1",
+   "lexemeId": "lx-zakenmens-noun",
+   "zh": "商人；商务人士",
+   "examples": [
+    {
+     "nl": "De zakenmens reisde deze week naar drie steden.",
+     "zh": "这位商务人士本周去了三座城市。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opstappen-verb-1",
+   "lexemeId": "lx-opstappen-verb",
+   "zh": "离开；辞职；上车",
+   "examples": [
+    {
+     "nl": "De directeur stapte op na het grote financiële verlies.",
+     "zh": "巨额财务损失后，董事辞职了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-slagroom-noun-1",
+   "lexemeId": "lx-slagroom-noun",
+   "zh": "鲜奶油；打发奶油",
+   "examples": [
+    {
+     "nl": "Op de chocoladetaart deed hij een flinke lepel slagroom.",
+     "zh": "他在巧克力蛋糕上放了一大勺鲜奶油。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-koperen-adjective-1",
+   "lexemeId": "lx-koperen-adjective",
+   "zh": "铜制的",
+   "examples": [
+    {
+     "nl": "De koperen pan hing boven het fornuis.",
+     "zh": "铜锅挂在炉子上方。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-drijfnat-adjective-1",
+   "lexemeId": "lx-drijfnat-adjective",
+   "zh": "湿透的",
+   "examples": [
+    {
+     "nl": "Na de regen kwam hij drijfnat thuis.",
+     "zh": "下雨后，他浑身湿透地回到家。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-in-combinatie-met-phrase-1",
+   "lexemeId": "lx-in-combinatie-met-phrase",
+   "zh": "与……结合；搭配",
+   "examples": [
+    {
+     "nl": "Deze saus smaakt goed in combinatie met verse groenten.",
+     "zh": "这款酱汁和新鲜蔬菜搭配起来很好吃。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-loffelijk-adjective-1",
+   "lexemeId": "lx-loffelijk-adjective",
+   "zh": "值得称赞的",
+   "examples": [
+    {
+     "nl": "Haar loffelijke inzet hielp het hele team vooruit.",
+     "zh": "她值得称赞的投入推动了整个团队进步。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ondenkbaar-adjective-1",
+   "lexemeId": "lx-ondenkbaar-adjective",
+   "zh": "不可想象的",
+   "examples": [
+    {
+     "nl": "Zonder internet was thuiswerken vroeger ondenkbaar.",
+     "zh": "没有互联网，过去在家工作是不可想象的。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-omgekeerd-adjective-1",
+   "lexemeId": "lx-omgekeerd-adjective",
+   "zh": "相反的；倒过来的",
+   "examples": [
+    {
+     "nl": "De afbeelding staat omgekeerd op het scherm.",
+     "zh": "图像在屏幕上是倒过来的。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dichtslibben-verb-1",
+   "lexemeId": "lx-dichtslibben-verb",
+   "zh": "淤塞；堵满泥沙",
+   "examples": [
+    {
+     "nl": "De sloot slibde dicht na jaren zonder onderhoud.",
+     "zh": "多年无人维护后，沟渠淤塞了。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schil-noun-1",
+   "lexemeId": "lx-schil-noun",
+   "zh": "皮；外壳",
+   "examples": [
+    {
+     "nl": "Verwijder de schil van de appel voordat je hem snijdt.",
+     "zh": "切苹果前先把皮削掉。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

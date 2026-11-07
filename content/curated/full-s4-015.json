@@ -1,0 +1,1150 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-vastzitten-verb",
+   "lemma": "vastzitten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zat vast",
+    "pastParticiple": "vastgezeten",
+    "aux": "hebben/zijn"
+   }
+  },
+  {
+   "id": "lx-karakteristiek-adjective",
+   "lemma": "karakteristiek",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-aan-de-kaak-phrase",
+   "lemma": "aan de kaak",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-boren-verb",
+   "lemma": "boren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "boorde",
+    "pastParticiple": "geboord",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-teer-adjective",
+   "lemma": "teer",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-natuurramp-noun",
+   "lemma": "natuurramp",
+   "pos": "noun",
+   "article": "de",
+   "plural": "natuurrampen"
+  },
+  {
+   "id": "lx-nationalisme-noun",
+   "lemma": "nationalisme",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-vloeistof-noun",
+   "lemma": "vloeistof",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vloeistoffen"
+  },
+  {
+   "id": "lx-aanraden-verb",
+   "lemma": "aanraden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "raadde aan",
+    "pastParticiple": "aangeraden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-laboratorium-noun",
+   "lemma": "laboratorium",
+   "pos": "noun",
+   "article": "het",
+   "plural": "laboratoria"
+  },
+  {
+   "id": "lx-inzet-noun",
+   "lemma": "inzet",
+   "pos": "noun",
+   "article": "de",
+   "plural": "inzetten"
+  },
+  {
+   "id": "lx-imitatie-noun",
+   "lemma": "imitatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "imitaties"
+  },
+  {
+   "id": "lx-belevenis-noun",
+   "lemma": "belevenis",
+   "pos": "noun",
+   "article": "de",
+   "plural": "belevenissen"
+  },
+  {
+   "id": "lx-importeren-verb",
+   "lemma": "importeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "importeerde",
+    "pastParticiple": "geïmporteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-leefregel-noun",
+   "lemma": "leefregel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "leefregels"
+  },
+  {
+   "id": "lx-interpreteren-verb",
+   "lemma": "interpreteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "interpreteerde",
+    "pastParticiple": "geïnterpreteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-ideaal-noun",
+   "lemma": "ideaal",
+   "pos": "noun",
+   "article": "het",
+   "plural": "idealen"
+  },
+  {
+   "id": "lx-uitbetalen-verb",
+   "lemma": "uitbetalen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "betaalde uit",
+    "pastParticiple": "uitbetaald",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-pellen-verb",
+   "lemma": "pellen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "pelde",
+    "pastParticiple": "gepeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-hervatten-verb",
+   "lemma": "hervatten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "hervatte",
+    "pastParticiple": "hervat",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kantoorgebouw-noun",
+   "lemma": "kantoorgebouw",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kantoorgebouwen"
+  },
+  {
+   "id": "lx-ontroering-noun",
+   "lemma": "ontroering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-thuissturen-verb",
+   "lemma": "thuissturen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "stuurde thuis",
+    "pastParticiple": "thuisgestuurd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kwetsen-verb",
+   "lemma": "kwetsen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kwetste",
+    "pastParticiple": "gekwetst",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verdergaan-verb",
+   "lemma": "verdergaan",
+   "pos": "verb",
+   "verbForms": {
+    "past": "ging verder",
+    "pastParticiple": "verdergegaan",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-wederzijds-adjective",
+   "lemma": "wederzijds",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-inruilen-verb",
+   "lemma": "inruilen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "ruilde in",
+    "pastParticiple": "ingeruild",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-museumdirecteur-noun",
+   "lemma": "museumdirecteur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "museumdirecteuren"
+  },
+  {
+   "id": "lx-avondschool-noun",
+   "lemma": "avondschool",
+   "pos": "noun",
+   "article": "de",
+   "plural": "avondscholen"
+  },
+  {
+   "id": "lx-ongelijk-adjective",
+   "lemma": "ongelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-verklappen-verb",
+   "lemma": "verklappen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verklapte",
+    "pastParticiple": "verklapt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-concurrentiekracht-noun",
+   "lemma": "concurrentiekracht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-invloedrijk-adjective",
+   "lemma": "invloedrijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-looptijd-noun",
+   "lemma": "looptijd",
+   "pos": "noun",
+   "article": "de",
+   "plural": "looptijden"
+  },
+  {
+   "id": "lx-stip-noun",
+   "lemma": "stip",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stippen"
+  },
+  {
+   "id": "lx-wreken-verb",
+   "lemma": "wreken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "wreekte",
+    "pastParticiple": "gewroken",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-elleboog-noun",
+   "lemma": "elleboog",
+   "pos": "noun",
+   "article": "de",
+   "plural": "ellebogen"
+  },
+  {
+   "id": "lx-filosofisch-adjective",
+   "lemma": "filosofisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-middenjury-noun",
+   "lemma": "middenjury",
+   "pos": "noun",
+   "article": "de",
+   "plural": "middenjury's"
+  },
+  {
+   "id": "lx-bever-noun",
+   "lemma": "bever",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bevers"
+  },
+  {
+   "id": "lx-geluksgevoel-noun",
+   "lemma": "geluksgevoel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "geluksgevoelens"
+  },
+  {
+   "id": "lx-waarnemen-verb",
+   "lemma": "waarnemen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "nam waar",
+    "pastParticiple": "waargenomen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-uitdelen-verb",
+   "lemma": "uitdelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deelde uit",
+    "pastParticiple": "uitgedeeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-omkopen-verb",
+   "lemma": "omkopen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kocht om",
+    "pastParticiple": "omgekocht",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-yoghurt-noun",
+   "lemma": "yoghurt",
+   "pos": "noun",
+   "article": "de",
+   "plural": "yoghurts"
+  },
+  {
+   "id": "lx-overdoen-verb",
+   "lemma": "overdoen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deed over",
+    "pastParticiple": "overgedaan",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-slavenhandel-noun",
+   "lemma": "slavenhandel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-zelfbestuur-noun",
+   "lemma": "zelfbestuur",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-vastzitten-verb-1",
+   "lexemeId": "lx-vastzitten-verb",
+   "zh": "被困住；卡住",
+   "examples": [
+    {
+     "nl": "De fietser zat vast in de modder langs de weg.",
+     "zh": "骑车人陷在路边的泥里动弹不得。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-karakteristiek-adjective-1",
+   "lexemeId": "lx-karakteristiek-adjective",
+   "zh": "典型的；有特色的",
+   "examples": [
+    {
+     "nl": "De karakteristieke huizen geven de straat een warme sfeer.",
+     "zh": "这些特色房屋让街道有一种温馨的气氛。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aan-de-kaak-phrase-1",
+   "lexemeId": "lx-aan-de-kaak-phrase",
+   "zh": "揭露；公开批评",
+   "examples": [
+    {
+     "nl": "De krant stelde de slechte werkomstandigheden aan de kaak.",
+     "zh": "报纸揭露了恶劣的工作条件。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-boren-verb-1",
+   "lexemeId": "lx-boren-verb",
+   "zh": "钻孔；钻",
+   "examples": [
+    {
+     "nl": "De monteur boorde een gat in de muur voor de kabel.",
+     "zh": "维修工在墙上钻了一个孔来穿电缆。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-teer-adjective-1",
+   "lexemeId": "lx-teer-adjective",
+   "zh": "娇嫩的；脆弱的",
+   "examples": [
+    {
+     "nl": "De tere bloem overleefde de koude nacht buiten.",
+     "zh": "这朵娇嫩的花在外面的寒夜中存活了下来。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-natuurramp-noun-1",
+   "lexemeId": "lx-natuurramp-noun",
+   "zh": "自然灾害",
+   "examples": [
+    {
+     "nl": "De aardbeving was de zwaarste natuurramp in jaren.",
+     "zh": "这场地震是多年来最严重的自然灾害。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-nationalisme-noun-1",
+   "lexemeId": "lx-nationalisme-noun",
+   "zh": "民族主义",
+   "examples": [
+    {
+     "nl": "Het nationalisme groeide na jaren van politieke spanningen.",
+     "zh": "多年政治紧张局势后，民族主义情绪上升了。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vloeistof-noun-1",
+   "lexemeId": "lx-vloeistof-noun",
+   "zh": "液体",
+   "examples": [
+    {
+     "nl": "Bewaar deze vloeistof in een gesloten fles.",
+     "zh": "请把这种液体保存在密封瓶中。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanraden-verb-1",
+   "lexemeId": "lx-aanraden-verb",
+   "zh": "建议；推荐",
+   "examples": [
+    {
+     "nl": "De huisarts raadde mij aan meer water te drinken.",
+     "zh": "家庭医生建议我多喝水。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-laboratorium-noun-1",
+   "lexemeId": "lx-laboratorium-noun",
+   "zh": "实验室",
+   "examples": [
+    {
+     "nl": "In het laboratorium onderzochten studenten de watermonsters.",
+     "zh": "学生们在实验室里检测水样。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-inzet-noun-1",
+   "lexemeId": "lx-inzet-noun",
+   "zh": "投入；努力；部署",
+   "examples": [
+    {
+     "nl": "Dankzij haar inzet haalde het team de deadline.",
+     "zh": "多亏她的努力，团队赶上了截止日期。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-imitatie-noun-1",
+   "lexemeId": "lx-imitatie-noun",
+   "zh": "仿制品；模仿",
+   "examples": [
+    {
+     "nl": "De imitatie leek echt, maar was veel goedkoper.",
+     "zh": "这件仿制品看起来很真，但便宜得多。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-belevenis-noun-1",
+   "lexemeId": "lx-belevenis-noun",
+   "zh": "经历；体验",
+   "examples": [
+    {
+     "nl": "De reis naar IJsland was een onvergetelijke belevenis.",
+     "zh": "冰岛之旅是一次难忘的经历。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-importeren-verb-1",
+   "lexemeId": "lx-importeren-verb",
+   "zh": "进口",
+   "examples": [
+    {
+     "nl": "Nederland importeert veel fruit uit andere landen.",
+     "zh": "荷兰从其他国家进口许多水果。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-leefregel-noun-1",
+   "lexemeId": "lx-leefregel-noun",
+   "zh": "生活准则；行为规范",
+   "examples": [
+    {
+     "nl": "Een belangrijke leefregel is dat je anderen met respect behandelt.",
+     "zh": "一条重要的生活准则是尊重他人。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-interpreteren-verb-1",
+   "lexemeId": "lx-interpreteren-verb",
+   "zh": "解释；理解；诠释",
+   "examples": [
+    {
+     "nl": "Iedereen kan een kunstwerk op een andere manier interpreteren.",
+     "zh": "每个人都可以用不同方式诠释艺术作品。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ideaal-noun-1",
+   "lexemeId": "lx-ideaal-noun",
+   "zh": "理想；理想目标",
+   "examples": [
+    {
+     "nl": "Voor haar is een veilige buurt het ideaal.",
+     "zh": "对她来说，安全的社区就是理想目标。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitbetalen-verb-1",
+   "lexemeId": "lx-uitbetalen-verb",
+   "zh": "支付；发放",
+   "examples": [
+    {
+     "nl": "De werkgever betaalt het vakantiegeld volgende maand uit.",
+     "zh": "雇主下个月发放假期津贴。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-pellen-verb-1",
+   "lexemeId": "lx-pellen-verb",
+   "zh": "剥皮；剥壳",
+   "examples": [
+    {
+     "nl": "Pel de mandarijnen en verdeel ze over de kinderen.",
+     "zh": "把橘子剥开，分给孩子们。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hervatten-verb-1",
+   "lexemeId": "lx-hervatten-verb",
+   "zh": "恢复；重新开始",
+   "examples": [
+    {
+     "nl": "Na de pauze hervatten we de vergadering met nieuwe punten.",
+     "zh": "休息后，我们用新的议题继续开会。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kantoorgebouw-noun-1",
+   "lexemeId": "lx-kantoorgebouw-noun",
+   "zh": "办公楼",
+   "examples": [
+    {
+     "nl": "Het nieuwe kantoorgebouw staat naast het centraal station.",
+     "zh": "新办公楼就在中央车站旁边。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ontroering-noun-1",
+   "lexemeId": "lx-ontroering-noun",
+   "zh": "感动",
+   "examples": [
+    {
+     "nl": "Met ontroering luisterde ze naar het verhaal van haar grootmoeder.",
+     "zh": "她感动地听着祖母的故事。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-thuissturen-verb-1",
+   "lexemeId": "lx-thuissturen-verb",
+   "zh": "送回家；让回家",
+   "examples": [
+    {
+     "nl": "De leraar stuurde de zieke leerling eerder naar huis.",
+     "zh": "老师让生病的学生早点回家。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kwetsen-verb-1",
+   "lexemeId": "lx-kwetsen-verb",
+   "zh": "伤害；使难过",
+   "examples": [
+    {
+     "nl": "Zijn harde woorden kwetsten haar meer dan hij dacht.",
+     "zh": "他尖刻的话比他想象的更伤她。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verdergaan-verb-1",
+   "lexemeId": "lx-verdergaan-verb",
+   "zh": "继续",
+   "examples": [
+    {
+     "nl": "Na een korte pauze gingen we met de les verder.",
+     "zh": "短暂休息后，我们继续上课。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wederzijds-adjective-1",
+   "lexemeId": "lx-wederzijds-adjective",
+   "zh": "相互的；彼此的",
+   "examples": [
+    {
+     "nl": "Een goede samenwerking vraagt wederzijds vertrouwen en respect.",
+     "zh": "良好的合作需要相互信任和尊重。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-inruilen-verb-1",
+   "lexemeId": "lx-inruilen-verb",
+   "zh": "换取；以旧换新",
+   "examples": [
+    {
+     "nl": "Je kunt je oude telefoon inruilen voor korting.",
+     "zh": "你可以用旧手机换取折扣。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-museumdirecteur-noun-1",
+   "lexemeId": "lx-museumdirecteur-noun",
+   "zh": "博物馆馆长",
+   "examples": [
+    {
+     "nl": "De museumdirecteur opende de nieuwe tentoonstelling.",
+     "zh": "博物馆馆长为新展览揭幕。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-avondschool-noun-1",
+   "lexemeId": "lx-avondschool-noun",
+   "zh": "夜校",
+   "examples": [
+    {
+     "nl": "Ze volgt twee avonden per week les op de avondschool.",
+     "zh": "她每周在夜校上两晚课。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ongelijk-adjective-1",
+   "lexemeId": "lx-ongelijk-adjective",
+   "zh": "不平的；不相等的",
+   "examples": [
+    {
+     "nl": "De straat heeft een ongelijk oppervlak vol kleine stenen.",
+     "zh": "这条街的路面凹凸不平，铺着许多小石块。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verklappen-verb-1",
+   "lexemeId": "lx-verklappen-verb",
+   "zh": "泄露；说漏嘴",
+   "examples": [
+    {
+     "nl": "Mijn zus verklapte per ongeluk waar het cadeau lag.",
+     "zh": "我姐姐不小心说漏了礼物放在哪里。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-concurrentiekracht-noun-1",
+   "lexemeId": "lx-concurrentiekracht-noun",
+   "zh": "竞争力",
+   "examples": [
+    {
+     "nl": "Innovatie vergroot de concurrentiekracht van kleine bedrijven.",
+     "zh": "创新提升了小企业的竞争力。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-invloedrijk-adjective-1",
+   "lexemeId": "lx-invloedrijk-adjective",
+   "zh": "有影响力的",
+   "examples": [
+    {
+     "nl": "Zij werd een invloedrijke stem in het debat.",
+     "zh": "她成为这场辩论中有影响力的声音。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-looptijd-noun-1",
+   "lexemeId": "lx-looptijd-noun",
+   "zh": "期限；运行时间",
+   "examples": [
+    {
+     "nl": "De looptijd van het contract bedraagt drie jaar.",
+     "zh": "合同期限为三年。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stip-noun-1",
+   "lexemeId": "lx-stip-noun",
+   "zh": "点；小圆点",
+   "examples": [
+    {
+     "nl": "Zet een stip achter iedere zin op het formulier.",
+     "zh": "请在表格里的每个句子后面加一个点。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wreken-verb-1",
+   "lexemeId": "lx-wreken-verb",
+   "zh": "报复；替……报仇",
+   "examples": [
+    {
+     "nl": "Hij wilde de dood van zijn broer wreken.",
+     "zh": "他想为兄弟之死报仇。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-elleboog-noun-1",
+   "lexemeId": "lx-elleboog-noun",
+   "zh": "肘；肘部",
+   "examples": [
+    {
+     "nl": "Ze stootte haar elleboog tegen de keukentafel.",
+     "zh": "她的肘部撞到了厨房桌子。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-filosofisch-adjective-1",
+   "lexemeId": "lx-filosofisch-adjective",
+   "zh": "哲学的；深思的",
+   "examples": [
+    {
+     "nl": "Na het gesprek stelde hij een filosofische vraag.",
+     "zh": "谈话后，他提出了一个哲学问题。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-middenjury-noun-1",
+   "lexemeId": "lx-middenjury-noun",
+   "zh": "中级考试评审委员会（比利时）",
+   "examples": [
+    {
+     "nl": "De middenjury organiseert examens voor leerlingen zonder schooltraject.",
+     "zh": "比利时的中级评审委员会为非正规在校学生组织考试。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bever-noun-1",
+   "lexemeId": "lx-bever-noun",
+   "zh": "海狸",
+   "examples": [
+    {
+     "nl": "Een bever bouwde een dam in de kleine rivier.",
+     "zh": "一只海狸在小河里筑了一道坝。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-geluksgevoel-noun-1",
+   "lexemeId": "lx-geluksgevoel-noun",
+   "zh": "幸福感",
+   "examples": [
+    {
+     "nl": "Een wandeling in de natuur geeft mij een sterk geluksgevoel.",
+     "zh": "在大自然中散步让我有很强的幸福感。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-waarnemen-verb-1",
+   "lexemeId": "lx-waarnemen-verb",
+   "zh": "观察；察觉",
+   "examples": [
+    {
+     "nl": "De arts nam een lichte verbetering van haar ademhaling waar.",
+     "zh": "医生察觉到她的呼吸稍有好转。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitdelen-verb-1",
+   "lexemeId": "lx-uitdelen-verb",
+   "zh": "分发；派发",
+   "examples": [
+    {
+     "nl": "De docent deelde de toetsen aan het begin van de les uit.",
+     "zh": "老师在上课开始时分发了试卷。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-omkopen-verb-1",
+   "lexemeId": "lx-omkopen-verb",
+   "zh": "收买；贿赂",
+   "examples": [
+    {
+     "nl": "De zakenman probeerde een ambtenaar om te kopen.",
+     "zh": "这名商人试图贿赂一名公务员。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-yoghurt-noun-1",
+   "lexemeId": "lx-yoghurt-noun",
+   "zh": "酸奶",
+   "examples": [
+    {
+     "nl": "Voor het ontbijt eet hij yoghurt met vers fruit.",
+     "zh": "早餐他吃加新鲜水果的酸奶。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-overdoen-verb-1",
+   "lexemeId": "lx-overdoen-verb",
+   "zh": "重做；再做一次",
+   "examples": [
+    {
+     "nl": "Je moet de opdracht overdoen omdat je een fout maakte.",
+     "zh": "因为你犯了一个错误，必须重做这项作业。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slavenhandel-noun-1",
+   "lexemeId": "lx-slavenhandel-noun",
+   "zh": "奴隶贸易",
+   "examples": [
+    {
+     "nl": "Het museum vertelt over de geschiedenis van slavenhandel.",
+     "zh": "博物馆讲述奴隶贸易的历史。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zelfbestuur-noun-1",
+   "lexemeId": "lx-zelfbestuur-noun",
+   "zh": "自治",
+   "examples": [
+    {
+     "nl": "De regio kreeg na jaren onderhandelen meer zelfbestuur.",
+     "zh": "经过多年谈判，这个地区获得了更多自治权。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

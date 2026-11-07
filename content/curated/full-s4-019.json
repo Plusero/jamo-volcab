@@ -1,0 +1,1157 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-vernielen-verb",
+   "lemma": "vernielen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "vernielde",
+    "pastParticiple": "vernield",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bloeddruk-noun",
+   "lemma": "bloeddruk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bloeddrukken"
+  },
+  {
+   "id": "lx-ontsteken-verb",
+   "lemma": "ontsteken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "ontstak",
+    "pastParticiple": "ontstoken",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bezinning-noun",
+   "lemma": "bezinning",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-brit-noun",
+   "lemma": "brit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "Britten"
+  },
+  {
+   "id": "lx-liften-verb",
+   "lemma": "liften",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liftte",
+    "pastParticiple": "gelift",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-volhouden-verb",
+   "lemma": "volhouden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "hield vol",
+    "pastParticiple": "volgehouden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-chaotisch-adjective",
+   "lemma": "chaotisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-daglicht-noun",
+   "lemma": "daglicht",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-waaruit-adverb",
+   "lemma": "waaruit",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-rotterdammer-noun",
+   "lemma": "rotterdammer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "Rotterdammers"
+  },
+  {
+   "id": "lx-handicap-noun",
+   "lemma": "handicap",
+   "pos": "noun",
+   "article": "de",
+   "plural": "handicaps"
+  },
+  {
+   "id": "lx-doornemen-verb",
+   "lemma": "doornemen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "nam door",
+    "pastParticiple": "doorgenomen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-beroerd-adjective",
+   "lemma": "beroerd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-verontschuldigen-verb",
+   "lemma": "verontschuldigen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verontschuldigde",
+    "pastParticiple": "verontschuldigd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-automaat-noun",
+   "lemma": "automaat",
+   "pos": "noun",
+   "article": "de",
+   "plural": "automaten"
+  },
+  {
+   "id": "lx-beperking-noun",
+   "lemma": "beperking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "beperkingen"
+  },
+  {
+   "id": "lx-legendarisch-adjective",
+   "lemma": "legendarisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-reep-noun",
+   "lemma": "reep",
+   "pos": "noun",
+   "article": "de",
+   "plural": "repen"
+  },
+  {
+   "id": "lx-standaard-adjective",
+   "lemma": "standaard",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-reeks-noun",
+   "lemma": "reeks",
+   "pos": "noun",
+   "article": "de",
+   "plural": "reeksen"
+  },
+  {
+   "id": "lx-onvermijdelijk-adjective",
+   "lemma": "onvermijdelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-schoonheidsideaal-noun",
+   "lemma": "schoonheidsideaal",
+   "pos": "noun",
+   "article": "het",
+   "plural": "schoonheidsidealen"
+  },
+  {
+   "id": "lx-hoogstens-adverb",
+   "lemma": "hoogstens",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-sportwedstrijd-noun",
+   "lemma": "sportwedstrijd",
+   "pos": "noun",
+   "article": "de",
+   "plural": "sportwedstrijden"
+  },
+  {
+   "id": "lx-obesitas-noun",
+   "lemma": "obesitas",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-slimheid-noun",
+   "lemma": "slimheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-ontdekkingstocht-noun",
+   "lemma": "ontdekkingstocht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "ontdekkingstochten"
+  },
+  {
+   "id": "lx-slagkracht-noun",
+   "lemma": "slagkracht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-airco-noun",
+   "lemma": "airco",
+   "pos": "noun",
+   "article": "de",
+   "plural": "airco's"
+  },
+  {
+   "id": "lx-stimulans-noun",
+   "lemma": "stimulans",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stimulansen"
+  },
+  {
+   "id": "lx-taalbad-noun",
+   "lemma": "taalbad",
+   "pos": "noun",
+   "article": "het",
+   "plural": "taalbaden"
+  },
+  {
+   "id": "lx-nalaten-verb",
+   "lemma": "nalaten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liet na",
+    "pastParticiple": "nagelaten",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-hoogopgeleid-adjective",
+   "lemma": "hoogopgeleid",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-brok-noun",
+   "lemma": "brok",
+   "pos": "noun",
+   "article": "de",
+   "plural": "brokken"
+  },
+  {
+   "id": "lx-allerliefst-adjective",
+   "lemma": "allerliefst",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-astronomisch-adjective",
+   "lemma": "astronomisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-kustlijn-noun",
+   "lemma": "kustlijn",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kustlijnen"
+  },
+  {
+   "id": "lx-benadering-noun",
+   "lemma": "benadering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "benaderingen"
+  },
+  {
+   "id": "lx-volstaan-verb",
+   "lemma": "volstaan",
+   "pos": "verb",
+   "verbForms": {
+    "past": "volstond",
+    "pastParticiple": "volstaan",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-switchen-verb",
+   "lemma": "switchen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "switchte",
+    "pastParticiple": "geswitcht",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-sinaasappelsap-noun",
+   "lemma": "sinaasappelsap",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-broeikasgas-noun",
+   "lemma": "broeikasgas",
+   "pos": "noun",
+   "article": "het",
+   "plural": "broeikasgassen"
+  },
+  {
+   "id": "lx-opdringerig-adjective",
+   "lemma": "opdringerig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-kozijn-noun",
+   "lemma": "kozijn",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kozijnen"
+  },
+  {
+   "id": "lx-ironisch-adjective",
+   "lemma": "ironisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-doodop-adjective",
+   "lemma": "doodop",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-villa-noun",
+   "lemma": "villa",
+   "pos": "noun",
+   "article": "de",
+   "plural": "villa's"
+  },
+  {
+   "id": "lx-boekenkast-noun",
+   "lemma": "boekenkast",
+   "pos": "noun",
+   "article": "de",
+   "plural": "boekenkasten"
+  },
+  {
+   "id": "lx-opiumpijp-noun",
+   "lemma": "opiumpijp",
+   "pos": "noun",
+   "article": "de",
+   "plural": "opiumpijpen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-vernielen-verb-1",
+   "lexemeId": "lx-vernielen-verb",
+   "zh": "破坏；毁坏",
+   "examples": [
+    {
+     "nl": "De storm vernielde het dak van de oude schuur.",
+     "zh": "风暴摧毁了旧棚屋的屋顶。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bloeddruk-noun-1",
+   "lexemeId": "lx-bloeddruk-noun",
+   "zh": "血压",
+   "examples": [
+    {
+     "nl": "De verpleegkundige meet iedere ochtend mijn bloeddruk.",
+     "zh": "护士每天早上测量我的血压。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ontsteken-verb-1",
+   "lexemeId": "lx-ontsteken-verb",
+   "zh": "点燃；引发",
+   "examples": [
+    {
+     "nl": "Hij ontstak de kaarsen voordat de gasten kwamen.",
+     "zh": "客人到来前，他点燃了蜡烛。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bezinning-noun-1",
+   "lexemeId": "lx-bezinning-noun",
+   "zh": "反思；沉思",
+   "examples": [
+    {
+     "nl": "Na de drukke week had ze behoefte aan bezinning.",
+     "zh": "忙碌的一周后，她需要静心反思。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-brit-noun-1",
+   "lexemeId": "lx-brit-noun",
+   "zh": "英国人",
+   "examples": [
+    {
+     "nl": "De Brit vertelde ons over zijn leven in Londen.",
+     "zh": "这位英国人向我们讲述了他在伦敦的生活。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-liften-verb-1",
+   "lexemeId": "lx-liften-verb",
+   "zh": "搭便车；举重",
+   "examples": [
+    {
+     "nl": "We liften soms naar het dorp als de bus niet rijdt.",
+     "zh": "公交车停运时，我们有时搭便车去村里。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-volhouden-verb-1",
+   "lexemeId": "lx-volhouden-verb",
+   "zh": "坚持；忍耐",
+   "examples": [
+    {
+     "nl": "Als je blijft oefenen, houd je het uiteindelijk vol.",
+     "zh": "只要继续练习，你最终会坚持下去。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-chaotisch-adjective-1",
+   "lexemeId": "lx-chaotisch-adjective",
+   "zh": "混乱的",
+   "examples": [
+    {
+     "nl": "Het station was chaotisch door de vertragingen en omleidingen.",
+     "zh": "车站因延误和改道而一片混乱。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-daglicht-noun-1",
+   "lexemeId": "lx-daglicht-noun",
+   "zh": "日光；白昼",
+   "examples": [
+    {
+     "nl": "De planten hebben genoeg daglicht bij het grote raam.",
+     "zh": "这些植物在大窗户旁能得到充足日光。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-waaruit-adverb-1",
+   "lexemeId": "lx-waaruit-adverb",
+   "zh": "从其中；由此",
+   "examples": [
+    {
+     "nl": "Dit is het hout waaruit de tafel is gemaakt.",
+     "zh": "这就是制作这张桌子的木材。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-rotterdammer-noun-1",
+   "lexemeId": "lx-rotterdammer-noun",
+   "zh": "鹿特丹人",
+   "examples": [
+    {
+     "nl": "De Rotterdammer kent de stad en haar havens goed.",
+     "zh": "这位鹿特丹人很熟悉这座城市和它的港口。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-handicap-noun-1",
+   "lexemeId": "lx-handicap-noun",
+   "zh": "障碍；残疾",
+   "examples": [
+    {
+     "nl": "De handicap weerhield hem er niet van te sporten.",
+     "zh": "残疾并没有阻止他参加运动。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-doornemen-verb-1",
+   "lexemeId": "lx-doornemen-verb",
+   "zh": "通读；逐项检查",
+   "examples": [
+    {
+     "nl": "We nemen het contract samen door voordat je tekent.",
+     "zh": "签字前，我们一起通读合同。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-beroerd-adjective-1",
+   "lexemeId": "lx-beroerd-adjective",
+   "zh": "糟糕的；不舒服的",
+   "examples": [
+    {
+     "nl": "Na de lange busrit voelde ik me behoorlijk beroerd.",
+     "zh": "长途公交车程后，我感觉相当不舒服。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verontschuldigen-verb-1",
+   "lexemeId": "lx-verontschuldigen-verb",
+   "zh": "道歉",
+   "examples": [
+    {
+     "nl": "De medewerker verontschuldigde zich voor de verkeerde rekening.",
+     "zh": "员工为账单出错而道歉。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-automaat-noun-1",
+   "lexemeId": "lx-automaat-noun",
+   "zh": "自动售货机；自动机器",
+   "examples": [
+    {
+     "nl": "Bij de automaat kun je ook met je pinpas betalen.",
+     "zh": "你也可以在自动售货机用银行卡付款。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-beperking-noun-1",
+   "lexemeId": "lx-beperking-noun",
+   "zh": "限制；障碍",
+   "examples": [
+    {
+     "nl": "Een lichamelijke beperking maakt reizen soms lastiger.",
+     "zh": "身体障碍有时会让出行更困难。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-legendarisch-adjective-1",
+   "lexemeId": "lx-legendarisch-adjective",
+   "zh": "传奇的；极有名的",
+   "examples": [
+    {
+     "nl": "De zanger gaf een legendarisch optreden in het oude theater.",
+     "zh": "这位歌手在古老剧院里献上了一场传奇演出。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-reep-noun-1",
+   "lexemeId": "lx-reep-noun",
+   "zh": "条；棒；一片",
+   "examples": [
+    {
+     "nl": "Voor onderweg nam ik een reep chocolade mee.",
+     "zh": "我带了一条巧克力路上吃。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-standaard-adjective-1",
+   "lexemeId": "lx-standaard-adjective",
+   "zh": "标准的；普通的",
+   "examples": [
+    {
+     "nl": "De standaardinstelling van de telefoon is meestal goed genoeg.",
+     "zh": "手机的默认设置通常已经够用了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-reeks-noun-1",
+   "lexemeId": "lx-reeks-noun",
+   "zh": "一系列；一连串",
+   "examples": [
+    {
+     "nl": "De krant publiceerde een reeks artikelen over gezond eten.",
+     "zh": "报纸发表了一系列关于健康饮食的文章。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-onvermijdelijk-adjective-1",
+   "lexemeId": "lx-onvermijdelijk-adjective",
+   "zh": "不可避免的",
+   "examples": [
+    {
+     "nl": "Met zoveel regen was een natte jas onvermijdelijk.",
+     "zh": "下了这么多雨，衣服被淋湿是难免的。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schoonheidsideaal-noun-1",
+   "lexemeId": "lx-schoonheidsideaal-noun",
+   "zh": "审美理想；美的标准",
+   "examples": [
+    {
+     "nl": "Sociale media beïnvloeden het schoonheidsideaal van jongeren.",
+     "zh": "社交媒体影响着年轻人的审美标准。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoogstens-adverb-1",
+   "lexemeId": "lx-hoogstens-adverb",
+   "zh": "至多；最多",
+   "examples": [
+    {
+     "nl": "De wandeling duurt hoogstens een uur vanaf hier.",
+     "zh": "从这里步行最多需要一个小时。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-sportwedstrijd-noun-1",
+   "lexemeId": "lx-sportwedstrijd-noun",
+   "zh": "体育比赛",
+   "examples": [
+    {
+     "nl": "We keken samen naar de sportwedstrijd op televisie.",
+     "zh": "我们一起在电视上看了体育比赛。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-obesitas-noun-1",
+   "lexemeId": "lx-obesitas-noun",
+   "zh": "肥胖症",
+   "examples": [
+    {
+     "nl": "De huisarts gaf advies over obesitas en gezonde voeding.",
+     "zh": "家庭医生就肥胖症和健康饮食提供了建议。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slimheid-noun-1",
+   "lexemeId": "lx-slimheid-noun",
+   "zh": "聪明；机智",
+   "examples": [
+    {
+     "nl": "Haar slimheid hielp haar het moeilijke raadsel op te lossen.",
+     "zh": "她的聪明才智帮助她解开了难题。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ontdekkingstocht-noun-1",
+   "lexemeId": "lx-ontdekkingstocht-noun",
+   "zh": "探索之旅",
+   "examples": [
+    {
+     "nl": "De kinderen maakten een ontdekkingstocht door het bos.",
+     "zh": "孩子们在森林里进行了一次探索之旅。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slagkracht-noun-1",
+   "lexemeId": "lx-slagkracht-noun",
+   "zh": "行动力；影响力",
+   "examples": [
+    {
+     "nl": "De organisatie kreeg meer slagkracht door extra vrijwilligers.",
+     "zh": "增加志愿者后，这个组织的行动力更强了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-airco-noun-1",
+   "lexemeId": "lx-airco-noun",
+   "zh": "空调",
+   "examples": [
+    {
+     "nl": "Zet de airco uit als je het raam openzet.",
+     "zh": "打开窗户时，请关掉空调。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stimulans-noun-1",
+   "lexemeId": "lx-stimulans-noun",
+   "zh": "刺激；鼓励",
+   "examples": [
+    {
+     "nl": "Een compliment kan een stimulans zijn om door te gaan.",
+     "zh": "一句赞扬可以成为继续前进的动力。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-taalbad-noun-1",
+   "lexemeId": "lx-taalbad-noun",
+   "zh": "语言沉浸环境",
+   "examples": [
+    {
+     "nl": "Door een taalbad leerde hij snel nieuwe woorden.",
+     "zh": "通过沉浸式语言环境，他很快学会了新词。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-nalaten-verb-1",
+   "lexemeId": "lx-nalaten-verb",
+   "zh": "没有做；遗漏；遗留",
+   "examples": [
+    {
+     "nl": "De werkgever liet na de werknemer op tijd te informeren.",
+     "zh": "雇主没有及时通知员工。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoogopgeleid-adjective-1",
+   "lexemeId": "lx-hoogopgeleid-adjective",
+   "zh": "受过高等教育的",
+   "examples": [
+    {
+     "nl": "De hoogopgeleide verpleegkundige sprak drie talen.",
+     "zh": "这位受过高等教育的护士会说三种语言。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-brok-noun-1",
+   "lexemeId": "lx-brok-noun",
+   "zh": "碎块；一大块",
+   "examples": [
+    {
+     "nl": "De hond kreeg een brok vlees als beloning.",
+     "zh": "狗得到了一大块肉作为奖励。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-allerliefst-adjective-1",
+   "lexemeId": "lx-allerliefst-adjective",
+   "zh": "最心爱的；最可爱的",
+   "examples": [
+    {
+     "nl": "Mijn allerliefste wens is dat iedereen gezond blijft.",
+     "zh": "我最衷心的愿望是每个人都保持健康。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-astronomisch-adjective-1",
+   "lexemeId": "lx-astronomisch-adjective",
+   "zh": "天文的；极高的",
+   "examples": [
+    {
+     "nl": "De huizenprijzen in het centrum zijn astronomisch hoog.",
+     "zh": "市中心的房价高得惊人。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kustlijn-noun-1",
+   "lexemeId": "lx-kustlijn-noun",
+   "zh": "海岸线",
+   "examples": [
+    {
+     "nl": "De kustlijn veranderde na de zware storm.",
+     "zh": "强风暴后，海岸线发生了变化。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-benadering-noun-1",
+   "lexemeId": "lx-benadering-noun",
+   "zh": "方法；方式；接近",
+   "examples": [
+    {
+     "nl": "Deze benadering helpt leerlingen moeilijke teksten beter begrijpen.",
+     "zh": "这种方法帮助学生更好地理解难懂的文章。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-volstaan-verb-1",
+   "lexemeId": "lx-volstaan-verb",
+   "zh": "足够；足以",
+   "examples": [
+    {
+     "nl": "Een korte uitleg volstaat voor deze eenvoudige vraag.",
+     "zh": "对于这个简单问题，简短解释就足够了。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-switchen-verb-1",
+   "lexemeId": "lx-switchen-verb",
+   "zh": "切换；转换（口语）",
+   "examples": [
+    {
+     "nl": "Veel mensen switchen tussen hun werk en privéleven.",
+     "zh": "许多人在工作与私人生活之间切换。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-sinaasappelsap-noun-1",
+   "lexemeId": "lx-sinaasappelsap-noun",
+   "zh": "橙汁",
+   "examples": [
+    {
+     "nl": "Bij het ontbijt dronk zij een glas sinaasappelsap.",
+     "zh": "早餐时，她喝了一杯橙汁。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-broeikasgas-noun-1",
+   "lexemeId": "lx-broeikasgas-noun",
+   "zh": "温室气体",
+   "examples": [
+    {
+     "nl": "Minder autorijden helpt de uitstoot van broeikasgassen verlagen.",
+     "zh": "减少开车有助于降低温室气体排放。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opdringerig-adjective-1",
+   "lexemeId": "lx-opdringerig-adjective",
+   "zh": "咄咄逼人的；纠缠不休的",
+   "examples": [
+    {
+     "nl": "De verkoper was zo opdringerig dat ik de winkel verliet.",
+     "zh": "销售员纠缠得太厉害，我只好离开商店。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kozijn-noun-1",
+   "lexemeId": "lx-kozijn-noun",
+   "zh": "窗框；门框",
+   "examples": [
+    {
+     "nl": "Het houten kozijn moet deze zomer opnieuw worden geschilderd.",
+     "zh": "这个木窗框今年夏天需要重新刷漆。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ironisch-adjective-1",
+   "lexemeId": "lx-ironisch-adjective",
+   "zh": "讽刺的；反讽的",
+   "examples": [
+    {
+     "nl": "Ze maakte een ironische opmerking over het slechte weer.",
+     "zh": "她讽刺地评论了一下糟糕的天气。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-doodop-adjective-1",
+   "lexemeId": "lx-doodop-adjective",
+   "zh": "筋疲力尽的",
+   "examples": [
+    {
+     "nl": "Na de verhuizing waren we allebei doodop.",
+     "zh": "搬家后，我们俩都筋疲力尽。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-villa-noun-1",
+   "lexemeId": "lx-villa-noun",
+   "zh": "别墅",
+   "examples": [
+    {
+     "nl": "De villa heeft een ruime tuin met oude bomen.",
+     "zh": "这栋别墅有一个种着老树的大花园。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-boekenkast-noun-1",
+   "lexemeId": "lx-boekenkast-noun",
+   "zh": "书柜",
+   "examples": [
+    {
+     "nl": "Zet de schoolboeken terug in de boekenkast.",
+     "zh": "把课本放回书柜里。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opiumpijp-noun-1",
+   "lexemeId": "lx-opiumpijp-noun",
+   "zh": "鸦片烟枪",
+   "examples": [
+    {
+     "nl": "In het museum staat een oude opiumpijp achter glas.",
+     "zh": "博物馆里有一支放在玻璃柜中的旧鸦片烟枪。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  }
+ ]
+}

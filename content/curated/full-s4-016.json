@@ -1,0 +1,1124 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-verwoorden-verb",
+   "lemma": "verwoorden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verwoordde",
+    "pastParticiple": "verwoord",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-frustreren-verb",
+   "lemma": "frustreren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "frustreerde",
+    "pastParticiple": "gefrustreerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-transporteren-verb",
+   "lemma": "transporteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "transporteerde",
+    "pastParticiple": "getransporteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-haastig-adjective",
+   "lemma": "haastig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-strafrecht-noun",
+   "lemma": "strafrecht",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-eetcultuur-noun",
+   "lemma": "eetcultuur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "eetculturen"
+  },
+  {
+   "id": "lx-onszelf-pronoun",
+   "lemma": "onszelf",
+   "pos": "pronoun"
+  },
+  {
+   "id": "lx-in-het-werk-phrase",
+   "lemma": "in het werk",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-wier-pronoun",
+   "lemma": "wier",
+   "pos": "pronoun"
+  },
+  {
+   "id": "lx-spiritueel-adjective",
+   "lemma": "spiritueel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-landsgrens-noun",
+   "lemma": "landsgrens",
+   "pos": "noun",
+   "article": "de",
+   "plural": "landsgrenzen"
+  },
+  {
+   "id": "lx-gedogen-verb",
+   "lemma": "gedogen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "gedoogde",
+    "pastParticiple": "gedoogd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-keerzijde-noun",
+   "lemma": "keerzijde",
+   "pos": "noun",
+   "article": "de",
+   "plural": "keerzijden"
+  },
+  {
+   "id": "lx-democratisch-adjective",
+   "lemma": "democratisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vraagstuk-noun",
+   "lemma": "vraagstuk",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vraagstukken"
+  },
+  {
+   "id": "lx-alsnog-adverb",
+   "lemma": "alsnog",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-kader-noun",
+   "lemma": "kader",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kaders"
+  },
+  {
+   "id": "lx-proloog-noun",
+   "lemma": "proloog",
+   "pos": "noun",
+   "article": "de",
+   "plural": "prologen"
+  },
+  {
+   "id": "lx-kortstondig-adjective",
+   "lemma": "kortstondig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-prikbord-noun",
+   "lemma": "prikbord",
+   "pos": "noun",
+   "article": "het",
+   "plural": "prikborden"
+  },
+  {
+   "id": "lx-noemen-maar-op-phrase",
+   "lemma": "noemen maar op",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-sneuvelen-verb",
+   "lemma": "sneuvelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "sneuvelde",
+    "pastParticiple": "gesneuveld",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-doelbewust-adjective",
+   "lemma": "doelbewust",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-toepasselijk-adjective",
+   "lemma": "toepasselijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-wegwezen-verb",
+   "lemma": "wegwezen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "wees weg",
+    "pastParticiple": "weggeweest",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-speeltuin-noun",
+   "lemma": "speeltuin",
+   "pos": "noun",
+   "article": "de",
+   "plural": "speeltuinen"
+  },
+  {
+   "id": "lx-balkondeur-noun",
+   "lemma": "balkondeur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "balkondeuren"
+  },
+  {
+   "id": "lx-toepassing-noun",
+   "lemma": "toepassing",
+   "pos": "noun",
+   "article": "de",
+   "plural": "toepassingen"
+  },
+  {
+   "id": "lx-gelijkheid-noun",
+   "lemma": "gelijkheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-schuimen-verb",
+   "lemma": "schuimen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "schuimde",
+    "pastParticiple": "geschuimd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-noors-adjective",
+   "lemma": "noors",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-wachttijd-noun",
+   "lemma": "wachttijd",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wachttijden"
+  },
+  {
+   "id": "lx-organisatorisch-adjective",
+   "lemma": "organisatorisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-gul-adjective",
+   "lemma": "gul",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-applaus-noun",
+   "lemma": "applaus",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-halfopen-adjective",
+   "lemma": "halfopen",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-oordelen-verb",
+   "lemma": "oordelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "oordeelde",
+    "pastParticiple": "geoordeeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-sticker-noun",
+   "lemma": "sticker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stickers"
+  },
+  {
+   "id": "lx-redenering-noun",
+   "lemma": "redenering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "redeneringen"
+  },
+  {
+   "id": "lx-studieboek-noun",
+   "lemma": "studieboek",
+   "pos": "noun",
+   "article": "het",
+   "plural": "studieboeken"
+  },
+  {
+   "id": "lx-vierkant-noun",
+   "lemma": "vierkant",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vierkanten"
+  },
+  {
+   "id": "lx-ijverig-adjective",
+   "lemma": "ijverig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-uitwerking-noun",
+   "lemma": "uitwerking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "uitwerkingen"
+  },
+  {
+   "id": "lx-deugen-verb",
+   "lemma": "deugen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deugde",
+    "pastParticiple": "gedeugd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-instructie-noun",
+   "lemma": "instructie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "instructies"
+  },
+  {
+   "id": "lx-milieugroep-noun",
+   "lemma": "milieugroep",
+   "pos": "noun",
+   "article": "de",
+   "plural": "milieugroepen"
+  },
+  {
+   "id": "lx-hecht-adjective",
+   "lemma": "hecht",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-navigatie-noun",
+   "lemma": "navigatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "navigaties"
+  },
+  {
+   "id": "lx-mank-adjective",
+   "lemma": "mank",
+   "pos": "adjective"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-verwoorden-verb-1",
+   "lexemeId": "lx-verwoorden-verb",
+   "zh": "用语言表达",
+   "examples": [
+    {
+     "nl": "Ze kon haar gevoelens moeilijk in woorden verwoorden.",
+     "zh": "她很难用语言表达自己的感受。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-frustreren-verb-1",
+   "lexemeId": "lx-frustreren-verb",
+   "zh": "使沮丧；使受挫",
+   "examples": [
+    {
+     "nl": "Het lange wachten frustreerde de reizigers op het station.",
+     "zh": "漫长的等待让车站里的旅客很沮丧。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-transporteren-verb-1",
+   "lexemeId": "lx-transporteren-verb",
+   "zh": "运输；运送",
+   "examples": [
+    {
+     "nl": "De vrachtwagen transporteert verse groenten naar verschillende winkels.",
+     "zh": "卡车把新鲜蔬菜运往不同商店。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-haastig-adjective-1",
+   "lexemeId": "lx-haastig-adjective",
+   "zh": "匆忙的；急促的",
+   "examples": [
+    {
+     "nl": "Hij maakte haastig zijn huiswerk voordat de les begon.",
+     "zh": "上课开始前，他匆忙地完成了作业。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-strafrecht-noun-1",
+   "lexemeId": "lx-strafrecht-noun",
+   "zh": "刑法",
+   "examples": [
+    {
+     "nl": "Het strafrecht bepaalt welke straffen bij een misdrijf horen.",
+     "zh": "刑法规定犯罪应受到什么处罚。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-eetcultuur-noun-1",
+   "lexemeId": "lx-eetcultuur-noun",
+   "zh": "饮食文化",
+   "examples": [
+    {
+     "nl": "De eetcultuur in Spanje verschilt van die in Nederland.",
+     "zh": "西班牙的饮食文化与荷兰不同。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onszelf-pronoun-1",
+   "lexemeId": "lx-onszelf-pronoun",
+   "zh": "我们自己",
+   "examples": [
+    {
+     "nl": "We moeten onszelf meer tijd geven om te wennen.",
+     "zh": "我们应该给自己更多时间去适应。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-in-het-werk-phrase-1",
+   "lexemeId": "lx-in-het-werk-phrase",
+   "zh": "尽力做；竭尽全力（in het werk stellen）",
+   "examples": [
+    {
+     "nl": "We hebben alles in het werk gesteld om haar te helpen.",
+     "zh": "我们尽了一切努力来帮助她。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wier-pronoun-1",
+   "lexemeId": "lx-wier-pronoun",
+   "zh": "谁的（关系代词，正式）",
+   "examples": [
+    {
+     "nl": "De schrijver, wier boek we lazen, bezocht onze school.",
+     "zh": "我们读过其作品的那位作家来访了学校。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-spiritueel-adjective-1",
+   "lexemeId": "lx-spiritueel-adjective",
+   "zh": "精神的；灵性的",
+   "examples": [
+    {
+     "nl": "Ze vindt rust door spirituele oefeningen en meditatie.",
+     "zh": "她通过灵性练习和冥想获得平静。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-landsgrens-noun-1",
+   "lexemeId": "lx-landsgrens-noun",
+   "zh": "国界",
+   "examples": [
+    {
+     "nl": "De trein passeerde de landsgrens zonder lange controle.",
+     "zh": "火车没有经过长时间检查就通过了国界。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gedogen-verb-1",
+   "lexemeId": "lx-gedogen-verb",
+   "zh": "容忍；默许",
+   "examples": [
+    {
+     "nl": "De gemeente gedoogt fietsen op dit brede voetpad.",
+     "zh": "市政府默许人们在这条宽阔的人行道上骑车。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-keerzijde-noun-1",
+   "lexemeId": "lx-keerzijde-noun",
+   "zh": "缺点；负面的一面",
+   "examples": [
+    {
+     "nl": "De keerzijde van thuiswerken is minder contact met collega's.",
+     "zh": "居家办公的缺点是与同事接触较少。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-democratisch-adjective-1",
+   "lexemeId": "lx-democratisch-adjective",
+   "zh": "民主的",
+   "examples": [
+    {
+     "nl": "De inwoners kozen hun burgemeester via een democratische verkiezing.",
+     "zh": "居民通过民主选举选出了市长。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vraagstuk-noun-1",
+   "lexemeId": "lx-vraagstuk-noun",
+   "zh": "问题；难题",
+   "examples": [
+    {
+     "nl": "De klas werkte samen aan een ingewikkeld vraagstuk.",
+     "zh": "全班一起解决一道复杂的难题。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-alsnog-adverb-1",
+   "lexemeId": "lx-alsnog-adverb",
+   "zh": "最终；还是；尽管如此",
+   "examples": [
+    {
+     "nl": "De trein was vertraagd, maar we haalden alsnog onze aansluiting.",
+     "zh": "火车晚点了，但我们最终还是赶上了换乘。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kader-noun-1",
+   "lexemeId": "lx-kader-noun",
+   "zh": "框架；背景；干部",
+   "examples": [
+    {
+     "nl": "Binnen dit kader bespreken we de belangrijkste afspraken.",
+     "zh": "在这个框架内，我们讨论最重要的约定。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-proloog-noun-1",
+   "lexemeId": "lx-proloog-noun",
+   "zh": "序幕；序言",
+   "examples": [
+    {
+     "nl": "De proloog van het boek speelt zich af in een dorp.",
+     "zh": "这本书的序幕发生在一个村庄。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kortstondig-adjective-1",
+   "lexemeId": "lx-kortstondig-adjective",
+   "zh": "短暂的",
+   "examples": [
+    {
+     "nl": "Na een kortstondige regenbui verscheen de zon weer.",
+     "zh": "一场短暂的阵雨后，太阳又出来了。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-prikbord-noun-1",
+   "lexemeId": "lx-prikbord-noun",
+   "zh": "公告栏；留言板",
+   "examples": [
+    {
+     "nl": "De nieuwe openingstijden hangen op het prikbord.",
+     "zh": "新的营业时间贴在公告栏上。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-noemen-maar-op-phrase-1",
+   "lexemeId": "lx-noemen-maar-op-phrase",
+   "zh": "等等；不胜枚举",
+   "examples": [
+    {
+     "nl": "Je hebt soep, brood, salade, noem maar op.",
+     "zh": "有汤、面包、沙拉等等。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-sneuvelen-verb-1",
+   "lexemeId": "lx-sneuvelen-verb",
+   "zh": "阵亡；损坏",
+   "examples": [
+    {
+     "nl": "Tijdens de oorlog sneuvelden veel jonge soldaten.",
+     "zh": "战争期间，许多年轻士兵阵亡。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doelbewust-adjective-1",
+   "lexemeId": "lx-doelbewust-adjective",
+   "zh": "有目的的；有意识的",
+   "examples": [
+    {
+     "nl": "Zij maakte een doelbewuste keuze voor een baan in de zorg.",
+     "zh": "她有意识地选择了一份护理工作。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-toepasselijk-adjective-1",
+   "lexemeId": "lx-toepasselijk-adjective",
+   "zh": "适用的；恰当的",
+   "examples": [
+    {
+     "nl": "Dit voorbeeld is toepasselijk voor de situatie op school.",
+     "zh": "这个例子适用于学校里的情况。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wegwezen-verb-1",
+   "lexemeId": "lx-wegwezen-verb",
+   "zh": "离开；赶快走（口语）",
+   "examples": [
+    {
+     "nl": "Het werd laat, dus we moesten snel wegwezen.",
+     "zh": "天色晚了，所以我们得赶紧离开。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-speeltuin-noun-1",
+   "lexemeId": "lx-speeltuin-noun",
+   "zh": "游乐场；儿童游乐园",
+   "examples": [
+    {
+     "nl": "De kinderen speelden de hele middag in de speeltuin.",
+     "zh": "孩子们整个下午都在游乐场玩。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-balkondeur-noun-1",
+   "lexemeId": "lx-balkondeur-noun",
+   "zh": "阳台门",
+   "examples": [
+    {
+     "nl": "Doe de balkondeur dicht als de verwarming aanstaat.",
+     "zh": "暖气开着时，请把阳台门关上。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-toepassing-noun-1",
+   "lexemeId": "lx-toepassing-noun",
+   "zh": "应用；用途",
+   "examples": [
+    {
+     "nl": "Deze toepassing helpt patiënten hun medicatie bij te houden.",
+     "zh": "这个应用帮助病人记录用药情况。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gelijkheid-noun-1",
+   "lexemeId": "lx-gelijkheid-noun",
+   "zh": "平等；相等",
+   "examples": [
+    {
+     "nl": "De organisatie strijdt voor gelijkheid op de werkvloer.",
+     "zh": "这个组织为工作场所的平等而奋斗。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schuimen-verb-1",
+   "lexemeId": "lx-schuimen-verb",
+   "zh": "起泡；泛泡沫",
+   "examples": [
+    {
+     "nl": "De melk schuimde toen hij haar met de mixer klopte.",
+     "zh": "他用搅拌器打牛奶时，牛奶起了泡沫。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-noors-adjective-1",
+   "lexemeId": "lx-noors-adjective",
+   "zh": "挪威的；挪威语的",
+   "examples": [
+    {
+     "nl": "Hij leest een Noors boek met een woordenboek erbij.",
+     "zh": "他一边查词典，一边读一本挪威语书。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wachttijd-noun-1",
+   "lexemeId": "lx-wachttijd-noun",
+   "zh": "等待时间",
+   "examples": [
+    {
+     "nl": "De wachttijd bij de huisarts was ongeveer twintig minuten.",
+     "zh": "家庭医生处的等待时间大约是二十分钟。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-organisatorisch-adjective-1",
+   "lexemeId": "lx-organisatorisch-adjective",
+   "zh": "组织上的",
+   "examples": [
+    {
+     "nl": "De organisatorische veranderingen werden vorige week aangekondigd.",
+     "zh": "组织方面的调整上周已经宣布。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gul-adjective-1",
+   "lexemeId": "lx-gul-adjective",
+   "zh": "慷慨的；大方的",
+   "examples": [
+    {
+     "nl": "Onze buurman is gul en deelt graag zijn groenten.",
+     "zh": "我们的邻居很大方，喜欢分享自己的蔬菜。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-applaus-noun-1",
+   "lexemeId": "lx-applaus-noun",
+   "zh": "掌声",
+   "examples": [
+    {
+     "nl": "Na het optreden kreeg de zanger luid applaus.",
+     "zh": "演出结束后，歌手得到了热烈的掌声。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-halfopen-adjective-1",
+   "lexemeId": "lx-halfopen-adjective",
+   "zh": "半开的",
+   "examples": [
+    {
+     "nl": "Laat het raam halfopen zodat er frisse lucht binnenkomt.",
+     "zh": "把窗户半开着，让新鲜空气进来。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-oordelen-verb-1",
+   "lexemeId": "lx-oordelen-verb",
+   "zh": "判断；评价",
+   "examples": [
+    {
+     "nl": "Probeer niet te oordelen voordat je het hele verhaal kent.",
+     "zh": "了解完整情况之前，尽量不要下判断。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-sticker-noun-1",
+   "lexemeId": "lx-sticker-noun",
+   "zh": "贴纸；标签",
+   "examples": [
+    {
+     "nl": "Ze plakte een vrolijke sticker op haar schooltas.",
+     "zh": "她在书包上贴了一张可爱的贴纸。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-redenering-noun-1",
+   "lexemeId": "lx-redenering-noun",
+   "zh": "推理；论证",
+   "examples": [
+    {
+     "nl": "Zijn redenering klonk logisch, maar de conclusie klopte niet.",
+     "zh": "他的推理听起来合乎逻辑，但结论不对。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-studieboek-noun-1",
+   "lexemeId": "lx-studieboek-noun",
+   "zh": "教材；学习用书",
+   "examples": [
+    {
+     "nl": "Voor het examen moest ik drie hoofdstukken uit het studieboek leren.",
+     "zh": "为了考试，我必须学习教材里的三章。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vierkant-noun-1",
+   "lexemeId": "lx-vierkant-noun",
+   "zh": "正方形；方块",
+   "examples": [
+    {
+     "nl": "Teken een vierkant met zijden van vijf centimeter.",
+     "zh": "画一个边长五厘米的正方形。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ijverig-adjective-1",
+   "lexemeId": "lx-ijverig-adjective",
+   "zh": "勤奋的；努力的",
+   "examples": [
+    {
+     "nl": "De ijverige student maakte iedere avond haar opdrachten.",
+     "zh": "这位勤奋的学生每天晚上都做作业。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitwerking-noun-1",
+   "lexemeId": "lx-uitwerking-noun",
+   "zh": "结果；影响；详述",
+   "examples": [
+    {
+     "nl": "De uitwerking van de nieuwe regel zien we volgende maand.",
+     "zh": "新规定的影响我们下个月就能看到。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-deugen-verb-1",
+   "lexemeId": "lx-deugen-verb",
+   "zh": "合格；值得；有用",
+   "examples": [
+    {
+     "nl": "Deze oude fiets deugt niet meer voor lange afstanden.",
+     "zh": "这辆旧自行车已经不适合骑远路了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-instructie-noun-1",
+   "lexemeId": "lx-instructie-noun",
+   "zh": "说明；指令",
+   "examples": [
+    {
+     "nl": "Lees de instructie zorgvuldig voordat je het apparaat gebruikt.",
+     "zh": "使用设备前请仔细阅读说明。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-milieugroep-noun-1",
+   "lexemeId": "lx-milieugroep-noun",
+   "zh": "环保组织",
+   "examples": [
+    {
+     "nl": "De milieugroep plant bomen langs de drukke weg.",
+     "zh": "环保组织在繁忙的道路旁种树。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hecht-adjective-1",
+   "lexemeId": "lx-hecht-adjective",
+   "zh": "亲密的；牢固的",
+   "examples": [
+    {
+     "nl": "De twee zussen hebben een hechte band met elkaar.",
+     "zh": "这对姐妹彼此关系亲密。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-navigatie-noun-1",
+   "lexemeId": "lx-navigatie-noun",
+   "zh": "导航；导航系统",
+   "examples": [
+    {
+     "nl": "De navigatie stuurde ons via een rustige route naar huis.",
+     "zh": "导航为我们规划了一条安静的回家路线。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-mank-adjective-1",
+   "lexemeId": "lx-mank-adjective",
+   "zh": "跛的；一瘸一拐的",
+   "examples": [
+    {
+     "nl": "Na de wandeling liep de hond mank aan zijn achterpoot.",
+     "zh": "散步后，这只狗的后腿跛了。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  }
+ ]
+}

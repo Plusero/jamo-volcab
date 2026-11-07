@@ -1,0 +1,969 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-afraden-verb",
+   "lemma": "afraden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "raadde af",
+    "pastParticiple": "afgeraden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-nooduitgang-noun",
+   "lemma": "nooduitgang",
+   "pos": "noun",
+   "article": "de",
+   "plural": "nooduitgangen"
+  },
+  {
+   "id": "lx-schoolleiding-noun",
+   "lemma": "schoolleiding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-vluchtweg-noun",
+   "lemma": "vluchtweg",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vluchtwegen"
+  },
+  {
+   "id": "lx-bestselleritis-noun",
+   "lemma": "bestselleritis",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-lichtknop-noun",
+   "lemma": "lichtknop",
+   "pos": "noun",
+   "article": "de",
+   "plural": "lichtknoppen"
+  },
+  {
+   "id": "lx-machinewerk-noun",
+   "lemma": "machinewerk",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-druppelende-adjective",
+   "lemma": "druppelende",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-kledingindustrie-noun",
+   "lemma": "kledingindustrie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kledingindustrieën"
+  },
+  {
+   "id": "lx-lader-noun",
+   "lemma": "lader",
+   "pos": "noun",
+   "article": "de",
+   "plural": "laders"
+  },
+  {
+   "id": "lx-printer-noun",
+   "lemma": "printer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "printers"
+  },
+  {
+   "id": "lx-vervuiler-noun",
+   "lemma": "vervuiler",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vervuilers"
+  },
+  {
+   "id": "lx-strafregel-noun",
+   "lemma": "strafregel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "strafregels"
+  },
+  {
+   "id": "lx-liefdadigheid-noun",
+   "lemma": "liefdadigheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-stommeling-noun",
+   "lemma": "stommeling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stommelinge n"
+  },
+  {
+   "id": "lx-onderpand-noun",
+   "lemma": "onderpand",
+   "pos": "noun",
+   "article": "het",
+   "plural": "onderpanden"
+  },
+  {
+   "id": "lx-opleidingskans-noun",
+   "lemma": "opleidingskans",
+   "pos": "noun",
+   "article": "de",
+   "plural": "opleidingskansen"
+  },
+  {
+   "id": "lx-zo-nu-en-dan-phrase",
+   "lemma": "zo nu en dan",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-gezondheidsklacht-noun",
+   "lemma": "gezondheidsklacht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gezondheidsklachten"
+  },
+  {
+   "id": "lx-kampplaats-noun",
+   "lemma": "kampplaats",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kampplaatsen"
+  },
+  {
+   "id": "lx-weerbaar-adjective",
+   "lemma": "weerbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-windstreek-noun",
+   "lemma": "windstreek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "windstreken"
+  },
+  {
+   "id": "lx-bevolkingsfonds-noun",
+   "lemma": "bevolkingsfonds",
+   "pos": "noun",
+   "article": "het",
+   "plural": "bevolkingsfondsen"
+  },
+  {
+   "id": "lx-dictatoriaal-adjective",
+   "lemma": "dictatoriaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-golfoorlog-noun",
+   "lemma": "golfoorlog",
+   "pos": "noun",
+   "article": "de",
+   "plural": "golfoorlogen"
+  },
+  {
+   "id": "lx-mediagigant-noun",
+   "lemma": "mediagigant",
+   "pos": "noun",
+   "article": "de",
+   "plural": "mediagiganten"
+  },
+  {
+   "id": "lx-neerslag-noun",
+   "lemma": "neerslag",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-opdrogen-verb",
+   "lemma": "opdrogen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "droogde op",
+    "pastParticiple": "opgedroogd",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-stelselmatig-adjective",
+   "lemma": "stelselmatig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-verdediger-noun",
+   "lemma": "verdediger",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verdedigers"
+  },
+  {
+   "id": "lx-vrouwenbeweging-noun",
+   "lemma": "vrouwenbeweging",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vrouwenbewegingen"
+  },
+  {
+   "id": "lx-luchtig-adjective",
+   "lemma": "luchtig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-bestelbon-noun",
+   "lemma": "bestelbon",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bestelbonnen"
+  },
+  {
+   "id": "lx-tgt-datum-noun",
+   "lemma": "tgt-datum",
+   "pos": "noun",
+   "article": "de",
+   "plural": "TGT-datums"
+  },
+  {
+   "id": "lx-herkomst-noun",
+   "lemma": "herkomst",
+   "pos": "noun",
+   "article": "de",
+   "plural": "herkomsten"
+  },
+  {
+   "id": "lx-mierennest-noun",
+   "lemma": "mierennest",
+   "pos": "noun",
+   "article": "het",
+   "plural": "mierennesten"
+  },
+  {
+   "id": "lx-nominatie-noun",
+   "lemma": "nominatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "nominaties"
+  },
+  {
+   "id": "lx-reïncarnatie-noun",
+   "lemma": "reïncarnatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "reïncarnaties"
+  },
+  {
+   "id": "lx-vechtmier-noun",
+   "lemma": "vechtmier",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vechtmieren"
+  },
+  {
+   "id": "lx-videotheek-noun",
+   "lemma": "videotheek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "videotheken"
+  },
+  {
+   "id": "lx-verstoren-verb",
+   "lemma": "verstoren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verstoorde",
+    "pastParticiple": "verstoord",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kurk-noun",
+   "lemma": "kurk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kurken"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-afraden-verb-1",
+   "lexemeId": "lx-afraden-verb",
+   "zh": "劝阻；不建议",
+   "examples": [
+    {
+     "nl": "De arts raadde mij af om zonder ontbijt te gaan sporten.",
+     "zh": "医生劝我不要不吃早饭就去运动。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-nooduitgang-noun-1",
+   "lexemeId": "lx-nooduitgang-noun",
+   "zh": "紧急出口",
+   "examples": [
+    {
+     "nl": "Bij brand moet iedereen rustig naar de nooduitgang lopen.",
+     "zh": "发生火灾时，所有人都应冷静地走向紧急出口。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schoolleiding-noun-1",
+   "lexemeId": "lx-schoolleiding-noun",
+   "zh": "学校领导层",
+   "examples": [
+    {
+     "nl": "De schoolleiding informeerde ouders over de nieuwe regels.",
+     "zh": "学校领导层通知家长新的规定。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vluchtweg-noun-1",
+   "lexemeId": "lx-vluchtweg-noun",
+   "zh": "逃生通道；逃生路线",
+   "examples": [
+    {
+     "nl": "Houd de vluchtweg vrij zodat iedereen naar buiten kan.",
+     "zh": "请保持逃生通道畅通，让所有人都能出去。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bestselleritis-noun-1",
+   "lexemeId": "lx-bestselleritis-noun",
+   "zh": "畅销书热；畅销书情结（戏谑语）",
+   "examples": [
+    {
+     "nl": "De uitgever kreeg last van bestselleritis en wilde steeds meer boeken uitbrengen.",
+     "zh": "出版社陷入了畅销书热，想要出版越来越多的书。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-lichtknop-noun-1",
+   "lexemeId": "lx-lichtknop-noun",
+   "zh": "电灯开关",
+   "examples": [
+    {
+     "nl": "De lichtknop zit naast de deur van de woonkamer.",
+     "zh": "电灯开关在客厅门旁边。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-machinewerk-noun-1",
+   "lexemeId": "lx-machinewerk-noun",
+   "zh": "机械加工；机器工作",
+   "examples": [
+    {
+     "nl": "Het machinewerk in de fabriek draait dag en nacht.",
+     "zh": "工厂的机器昼夜不停地运转。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-druppelende-adjective-1",
+   "lexemeId": "lx-druppelende-adjective",
+   "zh": "滴水的；滴落的",
+   "examples": [
+    {
+     "nl": "De druppelende kraan maakte 's nachts een zacht geluid.",
+     "zh": "滴水的水龙头夜里发出轻微声响。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kledingindustrie-noun-1",
+   "lexemeId": "lx-kledingindustrie-noun",
+   "zh": "服装业；服装制造业",
+   "examples": [
+    {
+     "nl": "De kledingindustrie zoekt manieren om minder water te gebruiken.",
+     "zh": "服装业正在寻找减少用水的方法。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lader-noun-1",
+   "lexemeId": "lx-lader-noun",
+   "zh": "充电器；装载机",
+   "examples": [
+    {
+     "nl": "Mijn lader werkt niet meer en ik moet een nieuwe kopen.",
+     "zh": "我的充电器坏了，我得买一个新的。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-printer-noun-1",
+   "lexemeId": "lx-printer-noun",
+   "zh": "打印机",
+   "examples": [
+    {
+     "nl": "De printer staat naast het bureau in de werkkamer.",
+     "zh": "打印机放在书房的书桌旁。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vervuiler-noun-1",
+   "lexemeId": "lx-vervuiler-noun",
+   "zh": "污染者；污染源",
+   "examples": [
+    {
+     "nl": "De grootste vervuiler moet volgens de wet het meeste betalen.",
+     "zh": "根据法律，最大的污染者必须支付最多费用。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-strafregel-noun-1",
+   "lexemeId": "lx-strafregel-noun",
+   "zh": "处罚规则",
+   "examples": [
+    {
+     "nl": "De strafregel staat duidelijk uitgelegd in het wedstrijdreglement.",
+     "zh": "比赛规则中清楚解释了处罚条款。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-liefdadigheid-noun-1",
+   "lexemeId": "lx-liefdadigheid-noun",
+   "zh": "慈善；慈善事业",
+   "examples": [
+    {
+     "nl": "De artiest gaf een deel van zijn inkomsten aan liefdadigheid.",
+     "zh": "这位艺人把部分收入捐给了慈善事业。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-stommeling-noun-1",
+   "lexemeId": "lx-stommeling-noun",
+   "zh": "笨蛋；傻瓜（口语）",
+   "examples": [
+    {
+     "nl": "Ik was een stommeling dat ik mijn paspoort thuis liet liggen.",
+     "zh": "我真是个傻瓜，居然把护照落在家里。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderpand-noun-1",
+   "lexemeId": "lx-onderpand-noun",
+   "zh": "抵押品；担保物",
+   "examples": [
+    {
+     "nl": "De bank vroeg het huis als onderpand voor de lening.",
+     "zh": "银行要求以房屋作为贷款的抵押品。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opleidingskans-noun-1",
+   "lexemeId": "lx-opleidingskans-noun",
+   "zh": "接受教育的机会；培训机会",
+   "examples": [
+    {
+     "nl": "Een opleidingskans kan iemand helpen ander werk te vinden.",
+     "zh": "培训机会可以帮助一个人找到另一份工作。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zo-nu-en-dan-phrase-1",
+   "lexemeId": "lx-zo-nu-en-dan-phrase",
+   "zh": "偶尔；时不时",
+   "examples": [
+    {
+     "nl": "Zo nu en dan bellen we onze oude buren op.",
+     "zh": "我们偶尔给以前的邻居打电话。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gezondheidsklacht-noun-1",
+   "lexemeId": "lx-gezondheidsklacht-noun",
+   "zh": "健康问题；身体不适",
+   "examples": [
+    {
+     "nl": "De huisarts vroeg welke gezondheidsklachten ik had.",
+     "zh": "家庭医生问我有哪些身体不适。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kampplaats-noun-1",
+   "lexemeId": "lx-kampplaats-noun",
+   "zh": "营地；露营地点",
+   "examples": [
+    {
+     "nl": "De kampplaats ligt aan een beek midden in het bos.",
+     "zh": "营地位于森林中央的一条小溪旁。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-weerbaar-adjective-1",
+   "lexemeId": "lx-weerbaar-adjective",
+   "zh": "有抵抗力的；坚韧的",
+   "examples": [
+    {
+     "nl": "Sport en goede vrienden maken jongeren weerbaarder.",
+     "zh": "运动和好朋友能让年轻人更坚韧。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-windstreek-noun-1",
+   "lexemeId": "lx-windstreek-noun",
+   "zh": "风向；方位",
+   "examples": [
+    {
+     "nl": "De wind kwam uit een noordelijke windstreek.",
+     "zh": "风从北面的方向吹来。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bevolkingsfonds-noun-1",
+   "lexemeId": "lx-bevolkingsfonds-noun",
+   "zh": "人口基金",
+   "examples": [
+    {
+     "nl": "Het bevolkingsfonds steunt projecten voor gezondheid en onderwijs.",
+     "zh": "人口基金支持健康和教育项目。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-dictatoriaal-adjective-1",
+   "lexemeId": "lx-dictatoriaal-adjective",
+   "zh": "独裁的",
+   "examples": [
+    {
+     "nl": "Het land had jarenlang een dictatoriaal bewind.",
+     "zh": "这个国家长期处于独裁统治之下。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-golfoorlog-noun-1",
+   "lexemeId": "lx-golfoorlog-noun",
+   "zh": "海湾战争",
+   "examples": [
+    {
+     "nl": "De Golfoorlog veranderde de politieke situatie in de regio.",
+     "zh": "海湾战争改变了该地区的政治局势。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-mediagigant-noun-1",
+   "lexemeId": "lx-mediagigant-noun",
+   "zh": "媒体巨头",
+   "examples": [
+    {
+     "nl": "De mediagigant bezit verschillende kranten en televisiezenders.",
+     "zh": "这家媒体巨头拥有多家报纸和电视频道。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-neerslag-noun-1",
+   "lexemeId": "lx-neerslag-noun",
+   "zh": "降水；降雨量",
+   "examples": [
+    {
+     "nl": "De neerslag viel deze maand lager uit dan normaal.",
+     "zh": "本月的降水量低于正常水平。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opdrogen-verb-1",
+   "lexemeId": "lx-opdrogen-verb",
+   "zh": "变干；干涸",
+   "examples": [
+    {
+     "nl": "De natte vloer droogde snel op in de zon.",
+     "zh": "湿地板在阳光下很快就干了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-stelselmatig-adjective-1",
+   "lexemeId": "lx-stelselmatig-adjective",
+   "zh": "系统性的；有规律的",
+   "examples": [
+    {
+     "nl": "De politie onderzocht de stelselmatige diefstal van fietsen.",
+     "zh": "警方调查了有规律发生的自行车盗窃案。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verdediger-noun-1",
+   "lexemeId": "lx-verdediger-noun",
+   "zh": "辩护律师；防守队员",
+   "examples": [
+    {
+     "nl": "De verdediger stopte de bal vlak voor het doel.",
+     "zh": "防守队员在球门前拦住了球。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vrouwenbeweging-noun-1",
+   "lexemeId": "lx-vrouwenbeweging-noun",
+   "zh": "妇女运动",
+   "examples": [
+    {
+     "nl": "De vrouwenbeweging streed voor gelijke kansen en rechten.",
+     "zh": "妇女运动为平等机会和权利而奋斗。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-luchtig-adjective-1",
+   "lexemeId": "lx-luchtig-adjective",
+   "zh": "轻松的；轻盈的",
+   "examples": [
+    {
+     "nl": "We praatten over luchtige onderwerpen tijdens de lunch.",
+     "zh": "午餐时，我们聊了一些轻松的话题。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bestelbon-noun-1",
+   "lexemeId": "lx-bestelbon-noun",
+   "zh": "订货单；订单",
+   "examples": [
+    {
+     "nl": "De leverancier stuurde de bestelbon per e-mail naar ons.",
+     "zh": "供应商通过电子邮件把订货单发给了我们。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-tgt-datum-noun-1",
+   "lexemeId": "lx-tgt-datum-noun",
+   "zh": "保质期截止日期（TGT）",
+   "examples": [
+    {
+     "nl": "Controleer de TGT-datum voordat je de yoghurt eet.",
+     "zh": "吃酸奶前请检查其保质期截止日期。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-herkomst-noun-1",
+   "lexemeId": "lx-herkomst-noun",
+   "zh": "来源；出处",
+   "examples": [
+    {
+     "nl": "De herkomst van dit schilderij is nog onbekend.",
+     "zh": "这幅画的出处仍然不明。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-mierennest-noun-1",
+   "lexemeId": "lx-mierennest-noun",
+   "zh": "蚁巢",
+   "examples": [
+    {
+     "nl": "Onder de steen ontdekte het kind een mierennest.",
+     "zh": "孩子在石头下面发现了一个蚁巢。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-nominatie-noun-1",
+   "lexemeId": "lx-nominatie-noun",
+   "zh": "提名",
+   "examples": [
+    {
+     "nl": "De film kreeg een nominatie voor de belangrijkste prijs.",
+     "zh": "这部电影获得了该重要奖项的提名。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-reïncarnatie-noun-1",
+   "lexemeId": "lx-reïncarnatie-noun",
+   "zh": "转世；轮回",
+   "examples": [
+    {
+     "nl": "Sommige mensen geloven in reïncarnatie na de dood.",
+     "zh": "有些人相信人死后会转世。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vechtmier-noun-1",
+   "lexemeId": "lx-vechtmier-noun",
+   "zh": "战蚁；攻击性蚂蚁",
+   "examples": [
+    {
+     "nl": "Een vechtmier verdedigde het nest tegen andere insecten.",
+     "zh": "一只战蚁抵御其他昆虫，保护蚁巢。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-videotheek-noun-1",
+   "lexemeId": "lx-videotheek-noun",
+   "zh": "录像带租赁店；影像店",
+   "examples": [
+    {
+     "nl": "Vroeger huurde mijn familie films bij de videotheek.",
+     "zh": "以前，我家常在录像带租赁店租电影。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verstoren-verb-1",
+   "lexemeId": "lx-verstoren-verb",
+   "zh": "打扰；扰乱",
+   "examples": [
+    {
+     "nl": "Het lawaai verstoorde de vergadering in de grote zaal.",
+     "zh": "噪音扰乱了大厅里的会议。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kurk-noun-1",
+   "lexemeId": "lx-kurk-noun",
+   "zh": "软木；瓶塞",
+   "examples": [
+    {
+     "nl": "De kurk bleef vastzitten in de fles wijn.",
+     "zh": "软木塞卡在葡萄酒瓶里了。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

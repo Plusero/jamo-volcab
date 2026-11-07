@@ -1,0 +1,147 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-voetvolk-noun",
+   "lemma": "voetvolk",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-adviesbureau-noun",
+   "lemma": "adviesbureau",
+   "pos": "noun",
+   "article": "het",
+   "plural": "adviesbureaus"
+  },
+  {
+   "id": "lx-badplaats-noun",
+   "lemma": "badplaats",
+   "pos": "noun",
+   "article": "de",
+   "plural": "badplaatsen"
+  },
+  {
+   "id": "lx-eu-gemiddelde-noun",
+   "lemma": "eu-gemiddelde",
+   "pos": "noun",
+   "article": "het",
+   "plural": "EU-gemiddelden"
+  },
+  {
+   "id": "lx-kloosterstraat-noun",
+   "lemma": "kloosterstraat",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kloosterstraten"
+  },
+  {
+   "id": "lx-opwachten-verb",
+   "lemma": "opwachten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "wachtte op",
+    "pastParticiple": "opgewacht",
+    "aux": "hebben"
+   }
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-voetvolk-noun-1",
+   "lexemeId": "lx-voetvolk-noun",
+   "zh": "步兵；普通士兵",
+   "examples": [
+    {
+     "nl": "Het voetvolk marcheerde urenlang door de koude regen.",
+     "zh": "步兵在寒冷的雨中行军数小时。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-adviesbureau-noun-1",
+   "lexemeId": "lx-adviesbureau-noun",
+   "zh": "咨询公司；顾问事务所",
+   "examples": [
+    {
+     "nl": "Het adviesbureau helpt kleine bedrijven met hun administratie.",
+     "zh": "这家咨询公司帮助小企业处理行政事务。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-badplaats-noun-1",
+   "lexemeId": "lx-badplaats-noun",
+   "zh": "海滨度假地；浴场",
+   "examples": [
+    {
+     "nl": "De badplaats trekt in de zomer veel toeristen.",
+     "zh": "这个海滨度假地夏天吸引了许多游客。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-eu-gemiddelde-noun-1",
+   "lexemeId": "lx-eu-gemiddelde-noun",
+   "zh": "欧盟平均值",
+   "examples": [
+    {
+     "nl": "De prijs ligt boven het EU-gemiddelde voor dit soort producten.",
+     "zh": "这种产品的价格高于欧盟平均水平。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kloosterstraat-noun-1",
+   "lexemeId": "lx-kloosterstraat-noun",
+   "zh": "修道院街；修道院旁的街道",
+   "examples": [
+    {
+     "nl": "De Kloosterstraat loopt langs een oude kerk en een museum.",
+     "zh": "修道院街沿着一座古老教堂和博物馆延伸。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opwachten-verb-1",
+   "lexemeId": "lx-opwachten-verb",
+   "zh": "等候；迎接",
+   "examples": [
+    {
+     "nl": "Mijn vrienden wachtten me op bij de uitgang van het station.",
+     "zh": "我的朋友们在车站出口等我。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

@@ -1,0 +1,1111 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-allochtoon-noun",
+   "lemma": "allochtoon",
+   "pos": "noun",
+   "article": "de",
+   "plural": "allochtonen"
+  },
+  {
+   "id": "lx-verworvenheid-noun",
+   "lemma": "verworvenheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verworvenheden"
+  },
+  {
+   "id": "lx-bok-noun",
+   "lemma": "bok",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bokken"
+  },
+  {
+   "id": "lx-eendenvijver-noun",
+   "lemma": "eendenvijver",
+   "pos": "noun",
+   "article": "de",
+   "plural": "eendenvijvers"
+  },
+  {
+   "id": "lx-lineair-adjective",
+   "lemma": "lineair",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-linkerschoen-noun",
+   "lemma": "linkerschoen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "linkerschoenen"
+  },
+  {
+   "id": "lx-departementaal-adjective",
+   "lemma": "departementaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-studentenkaart-noun",
+   "lemma": "studentenkaart",
+   "pos": "noun",
+   "article": "de",
+   "plural": "studentenkaarten"
+  },
+  {
+   "id": "lx-taboewoord-noun",
+   "lemma": "taboewoord",
+   "pos": "noun",
+   "article": "het",
+   "plural": "taboewoorden"
+  },
+  {
+   "id": "lx-moederen-verb",
+   "lemma": "moederen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "moederde",
+    "pastParticiple": "gemoederd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-karamel-noun",
+   "lemma": "karamel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "karamels"
+  },
+  {
+   "id": "lx-apartheidsregime-noun",
+   "lemma": "apartheidsregime",
+   "pos": "noun",
+   "article": "het",
+   "plural": "apartheidsregimes"
+  },
+  {
+   "id": "lx-bevolkingssamenstelling-noun",
+   "lemma": "bevolkingssamenstelling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bevolkingssamenstellingen"
+  },
+  {
+   "id": "lx-gebiedsuitbreiding-noun",
+   "lemma": "gebiedsuitbreiding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gebiedsuitbreidingen"
+  },
+  {
+   "id": "lx-indianenbevolking-noun",
+   "lemma": "indianenbevolking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-katoenplantage-noun",
+   "lemma": "katoenplantage",
+   "pos": "noun",
+   "article": "de",
+   "plural": "katoenplantages"
+  },
+  {
+   "id": "lx-kolonisator-noun",
+   "lemma": "kolonisator",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kolonisatoren"
+  },
+  {
+   "id": "lx-oproep-noun",
+   "lemma": "oproep",
+   "pos": "noun",
+   "article": "de",
+   "plural": "oproepen"
+  },
+  {
+   "id": "lx-portugezen-noun",
+   "lemma": "portugezen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "Portugezen"
+  },
+  {
+   "id": "lx-slavenschip-noun",
+   "lemma": "slavenschip",
+   "pos": "noun",
+   "article": "het",
+   "plural": "slavenschepen"
+  },
+  {
+   "id": "lx-tussenstop-noun",
+   "lemma": "tussenstop",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tussenstops"
+  },
+  {
+   "id": "lx-wreed-adjective",
+   "lemma": "wreed",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-zendeling-noun",
+   "lemma": "zendeling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zendelingen"
+  },
+  {
+   "id": "lx-vroedvrouw-noun",
+   "lemma": "vroedvrouw",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vroedvrouwen"
+  },
+  {
+   "id": "lx-cannabisgebruik-noun",
+   "lemma": "cannabisgebruik",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-drugsopvangcentrum-noun",
+   "lemma": "drugsopvangcentrum",
+   "pos": "noun",
+   "article": "het",
+   "plural": "drugsopvangcentra"
+  },
+  {
+   "id": "lx-gokautomaat-noun",
+   "lemma": "gokautomaat",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gokautomaten"
+  },
+  {
+   "id": "lx-grensoverschrijdend-adjective",
+   "lemma": "grensoverschrijdend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hulpverleningssector-noun",
+   "lemma": "hulpverleningssector",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-jeugdparket-noun",
+   "lemma": "jeugdparket",
+   "pos": "noun",
+   "article": "het",
+   "plural": "jeugdparketten"
+  },
+  {
+   "id": "lx-kinderrechter-noun",
+   "lemma": "kinderrechter",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kinderrechters"
+  },
+  {
+   "id": "lx-meldingsplicht-noun",
+   "lemma": "meldingsplicht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-normbesef-noun",
+   "lemma": "normbesef",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-populatie-noun",
+   "lemma": "populatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "populaties"
+  },
+  {
+   "id": "lx-terugsturen-verb",
+   "lemma": "terugsturen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "stuurde terug",
+    "pastParticiple": "teruggestuurd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-veroorloven-verb",
+   "lemma": "veroorloven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "veroorloofde",
+    "pastParticiple": "veroorloofd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-wetgever-noun",
+   "lemma": "wetgever",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wetgevers"
+  },
+  {
+   "id": "lx-achtervang-noun",
+   "lemma": "achtervang",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-afstemmingsmogelijkheid-noun",
+   "lemma": "afstemmingsmogelijkheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "afstemmingsmogelijkheden"
+  },
+  {
+   "id": "lx-beleidsverklaring-noun",
+   "lemma": "beleidsverklaring",
+   "pos": "noun",
+   "article": "de",
+   "plural": "beleidsverklaringen"
+  },
+  {
+   "id": "lx-differentiëren-verb",
+   "lemma": "differentiëren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "differentieerde",
+    "pastParticiple": "gedifferentieerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-efficiëntieverbetering-noun",
+   "lemma": "efficiëntieverbetering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "efficiëntieverbeteringen"
+  },
+  {
+   "id": "lx-exploiteren-verb",
+   "lemma": "exploiteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "exploiteerde",
+    "pastParticiple": "geëxploiteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-hierom-adverb",
+   "lemma": "hierom",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-ingrijpend-adjective",
+   "lemma": "ingrijpend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-investeringsaanpak-noun",
+   "lemma": "investeringsaanpak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "investeringsaanpakken"
+  },
+  {
+   "id": "lx-logistiek-adjective",
+   "lemma": "logistiek",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-milieurendement-noun",
+   "lemma": "milieurendement",
+   "pos": "noun",
+   "article": "het",
+   "plural": "milieurendementen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-allochtoon-noun-1",
+   "lexemeId": "lx-allochtoon-noun",
+   "zh": "移民背景者（旧称）",
+   "examples": [
+    {
+     "nl": "De oudere tekst gebruikt deze term voor iemand met een migratieachtergrond.",
+     "zh": "这段旧文本用这个词指有移民背景的人。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verworvenheid-noun-1",
+   "lexemeId": "lx-verworvenheid-noun",
+   "zh": "获得的能力；既得成果",
+   "examples": [
+    {
+     "nl": "Goed kunnen luisteren is een belangrijke verworvenheid.",
+     "zh": "善于倾听是一项重要能力。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bok-noun-1",
+   "lexemeId": "lx-bok-noun",
+   "zh": "公山羊；山羊",
+   "examples": [
+    {
+     "nl": "Een bok stond rustig tussen de geiten in de wei.",
+     "zh": "一只公山羊安静地站在牧场的羊群中。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-eendenvijver-noun-1",
+   "lexemeId": "lx-eendenvijver-noun",
+   "zh": "鸭子池塘",
+   "examples": [
+    {
+     "nl": "De kinderen voerden de eenden bij de eendenvijver.",
+     "zh": "孩子们在鸭子池塘边喂鸭子。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lineair-adjective-1",
+   "lexemeId": "lx-lineair-adjective",
+   "zh": "线性的；按直线发展的",
+   "examples": [
+    {
+     "nl": "De groei van het bedrijf was niet lineair maar onregelmatig.",
+     "zh": "公司的增长不是线性的，而是不规律的。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-linkerschoen-noun-1",
+   "lexemeId": "lx-linkerschoen-noun",
+   "zh": "左脚鞋",
+   "examples": [
+    {
+     "nl": "Mijn linkerschoen was nat na de wandeling door het gras.",
+     "zh": "在草地上散步后，我的左脚鞋湿了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-departementaal-adjective-1",
+   "lexemeId": "lx-departementaal-adjective",
+   "zh": "部门的；部级的",
+   "examples": [
+    {
+     "nl": "De departementale vergadering begon om tien uur.",
+     "zh": "部门会议十点开始。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-studentenkaart-noun-1",
+   "lexemeId": "lx-studentenkaart-noun",
+   "zh": "学生卡",
+   "examples": [
+    {
+     "nl": "Met je studentenkaart krijg je korting bij het museum.",
+     "zh": "凭学生卡可以在博物馆享受折扣。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-taboewoord-noun-1",
+   "lexemeId": "lx-taboewoord-noun",
+   "zh": "禁忌词；避讳语",
+   "examples": [
+    {
+     "nl": "Sommige mensen vermijden dit taboewoord in een gesprek.",
+     "zh": "有些人在谈话中会避开这个禁忌词。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-moederen-verb-1",
+   "lexemeId": "lx-moederen-verb",
+   "zh": "像母亲般照料；过度照顾",
+   "examples": [
+    {
+     "nl": "Ze moederde over haar volwassen zoon toen hij ziek was.",
+     "zh": "儿子生病时，她像照顾孩子一样照料成年儿子。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-karamel-noun-1",
+   "lexemeId": "lx-karamel-noun",
+   "zh": "焦糖",
+   "examples": [
+    {
+     "nl": "Voor de taart maakte hij karamel met suiker en boter.",
+     "zh": "他用糖和黄油为蛋糕做了焦糖。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-apartheidsregime-noun-1",
+   "lexemeId": "lx-apartheidsregime-noun",
+   "zh": "种族隔离政权",
+   "examples": [
+    {
+     "nl": "Het apartheidsregime in Zuid-Afrika eindigde in de jaren negentig.",
+     "zh": "南非的种族隔离政权在九十年代结束。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bevolkingssamenstelling-noun-1",
+   "lexemeId": "lx-bevolkingssamenstelling-noun",
+   "zh": "人口构成",
+   "examples": [
+    {
+     "nl": "De bevolkingssamenstelling van de stad is de laatste jaren veranderd.",
+     "zh": "近年来，这座城市的人口构成发生了变化。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gebiedsuitbreiding-noun-1",
+   "lexemeId": "lx-gebiedsuitbreiding-noun",
+   "zh": "领土扩张；区域扩大",
+   "examples": [
+    {
+     "nl": "De gebiedsuitbreiding bracht nieuwe woonwijken binnen de gemeente.",
+     "zh": "区域扩大后，新的住宅区划入了市镇范围。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-indianenbevolking-noun-1",
+   "lexemeId": "lx-indianenbevolking-noun",
+   "zh": "美洲原住民人口（旧称）",
+   "examples": [
+    {
+     "nl": "De tekst beschrijft de indianenbevolking vóór de kolonisatie.",
+     "zh": "这段文本描述了殖民化之前的美洲原住民人口。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-katoenplantage-noun-1",
+   "lexemeId": "lx-katoenplantage-noun",
+   "zh": "棉花种植园",
+   "examples": [
+    {
+     "nl": "Op de katoenplantage werkten vroeger veel arbeiders onder zware omstandigheden.",
+     "zh": "过去，许多工人在棉花种植园里艰苦劳作。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kolonisator-noun-1",
+   "lexemeId": "lx-kolonisator-noun",
+   "zh": "殖民者；殖民统治者",
+   "examples": [
+    {
+     "nl": "De kolonisator voerde nieuwe wetten in het gebied in.",
+     "zh": "殖民统治者在该地区推行了新法律。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-oproep-noun-1",
+   "lexemeId": "lx-oproep-noun",
+   "zh": "呼吁；通知；召集",
+   "examples": [
+    {
+     "nl": "De gemeente deed een oproep aan bewoners om afval te melden.",
+     "zh": "市政府呼吁居民举报垃圾问题。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-portugezen-noun-1",
+   "lexemeId": "lx-portugezen-noun",
+   "zh": "葡萄牙人",
+   "examples": [
+    {
+     "nl": "De Portugezen vieren het feest met muziek en familie.",
+     "zh": "葡萄牙人和家人一起用音乐庆祝节日。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slavenschip-noun-1",
+   "lexemeId": "lx-slavenschip-noun",
+   "zh": "运奴船",
+   "examples": [
+    {
+     "nl": "Het slavenschip vervoerde mensen onder verschrikkelijke omstandigheden.",
+     "zh": "运奴船在极其恶劣的条件下运送人。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tussenstop-noun-1",
+   "lexemeId": "lx-tussenstop-noun",
+   "zh": "中途停留",
+   "examples": [
+    {
+     "nl": "Tijdens de reis maakten we een korte tussenstop in Brussel.",
+     "zh": "旅途中，我们在布鲁塞尔短暂停留。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wreed-adjective-1",
+   "lexemeId": "lx-wreed-adjective",
+   "zh": "残酷的；无情的",
+   "examples": [
+    {
+     "nl": "De wrede behandeling van dieren werd streng veroordeeld.",
+     "zh": "虐待动物的残酷行为遭到了严厉谴责。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zendeling-noun-1",
+   "lexemeId": "lx-zendeling-noun",
+   "zh": "传教士",
+   "examples": [
+    {
+     "nl": "De zendeling werkte jarenlang in een klein dorp.",
+     "zh": "这位传教士在一个小村庄工作了多年。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vroedvrouw-noun-1",
+   "lexemeId": "lx-vroedvrouw-noun",
+   "zh": "助产士",
+   "examples": [
+    {
+     "nl": "De vroedvrouw begeleidde de ouders tijdens de bevalling.",
+     "zh": "助产士在分娩过程中陪伴并帮助父母。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-cannabisgebruik-noun-1",
+   "lexemeId": "lx-cannabisgebruik-noun",
+   "zh": "大麻使用",
+   "examples": [
+    {
+     "nl": "Cannabisgebruik kan gevolgen hebben voor je concentratie.",
+     "zh": "使用大麻可能影响你的注意力。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-drugsopvangcentrum-noun-1",
+   "lexemeId": "lx-drugsopvangcentrum-noun",
+   "zh": "戒毒收容中心",
+   "examples": [
+    {
+     "nl": "Het drugsopvangcentrum biedt hulp aan mensen die willen stoppen.",
+     "zh": "戒毒收容中心为想戒毒的人提供帮助。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gokautomaat-noun-1",
+   "lexemeId": "lx-gokautomaat-noun",
+   "zh": "赌博机；老虎机",
+   "examples": [
+    {
+     "nl": "De gokautomaat stond in een kleine zaal achter het café.",
+     "zh": "赌博机放在咖啡馆后面的一间小屋里。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-grensoverschrijdend-adjective-1",
+   "lexemeId": "lx-grensoverschrijdend-adjective",
+   "zh": "越界的；跨境的",
+   "examples": [
+    {
+     "nl": "De organisatie onderzoekt grensoverschrijdend gedrag op de werkvloer.",
+     "zh": "该组织正在调查工作场所中的越界行为。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hulpverleningssector-noun-1",
+   "lexemeId": "lx-hulpverleningssector-noun",
+   "zh": "救援服务行业；社会援助领域",
+   "examples": [
+    {
+     "nl": "Veel mensen in de hulpverleningssector werken onder hoge druk.",
+     "zh": "社会援助领域的许多人都承受着很大压力。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-jeugdparket-noun-1",
+   "lexemeId": "lx-jeugdparket-noun",
+   "zh": "青少年检察机关（比利时）",
+   "examples": [
+    {
+     "nl": "Het jeugdparket behandelde de zaak van de minderjarige verdachte.",
+     "zh": "青少年检察机关处理了这名未成年嫌疑人的案件。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kinderrechter-noun-1",
+   "lexemeId": "lx-kinderrechter-noun",
+   "zh": "少年法官",
+   "examples": [
+    {
+     "nl": "De kinderrechter luisterde naar het verhaal van het gezin.",
+     "zh": "少年法官听取了这个家庭的情况。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-meldingsplicht-noun-1",
+   "lexemeId": "lx-meldingsplicht-noun",
+   "zh": "报告义务",
+   "examples": [
+    {
+     "nl": "Voor sommige beroepen geldt een meldingsplicht bij misbruik.",
+     "zh": "有些职业遇到虐待情况时必须履行报告义务。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-normbesef-noun-1",
+   "lexemeId": "lx-normbesef-noun",
+   "zh": "规范意识；是非观念",
+   "examples": [
+    {
+     "nl": "Goed normbesef helpt kinderen grenzen te begrijpen.",
+     "zh": "良好的规范意识有助于孩子理解界限。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-populatie-noun-1",
+   "lexemeId": "lx-populatie-noun",
+   "zh": "人口；种群",
+   "examples": [
+    {
+     "nl": "De populatie van de stad groeit ieder jaar.",
+     "zh": "这座城市的人口每年都在增长。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-terugsturen-verb-1",
+   "lexemeId": "lx-terugsturen-verb",
+   "zh": "退回；送回",
+   "examples": [
+    {
+     "nl": "De winkel stuurde het beschadigde pakket terug naar de leverancier.",
+     "zh": "商店把损坏的包裹退回给供应商。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-veroorloven-verb-1",
+   "lexemeId": "lx-veroorloven-verb",
+   "zh": "允许自己；擅自",
+   "examples": [
+    {
+     "nl": "Ik kan het me niet veroorloven zoveel geld uit te geven.",
+     "zh": "我不能允许自己花这么多钱。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wetgever-noun-1",
+   "lexemeId": "lx-wetgever-noun",
+   "zh": "立法者；立法机关",
+   "examples": [
+    {
+     "nl": "De wetgever stelde nieuwe regels voor huurwoningen vast.",
+     "zh": "立法机关为出租住房制定了新规定。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-achtervang-noun-1",
+   "lexemeId": "lx-achtervang-noun",
+   "zh": "后备支持；替补力量",
+   "examples": [
+    {
+     "nl": "Tijdens ziekte biedt een collega achtervang voor mijn werk.",
+     "zh": "我生病时，同事会接替我的工作。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-afstemmingsmogelijkheid-noun-1",
+   "lexemeId": "lx-afstemmingsmogelijkheid-noun",
+   "zh": "协调方式；协调机会",
+   "examples": [
+    {
+     "nl": "De afstemmingsmogelijkheid tussen teams was beperkt.",
+     "zh": "团队之间的协调机会有限。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-beleidsverklaring-noun-1",
+   "lexemeId": "lx-beleidsverklaring-noun",
+   "zh": "政策声明",
+   "examples": [
+    {
+     "nl": "De minister publiceerde een beleidsverklaring over betaalbare woningen.",
+     "zh": "部长发表了一份关于可负担住房的政策声明。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-differentiëren-verb-1",
+   "lexemeId": "lx-differentiëren-verb",
+   "zh": "区分；差别化",
+   "examples": [
+    {
+     "nl": "De docent differentieert de opdrachten naar niveau.",
+     "zh": "老师根据水平对作业进行分层。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-efficiëntieverbetering-noun-1",
+   "lexemeId": "lx-efficiëntieverbetering-noun",
+   "zh": "效率提升",
+   "examples": [
+    {
+     "nl": "De nieuwe planning bracht een duidelijke efficiëntieverbetering.",
+     "zh": "新的规划带来了明显的效率提升。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-exploiteren-verb-1",
+   "lexemeId": "lx-exploiteren-verb",
+   "zh": "经营；开发；剥削",
+   "examples": [
+    {
+     "nl": "Het bedrijf exploiteert een hotel aan de kust.",
+     "zh": "这家公司经营着海边的一家酒店。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hierom-adverb-1",
+   "lexemeId": "lx-hierom-adverb",
+   "zh": "因此；为此",
+   "examples": [
+    {
+     "nl": "Hierom besloot ze de afspraak naar volgende week te verplaatsen.",
+     "zh": "因此，她决定把约定推迟到下周。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ingrijpend-adjective-1",
+   "lexemeId": "lx-ingrijpend-adjective",
+   "zh": "影响深远的；重大的",
+   "examples": [
+    {
+     "nl": "De verhuizing was een ingrijpende verandering voor het gezin.",
+     "zh": "搬家对这个家庭来说是一次重大变化。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-investeringsaanpak-noun-1",
+   "lexemeId": "lx-investeringsaanpak-noun",
+   "zh": "投资策略",
+   "examples": [
+    {
+     "nl": "De nieuwe investeringsaanpak richt zich op duurzame energie.",
+     "zh": "新的投资策略着眼于可持续能源。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-logistiek-adjective-1",
+   "lexemeId": "lx-logistiek-adjective",
+   "zh": "物流的",
+   "examples": [
+    {
+     "nl": "Een logistieke fout vertraagde de levering van de meubels.",
+     "zh": "物流方面的错误延误了家具配送。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-milieurendement-noun-1",
+   "lexemeId": "lx-milieurendement-noun",
+   "zh": "环境效益；环保收益",
+   "examples": [
+    {
+     "nl": "Het milieurendement van deze maatregel is moeilijk te meten.",
+     "zh": "这项措施的环境效益很难衡量。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

@@ -1,0 +1,1089 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-depressief-adjective",
+   "lemma": "depressief",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-fataal-adjective",
+   "lemma": "fataal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hoofs-adjective",
+   "lemma": "hoofs",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-lakleer-noun",
+   "lemma": "lakleer",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-muziekgenre-noun",
+   "lemma": "muziekgenre",
+   "pos": "noun",
+   "article": "het",
+   "plural": "muziekgenres"
+  },
+  {
+   "id": "lx-noemen-noun",
+   "lemma": "noemen",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-overkoepelen-verb",
+   "lemma": "overkoepelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "overkoepelde",
+    "pastParticiple": "overkoepeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-studentenkroeg-noun",
+   "lemma": "studentenkroeg",
+   "pos": "noun",
+   "article": "de",
+   "plural": "studentenkroegen"
+  },
+  {
+   "id": "lx-zelfspot-noun",
+   "lemma": "zelfspot",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-buitenverblijf-noun",
+   "lemma": "buitenverblijf",
+   "pos": "noun",
+   "article": "het",
+   "plural": "buitenverblijven"
+  },
+  {
+   "id": "lx-filmtechnisch-adjective",
+   "lemma": "filmtechnisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-nieuwste-adjective",
+   "lemma": "nieuwste",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-premièrefeest-noun",
+   "lemma": "premièrefeest",
+   "pos": "noun",
+   "article": "het",
+   "plural": "premièrefeesten"
+  },
+  {
+   "id": "lx-donderslag-noun",
+   "lemma": "donderslag",
+   "pos": "noun",
+   "article": "de",
+   "plural": "donderslagen"
+  },
+  {
+   "id": "lx-aftakelingsproces-noun",
+   "lemma": "aftakelingsproces",
+   "pos": "noun",
+   "article": "het",
+   "plural": "aftakelingsprocessen"
+  },
+  {
+   "id": "lx-hartspier-noun",
+   "lemma": "hartspier",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hartspieren"
+  },
+  {
+   "id": "lx-legaliseren-verb",
+   "lemma": "legaliseren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "legaliseerde",
+    "pastParticiple": "gelegaliseerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-ruggenmerg-noun",
+   "lemma": "ruggenmerg",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-wegvallen-verb",
+   "lemma": "wegvallen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "viel weg",
+    "pastParticiple": "weggevallen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-begaafdheid-noun",
+   "lemma": "begaafdheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-gemankeerd-adjective",
+   "lemma": "gemankeerd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-kleineren-verb",
+   "lemma": "kleineren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kleineerde",
+    "pastParticiple": "gekleineerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-martiaal-adjective",
+   "lemma": "martiaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-munten-verb",
+   "lemma": "munten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "muntte",
+    "pastParticiple": "gemunt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-slaapvertrek-noun",
+   "lemma": "slaapvertrek",
+   "pos": "noun",
+   "article": "het",
+   "plural": "slaapvertrekken"
+  },
+  {
+   "id": "lx-stoffelijk-overschot-phrase",
+   "lemma": "stoffelijk overschot",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-tot-vervelens-toe-phrase",
+   "lemma": "tot vervelens toe",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-veehouder-noun",
+   "lemma": "veehouder",
+   "pos": "noun",
+   "article": "de",
+   "plural": "veehouders"
+  },
+  {
+   "id": "lx-wereldhegemonie-noun",
+   "lemma": "wereldhegemonie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-adreslegitimatie-noun",
+   "lemma": "adreslegitimatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "adreslegitimaties"
+  },
+  {
+   "id": "lx-doeltreffend-adjective",
+   "lemma": "doeltreffend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-incassomachtiging-noun",
+   "lemma": "incassomachtiging",
+   "pos": "noun",
+   "article": "de",
+   "plural": "incassomachtigingen"
+  },
+  {
+   "id": "lx-lenerspas-noun",
+   "lemma": "lenerspas",
+   "pos": "noun",
+   "article": "de",
+   "plural": "lenerspassen"
+  },
+  {
+   "id": "lx-nalatig-adjective",
+   "lemma": "nalatig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-pegi-code-noun",
+   "lemma": "pegi-code",
+   "pos": "noun",
+   "article": "de",
+   "plural": "PEGI-codes"
+  },
+  {
+   "id": "lx-stopzetten-verb",
+   "lemma": "stopzetten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zette stop",
+    "pastParticiple": "stopgezet",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-vervangingswaarde-noun",
+   "lemma": "vervangingswaarde",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vervangingswaarden"
+  },
+  {
+   "id": "lx-zemel-noun",
+   "lemma": "zemel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zemelen"
+  },
+  {
+   "id": "lx-wachtkamer-noun",
+   "lemma": "wachtkamer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wachtkamers"
+  },
+  {
+   "id": "lx-condoleren-verb",
+   "lemma": "condoleren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "condoleerde",
+    "pastParticiple": "gecondoleerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-alfabet-noun",
+   "lemma": "alfabet",
+   "pos": "noun",
+   "article": "het",
+   "plural": "alfabetten"
+  },
+  {
+   "id": "lx-belangenvereniging-noun",
+   "lemma": "belangenvereniging",
+   "pos": "noun",
+   "article": "de",
+   "plural": "belangenverenigingen"
+  },
+  {
+   "id": "lx-conservatorium-noun",
+   "lemma": "conservatorium",
+   "pos": "noun",
+   "article": "het",
+   "plural": "conservatoria"
+  },
+  {
+   "id": "lx-dansopleiding-noun",
+   "lemma": "dansopleiding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "dansopleidingen"
+  },
+  {
+   "id": "lx-herschrijven-verb",
+   "lemma": "herschrijven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "herschreef",
+    "pastParticiple": "herschreven",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kunstdisciplines-noun",
+   "lemma": "kunstdisciplines",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kunstdisciplines"
+  },
+  {
+   "id": "lx-major-studie-noun",
+   "lemma": "major-studie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "major-studies"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-depressief-adjective-1",
+   "lexemeId": "lx-depressief-adjective",
+   "zh": "抑郁的；情绪低落的",
+   "examples": [
+    {
+     "nl": "Na de verhuizing voelde ze zich een tijdje depressief.",
+     "zh": "搬家后，她有一段时间感到抑郁。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-fataal-adjective-1",
+   "lexemeId": "lx-fataal-adjective",
+   "zh": "致命的；灾难性的",
+   "examples": [
+    {
+     "nl": "De artsen zeiden dat de verwonding niet fataal was.",
+     "zh": "医生说这处伤并不致命。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoofs-adjective-1",
+   "lexemeId": "lx-hoofs-adjective",
+   "zh": "宫廷式的；彬彬有礼的",
+   "examples": [
+    {
+     "nl": "De hoofse ridder begroette de koningin met een buiging.",
+     "zh": "这位彬彬有礼的骑士向王后鞠躬致意。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-lakleer-noun-1",
+   "lexemeId": "lx-lakleer-noun",
+   "zh": "漆皮",
+   "examples": [
+    {
+     "nl": "De zwarte schoenen van lakleer glommen onder het licht.",
+     "zh": "黑色漆皮鞋在灯光下闪闪发亮。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-muziekgenre-noun-1",
+   "lexemeId": "lx-muziekgenre-noun",
+   "zh": "音乐类型；音乐流派",
+   "examples": [
+    {
+     "nl": "Jazz is een muziekgenre dat veel mensen wereldwijd kennen.",
+     "zh": "爵士乐是一种全世界许多人都熟悉的音乐流派。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-noemen-noun-1",
+   "lexemeId": "lx-noemen-noun",
+   "zh": "提及；说出（名词化动作）",
+   "examples": [
+    {
+     "nl": "Het noemen van namen is tijdens dit gesprek niet nodig.",
+     "zh": "这次谈话中不需要提及人名。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-overkoepelen-verb-1",
+   "lexemeId": "lx-overkoepelen-verb",
+   "zh": "统辖；涵盖",
+   "examples": [
+    {
+     "nl": "De organisatie overkoepelt verschillende lokale sportverenigingen.",
+     "zh": "这个组织统辖多个地方体育协会。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-studentenkroeg-noun-1",
+   "lexemeId": "lx-studentenkroeg-noun",
+   "zh": "大学生酒吧",
+   "examples": [
+    {
+     "nl": "Na het college gingen we naar een studentenkroeg.",
+     "zh": "下课后，我们去了大学生酒吧。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zelfspot-noun-1",
+   "lexemeId": "lx-zelfspot-noun",
+   "zh": "自嘲",
+   "examples": [
+    {
+     "nl": "Met wat zelfspot vertelde hij over zijn mislukte kookpoging.",
+     "zh": "他带着一点自嘲讲述了自己做饭失败的经历。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-buitenverblijf-noun-1",
+   "lexemeId": "lx-buitenverblijf-noun",
+   "zh": "郊外住所；度假屋",
+   "examples": [
+    {
+     "nl": "In het weekend verblijven ze in hun buitenverblijf aan zee.",
+     "zh": "周末他们住在海边的度假屋。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-filmtechnisch-adjective-1",
+   "lexemeId": "lx-filmtechnisch-adjective",
+   "zh": "电影技术的",
+   "examples": [
+    {
+     "nl": "De filmtechnische kwaliteit was goed ondanks het kleine budget.",
+     "zh": "尽管预算很少，电影技术质量仍然不错。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-nieuwste-adjective-1",
+   "lexemeId": "lx-nieuwste-adjective",
+   "zh": "最新的",
+   "examples": [
+    {
+     "nl": "De nieuwste versie van de app is vandaag beschikbaar.",
+     "zh": "这个应用的最新版本今天可以使用。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-premièrefeest-noun-1",
+   "lexemeId": "lx-premièrefeest-noun",
+   "zh": "首映派对",
+   "examples": [
+    {
+     "nl": "Na de première ging de cast naar een premièrefeest.",
+     "zh": "首映后，演员们去参加了首映派对。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-donderslag-noun-1",
+   "lexemeId": "lx-donderslag-noun",
+   "zh": "雷鸣；霹雳",
+   "examples": [
+    {
+     "nl": "Een harde donderslag maakte de kinderen wakker.",
+     "zh": "一声巨雷把孩子们惊醒了。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aftakelingsproces-noun-1",
+   "lexemeId": "lx-aftakelingsproces-noun",
+   "zh": "衰退过程；逐渐恶化",
+   "examples": [
+    {
+     "nl": "Het aftakelingsproces van het oude gebouw duurde jaren.",
+     "zh": "这栋旧建筑的逐渐衰败持续了多年。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hartspier-noun-1",
+   "lexemeId": "lx-hartspier-noun",
+   "zh": "心肌",
+   "examples": [
+    {
+     "nl": "De hartspier pompt bloed door het hele lichaam.",
+     "zh": "心肌把血液输送到全身。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-legaliseren-verb-1",
+   "lexemeId": "lx-legaliseren-verb",
+   "zh": "使合法化；合法认证",
+   "examples": [
+    {
+     "nl": "Het land wil het bezit van kleine hoeveelheden cannabis legaliseren.",
+     "zh": "该国希望将少量大麻的持有合法化。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ruggenmerg-noun-1",
+   "lexemeId": "lx-ruggenmerg-noun",
+   "zh": "脊髓",
+   "examples": [
+    {
+     "nl": "Het ruggenmerg geeft signalen door tussen hersenen en lichaam.",
+     "zh": "脊髓在大脑和身体之间传递信号。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wegvallen-verb-1",
+   "lexemeId": "lx-wegvallen-verb",
+   "zh": "消失；停止；缺少",
+   "examples": [
+    {
+     "nl": "Toen de stroom wegviel, gingen alle lampen uit.",
+     "zh": "停电后，所有灯都熄灭了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-begaafdheid-noun-1",
+   "lexemeId": "lx-begaafdheid-noun",
+   "zh": "天赋；才能",
+   "examples": [
+    {
+     "nl": "Haar muzikale begaafdheid werd al op jonge leeftijd ontdekt.",
+     "zh": "她的音乐天赋在很小的时候就被发现了。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gemankeerd-adjective-1",
+   "lexemeId": "lx-gemankeerd-adjective",
+   "zh": "有缺陷的；不完善的",
+   "examples": [
+    {
+     "nl": "Het gemankeerde ontwerp moest opnieuw worden aangepast.",
+     "zh": "这个有缺陷的设计必须重新修改。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kleineren-verb-1",
+   "lexemeId": "lx-kleineren-verb",
+   "zh": "贬低；轻视",
+   "examples": [
+    {
+     "nl": "Een goede leraar kleineert leerlingen nooit voor hun fouten.",
+     "zh": "好老师绝不会因为学生犯错而贬低他们。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-martiaal-adjective-1",
+   "lexemeId": "lx-martiaal-adjective",
+   "zh": "好战的；军事化的",
+   "examples": [
+    {
+     "nl": "De martiale muziek paste bij de historische parade.",
+     "zh": "这首军乐很适合历史游行。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-munten-verb-1",
+   "lexemeId": "lx-munten-verb",
+   "zh": "铸造；创造（词语）",
+   "examples": [
+    {
+     "nl": "De schrijver muntte een nieuwe term voor dit verschijnsel.",
+     "zh": "作者为这种现象创造了一个新术语。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-slaapvertrek-noun-1",
+   "lexemeId": "lx-slaapvertrek-noun",
+   "zh": "卧室；寝室",
+   "examples": [
+    {
+     "nl": "Het slaapvertrek bevond zich achter de kleine woonkamer.",
+     "zh": "卧室位于小客厅的后面。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stoffelijk-overschot-phrase-1",
+   "lexemeId": "lx-stoffelijk-overschot-phrase",
+   "zh": "遗体；尸体",
+   "examples": [
+    {
+     "nl": "Het stoffelijk overschot werd na het onderzoek aan de familie teruggegeven.",
+     "zh": "检查结束后，遗体被交还给了家人。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tot-vervelens-toe-phrase-1",
+   "lexemeId": "lx-tot-vervelens-toe-phrase",
+   "zh": "烦人地反复；令人厌烦地",
+   "examples": [
+    {
+     "nl": "Hij herhaalde tot vervelens toe hetzelfde verhaal.",
+     "zh": "他令人厌烦地一遍又一遍讲同一个故事。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-veehouder-noun-1",
+   "lexemeId": "lx-veehouder-noun",
+   "zh": "畜牧农民；养殖户",
+   "examples": [
+    {
+     "nl": "De veehouder bracht de koeien vroeg naar de wei.",
+     "zh": "畜牧农民一大早就把奶牛赶到草场。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wereldhegemonie-noun-1",
+   "lexemeId": "lx-wereldhegemonie-noun",
+   "zh": "世界霸权",
+   "examples": [
+    {
+     "nl": "De landen streden om wereldhegemonie en economische invloed.",
+     "zh": "各国争夺世界霸权和经济影响力。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-adreslegitimatie-noun-1",
+   "lexemeId": "lx-adreslegitimatie-noun",
+   "zh": "地址证明",
+   "examples": [
+    {
+     "nl": "Voor de aanvraag moest zij een adreslegitimatie laten zien.",
+     "zh": "申请时，她必须出示地址证明。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doeltreffend-adjective-1",
+   "lexemeId": "lx-doeltreffend-adjective",
+   "zh": "有效的；高效的",
+   "examples": [
+    {
+     "nl": "De nieuwe methode bleek doeltreffend tegen de kleine insecten.",
+     "zh": "新方法被证明能有效对付这些小昆虫。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-incassomachtiging-noun-1",
+   "lexemeId": "lx-incassomachtiging-noun",
+   "zh": "自动扣款授权",
+   "examples": [
+    {
+     "nl": "Met een incassomachtiging betaalt de klant de rekening automatisch.",
+     "zh": "有了自动扣款授权，顾客就能自动支付账单。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-lenerspas-noun-1",
+   "lexemeId": "lx-lenerspas-noun",
+   "zh": "借书证",
+   "examples": [
+    {
+     "nl": "Met mijn lenerspas kan ik tien boeken tegelijk lenen.",
+     "zh": "凭借书证，我可以一次借十本书。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-nalatig-adjective-1",
+   "lexemeId": "lx-nalatig-adjective",
+   "zh": "疏忽的；玩忽职守的",
+   "examples": [
+    {
+     "nl": "De nalatige verhuurder liet de lekkage wekenlang onbehandeld.",
+     "zh": "疏忽的房东让漏水问题数周未处理。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-pegi-code-noun-1",
+   "lexemeId": "lx-pegi-code-noun",
+   "zh": "PEGI 年龄分级代码",
+   "examples": [
+    {
+     "nl": "Controleer de leeftijdsclassificatie voordat je een spel voor kinderen koopt.",
+     "zh": "为孩子买游戏前，请先检查年龄分级。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stopzetten-verb-1",
+   "lexemeId": "lx-stopzetten-verb",
+   "zh": "停止；终止",
+   "examples": [
+    {
+     "nl": "De school zette het project tijdelijk stop wegens geldgebrek.",
+     "zh": "由于缺钱，学校暂时停止了这个项目。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vervangingswaarde-noun-1",
+   "lexemeId": "lx-vervangingswaarde-noun",
+   "zh": "重置价值；替代价值",
+   "examples": [
+    {
+     "nl": "De verzekeraar berekende de vervangingswaarde van de meubels.",
+     "zh": "保险公司计算了家具的重置价值。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zemel-noun-1",
+   "lexemeId": "lx-zemel-noun",
+   "zh": "麸皮",
+   "examples": [
+    {
+     "nl": "Havermout met zemelen bevat veel vezels.",
+     "zh": "燕麦片加麸皮含有很多纤维。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wachtkamer-noun-1",
+   "lexemeId": "lx-wachtkamer-noun",
+   "zh": "候诊室；等候室",
+   "examples": [
+    {
+     "nl": "In de wachtkamer las ik een tijdschrift terwijl ik wachtte.",
+     "zh": "我在等候室一边等一边看杂志。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-condoleren-verb-1",
+   "lexemeId": "lx-condoleren-verb",
+   "zh": "向……表示哀悼",
+   "examples": [
+    {
+     "nl": "We condoleerden de familie met het verlies van hun vader.",
+     "zh": "我们向这家人表达了对他们父亲去世的哀悼。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-alfabet-noun-1",
+   "lexemeId": "lx-alfabet-noun",
+   "zh": "字母表",
+   "examples": [
+    {
+     "nl": "Het Nederlandse alfabet heeft zesentwintig letters.",
+     "zh": "荷兰字母表有二十六个字母。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-belangenvereniging-noun-1",
+   "lexemeId": "lx-belangenvereniging-noun",
+   "zh": "利益协会；权益组织",
+   "examples": [
+    {
+     "nl": "De belangenvereniging helpt bewoners bij problemen met huur.",
+     "zh": "权益组织帮助居民处理租房问题。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-conservatorium-noun-1",
+   "lexemeId": "lx-conservatorium-noun",
+   "zh": "音乐学院",
+   "examples": [
+    {
+     "nl": "Na haar middelbare school studeerde zij piano aan het conservatorium.",
+     "zh": "中学毕业后，她在音乐学院学习钢琴。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dansopleiding-noun-1",
+   "lexemeId": "lx-dansopleiding-noun",
+   "zh": "舞蹈培训课程",
+   "examples": [
+    {
+     "nl": "De dansopleiding begint ieder jaar in september.",
+     "zh": "舞蹈培训课程每年九月开课。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-herschrijven-verb-1",
+   "lexemeId": "lx-herschrijven-verb",
+   "zh": "重写；改写",
+   "examples": [
+    {
+     "nl": "Ik moest de brief herschrijven omdat de uitleg onduidelijk was.",
+     "zh": "由于说明不清楚，我必须重写这封信。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kunstdisciplines-noun-1",
+   "lexemeId": "lx-kunstdisciplines-noun",
+   "zh": "艺术门类",
+   "examples": [
+    {
+     "nl": "De opleiding combineert verschillende kunstdisciplines, zoals muziek en theater.",
+     "zh": "这个课程结合了音乐、戏剧等不同艺术门类。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-major-studie-noun-1",
+   "lexemeId": "lx-major-studie-noun",
+   "zh": "主修专业；专业方向",
+   "examples": [
+    {
+     "nl": "Voor haar major-studie koos ze biologie en milieukunde.",
+     "zh": "她选择了生物学和环境科学作为主修专业。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

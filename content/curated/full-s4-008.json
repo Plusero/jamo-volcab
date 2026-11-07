@@ -1,0 +1,1137 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-dank-noun",
+   "lemma": "dank",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-thuisblijven-verb",
+   "lemma": "thuisblijven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bleef thuis",
+    "pastParticiple": "thuisgebleven",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-typen-verb",
+   "lemma": "typen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "typte",
+    "pastParticiple": "getypt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-object-noun",
+   "lemma": "object",
+   "pos": "noun",
+   "article": "het",
+   "plural": "objecten"
+  },
+  {
+   "id": "lx-koesteren-verb",
+   "lemma": "koesteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "koesterde",
+    "pastParticiple": "gekoesterd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-groepering-noun",
+   "lemma": "groepering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "groeperingen"
+  },
+  {
+   "id": "lx-piraat-noun",
+   "lemma": "piraat",
+   "pos": "noun",
+   "article": "de",
+   "plural": "piraten"
+  },
+  {
+   "id": "lx-werkloosheid-noun",
+   "lemma": "werkloosheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-slinger-noun",
+   "lemma": "slinger",
+   "pos": "noun",
+   "article": "de",
+   "plural": "slingers"
+  },
+  {
+   "id": "lx-heg-noun",
+   "lemma": "heg",
+   "pos": "noun",
+   "article": "de",
+   "plural": "heggen"
+  },
+  {
+   "id": "lx-krabbelen-verb",
+   "lemma": "krabbelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "krabbelde",
+    "pastParticiple": "gekrabbeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-goal-noun",
+   "lemma": "goal",
+   "pos": "noun",
+   "article": "het",
+   "plural": "goals"
+  },
+  {
+   "id": "lx-producent-noun",
+   "lemma": "producent",
+   "pos": "noun",
+   "article": "de",
+   "plural": "producenten"
+  },
+  {
+   "id": "lx-senior-noun",
+   "lemma": "senior",
+   "pos": "noun",
+   "article": "de",
+   "plural": "senioren"
+  },
+  {
+   "id": "lx-doorvertellen-verb",
+   "lemma": "doorvertellen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "vertelde door",
+    "pastParticiple": "doorgeverteld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-misdadiger-noun",
+   "lemma": "misdadiger",
+   "pos": "noun",
+   "article": "de",
+   "plural": "misdadigers"
+  },
+  {
+   "id": "lx-aan-de-hand-van-phrase",
+   "lemma": "aan de hand van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-doodschieten-verb",
+   "lemma": "doodschieten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "schoot dood",
+    "pastParticiple": "doodgeschoten",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-riskeren-verb",
+   "lemma": "riskeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "riskeerde",
+    "pastParticiple": "geriskeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-opvoeder-noun",
+   "lemma": "opvoeder",
+   "pos": "noun",
+   "article": "de",
+   "plural": "opvoeders"
+  },
+  {
+   "id": "lx-chocolade-noun",
+   "lemma": "chocolade",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-ge-pronoun",
+   "lemma": "ge",
+   "pos": "pronoun"
+  },
+  {
+   "id": "lx-gif-noun",
+   "lemma": "gif",
+   "pos": "noun",
+   "article": "het",
+   "plural": "giffen"
+  },
+  {
+   "id": "lx-centimeter-noun",
+   "lemma": "centimeter",
+   "pos": "noun",
+   "article": "de",
+   "plural": "centimeters"
+  },
+  {
+   "id": "lx-haring-noun",
+   "lemma": "haring",
+   "pos": "noun",
+   "article": "de",
+   "plural": "haringen"
+  },
+  {
+   "id": "lx-wederhelft-noun",
+   "lemma": "wederhelft",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wederhelften"
+  },
+  {
+   "id": "lx-liefdesdrank-noun",
+   "lemma": "liefdesdrank",
+   "pos": "noun",
+   "article": "de",
+   "plural": "liefdesdranken"
+  },
+  {
+   "id": "lx-hondenpoep-noun",
+   "lemma": "hondenpoep",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-dierentuin-noun",
+   "lemma": "dierentuin",
+   "pos": "noun",
+   "article": "de",
+   "plural": "dierentuinen"
+  },
+  {
+   "id": "lx-voc-schip-noun",
+   "lemma": "voc-schip",
+   "pos": "noun",
+   "article": "het",
+   "plural": "VOC-schepen"
+  },
+  {
+   "id": "lx-bowlen-verb",
+   "lemma": "bowlen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bowlde",
+    "pastParticiple": "gebowld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-voordragen-verb",
+   "lemma": "voordragen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "droeg voor",
+    "pastParticiple": "voorgedragen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-biljart-noun",
+   "lemma": "biljart",
+   "pos": "noun",
+   "article": "het",
+   "plural": "biljarts"
+  },
+  {
+   "id": "lx-liefdesverhaal-noun",
+   "lemma": "liefdesverhaal",
+   "pos": "noun",
+   "article": "het",
+   "plural": "liefdesverhalen"
+  },
+  {
+   "id": "lx-snik-noun",
+   "lemma": "snik",
+   "pos": "noun",
+   "article": "de",
+   "plural": "snikken"
+  },
+  {
+   "id": "lx-goedig-adjective",
+   "lemma": "goedig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-losmaken-verb",
+   "lemma": "losmaken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "maakte los",
+    "pastParticiple": "losgemaakt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-stomverbaasd-adjective",
+   "lemma": "stomverbaasd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-speld-noun",
+   "lemma": "speld",
+   "pos": "noun",
+   "article": "de",
+   "plural": "spelden"
+  },
+  {
+   "id": "lx-glimmen-verb",
+   "lemma": "glimmen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "glom",
+    "pastParticiple": "geglommen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-minachting-noun",
+   "lemma": "minachting",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-haast-noun",
+   "lemma": "haast",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-voorbijlopen-verb",
+   "lemma": "voorbijlopen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liep voorbij",
+    "pastParticiple": "voorbijgelopen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-troon-noun",
+   "lemma": "troon",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tronen"
+  },
+  {
+   "id": "lx-daarboven-adverb",
+   "lemma": "daarboven",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-grommen-verb",
+   "lemma": "grommen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "gromde",
+    "pastParticiple": "gegromd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-vuurrood-adjective",
+   "lemma": "vuurrood",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-achterdeur-noun",
+   "lemma": "achterdeur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "achterdeuren"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-dank-noun-1",
+   "lexemeId": "lx-dank-noun",
+   "zh": "感谢；谢意",
+   "examples": [
+    {
+     "nl": "Ze sprak haar dank uit voor alle hulp.",
+     "zh": "她表达了对所有帮助的感激。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-thuisblijven-verb-1",
+   "lexemeId": "lx-thuisblijven-verb",
+   "zh": "待在家里",
+   "examples": [
+    {
+     "nl": "Vanavond blijf ik thuis omdat ik vroeg moet opstaan.",
+     "zh": "今晚我待在家里，因为明天得早起。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-typen-verb-1",
+   "lexemeId": "lx-typen-verb",
+   "zh": "打字；键入",
+   "examples": [
+    {
+     "nl": "Hij typt het adres zorgvuldig in zijn telefoon.",
+     "zh": "他仔细地把地址输入手机。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-object-noun-1",
+   "lexemeId": "lx-object-noun",
+   "zh": "物体；物件",
+   "examples": [
+    {
+     "nl": "De politie vond een vreemd object in de tuin.",
+     "zh": "警方在花园里发现了一个奇怪的物体。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-koesteren-verb-1",
+   "lexemeId": "lx-koesteren-verb",
+   "zh": "珍爱；珍惜",
+   "examples": [
+    {
+     "nl": "Ze koestert de brieven die haar oma haar schreef.",
+     "zh": "她珍藏着祖母写给她的信。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-groepering-noun-1",
+   "lexemeId": "lx-groepering-noun",
+   "zh": "群体；组织",
+   "examples": [
+    {
+     "nl": "De groepering organiseerde een bijeenkomst voor buurtbewoners.",
+     "zh": "这个团体为附近居民组织了一次聚会。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-piraat-noun-1",
+   "lexemeId": "lx-piraat-noun",
+   "zh": "海盗",
+   "examples": [
+    {
+     "nl": "Volgens het verhaal verborg de piraat goud op het eiland.",
+     "zh": "根据故事，海盗把金子藏在岛上。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-werkloosheid-noun-1",
+   "lexemeId": "lx-werkloosheid-noun",
+   "zh": "失业",
+   "examples": [
+    {
+     "nl": "De werkloosheid daalde in de regio afgelopen jaar.",
+     "zh": "去年这个地区的失业率下降了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-slinger-noun-1",
+   "lexemeId": "lx-slinger-noun",
+   "zh": "花环；悬挂物",
+   "examples": [
+    {
+     "nl": "Voor het feest hingen we een slinger boven de tafel.",
+     "zh": "聚会前，我们在桌子上方挂了一条彩旗。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-heg-noun-1",
+   "lexemeId": "lx-heg-noun",
+   "zh": "树篱",
+   "examples": [
+    {
+     "nl": "De buurman snoeit iedere lente de heg.",
+     "zh": "邻居每年春天修剪树篱。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-krabbelen-verb-1",
+   "lexemeId": "lx-krabbelen-verb",
+   "zh": "潦草地写；抓挠",
+   "examples": [
+    {
+     "nl": "Het kind krabbelde zijn naam op het papier.",
+     "zh": "孩子在纸上潦草地写下自己的名字。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-goal-noun-1",
+   "lexemeId": "lx-goal-noun",
+   "zh": "进球；球门",
+   "examples": [
+    {
+     "nl": "Het eerste goal viel al na vijf minuten.",
+     "zh": "第一个进球在五分钟后就出现了。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-producent-noun-1",
+   "lexemeId": "lx-producent-noun",
+   "zh": "生产商；制片人",
+   "examples": [
+    {
+     "nl": "De producent maakt kaas van melk uit de streek.",
+     "zh": "生产商用本地牛奶制作奶酪。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-senior-noun-1",
+   "lexemeId": "lx-senior-noun",
+   "zh": "老年人；资深人士",
+   "examples": [
+    {
+     "nl": "De senior kreeg hulp bij het invullen van het formulier.",
+     "zh": "这位老年人在填写表格时得到了帮助。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doorvertellen-verb-1",
+   "lexemeId": "lx-doorvertellen-verb",
+   "zh": "转述；继续讲给别人听",
+   "examples": [
+    {
+     "nl": "Vertel het nieuws niet door voordat iedereen het weet.",
+     "zh": "在所有人知道之前，不要把消息转述出去。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-misdadiger-noun-1",
+   "lexemeId": "lx-misdadiger-noun",
+   "zh": "罪犯",
+   "examples": [
+    {
+     "nl": "De misdadiger werd na een lang onderzoek gevonden.",
+     "zh": "经过长期调查，这名罪犯被找到了。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aan-de-hand-van-phrase-1",
+   "lexemeId": "lx-aan-de-hand-van-phrase",
+   "zh": "根据；借助",
+   "examples": [
+    {
+     "nl": "Aan de hand van deze kaart vinden we het museum.",
+     "zh": "借助这张地图，我们能找到博物馆。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doodschieten-verb-1",
+   "lexemeId": "lx-doodschieten-verb",
+   "zh": "开枪打死",
+   "examples": [
+    {
+     "nl": "De jager schoot het gewonde dier dood.",
+     "zh": "猎人开枪打死了受伤的动物。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-riskeren-verb-1",
+   "lexemeId": "lx-riskeren-verb",
+   "zh": "冒……的风险",
+   "examples": [
+    {
+     "nl": "Als je nu vertrekt, riskeer je de laatste bus te missen.",
+     "zh": "如果你现在出发，就有可能错过末班车。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opvoeder-noun-1",
+   "lexemeId": "lx-opvoeder-noun",
+   "zh": "教育者； воспитатель",
+   "examples": [
+    {
+     "nl": "Een goede opvoeder luistert naar de behoeften van kinderen.",
+     "zh": "好的教育者会倾听孩子们的需求。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-chocolade-noun-1",
+   "lexemeId": "lx-chocolade-noun",
+   "zh": "巧克力",
+   "examples": [
+    {
+     "nl": "Na het eten dronk ze warme melk met chocolade.",
+     "zh": "饭后她喝了加巧克力的热牛奶。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ge-pronoun-1",
+   "lexemeId": "lx-ge-pronoun",
+   "zh": "你（古旧或方言用法）",
+   "examples": [
+    {
+     "nl": "In sommige Vlaamse dorpen zegt men nog 'ge' tegen bekenden.",
+     "zh": "在佛兰德斯一些村庄，人们仍对熟人使用旧式的“你”称呼。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gif-noun-1",
+   "lexemeId": "lx-gif-noun",
+   "zh": "毒；毒药",
+   "examples": [
+    {
+     "nl": "Het gif van deze spin kan gevaarlijk zijn.",
+     "zh": "这种蜘蛛的毒液可能很危险。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-centimeter-noun-1",
+   "lexemeId": "lx-centimeter-noun",
+   "zh": "厘米",
+   "examples": [
+    {
+     "nl": "De tafel is precies honderd centimeter breed.",
+     "zh": "这张桌子正好有一百厘米宽。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-haring-noun-1",
+   "lexemeId": "lx-haring-noun",
+   "zh": "鲱鱼",
+   "examples": [
+    {
+     "nl": "Op de markt kocht hij een verse haring.",
+     "zh": "他在市场上买了一条新鲜鲱鱼。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wederhelft-noun-1",
+   "lexemeId": "lx-wederhelft-noun",
+   "zh": "伴侣；另一半",
+   "examples": [
+    {
+     "nl": "Mijn wederhelft haalt de kinderen straks van school.",
+     "zh": "我的伴侣一会儿去学校接孩子。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-liefdesdrank-noun-1",
+   "lexemeId": "lx-liefdesdrank-noun",
+   "zh": "爱情药水",
+   "examples": [
+    {
+     "nl": "In het sprookje brouwt de heks een liefdesdrank.",
+     "zh": "童话里，女巫调制了一种爱情药水。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hondenpoep-noun-1",
+   "lexemeId": "lx-hondenpoep-noun",
+   "zh": "狗屎；狗粪",
+   "examples": [
+    {
+     "nl": "Ruim hondenpoep op zodat kinderen veilig kunnen spelen.",
+     "zh": "请清理狗粪，让孩子们可以安全玩耍。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dierentuin-noun-1",
+   "lexemeId": "lx-dierentuin-noun",
+   "zh": "动物园",
+   "examples": [
+    {
+     "nl": "In de dierentuin zagen we pasgeboren olifanten.",
+     "zh": "我们在动物园看到了刚出生的小象。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voc-schip-noun-1",
+   "lexemeId": "lx-voc-schip-noun",
+   "zh": "荷兰东印度公司船",
+   "examples": [
+    {
+     "nl": "Het VOC-schip vervoerde vroeger specerijen uit Azië.",
+     "zh": "荷兰东印度公司的船过去从亚洲运送香料。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bowlen-verb-1",
+   "lexemeId": "lx-bowlen-verb",
+   "zh": "打保龄球",
+   "examples": [
+    {
+     "nl": "We bowlen iedere vrijdagavond met collega's.",
+     "zh": "我们每周五晚上和同事一起打保龄球。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voordragen-verb-1",
+   "lexemeId": "lx-voordragen-verb",
+   "zh": "朗诵；提名",
+   "examples": [
+    {
+     "nl": "Tijdens het feest droeg zij een gedicht voor.",
+     "zh": "聚会上，她朗诵了一首诗。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-biljart-noun-1",
+   "lexemeId": "lx-biljart-noun",
+   "zh": "台球；台球桌",
+   "examples": [
+    {
+     "nl": "In het café staat een biljart achter in de zaal.",
+     "zh": "咖啡馆大厅后面有一张台球桌。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-liefdesverhaal-noun-1",
+   "lexemeId": "lx-liefdesverhaal-noun",
+   "zh": "爱情故事",
+   "examples": [
+    {
+     "nl": "Het liefdesverhaal eindigt gelukkig in het kleine dorp.",
+     "zh": "这个爱情故事在小村庄里有一个幸福的结局。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-snik-noun-1",
+   "lexemeId": "lx-snik-noun",
+   "zh": "抽泣声",
+   "examples": [
+    {
+     "nl": "Een zachte snik klonk vanuit de andere kamer.",
+     "zh": "另一间屋里传来一声轻轻的抽泣。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-goedig-adjective-1",
+   "lexemeId": "lx-goedig-adjective",
+   "zh": "和善的；温厚的",
+   "examples": [
+    {
+     "nl": "De goedige buurman hielp ons met de zware kast.",
+     "zh": "和善的邻居帮我们搬那只沉重的柜子。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-losmaken-verb-1",
+   "lexemeId": "lx-losmaken-verb",
+   "zh": "解开；松开",
+   "examples": [
+    {
+     "nl": "Maak de knoop los voordat je de jas uittrekt.",
+     "zh": "脱外套前先把扣子解开。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stomverbaasd-adjective-1",
+   "lexemeId": "lx-stomverbaasd-adjective",
+   "zh": "惊呆的；目瞪口呆的",
+   "examples": [
+    {
+     "nl": "We waren stomverbaasd toen de hond zelf de deur opende.",
+     "zh": "狗竟然自己开了门，我们都惊呆了。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-speld-noun-1",
+   "lexemeId": "lx-speld-noun",
+   "zh": "别针；胸针",
+   "examples": [
+    {
+     "nl": "Ze gebruikte een speld om de stof vast te zetten.",
+     "zh": "她用一枚别针固定布料。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-glimmen-verb-1",
+   "lexemeId": "lx-glimmen-verb",
+   "zh": "发亮；闪耀",
+   "examples": [
+    {
+     "nl": "De schoenen glommen nadat hij ze had gepoetst.",
+     "zh": "鞋子擦过之后亮闪闪的。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-minachting-noun-1",
+   "lexemeId": "lx-minachting-noun",
+   "zh": "蔑视；轻蔑",
+   "examples": [
+    {
+     "nl": "Hij sprak met minachting over mensen zonder werk.",
+     "zh": "他轻蔑地谈论失业的人。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-haast-noun-1",
+   "lexemeId": "lx-haast-noun",
+   "zh": "匆忙；急迫",
+   "examples": [
+    {
+     "nl": "We hadden haast en namen een taxi naar het station.",
+     "zh": "我们赶时间，就乘出租车去了车站。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voorbijlopen-verb-1",
+   "lexemeId": "lx-voorbijlopen-verb",
+   "zh": "从旁边走过；跑过",
+   "examples": [
+    {
+     "nl": "Ik liep gisteren voorbij het huis van mijn oude leraar.",
+     "zh": "我昨天从以前老师的房子旁边走过。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-troon-noun-1",
+   "lexemeId": "lx-troon-noun",
+   "zh": "王位；宝座",
+   "examples": [
+    {
+     "nl": "De jonge koning besteeg de troon na zijn vader.",
+     "zh": "年轻的国王在父亲之后登上王位。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-daarboven-adverb-1",
+   "lexemeId": "lx-daarboven-adverb",
+   "zh": "在上方；此外",
+   "examples": [
+    {
+     "nl": "De slaapkamer ligt daarboven, naast de kleine badkamer.",
+     "zh": "卧室在楼上，挨着小浴室。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-grommen-verb-1",
+   "lexemeId": "lx-grommen-verb",
+   "zh": "低吼；咆哮",
+   "examples": [
+    {
+     "nl": "De hond gromde toen iemand de tuin binnenkwam.",
+     "zh": "有人走进花园时，狗低吼起来。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vuurrood-adjective-1",
+   "lexemeId": "lx-vuurrood-adjective",
+   "zh": "火红的",
+   "examples": [
+    {
+     "nl": "De lucht werd vuurrood toen de zon onderging.",
+     "zh": "太阳落山时，天空变成了火红色。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-achterdeur-noun-1",
+   "lexemeId": "lx-achterdeur-noun",
+   "zh": "后门",
+   "examples": [
+    {
+     "nl": "De kat wachtte bij de achterdeur tot iemand haar binnenliet.",
+     "zh": "猫在后门等着有人放它进来。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

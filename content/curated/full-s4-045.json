@@ -1,0 +1,1062 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-wastobbe-noun",
+   "lemma": "wastobbe",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wastobben"
+  },
+  {
+   "id": "lx-arbeidsverkorting-noun",
+   "lemma": "arbeidsverkorting",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-brugpensioen-noun",
+   "lemma": "brugpensioen",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-loonverlies-noun",
+   "lemma": "loonverlies",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-passief-noun",
+   "lemma": "passief",
+   "pos": "noun",
+   "article": "het",
+   "plural": "passieven"
+  },
+  {
+   "id": "lx-werkloze-noun",
+   "lemma": "werkloze",
+   "pos": "noun",
+   "article": "de",
+   "plural": "werklozen"
+  },
+  {
+   "id": "lx-boerenbedrijf-noun",
+   "lemma": "boerenbedrijf",
+   "pos": "noun",
+   "article": "het",
+   "plural": "boerenbedrijven"
+  },
+  {
+   "id": "lx-compagnon-noun",
+   "lemma": "compagnon",
+   "pos": "noun",
+   "article": "de",
+   "plural": "compagnons"
+  },
+  {
+   "id": "lx-gewas-noun",
+   "lemma": "gewas",
+   "pos": "noun",
+   "article": "het",
+   "plural": "gewassen"
+  },
+  {
+   "id": "lx-kavel-noun",
+   "lemma": "kavel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kavels"
+  },
+  {
+   "id": "lx-loods-noun",
+   "lemma": "loods",
+   "pos": "noun",
+   "article": "de",
+   "plural": "loodsen"
+  },
+  {
+   "id": "lx-poten-verb",
+   "lemma": "poten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "pootte",
+    "pastParticiple": "gepoot",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-stadstuinieren-verb",
+   "lemma": "stadstuinieren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "stadstuinierde",
+    "pastParticiple": "gestadstuinierd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-vergroenen-noun",
+   "lemma": "vergroenen",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-versteld-adjective",
+   "lemma": "versteld",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-wodka-noun",
+   "lemma": "wodka",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wodka's"
+  },
+  {
+   "id": "lx-antibioticaverbruik-noun",
+   "lemma": "antibioticaverbruik",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-fameus-adjective",
+   "lemma": "fameus",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-onontkoombaar-adjective",
+   "lemma": "onontkoombaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-overschot-noun",
+   "lemma": "overschot",
+   "pos": "noun",
+   "article": "het",
+   "plural": "overschotten"
+  },
+  {
+   "id": "lx-tijdrovend-adjective",
+   "lemma": "tijdrovend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-afgelegen-adjective",
+   "lemma": "afgelegen",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-barista-noun",
+   "lemma": "barista",
+   "pos": "noun",
+   "article": "de",
+   "plural": "barista's"
+  },
+  {
+   "id": "lx-doppio-noun",
+   "lemma": "doppio",
+   "pos": "noun",
+   "article": "de",
+   "plural": "doppio's"
+  },
+  {
+   "id": "lx-genitaliën-noun",
+   "lemma": "genitaliën",
+   "pos": "noun",
+   "article": "de",
+   "plural": "genitaliën"
+  },
+  {
+   "id": "lx-liefhebben-noun",
+   "lemma": "liefhebben",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-macchiato-noun",
+   "lemma": "macchiato",
+   "pos": "noun",
+   "article": "de",
+   "plural": "macchiato's"
+  },
+  {
+   "id": "lx-nee-noun",
+   "lemma": "nee",
+   "pos": "noun",
+   "article": "het",
+   "plural": "nee's"
+  },
+  {
+   "id": "lx-overlast-noun",
+   "lemma": "overlast",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-samenzijn-noun",
+   "lemma": "samenzijn",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-speuren-verb",
+   "lemma": "speuren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "speurde",
+    "pastParticiple": "gespeurd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-zuiders-adjective",
+   "lemma": "zuiders",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-gifslang-noun",
+   "lemma": "gifslang",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gifslangen"
+  },
+  {
+   "id": "lx-levensweg-noun",
+   "lemma": "levensweg",
+   "pos": "noun",
+   "article": "de",
+   "plural": "levenswegen"
+  },
+  {
+   "id": "lx-tik-noun",
+   "lemma": "tik",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tikjes"
+  },
+  {
+   "id": "lx-metrostation-noun",
+   "lemma": "metrostation",
+   "pos": "noun",
+   "article": "het",
+   "plural": "metrostations"
+  },
+  {
+   "id": "lx-zweetdruppel-noun",
+   "lemma": "zweetdruppel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zweetdruppels"
+  },
+  {
+   "id": "lx-doorbladeren-verb",
+   "lemma": "doorbladeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bladerde door",
+    "pastParticiple": "doorgebladerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-giraf-noun",
+   "lemma": "giraf",
+   "pos": "noun",
+   "article": "de",
+   "plural": "giraffen"
+  },
+  {
+   "id": "lx-jarige-noun",
+   "lemma": "jarige",
+   "pos": "noun",
+   "article": "de",
+   "plural": "jarigen"
+  },
+  {
+   "id": "lx-lavabo-noun",
+   "lemma": "lavabo",
+   "pos": "noun",
+   "article": "de",
+   "plural": "lavabo's"
+  },
+  {
+   "id": "lx-navenant-adjective",
+   "lemma": "navenant",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-rechterduim-noun",
+   "lemma": "rechterduim",
+   "pos": "noun",
+   "article": "de",
+   "plural": "rechterduimen"
+  },
+  {
+   "id": "lx-transportmiddel-noun",
+   "lemma": "transportmiddel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "transportmiddelen"
+  },
+  {
+   "id": "lx-dodenlied-noun",
+   "lemma": "dodenlied",
+   "pos": "noun",
+   "article": "het",
+   "plural": "dodenliederen"
+  },
+  {
+   "id": "lx-margriet-noun",
+   "lemma": "margriet",
+   "pos": "noun",
+   "article": "de",
+   "plural": "margrieten"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-wastobbe-noun-1",
+   "lexemeId": "lx-wastobbe-noun",
+   "zh": "洗衣盆；洗衣桶",
+   "examples": [
+    {
+     "nl": "De wastobbe stond vroeger naast de pomp op het erf.",
+     "zh": "从前，洗衣盆放在院子里的水泵旁。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-arbeidsverkorting-noun-1",
+   "lexemeId": "lx-arbeidsverkorting-noun",
+   "zh": "缩短工时；减少工作时间",
+   "examples": [
+    {
+     "nl": "Arbeidsverkorting gaf werknemers meer tijd voor hun gezin.",
+     "zh": "缩短工时给员工更多时间陪伴家人。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-brugpensioen-noun-1",
+   "lexemeId": "lx-brugpensioen-noun",
+   "zh": "提前退休金（比利时用法）",
+   "examples": [
+    {
+     "nl": "Na jarenlang zwaar werk kreeg hij brugpensioen.",
+     "zh": "多年从事繁重工作后，他领取了提前退休金。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-loonverlies-noun-1",
+   "lexemeId": "lx-loonverlies-noun",
+   "zh": "工资损失；工资减少",
+   "examples": [
+    {
+     "nl": "Door ziekte leed zij tijdelijk loonverlies.",
+     "zh": "由于生病，她的工资暂时减少了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-passief-noun-1",
+   "lexemeId": "lx-passief-noun",
+   "zh": "被动语态",
+   "examples": [
+    {
+     "nl": "In deze zin staat het passief in de tegenwoordige tijd.",
+     "zh": "这个句子使用了现在时的被动语态。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-werkloze-noun-1",
+   "lexemeId": "lx-werkloze-noun",
+   "zh": "失业者",
+   "examples": [
+    {
+     "nl": "De werkloze zocht hulp bij het vinden van een nieuwe baan.",
+     "zh": "这名失业者寻求帮助，希望找到新工作。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-boerenbedrijf-noun-1",
+   "lexemeId": "lx-boerenbedrijf-noun",
+   "zh": "农场；农业企业",
+   "examples": [
+    {
+     "nl": "Het boerenbedrijf verkoopt melk en kaas uit eigen productie.",
+     "zh": "这家农场出售自家生产的牛奶和奶酪。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-compagnon-noun-1",
+   "lexemeId": "lx-compagnon-noun",
+   "zh": "合伙人；伙伴",
+   "examples": [
+    {
+     "nl": "Mijn compagnon beheert de winkel terwijl ik de administratie doe.",
+     "zh": "我做账时，合伙人负责管理商店。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gewas-noun-1",
+   "lexemeId": "lx-gewas-noun",
+   "zh": "作物",
+   "examples": [
+    {
+     "nl": "Dit gewas groeit goed op droge zandgrond.",
+     "zh": "这种作物在干燥的沙土里长得很好。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kavel-noun-1",
+   "lexemeId": "lx-kavel-noun",
+   "zh": "地块；土地",
+   "examples": [
+    {
+     "nl": "Op deze kavel bouwen ze volgend jaar een nieuw huis.",
+     "zh": "他们明年将在这块地上建一栋新房子。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-loods-noun-1",
+   "lexemeId": "lx-loods-noun",
+   "zh": "仓库；棚屋；引航员",
+   "examples": [
+    {
+     "nl": "De boten werden voor de winter in een loods gezet.",
+     "zh": "冬天到来前，船只被放进仓库里。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-poten-verb-1",
+   "lexemeId": "lx-poten-verb",
+   "zh": "种植；把……插入",
+   "examples": [
+    {
+     "nl": "We poten in april nieuwe aardappelen in de moestuin.",
+     "zh": "四月我们在菜园里种下新的土豆。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stadstuinieren-verb-1",
+   "lexemeId": "lx-stadstuinieren-verb",
+   "zh": "在城市里种植园艺作物",
+   "examples": [
+    {
+     "nl": "Veel bewoners stadstuinieren op hun balkon of dakterras.",
+     "zh": "许多居民在阳台或屋顶露台上进行城市园艺。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vergroenen-noun-1",
+   "lexemeId": "lx-vergroenen-noun",
+   "zh": "绿化；增加绿色空间（名词化）",
+   "examples": [
+    {
+     "nl": "Het vergroenen van de straat begon met nieuwe bomen.",
+     "zh": "街道绿化从种植新树开始。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-versteld-adjective-1",
+   "lexemeId": "lx-versteld-adjective",
+   "zh": "惊讶的；目瞪口呆的",
+   "examples": [
+    {
+     "nl": "Ik stond versteld van hoe snel ze het probleem oploste.",
+     "zh": "她这么快就解决问题，让我惊讶不已。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wodka-noun-1",
+   "lexemeId": "lx-wodka-noun",
+   "zh": "伏特加",
+   "examples": [
+    {
+     "nl": "Bij het diner dronk hij één glas wodka.",
+     "zh": "晚餐时，他喝了一杯伏特加。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-antibioticaverbruik-noun-1",
+   "lexemeId": "lx-antibioticaverbruik-noun",
+   "zh": "抗生素使用量",
+   "examples": [
+    {
+     "nl": "Minder antibioticaverbruik helpt resistente bacteriën te voorkomen.",
+     "zh": "减少抗生素使用有助于防止细菌产生耐药性。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-fameus-adjective-1",
+   "lexemeId": "lx-fameus-adjective",
+   "zh": "著名的；有名的",
+   "examples": [
+    {
+     "nl": "Het fameuze restaurant serveert al jaren dezelfde specialiteit.",
+     "zh": "这家著名餐厅多年来一直供应同一道招牌菜。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-onontkoombaar-adjective-1",
+   "lexemeId": "lx-onontkoombaar-adjective",
+   "zh": "不可避免的",
+   "examples": [
+    {
+     "nl": "Met zoveel verkeer is vertraging op vrijdag onontkoombaar.",
+     "zh": "车流这么大，星期五延误不可避免。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-overschot-noun-1",
+   "lexemeId": "lx-overschot-noun",
+   "zh": "剩余；过剩",
+   "examples": [
+    {
+     "nl": "De winkel gaf het overschot aan brood aan de voedselbank.",
+     "zh": "商店把剩余面包捐给了食品银行。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-tijdrovend-adjective-1",
+   "lexemeId": "lx-tijdrovend-adjective",
+   "zh": "耗时的",
+   "examples": [
+    {
+     "nl": "Het invullen van deze formulieren is erg tijdrovend.",
+     "zh": "填写这些表格非常耗时。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-afgelegen-adjective-1",
+   "lexemeId": "lx-afgelegen-adjective",
+   "zh": "偏远的",
+   "examples": [
+    {
+     "nl": "De afgelegen boerderij ligt ver van het dichtstbijzijnde dorp.",
+     "zh": "这座偏远农场离最近的村庄很远。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-barista-noun-1",
+   "lexemeId": "lx-barista-noun",
+   "zh": "咖啡师",
+   "examples": [
+    {
+     "nl": "De barista maakte een hart op mijn cappuccino.",
+     "zh": "咖啡师在我的卡布奇诺上做了一个心形图案。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doppio-noun-1",
+   "lexemeId": "lx-doppio-noun",
+   "zh": "双份浓缩咖啡",
+   "examples": [
+    {
+     "nl": "Ik bestelde een doppio omdat ik erg moe was.",
+     "zh": "我很累，所以点了一杯双份浓缩咖啡。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-genitaliën-noun-1",
+   "lexemeId": "lx-genitaliën-noun",
+   "zh": "生殖器",
+   "examples": [
+    {
+     "nl": "De arts legde de functie van de genitaliën rustig uit.",
+     "zh": "医生平静地解释了生殖器的功能。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-liefhebben-noun-1",
+   "lexemeId": "lx-liefhebben-noun",
+   "zh": "爱；喜爱（名词化）",
+   "examples": [
+    {
+     "nl": "Het liefhebben van dieren vraagt tijd en aandacht.",
+     "zh": "爱护动物需要时间和关心。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-macchiato-noun-1",
+   "lexemeId": "lx-macchiato-noun",
+   "zh": "玛奇朵咖啡",
+   "examples": [
+    {
+     "nl": "Na de lunch dronk ze een kleine macchiato.",
+     "zh": "午饭后，她喝了一小杯玛奇朵。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-nee-noun-1",
+   "lexemeId": "lx-nee-noun",
+   "zh": "否定回答；一个“不”",
+   "examples": [
+    {
+     "nl": "Zijn nee op het voorstel was duidelijk en vriendelijk.",
+     "zh": "他对提议的否定回答既明确又友善。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-overlast-noun-1",
+   "lexemeId": "lx-overlast-noun",
+   "zh": "滋扰；麻烦",
+   "examples": [
+    {
+     "nl": "De buren meldden overlast door harde muziek in de nacht.",
+     "zh": "邻居投诉夜间大声音乐造成的滋扰。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-samenzijn-noun-1",
+   "lexemeId": "lx-samenzijn-noun",
+   "zh": "相聚；共处",
+   "examples": [
+    {
+     "nl": "Het samenzijn met familie maakte haar erg gelukkig.",
+     "zh": "和家人相聚让她非常开心。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-speuren-verb-1",
+   "lexemeId": "lx-speuren-verb",
+   "zh": "搜寻；仔细寻找",
+   "examples": [
+    {
+     "nl": "De hond speurde naar de bal tussen het hoge gras.",
+     "zh": "狗在高高的草丛里寻找球。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zuiders-adjective-1",
+   "lexemeId": "lx-zuiders-adjective",
+   "zh": "南方的；南部的",
+   "examples": [
+    {
+     "nl": "De zuiderse keuken gebruikt vaak olijfolie en verse kruiden.",
+     "zh": "南方菜常用橄榄油和新鲜香草。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gifslang-noun-1",
+   "lexemeId": "lx-gifslang-noun",
+   "zh": "毒蛇",
+   "examples": [
+    {
+     "nl": "Een gifslang kroop langs het pad en verdween tussen bladeren.",
+     "zh": "一条毒蛇沿着小路爬行，随后消失在树叶间。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-levensweg-noun-1",
+   "lexemeId": "lx-levensweg-noun",
+   "zh": "人生道路；人生历程",
+   "examples": [
+    {
+     "nl": "Op haar levensweg ontmoette ze veel bijzondere mensen.",
+     "zh": "在人生道路上，她遇到了许多特别的人。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tik-noun-1",
+   "lexemeId": "lx-tik-noun",
+   "zh": "轻敲；一下；滴答声",
+   "examples": [
+    {
+     "nl": "Ik hoorde een tik op de deur en deed open.",
+     "zh": "我听见有人轻敲门，便开了门。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-metrostation-noun-1",
+   "lexemeId": "lx-metrostation-noun",
+   "zh": "地铁站",
+   "examples": [
+    {
+     "nl": "Het metrostation ligt vlak naast het grote plein.",
+     "zh": "地铁站就在大广场旁边。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zweetdruppel-noun-1",
+   "lexemeId": "lx-zweetdruppel-noun",
+   "zh": "汗珠",
+   "examples": [
+    {
+     "nl": "Een zweetdruppel liep langzaam langs zijn gezicht.",
+     "zh": "一滴汗珠沿着他的脸慢慢流下。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-doorbladeren-verb-1",
+   "lexemeId": "lx-doorbladeren-verb",
+   "zh": "翻阅；浏览",
+   "examples": [
+    {
+     "nl": "Ik bladerde het tijdschrift door tijdens het wachten.",
+     "zh": "等待时，我翻看了这本杂志。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-giraf-noun-1",
+   "lexemeId": "lx-giraf-noun",
+   "zh": "长颈鹿",
+   "examples": [
+    {
+     "nl": "De giraf at bladeren van de hoge boom.",
+     "zh": "长颈鹿吃着高树上的叶子。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-jarige-noun-1",
+   "lexemeId": "lx-jarige-noun",
+   "zh": "过生日的人；寿星",
+   "examples": [
+    {
+     "nl": "De jarige kreeg een kaart van alle collega's.",
+     "zh": "寿星收到了所有同事送来的贺卡。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lavabo-noun-1",
+   "lexemeId": "lx-lavabo-noun",
+   "zh": "洗手池；脸盆（比利时用法）",
+   "examples": [
+    {
+     "nl": "In de badkamer staat een lavabo naast de douche.",
+     "zh": "浴室里淋浴旁边有一个洗手池。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-navenant-adjective-1",
+   "lexemeId": "lx-navenant-adjective",
+   "zh": "相应的；相称的",
+   "examples": [
+    {
+     "nl": "Het navenante bedrag was hoger dan verwacht.",
+     "zh": "相应的金额比预期更高。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-rechterduim-noun-1",
+   "lexemeId": "lx-rechterduim-noun",
+   "zh": "右手拇指",
+   "examples": [
+    {
+     "nl": "Na het typen voelde ik pijn in mijn rechterduim.",
+     "zh": "打字后，我的右手拇指感到疼痛。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-transportmiddel-noun-1",
+   "lexemeId": "lx-transportmiddel-noun",
+   "zh": "交通工具",
+   "examples": [
+    {
+     "nl": "De fiets is in deze stad een handig transportmiddel.",
+     "zh": "在这座城市，自行车是一种方便的交通工具。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-dodenlied-noun-1",
+   "lexemeId": "lx-dodenlied-noun",
+   "zh": "挽歌；悼亡曲",
+   "examples": [
+    {
+     "nl": "Het dodenlied werd gezongen tijdens de begrafenis.",
+     "zh": "葬礼上唱起了悼亡曲。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-margriet-noun-1",
+   "lexemeId": "lx-margriet-noun",
+   "zh": "雏菊",
+   "examples": [
+    {
+     "nl": "Een witte margriet bloeide tussen het hoge gras.",
+     "zh": "一朵白色雏菊在高草间盛开。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

@@ -1,0 +1,937 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-accolade-noun",
+   "lemma": "accolade",
+   "pos": "noun",
+   "article": "de",
+   "plural": "accolades"
+  },
+  {
+   "id": "lx-felblauw-adjective",
+   "lemma": "felblauw",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hoes-noun",
+   "lemma": "hoes",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hoezen"
+  },
+  {
+   "id": "lx-loodrecht-adjective",
+   "lemma": "loodrecht",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-prijskaart-noun",
+   "lemma": "prijskaart",
+   "pos": "noun",
+   "article": "de",
+   "plural": "prijskaarten"
+  },
+  {
+   "id": "lx-voedselzak-noun",
+   "lemma": "voedselzak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "voedselzakken"
+  },
+  {
+   "id": "lx-driekwartbroek-noun",
+   "lemma": "driekwartbroek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "driekwartbroeken"
+  },
+  {
+   "id": "lx-plooi-noun",
+   "lemma": "plooi",
+   "pos": "noun",
+   "article": "de",
+   "plural": "plooien"
+  },
+  {
+   "id": "lx-batist-noun",
+   "lemma": "batist",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-jungle-noun",
+   "lemma": "jungle",
+   "pos": "noun",
+   "article": "de",
+   "plural": "jungles"
+  },
+  {
+   "id": "lx-recentelijk-adjective",
+   "lemma": "recentelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vakantieavontuur-noun",
+   "lemma": "vakantieavontuur",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vakantieavonturen"
+  },
+  {
+   "id": "lx-angelsaksisch-adjective",
+   "lemma": "angelsaksisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-expliciet-adjective",
+   "lemma": "expliciet",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-honkvast-adjective",
+   "lemma": "honkvast",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-ondergeschikt-adjective",
+   "lemma": "ondergeschikt",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-schikken-verb",
+   "lemma": "schikken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "schikte",
+    "pastParticiple": "geschikt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-westerling-noun",
+   "lemma": "westerling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "westerlingen"
+  },
+  {
+   "id": "lx-toneelschrijver-noun",
+   "lemma": "toneelschrijver",
+   "pos": "noun",
+   "article": "de",
+   "plural": "toneelschrijvers"
+  },
+  {
+   "id": "lx-alles-moet-kunnen-noun",
+   "lemma": "alles-moet-kunnen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "alles-moet-kunnen-mentaliteiten"
+  },
+  {
+   "id": "lx-astronomie-noun",
+   "lemma": "astronomie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-bloedzuiger-noun",
+   "lemma": "bloedzuiger",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bloedzuigers"
+  },
+  {
+   "id": "lx-druiventros-noun",
+   "lemma": "druiventros",
+   "pos": "noun",
+   "article": "de",
+   "plural": "druiventrossen"
+  },
+  {
+   "id": "lx-geneesmethode-noun",
+   "lemma": "geneesmethode",
+   "pos": "noun",
+   "article": "de",
+   "plural": "geneesmethoden"
+  },
+  {
+   "id": "lx-kenteken-noun",
+   "lemma": "kenteken",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kentekens"
+  },
+  {
+   "id": "lx-mijden-verb",
+   "lemma": "mijden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "meed",
+    "pastParticiple": "gemeden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-op-een-lijn-phrase",
+   "lemma": "op een lijn",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-pompoen-noun",
+   "lemma": "pompoen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "pompoenen"
+  },
+  {
+   "id": "lx-scepticus-noun",
+   "lemma": "scepticus",
+   "pos": "noun",
+   "article": "de",
+   "plural": "sceptici"
+  },
+  {
+   "id": "lx-tros-noun",
+   "lemma": "tros",
+   "pos": "noun",
+   "article": "de",
+   "plural": "trossen"
+  },
+  {
+   "id": "lx-wereldbeeld-noun",
+   "lemma": "wereldbeeld",
+   "pos": "noun",
+   "article": "het",
+   "plural": "wereldbeelden"
+  },
+  {
+   "id": "lx-éénentwintig-numeral",
+   "lemma": "éénentwintig",
+   "pos": "numeral"
+  },
+  {
+   "id": "lx-opiumrook-noun",
+   "lemma": "opiumrook",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-van-oordeel-phrase",
+   "lemma": "van oordeel",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-onhoorbaar-adjective",
+   "lemma": "onhoorbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vluchtelingenprobleem-noun",
+   "lemma": "vluchtelingenprobleem",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vluchtelingenproblemen"
+  },
+  {
+   "id": "lx-onderscheppen-verb",
+   "lemma": "onderscheppen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "onderschepte",
+    "pastParticiple": "onderschept",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-bekrachtigen-verb",
+   "lemma": "bekrachtigen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bekrachtigde",
+    "pastParticiple": "bekrachtigd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-gemeentesecretaris-noun",
+   "lemma": "gemeentesecretaris",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gemeentesecretarissen"
+  },
+  {
+   "id": "lx-maneschijn-noun",
+   "lemma": "maneschijn",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-parlementair-adjective",
+   "lemma": "parlementair",
+   "pos": "adjective"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-accolade-noun-1",
+   "lexemeId": "lx-accolade-noun",
+   "zh": "赞誉；荣誉；拥抱",
+   "examples": [
+    {
+     "nl": "De schrijfster kreeg een accolade voor haar nieuwe boek.",
+     "zh": "这位女作家因新书获得了赞誉。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-felblauw-adjective-1",
+   "lexemeId": "lx-felblauw-adjective",
+   "zh": "鲜亮的蓝色",
+   "examples": [
+    {
+     "nl": "De felblauwe lucht bleef de hele dag wolkeloos.",
+     "zh": "鲜蓝的天空一整天都没有云。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoes-noun-1",
+   "lexemeId": "lx-hoes-noun",
+   "zh": "套子；封面；手机壳",
+   "examples": [
+    {
+     "nl": "Ze deed haar telefoon in een stevige hoes.",
+     "zh": "她把手机放进了一个结实的保护壳里。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-loodrecht-adjective-1",
+   "lexemeId": "lx-loodrecht-adjective",
+   "zh": "垂直的；成直角的",
+   "examples": [
+    {
+     "nl": "De ladder stond loodrecht tegen de hoge muur.",
+     "zh": "梯子垂直地靠在高墙上。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-prijskaart-noun-1",
+   "lexemeId": "lx-prijskaart-noun",
+   "zh": "价格标签；价目表",
+   "examples": [
+    {
+     "nl": "Op de prijskaart stond duidelijk hoeveel de jas kostte.",
+     "zh": "价格标签上清楚地写着这件外套的价格。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voedselzak-noun-1",
+   "lexemeId": "lx-voedselzak-noun",
+   "zh": "食品袋；食物袋",
+   "examples": [
+    {
+     "nl": "Doe de restjes in een voedselzak en zet ze in de koelkast.",
+     "zh": "把剩菜装进食品袋，放进冰箱。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-driekwartbroek-noun-1",
+   "lexemeId": "lx-driekwartbroek-noun",
+   "zh": "七分裤",
+   "examples": [
+    {
+     "nl": "Bij warm weer draagt hij graag een driekwartbroek.",
+     "zh": "天气热时，他喜欢穿七分裤。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-plooi-noun-1",
+   "lexemeId": "lx-plooi-noun",
+   "zh": "褶皱；折痕",
+   "examples": [
+    {
+     "nl": "De plooi in haar rok verdween na het strijken.",
+     "zh": "熨烫后，她裙子上的褶皱消失了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-batist-noun-1",
+   "lexemeId": "lx-batist-noun",
+   "zh": "巴蒂斯特细棉布",
+   "examples": [
+    {
+     "nl": "De blouse was gemaakt van lichte batist.",
+     "zh": "这件衬衫由轻薄的巴蒂斯特细棉布制成。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-jungle-noun-1",
+   "lexemeId": "lx-jungle-noun",
+   "zh": "丛林",
+   "examples": [
+    {
+     "nl": "In de jungle hoorden we apen roepen tussen de bomen.",
+     "zh": "在丛林里，我们听见猴子在树间叫。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-recentelijk-adjective-1",
+   "lexemeId": "lx-recentelijk-adjective",
+   "zh": "最近的；不久前的",
+   "examples": [
+    {
+     "nl": "De recentelijke veranderingen maakten het werk eenvoudiger.",
+     "zh": "最近的变化让工作更简单。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vakantieavontuur-noun-1",
+   "lexemeId": "lx-vakantieavontuur-noun",
+   "zh": "假期冒险；度假历险",
+   "examples": [
+    {
+     "nl": "Onze kanotocht werd een echt vakantieavontuur.",
+     "zh": "我们的划艇之旅变成了一次真正的假期冒险。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-angelsaksisch-adjective-1",
+   "lexemeId": "lx-angelsaksisch-adjective",
+   "zh": "盎格鲁-撒克逊的",
+   "examples": [
+    {
+     "nl": "De Angelsaksische invloed is zichtbaar in het Engelse recht.",
+     "zh": "盎格鲁-撒克逊的影响在英国法律中可见。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-expliciet-adjective-1",
+   "lexemeId": "lx-expliciet-adjective",
+   "zh": "明确的；直截了当的",
+   "examples": [
+    {
+     "nl": "De docent gaf expliciete instructies voor de opdracht.",
+     "zh": "老师对任务给出了明确的说明。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-honkvast-adjective-1",
+   "lexemeId": "lx-honkvast-adjective",
+   "zh": "恋家的；不愿搬家的",
+   "examples": [
+    {
+     "nl": "Mijn ouders zijn honkvast en willen nooit uit het dorp verhuizen.",
+     "zh": "我的父母很恋家，从不想搬离村庄。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ondergeschikt-adjective-1",
+   "lexemeId": "lx-ondergeschikt-adjective",
+   "zh": "次要的；从属的",
+   "examples": [
+    {
+     "nl": "Veiligheid is belangrijker dan snelheid en winst ondergeschikt.",
+     "zh": "安全比速度更重要，利润则次之。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schikken-verb-1",
+   "lexemeId": "lx-schikken-verb",
+   "zh": "安排；摆放；适应",
+   "examples": [
+    {
+     "nl": "We schikten de stoelen rond de lange tafel.",
+     "zh": "我们把椅子摆在长桌周围。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-westerling-noun-1",
+   "lexemeId": "lx-westerling-noun",
+   "zh": "西方人；西方国家的人",
+   "examples": [
+    {
+     "nl": "De westerling woonde al tien jaar in Japan.",
+     "zh": "这位西方人在日本住了十年。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-toneelschrijver-noun-1",
+   "lexemeId": "lx-toneelschrijver-noun",
+   "zh": "剧作家",
+   "examples": [
+    {
+     "nl": "De toneelschrijver werkte aan een nieuw stuk voor het theater.",
+     "zh": "剧作家正在为剧院创作一部新剧。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-alles-moet-kunnen-noun-1",
+   "lexemeId": "lx-alles-moet-kunnen-noun",
+   "zh": "凡事皆可的观念；放任主义",
+   "examples": [
+    {
+     "nl": "De alles-moet-kunnen-mentaliteit past niet bij duidelijke afspraken.",
+     "zh": "凡事皆可的观念与明确的约定并不相符。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-astronomie-noun-1",
+   "lexemeId": "lx-astronomie-noun",
+   "zh": "天文学",
+   "examples": [
+    {
+     "nl": "Ze kijkt graag naar sterren en studeert daarom astronomie.",
+     "zh": "她喜欢看星星，因此学习天文学。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bloedzuiger-noun-1",
+   "lexemeId": "lx-bloedzuiger-noun",
+   "zh": "水蛭；吸血虫",
+   "examples": [
+    {
+     "nl": "Een bloedzuiger zat vast aan de poot van de hond.",
+     "zh": "一只水蛭吸附在狗的腿上。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-druiventros-noun-1",
+   "lexemeId": "lx-druiventros-noun",
+   "zh": "一串葡萄",
+   "examples": [
+    {
+     "nl": "Op de fruitschaal lag nog een grote druiventros.",
+     "zh": "水果盘里还放着一大串葡萄。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-geneesmethode-noun-1",
+   "lexemeId": "lx-geneesmethode-noun",
+   "zh": "治疗方法",
+   "examples": [
+    {
+     "nl": "De arts besprak een nieuwe geneesmethode met de patiënt.",
+     "zh": "医生和病人讨论了一种新的治疗方法。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kenteken-noun-1",
+   "lexemeId": "lx-kenteken-noun",
+   "zh": "车牌；标识",
+   "examples": [
+    {
+     "nl": "Noteer het kenteken van de auto op dit formulier.",
+     "zh": "请把汽车的车牌号码记在这张表格上。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-mijden-verb-1",
+   "lexemeId": "lx-mijden-verb",
+   "zh": "避开；躲避",
+   "examples": [
+    {
+     "nl": "Tijdens de spits probeer ik het centrum te mijden.",
+     "zh": "高峰期我尽量避开市中心。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-op-een-lijn-phrase-1",
+   "lexemeId": "lx-op-een-lijn-phrase",
+   "zh": "意见一致；保持一致",
+   "examples": [
+    {
+     "nl": "De ouders en de school zitten op één lijn over huiswerk.",
+     "zh": "家长和学校在作业问题上意见一致。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-pompoen-noun-1",
+   "lexemeId": "lx-pompoen-noun",
+   "zh": "南瓜",
+   "examples": [
+    {
+     "nl": "In oktober maken we soep van verse pompoen.",
+     "zh": "十月我们用新鲜南瓜做汤。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-scepticus-noun-1",
+   "lexemeId": "lx-scepticus-noun",
+   "zh": "怀疑论者",
+   "examples": [
+    {
+     "nl": "De scepticus wilde eerst bewijs zien voordat hij instemde.",
+     "zh": "这位怀疑论者想先看到证据再同意。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tros-noun-1",
+   "lexemeId": "lx-tros-noun",
+   "zh": "串；束；一簇",
+   "examples": [
+    {
+     "nl": "Een tros druiven hing aan de tak boven het pad.",
+     "zh": "一串葡萄挂在小路上方的树枝上。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wereldbeeld-noun-1",
+   "lexemeId": "lx-wereldbeeld-noun",
+   "zh": "世界观",
+   "examples": [
+    {
+     "nl": "Reizen kan je wereldbeeld en je ideeën veranderen.",
+     "zh": "旅行可以改变你的世界观和想法。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-éénentwintig-numeral-1",
+   "lexemeId": "lx-éénentwintig-numeral",
+   "zh": "二十一（强调写法）",
+   "examples": [
+    {
+     "nl": "Er stonden éénentwintig stoelen klaar voor de gasten.",
+     "zh": "已经为客人准备好了二十一把椅子。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opiumrook-noun-1",
+   "lexemeId": "lx-opiumrook-noun",
+   "zh": "鸦片烟",
+   "examples": [
+    {
+     "nl": "De politie vond een oude pijp met sporen van opiumrook.",
+     "zh": "警方发现了一支带有鸦片烟痕迹的旧烟枪。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-van-oordeel-phrase-1",
+   "lexemeId": "lx-van-oordeel-phrase",
+   "zh": "认为；持有……看法（van oordeel zijn）",
+   "examples": [
+    {
+     "nl": "Ik ben van oordeel dat de school meer sport nodig heeft.",
+     "zh": "我认为学校需要增加体育活动。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-onhoorbaar-adjective-1",
+   "lexemeId": "lx-onhoorbaar-adjective",
+   "zh": "听不见的",
+   "examples": [
+    {
+     "nl": "Zijn antwoord was zo zacht dat het onhoorbaar bleef.",
+     "zh": "他的回答太轻了，几乎听不见。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vluchtelingenprobleem-noun-1",
+   "lexemeId": "lx-vluchtelingenprobleem-noun",
+   "zh": "难民问题",
+   "examples": [
+    {
+     "nl": "De stad zoekt oplossingen voor het groeiende vluchtelingenprobleem.",
+     "zh": "这座城市正在为日益严峻的难民问题寻找解决办法。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderscheppen-verb-1",
+   "lexemeId": "lx-onderscheppen-verb",
+   "zh": "拦截；截获",
+   "examples": [
+    {
+     "nl": "De douane onderschepte een pakket met verboden producten.",
+     "zh": "海关截获了一件装有违禁品的包裹。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bekrachtigen-verb-1",
+   "lexemeId": "lx-bekrachtigen-verb",
+   "zh": "批准；使生效",
+   "examples": [
+    {
+     "nl": "De raad bekrachtigde het besluit tijdens de vergadering.",
+     "zh": "委员会在会议上正式批准了这项决定。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gemeentesecretaris-noun-1",
+   "lexemeId": "lx-gemeentesecretaris-noun",
+   "zh": "市政秘书长",
+   "examples": [
+    {
+     "nl": "De gemeentesecretaris bereidde de vergadering van de raad voor.",
+     "zh": "市政秘书长为议会会议做了准备。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-maneschijn-noun-1",
+   "lexemeId": "lx-maneschijn-noun",
+   "zh": "月光",
+   "examples": [
+    {
+     "nl": "Bij maneschijn liepen we rustig langs het water.",
+     "zh": "月光下，我们沿着水边慢慢散步。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-parlementair-adjective-1",
+   "lexemeId": "lx-parlementair-adjective",
+   "zh": "议会的；国会的",
+   "examples": [
+    {
+     "nl": "De parlementaire commissie onderzocht de nieuwe regels.",
+     "zh": "议会委员会调查了新规定。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

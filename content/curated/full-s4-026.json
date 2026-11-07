@@ -1,0 +1,1088 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-versiering-noun",
+   "lemma": "versiering",
+   "pos": "noun",
+   "article": "de",
+   "plural": "versieringen"
+  },
+  {
+   "id": "lx-zijdezacht-adjective",
+   "lemma": "zijdezacht",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hoestdrank-noun",
+   "lemma": "hoestdrank",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hoestdranken"
+  },
+  {
+   "id": "lx-beeldhouwkunst-noun",
+   "lemma": "beeldhouwkunst",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-ceremonieel-adjective",
+   "lemma": "ceremonieel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-gespreksonderwerp-noun",
+   "lemma": "gespreksonderwerp",
+   "pos": "noun",
+   "article": "het",
+   "plural": "gespreksonderwerpen"
+  },
+  {
+   "id": "lx-hindoefeest-noun",
+   "lemma": "hindoefeest",
+   "pos": "noun",
+   "article": "het",
+   "plural": "hindoefeesten"
+  },
+  {
+   "id": "lx-intellectueel-noun",
+   "lemma": "intellectueel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "intellectuelen"
+  },
+  {
+   "id": "lx-kerkgenootschap-noun",
+   "lemma": "kerkgenootschap",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kerkgenootschappen"
+  },
+  {
+   "id": "lx-linkerburen-noun",
+   "lemma": "linkerburen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "linkerburen"
+  },
+  {
+   "id": "lx-opleidingsniveau-noun",
+   "lemma": "opleidingsniveau",
+   "pos": "noun",
+   "article": "het",
+   "plural": "opleidingsniveaus"
+  },
+  {
+   "id": "lx-secularisatie-noun",
+   "lemma": "secularisatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "secularisaties"
+  },
+  {
+   "id": "lx-taartdiagram-noun",
+   "lemma": "taartdiagram",
+   "pos": "noun",
+   "article": "het",
+   "plural": "taartdiagrammen"
+  },
+  {
+   "id": "lx-voorbijgaand-adjective",
+   "lemma": "voorbijgaand",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-sinterklaastijd-noun",
+   "lemma": "sinterklaastijd",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-stripheld-noun",
+   "lemma": "stripheld",
+   "pos": "noun",
+   "article": "de",
+   "plural": "striphelden"
+  },
+  {
+   "id": "lx-cultstatus-noun",
+   "lemma": "cultstatus",
+   "pos": "noun",
+   "article": "de",
+   "plural": "cultstatussen"
+  },
+  {
+   "id": "lx-papaya-noun",
+   "lemma": "papaya",
+   "pos": "noun",
+   "article": "de",
+   "plural": "papaya's"
+  },
+  {
+   "id": "lx-aardewerkindustrie-noun",
+   "lemma": "aardewerkindustrie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "aardewerkindustrieën"
+  },
+  {
+   "id": "lx-bierbrouwerij-noun",
+   "lemma": "bierbrouwerij",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bierbrouwerijen"
+  },
+  {
+   "id": "lx-delven-verb",
+   "lemma": "delven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "delfde",
+    "pastParticiple": "gedolven",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kerkelijk-adjective",
+   "lemma": "kerkelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-marktplaats-noun",
+   "lemma": "marktplaats",
+   "pos": "noun",
+   "article": "de",
+   "plural": "marktplaatsen"
+  },
+  {
+   "id": "lx-natuuronderzoeker-noun",
+   "lemma": "natuuronderzoeker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "natuuronderzoekers"
+  },
+  {
+   "id": "lx-ongekend-adjective",
+   "lemma": "ongekend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-straatnaam-noun",
+   "lemma": "straatnaam",
+   "pos": "noun",
+   "article": "de",
+   "plural": "straatnamen"
+  },
+  {
+   "id": "lx-vuilwater-noun",
+   "lemma": "vuilwater",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-staanplaats-noun",
+   "lemma": "staanplaats",
+   "pos": "noun",
+   "article": "de",
+   "plural": "staanplaatsen"
+  },
+  {
+   "id": "lx-betoog-noun",
+   "lemma": "betoog",
+   "pos": "noun",
+   "article": "het",
+   "plural": "betogen"
+  },
+  {
+   "id": "lx-gebieden-verb",
+   "lemma": "gebieden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "gebood",
+    "pastParticiple": "geboden",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-gevangenzetten-verb",
+   "lemma": "gevangenzetten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zette gevangen",
+    "pastParticiple": "gevangen gezet",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-huisbaas-noun",
+   "lemma": "huisbaas",
+   "pos": "noun",
+   "article": "de",
+   "plural": "huisbazen"
+  },
+  {
+   "id": "lx-kustwateren-noun",
+   "lemma": "kustwateren",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kustwateren"
+  },
+  {
+   "id": "lx-metrolijn-noun",
+   "lemma": "metrolijn",
+   "pos": "noun",
+   "article": "de",
+   "plural": "metrolijnen"
+  },
+  {
+   "id": "lx-oorlogsverklaring-noun",
+   "lemma": "oorlogsverklaring",
+   "pos": "noun",
+   "article": "de",
+   "plural": "oorlogsverklaringen"
+  },
+  {
+   "id": "lx-relativeren-verb",
+   "lemma": "relativeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "relativeerde",
+    "pastParticiple": "gerelativeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-zotheid-noun",
+   "lemma": "zotheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zotheden"
+  },
+  {
+   "id": "lx-biograaf-noun",
+   "lemma": "biograaf",
+   "pos": "noun",
+   "article": "de",
+   "plural": "biografen"
+  },
+  {
+   "id": "lx-duikplank-noun",
+   "lemma": "duikplank",
+   "pos": "noun",
+   "article": "de",
+   "plural": "duikplanken"
+  },
+  {
+   "id": "lx-aardbeving-noun",
+   "lemma": "aardbeving",
+   "pos": "noun",
+   "article": "de",
+   "plural": "aardbevingen"
+  },
+  {
+   "id": "lx-aanjagen-verb",
+   "lemma": "aanjagen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "joeg aan",
+    "pastParticiple": "aangejaagd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-collectivisme-noun",
+   "lemma": "collectivisme",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-droombeeld-noun",
+   "lemma": "droombeeld",
+   "pos": "noun",
+   "article": "het",
+   "plural": "droombeelden"
+  },
+  {
+   "id": "lx-hogerop-adverb",
+   "lemma": "hogerop",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-kapitalisme-noun",
+   "lemma": "kapitalisme",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-meeropbrengst-noun",
+   "lemma": "meeropbrengst",
+   "pos": "noun",
+   "article": "de",
+   "plural": "meeropbrengsten"
+  },
+  {
+   "id": "lx-serieel-adjective",
+   "lemma": "serieel",
+   "pos": "adjective"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-versiering-noun-1",
+   "lexemeId": "lx-versiering-noun",
+   "zh": "装饰；装饰品",
+   "examples": [
+    {
+     "nl": "De versiering voor het feest hing al aan de muur.",
+     "zh": "聚会的装饰已经挂在墙上了。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zijdezacht-adjective-1",
+   "lexemeId": "lx-zijdezacht-adjective",
+   "zh": "像丝绸一样柔软的",
+   "examples": [
+    {
+     "nl": "Na het wassen voelde de handdoek zijdezacht aan.",
+     "zh": "洗过后，这条毛巾摸起来像丝绸一样柔软。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoestdrank-noun-1",
+   "lexemeId": "lx-hoestdrank-noun",
+   "zh": "止咳糖浆",
+   "examples": [
+    {
+     "nl": "De apotheker gaf mij hoestdrank tegen de nachtelijke hoest.",
+     "zh": "药剂师给了我止咳糖浆，缓解夜间咳嗽。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-beeldhouwkunst-noun-1",
+   "lexemeId": "lx-beeldhouwkunst-noun",
+   "zh": "雕塑艺术",
+   "examples": [
+    {
+     "nl": "In het museum bewonderden we beeldhouwkunst uit de middeleeuwen.",
+     "zh": "我们在博物馆欣赏了中世纪的雕塑艺术。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ceremonieel-adjective-1",
+   "lexemeId": "lx-ceremonieel-adjective",
+   "zh": "礼仪性的；仪式上的",
+   "examples": [
+    {
+     "nl": "De burgemeester droeg een ceremonieel uniform tijdens de opening.",
+     "zh": "开幕式上，市长穿着礼仪制服。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gespreksonderwerp-noun-1",
+   "lexemeId": "lx-gespreksonderwerp-noun",
+   "zh": "谈话话题",
+   "examples": [
+    {
+     "nl": "Het weer is vaak een makkelijk gespreksonderwerp.",
+     "zh": "天气常常是个容易聊的话题。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hindoefeest-noun-1",
+   "lexemeId": "lx-hindoefeest-noun",
+   "zh": "印度教节日",
+   "examples": [
+    {
+     "nl": "Tijdens het hindoefeest kwamen familieleden samen voor het eten.",
+     "zh": "印度教节日期间，家人们聚在一起吃饭。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-intellectueel-noun-1",
+   "lexemeId": "lx-intellectueel-noun",
+   "zh": "知识分子；学者",
+   "examples": [
+    {
+     "nl": "De intellectueel schreef regelmatig over onderwijs en politiek.",
+     "zh": "这位知识分子经常撰写有关教育和政治的文章。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kerkgenootschap-noun-1",
+   "lexemeId": "lx-kerkgenootschap-noun",
+   "zh": "教会团体；宗教派别",
+   "examples": [
+    {
+     "nl": "Het kerkgenootschap organiseert elke zondag een dienst.",
+     "zh": "这个教会团体每周日举办礼拜。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-linkerburen-noun-1",
+   "lexemeId": "lx-linkerburen-noun",
+   "zh": "左邻居",
+   "examples": [
+    {
+     "nl": "De linkerburen vroegen ons of de muziek zachter kon.",
+     "zh": "左边的邻居问我们能否把音乐调小声。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opleidingsniveau-noun-1",
+   "lexemeId": "lx-opleidingsniveau-noun",
+   "zh": "教育程度；学历水平",
+   "examples": [
+    {
+     "nl": "Voor deze baan is een hoog opleidingsniveau nodig.",
+     "zh": "这份工作需要较高的学历水平。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-secularisatie-noun-1",
+   "lexemeId": "lx-secularisatie-noun",
+   "zh": "世俗化",
+   "examples": [
+    {
+     "nl": "Secularisatie veranderde de rol van kerken in de samenleving.",
+     "zh": "世俗化改变了教会在社会中的作用。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-taartdiagram-noun-1",
+   "lexemeId": "lx-taartdiagram-noun",
+   "zh": "饼图",
+   "examples": [
+    {
+     "nl": "Het taartdiagram laat zien hoeveel geld elke afdeling gebruikt.",
+     "zh": "饼图显示了各部门使用的资金比例。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voorbijgaand-adjective-1",
+   "lexemeId": "lx-voorbijgaand-adjective",
+   "zh": "短暂的；过眼即逝的",
+   "examples": [
+    {
+     "nl": "Een voorbijgaande regenbui maakte de stoep even nat.",
+     "zh": "一阵短暂的阵雨让人行道湿了一会儿。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-sinterklaastijd-noun-1",
+   "lexemeId": "lx-sinterklaastijd-noun",
+   "zh": "圣尼古拉节期间",
+   "examples": [
+    {
+     "nl": "Tijdens de sinterklaastijd zingen kinderen liedjes op school.",
+     "zh": "圣尼古拉节期间，孩子们在学校唱歌。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stripheld-noun-1",
+   "lexemeId": "lx-stripheld-noun",
+   "zh": "漫画英雄",
+   "examples": [
+    {
+     "nl": "De stripheld redde de stad in het laatste hoofdstuk.",
+     "zh": "漫画英雄在最后一章拯救了城市。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-cultstatus-noun-1",
+   "lexemeId": "lx-cultstatus-noun",
+   "zh": "狂热崇拜地位；邪典地位",
+   "examples": [
+    {
+     "nl": "De film kreeg jaren later een cultstatus onder jongeren.",
+     "zh": "多年后，这部电影在年轻人中获得了邪典地位。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-papaya-noun-1",
+   "lexemeId": "lx-papaya-noun",
+   "zh": "木瓜",
+   "examples": [
+    {
+     "nl": "Snijd de rijpe papaya in stukken voor het ontbijt.",
+     "zh": "把熟木瓜切成块作为早餐。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aardewerkindustrie-noun-1",
+   "lexemeId": "lx-aardewerkindustrie-noun",
+   "zh": "陶器制造业",
+   "examples": [
+    {
+     "nl": "De aardewerkindustrie groeide rond de rivier vanwege de klei.",
+     "zh": "由于有黏土，陶器制造业在河边发展起来。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bierbrouwerij-noun-1",
+   "lexemeId": "lx-bierbrouwerij-noun",
+   "zh": "啤酒厂",
+   "examples": [
+    {
+     "nl": "De bierbrouwerij verkoopt ook lokaal gebrouwen speciaalbier.",
+     "zh": "这家啤酒厂也销售本地酿造的特色啤酒。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-delven-verb-1",
+   "lexemeId": "lx-delven-verb",
+   "zh": "挖掘；采矿",
+   "examples": [
+    {
+     "nl": "Arbeiders delfden vroeger steenkool diep onder de grond.",
+     "zh": "过去，工人们在地下深处采煤。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kerkelijk-adjective-1",
+   "lexemeId": "lx-kerkelijk-adjective",
+   "zh": "教会的；宗教的",
+   "examples": [
+    {
+     "nl": "De kerkelijke bijeenkomst vindt ieder voorjaar plaats.",
+     "zh": "教会聚会每年春天举行。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-marktplaats-noun-1",
+   "lexemeId": "lx-marktplaats-noun",
+   "zh": "集市；市场",
+   "examples": [
+    {
+     "nl": "Op de marktplaats verkochten boeren groente en fruit.",
+     "zh": "农民在集市上出售蔬菜和水果。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-natuuronderzoeker-noun-1",
+   "lexemeId": "lx-natuuronderzoeker-noun",
+   "zh": "自然研究者",
+   "examples": [
+    {
+     "nl": "De natuuronderzoeker noteerde welke vogels in het gebied leefden.",
+     "zh": "自然研究者记录了该地区生活着哪些鸟。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ongekend-adjective-1",
+   "lexemeId": "lx-ongekend-adjective",
+   "zh": "前所未有的；极大的",
+   "examples": [
+    {
+     "nl": "De ongekende drukte verraste iedereen in het centrum.",
+     "zh": "前所未有的人潮让市中心的所有人都很惊讶。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-straatnaam-noun-1",
+   "lexemeId": "lx-straatnaam-noun",
+   "zh": "街道名称",
+   "examples": [
+    {
+     "nl": "De straatnaam staat duidelijk op het blauwe bord.",
+     "zh": "街道名称清楚地写在蓝色路牌上。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vuilwater-noun-1",
+   "lexemeId": "lx-vuilwater-noun",
+   "zh": "污水",
+   "examples": [
+    {
+     "nl": "Het vuilwater wordt eerst gezuiverd voordat het wordt afgevoerd.",
+     "zh": "污水在排放前会先被净化。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-staanplaats-noun-1",
+   "lexemeId": "lx-staanplaats-noun",
+   "zh": "摊位；停车位；站立位置",
+   "examples": [
+    {
+     "nl": "Op de camping reserveerden we een staanplaats voor de tent.",
+     "zh": "我们在露营地为帐篷预订了一个营位。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-betoog-noun-1",
+   "lexemeId": "lx-betoog-noun",
+   "zh": "论证；议论文；陈述",
+   "examples": [
+    {
+     "nl": "In haar betoog gaf ze drie redenen voor het voorstel.",
+     "zh": "她在论证中为这项提议给出了三个理由。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gebieden-verb-1",
+   "lexemeId": "lx-gebieden-verb",
+   "zh": "命令；吩咐",
+   "examples": [
+    {
+     "nl": "De koning gebood de soldaten de poort te bewaken.",
+     "zh": "国王命令士兵守卫城门。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gevangenzetten-verb-1",
+   "lexemeId": "lx-gevangenzetten-verb",
+   "zh": "关押；囚禁",
+   "examples": [
+    {
+     "nl": "De politie zette de verdachte na het verhoor gevangen.",
+     "zh": "警方审讯后将嫌疑人关押起来。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-huisbaas-noun-1",
+   "lexemeId": "lx-huisbaas-noun",
+   "zh": "房东；房主",
+   "examples": [
+    {
+     "nl": "De huisbaas repareerde de lekkende kraan in onze keuken.",
+     "zh": "房东修好了我们厨房里漏水的水龙头。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kustwateren-noun-1",
+   "lexemeId": "lx-kustwateren-noun",
+   "zh": "沿海水域",
+   "examples": [
+    {
+     "nl": "In de kustwateren leven veel jonge vissen.",
+     "zh": "沿海水域里生活着许多幼鱼。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-metrolijn-noun-1",
+   "lexemeId": "lx-metrolijn-noun",
+   "zh": "地铁线路",
+   "examples": [
+    {
+     "nl": "De nieuwe metrolijn verbindt het centrum met de luchthaven.",
+     "zh": "新地铁线连接市中心和机场。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-oorlogsverklaring-noun-1",
+   "lexemeId": "lx-oorlogsverklaring-noun",
+   "zh": "宣战声明；战争宣告",
+   "examples": [
+    {
+     "nl": "De minister las de oorlogsverklaring voor op de radio.",
+     "zh": "部长在广播中宣读了宣战声明。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-relativeren-verb-1",
+   "lexemeId": "lx-relativeren-verb",
+   "zh": "看淡；相对化",
+   "examples": [
+    {
+     "nl": "Na het gesprek kon ze het probleem beter relativeren.",
+     "zh": "谈话后，她能更客观地看待这个问题。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zotheid-noun-1",
+   "lexemeId": "lx-zotheid-noun",
+   "zh": "愚蠢；荒唐",
+   "examples": [
+    {
+     "nl": "Zijn zotheid bracht hem in grote problemen.",
+     "zh": "他的荒唐行为给自己惹来了大麻烦。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-biograaf-noun-1",
+   "lexemeId": "lx-biograaf-noun",
+   "zh": "传记作家",
+   "examples": [
+    {
+     "nl": "De biograaf interviewde vrienden en familie van de zanger.",
+     "zh": "传记作家采访了这位歌手的朋友和家人。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-duikplank-noun-1",
+   "lexemeId": "lx-duikplank-noun",
+   "zh": "跳水板",
+   "examples": [
+    {
+     "nl": "De kinderen sprongen om de beurt van de duikplank.",
+     "zh": "孩子们轮流从跳水板上跳下。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aardbeving-noun-1",
+   "lexemeId": "lx-aardbeving-noun",
+   "zh": "地震",
+   "examples": [
+    {
+     "nl": "De aardbeving beschadigde veel huizen in het dorp.",
+     "zh": "地震损坏了村里的许多房屋。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanjagen-verb-1",
+   "lexemeId": "lx-aanjagen-verb",
+   "zh": "激起；推动；驱赶",
+   "examples": [
+    {
+     "nl": "De campagne jaagde de verkoop van fietsen aan.",
+     "zh": "这场宣传活动推动了自行车销售。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-collectivisme-noun-1",
+   "lexemeId": "lx-collectivisme-noun",
+   "zh": "集体主义",
+   "examples": [
+    {
+     "nl": "Collectivisme legt meer nadruk op de groep dan op het individu.",
+     "zh": "集体主义更强调群体而非个人。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-droombeeld-noun-1",
+   "lexemeId": "lx-droombeeld-noun",
+   "zh": "梦想；理想图景",
+   "examples": [
+    {
+     "nl": "Voor haar is een klein huis aan zee het droombeeld.",
+     "zh": "对她来说，海边的小房子就是理想生活图景。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hogerop-adverb-1",
+   "lexemeId": "lx-hogerop-adverb",
+   "zh": "更高处；更高职位",
+   "examples": [
+    {
+     "nl": "Na vijf jaar wilde hij hogerop binnen het bedrijf.",
+     "zh": "五年后，他想在公司里晋升。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kapitalisme-noun-1",
+   "lexemeId": "lx-kapitalisme-noun",
+   "zh": "资本主义",
+   "examples": [
+    {
+     "nl": "Het kapitalisme beïnvloedt hoe bedrijven en markten werken.",
+     "zh": "资本主义影响企业和市场的运作方式。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-meeropbrengst-noun-1",
+   "lexemeId": "lx-meeropbrengst-noun",
+   "zh": "额外收益；增产",
+   "examples": [
+    {
+     "nl": "De nieuwe kas leverde een meeropbrengst van twintig procent op.",
+     "zh": "新温室的产量增加了百分之二十。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-serieel-adjective-1",
+   "lexemeId": "lx-serieel-adjective",
+   "zh": "连续的；串行的",
+   "examples": [
+    {
+     "nl": "Het seriële nummer staat op de achterkant van het apparaat.",
+     "zh": "序列号在设备背面。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

@@ -1,0 +1,1050 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-biodiesel-noun",
+   "lemma": "biodiesel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-compost-noun",
+   "lemma": "compost",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-cyclus-noun",
+   "lemma": "cyclus",
+   "pos": "noun",
+   "article": "de",
+   "plural": "cycli"
+  },
+  {
+   "id": "lx-drinkbeker-noun",
+   "lemma": "drinkbeker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "drinkbekers"
+  },
+  {
+   "id": "lx-energieopwekking-noun",
+   "lemma": "energieopwekking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-frietaardappel-noun",
+   "lemma": "frietaardappel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "frietaardappelen"
+  },
+  {
+   "id": "lx-humanistisch-adjective",
+   "lemma": "humanistisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-meeneemkoker-noun",
+   "lemma": "meeneemkoker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "meeneemkokers"
+  },
+  {
+   "id": "lx-naderhand-adverb",
+   "lemma": "naderhand",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-pakweg-adverb",
+   "lemma": "pakweg",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-recyclageplan-noun",
+   "lemma": "recyclageplan",
+   "pos": "noun",
+   "article": "het",
+   "plural": "recyclageplannen"
+  },
+  {
+   "id": "lx-terreinkennis-noun",
+   "lemma": "terreinkennis",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-volksverhuizing-noun",
+   "lemma": "volksverhuizing",
+   "pos": "noun",
+   "article": "de",
+   "plural": "volksverhuizingen"
+  },
+  {
+   "id": "lx-ijskast-noun",
+   "lemma": "ijskast",
+   "pos": "noun",
+   "article": "de",
+   "plural": "ijskasten"
+  },
+  {
+   "id": "lx-viraal-adjective",
+   "lemma": "viraal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-glimworm-noun",
+   "lemma": "glimworm",
+   "pos": "noun",
+   "article": "de",
+   "plural": "glimwormen"
+  },
+  {
+   "id": "lx-wereldorde-noun",
+   "lemma": "wereldorde",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wereldordes"
+  },
+  {
+   "id": "lx-straatjongen-noun",
+   "lemma": "straatjongen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "straatjongens"
+  },
+  {
+   "id": "lx-larf-noun",
+   "lemma": "larf",
+   "pos": "noun",
+   "article": "de",
+   "plural": "larven"
+  },
+  {
+   "id": "lx-vredesmier-noun",
+   "lemma": "vredesmier",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vredesmieren"
+  },
+  {
+   "id": "lx-loswringen-verb",
+   "lemma": "loswringen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "wrong los",
+    "pastParticiple": "losgewrongen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-belastingbetaler-noun",
+   "lemma": "belastingbetaler",
+   "pos": "noun",
+   "article": "de",
+   "plural": "belastingbetalers"
+  },
+  {
+   "id": "lx-opzijzetten-verb",
+   "lemma": "opzijzetten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zette opzij",
+    "pastParticiple": "opzijgezet",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-tweedehandsmarkt-noun",
+   "lemma": "tweedehandsmarkt",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tweedehandsmarkten"
+  },
+  {
+   "id": "lx-ontstressen-verb",
+   "lemma": "ontstressen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "ontstresste",
+    "pastParticiple": "ontstrest",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-inhollen-verb",
+   "lemma": "inhollen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "holde in",
+    "pastParticiple": "ingehold",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-amateurvoetballer-noun",
+   "lemma": "amateurvoetballer",
+   "pos": "noun",
+   "article": "de",
+   "plural": "amateurvoetballers"
+  },
+  {
+   "id": "lx-balorig-adjective",
+   "lemma": "balorig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-binnenhuistafereel-noun",
+   "lemma": "binnenhuistafereel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "binnenhuistafereel"
+  },
+  {
+   "id": "lx-doelpaal-noun",
+   "lemma": "doelpaal",
+   "pos": "noun",
+   "article": "de",
+   "plural": "doelpalen"
+  },
+  {
+   "id": "lx-event-noun",
+   "lemma": "event",
+   "pos": "noun",
+   "article": "het",
+   "plural": "events"
+  },
+  {
+   "id": "lx-morsig-adjective",
+   "lemma": "morsig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-onweerlegbaar-adjective",
+   "lemma": "onweerlegbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-oprijzen-verb",
+   "lemma": "oprijzen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "rees op",
+    "pastParticiple": "opgerezen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-provisorisch-adjective",
+   "lemma": "provisorisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-schot-noun",
+   "lemma": "schot",
+   "pos": "noun",
+   "article": "het",
+   "plural": "schoten"
+  },
+  {
+   "id": "lx-steenworp-noun",
+   "lemma": "steenworp",
+   "pos": "noun",
+   "article": "de",
+   "plural": "steenworpen"
+  },
+  {
+   "id": "lx-uitsmeren-verb",
+   "lemma": "uitsmeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "smeerde uit",
+    "pastParticiple": "uitgesmeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verspilling-noun",
+   "lemma": "verspilling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verspillingen"
+  },
+  {
+   "id": "lx-weids-adjective",
+   "lemma": "weids",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-bemesten-verb",
+   "lemma": "bemesten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bemestte",
+    "pastParticiple": "bemest",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-stadslandbouwbedrijf-noun",
+   "lemma": "stadslandbouwbedrijf",
+   "pos": "noun",
+   "article": "het",
+   "plural": "stadslandbouwbedrijven"
+  },
+  {
+   "id": "lx-meterstand-noun",
+   "lemma": "meterstand",
+   "pos": "noun",
+   "article": "de",
+   "plural": "meterstanden"
+  },
+  {
+   "id": "lx-neerzetten-verb",
+   "lemma": "neerzetten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zette neer",
+    "pastParticiple": "neergezet",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-escaleren-verb",
+   "lemma": "escaleren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "escaleerde",
+    "pastParticiple": "geëscaleerd",
+    "aux": "zijn"
+   }
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-biodiesel-noun-1",
+   "lexemeId": "lx-biodiesel-noun",
+   "zh": "生物柴油",
+   "examples": [
+    {
+     "nl": "De bus rijdt op biodiesel gemaakt van plantaardige olie.",
+     "zh": "这辆公交车使用植物油制成的生物柴油。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-compost-noun-1",
+   "lexemeId": "lx-compost-noun",
+   "zh": "堆肥",
+   "examples": [
+    {
+     "nl": "De tuin krijgt betere grond door compost van groenteafval.",
+     "zh": "花园使用蔬菜废料制成的堆肥后，土壤变得更好。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-cyclus-noun-1",
+   "lexemeId": "lx-cyclus-noun",
+   "zh": "周期；循环",
+   "examples": [
+    {
+     "nl": "De cyclus van groeien en bloeien herhaalt zich ieder jaar.",
+     "zh": "生长和开花的周期每年都会重复。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-drinkbeker-noun-1",
+   "lexemeId": "lx-drinkbeker-noun",
+   "zh": "饮水杯",
+   "examples": [
+    {
+     "nl": "Het kind nam een drinkbeker mee naar school.",
+     "zh": "孩子带了一个饮水杯去学校。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-energieopwekking-noun-1",
+   "lexemeId": "lx-energieopwekking-noun",
+   "zh": "能源生产",
+   "examples": [
+    {
+     "nl": "Duurzame energieopwekking vermindert de uitstoot van broeikasgassen.",
+     "zh": "可持续能源生产减少温室气体排放。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-frietaardappel-noun-1",
+   "lexemeId": "lx-frietaardappel-noun",
+   "zh": "薯条用马铃薯",
+   "examples": [
+    {
+     "nl": "De frietaardappel wordt in lange stukken gesneden en gebakken.",
+     "zh": "薯条用马铃薯会被切成长条后油炸。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-humanistisch-adjective-1",
+   "lexemeId": "lx-humanistisch-adjective",
+   "zh": "人文主义的",
+   "examples": [
+    {
+     "nl": "De humanistische vereniging organiseert lezingen over mensenrechten.",
+     "zh": "人文主义协会组织有关人权的讲座。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-meeneemkoker-noun-1",
+   "lexemeId": "lx-meeneemkoker-noun",
+   "zh": "便携筒；随身携带的筒",
+   "examples": [
+    {
+     "nl": "De poster zat veilig in een meeneemkoker.",
+     "zh": "海报被妥善放在一个便携筒里。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-naderhand-adverb-1",
+   "lexemeId": "lx-naderhand-adverb",
+   "zh": "后来；之后",
+   "examples": [
+    {
+     "nl": "We gingen eerst winkelen en aten naderhand samen.",
+     "zh": "我们先去购物，之后一起吃了饭。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-pakweg-adverb-1",
+   "lexemeId": "lx-pakweg-adverb",
+   "zh": "大约；差不多",
+   "examples": [
+    {
+     "nl": "De wandeling duurt pakweg twee uur zonder lange pauzes.",
+     "zh": "不长时间休息的话，散步大约需要两小时。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-recyclageplan-noun-1",
+   "lexemeId": "lx-recyclageplan-noun",
+   "zh": "回收计划",
+   "examples": [
+    {
+     "nl": "De gemeente presenteerde een recyclageplan voor huishoudelijk afval.",
+     "zh": "市政府公布了一项生活垃圾回收计划。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-terreinkennis-noun-1",
+   "lexemeId": "lx-terreinkennis-noun",
+   "zh": "对当地情况的熟悉；实地知识",
+   "examples": [
+    {
+     "nl": "Dankzij zijn terreinkennis vond hij snel de juiste route.",
+     "zh": "凭借对当地情况的熟悉，他很快找到了正确路线。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-volksverhuizing-noun-1",
+   "lexemeId": "lx-volksverhuizing-noun",
+   "zh": "人口大迁徙",
+   "examples": [
+    {
+     "nl": "De volksverhuizing veranderde de samenstelling van de regio.",
+     "zh": "人口大迁徙改变了该地区的人口构成。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ijskast-noun-1",
+   "lexemeId": "lx-ijskast-noun",
+   "zh": "冰箱（比利时用法）",
+   "examples": [
+    {
+     "nl": "Zet de melk terug in de ijskast na het ontbijt.",
+     "zh": "早餐后把牛奶放回冰箱。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-viraal-adjective-1",
+   "lexemeId": "lx-viraal-adjective",
+   "zh": "病毒式传播的；病毒的",
+   "examples": [
+    {
+     "nl": "De video ging viraal nadat een bekende zanger hem deelde.",
+     "zh": "一位知名歌手分享后，这段视频迅速走红。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-glimworm-noun-1",
+   "lexemeId": "lx-glimworm-noun",
+   "zh": "萤火虫",
+   "examples": [
+    {
+     "nl": "Bij schemering zag ik een glimworm tussen de struiken.",
+     "zh": "黄昏时，我在灌木丛间看到一只萤火虫。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wereldorde-noun-1",
+   "lexemeId": "lx-wereldorde-noun",
+   "zh": "世界秩序",
+   "examples": [
+    {
+     "nl": "De oorlog veranderde de wereldorde na de Tweede Wereldoorlog.",
+     "zh": "二战后，这场战争改变了世界秩序。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "C1",
+   "review": "draft"
+  },
+  {
+   "id": "s-straatjongen-noun-1",
+   "lexemeId": "lx-straatjongen-noun",
+   "zh": "街头男孩；流浪少年",
+   "examples": [
+    {
+     "nl": "De straatjongen verkocht bloemen bij het station.",
+     "zh": "这个街头少年在车站卖花。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-larf-noun-1",
+   "lexemeId": "lx-larf-noun",
+   "zh": "幼虫",
+   "examples": [
+    {
+     "nl": "Een kleine larf kroop langzaam over het groene blad.",
+     "zh": "一只小幼虫慢慢爬过绿叶。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vredesmier-noun-1",
+   "lexemeId": "lx-vredesmier-noun",
+   "zh": "和平蚂蚁（物种名称）",
+   "examples": [
+    {
+     "nl": "De vredesmier leeft in bossen en bouwt kleine nesten.",
+     "zh": "和平蚂蚁生活在森林里，会筑造小巢。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-loswringen-verb-1",
+   "lexemeId": "lx-loswringen-verb",
+   "zh": "扭开；挣脱",
+   "examples": [
+    {
+     "nl": "Hij wrong de vastzittende dop met veel kracht los.",
+     "zh": "他用很大力气把卡住的瓶盖拧开。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-belastingbetaler-noun-1",
+   "lexemeId": "lx-belastingbetaler-noun",
+   "zh": "纳税人",
+   "examples": [
+    {
+     "nl": "Elke belastingbetaler ontvangt deze maand een brief van de gemeente.",
+     "zh": "每位纳税人本月都会收到市政府的一封信。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opzijzetten-verb-1",
+   "lexemeId": "lx-opzijzetten-verb",
+   "zh": "放到一边；留出；搁置",
+   "examples": [
+    {
+     "nl": "Zet wat geld opzij voor onverwachte uitgaven.",
+     "zh": "留出一些钱应付意外开支。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-tweedehandsmarkt-noun-1",
+   "lexemeId": "lx-tweedehandsmarkt-noun",
+   "zh": "二手市场",
+   "examples": [
+    {
+     "nl": "Op de tweedehandsmarkt vond ik een goedkope kinderfiets.",
+     "zh": "我在二手市场找到了一辆便宜的儿童自行车。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ontstressen-verb-1",
+   "lexemeId": "lx-ontstressen-verb",
+   "zh": "减压；放松",
+   "examples": [
+    {
+     "nl": "Na het werk ontstresste hij met een rustige wandeling.",
+     "zh": "下班后，他通过轻松散步来减压。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-inhollen-verb-1",
+   "lexemeId": "lx-inhollen-verb",
+   "zh": "跑进来（旧式用语）",
+   "examples": [
+    {
+     "nl": "De kinderen holden vrolijk de kamer in.",
+     "zh": "孩子们欢快地跑进房间。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-amateurvoetballer-noun-1",
+   "lexemeId": "lx-amateurvoetballer-noun",
+   "zh": "业余足球运动员",
+   "examples": [
+    {
+     "nl": "De amateurvoetballer traint twee avonden per week.",
+     "zh": "这位业余足球运动员每周训练两个晚上。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-balorig-adjective-1",
+   "lexemeId": "lx-balorig-adjective",
+   "zh": "淘气的；恶作剧的",
+   "examples": [
+    {
+     "nl": "De balorige kinderen verstopten de schoenen van hun vader.",
+     "zh": "这些淘气的孩子藏起了爸爸的鞋子。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-binnenhuistafereel-noun-1",
+   "lexemeId": "lx-binnenhuistafereel-noun",
+   "zh": "室内场景；家庭生活画面",
+   "examples": [
+    {
+     "nl": "Het schilderij toont een rustig binnenhuistafereel met een gezin.",
+     "zh": "这幅画描绘了一家人安静的室内生活场景。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doelpaal-noun-1",
+   "lexemeId": "lx-doelpaal-noun",
+   "zh": "球门柱",
+   "examples": [
+    {
+     "nl": "De bal raakte de doelpaal en stuiterde terug het veld in.",
+     "zh": "球击中球门柱后弹回了场内。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-event-noun-1",
+   "lexemeId": "lx-event-noun",
+   "zh": "活动；盛会",
+   "examples": [
+    {
+     "nl": "Het jaarlijkse event trekt bezoekers uit heel Nederland.",
+     "zh": "一年一度的活动吸引了来自荷兰各地的访客。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-morsig-adjective-1",
+   "lexemeId": "lx-morsig-adjective",
+   "zh": "邋遢的；脏乱的",
+   "examples": [
+    {
+     "nl": "Na het schilderen was zijn broek helemaal morsig.",
+     "zh": "刷漆后，他的裤子弄得脏兮兮的。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onweerlegbaar-adjective-1",
+   "lexemeId": "lx-onweerlegbaar-adjective",
+   "zh": "无可辩驳的",
+   "examples": [
+    {
+     "nl": "Het bewijs was onweerlegbaar en overtuigde de jury.",
+     "zh": "证据无可辩驳，说服了评审团。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-oprijzen-verb-1",
+   "lexemeId": "lx-oprijzen-verb",
+   "zh": "升起；出现",
+   "examples": [
+    {
+     "nl": "Uit de mist rees langzaam een oude toren op.",
+     "zh": "一座古塔从雾中慢慢升起。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-provisorisch-adjective-1",
+   "lexemeId": "lx-provisorisch-adjective",
+   "zh": "临时的；权宜的",
+   "examples": [
+    {
+     "nl": "We sliepen in een provisorische kamer naast de keuken.",
+     "zh": "我们睡在厨房旁边一间临时腾出的房间里。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schot-noun-1",
+   "lexemeId": "lx-schot-noun",
+   "zh": "射门；枪击；隔板",
+   "examples": [
+    {
+     "nl": "De voetballer nam een schot vanaf de rand van het veld.",
+     "zh": "足球运动员在场地边缘起脚射门。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-steenworp-noun-1",
+   "lexemeId": "lx-steenworp-noun",
+   "zh": "一箭之遥；很近的距离",
+   "examples": [
+    {
+     "nl": "Het strand ligt op een steenworp van ons hotel.",
+     "zh": "海滩离我们的酒店只有一箭之遥。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitsmeren-verb-1",
+   "lexemeId": "lx-uitsmeren-verb",
+   "zh": "涂开；摊开",
+   "examples": [
+    {
+     "nl": "Smeer de boter dun uit over het warme brood.",
+     "zh": "把黄油薄薄地涂在热面包上。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verspilling-noun-1",
+   "lexemeId": "lx-verspilling-noun",
+   "zh": "浪费",
+   "examples": [
+    {
+     "nl": "Voedselverspilling verminderen begint met beter plannen.",
+     "zh": "减少食物浪费要从更好地规划开始。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-weids-adjective-1",
+   "lexemeId": "lx-weids-adjective",
+   "zh": "广阔的；辽阔的",
+   "examples": [
+    {
+     "nl": "Vanaf de heuvel zagen we een weids landschap.",
+     "zh": "从山丘上，我们看到了辽阔的景色。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bemesten-verb-1",
+   "lexemeId": "lx-bemesten-verb",
+   "zh": "施肥",
+   "examples": [
+    {
+     "nl": "De boer bemestte het land vroeg in het voorjaar.",
+     "zh": "农民在早春给土地施肥。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stadslandbouwbedrijf-noun-1",
+   "lexemeId": "lx-stadslandbouwbedrijf-noun",
+   "zh": "城市农业企业",
+   "examples": [
+    {
+     "nl": "Het stadslandbouwbedrijf verkoopt groenten aan buurtbewoners.",
+     "zh": "这家城市农业企业向附近居民出售蔬菜。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-meterstand-noun-1",
+   "lexemeId": "lx-meterstand-noun",
+   "zh": "仪表读数；电表读数",
+   "examples": [
+    {
+     "nl": "Geef de meterstand door voordat je naar je nieuwe woning verhuist.",
+     "zh": "搬进新房前，请提交仪表读数。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-neerzetten-verb-1",
+   "lexemeId": "lx-neerzetten-verb",
+   "zh": "放下；放置；树立",
+   "examples": [
+    {
+     "nl": "Zet de boodschappentas maar neer naast de deur.",
+     "zh": "把购物袋放在门旁边就行。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-escaleren-verb-1",
+   "lexemeId": "lx-escaleren-verb",
+   "zh": "升级；恶化",
+   "examples": [
+    {
+     "nl": "Een klein meningsverschil escaleerde snel tot een grote ruzie.",
+     "zh": "小小的意见分歧很快升级成了一场大争吵。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}
