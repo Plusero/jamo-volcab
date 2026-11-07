@@ -11,4 +11,6 @@
 .choice { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
 .choice input { width: 20px; height: 20px; }
 .error { color: var(--again); margin: 0; font-size: 0.9rem; }
+.dataHelp { display: grid; gap: 8px; margin-bottom: 12px; font-size: 0.875rem; }
+.dataHelp p { margin: 0; }
 .hidden { display: none; }

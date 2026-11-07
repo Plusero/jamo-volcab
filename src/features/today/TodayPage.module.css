@@ -6,4 +6,6 @@
 .start { display: flex; align-items: center; justify-content: center; min-height: 52px; font-size: 1.125rem; font-weight: 600; text-decoration: none; }
 .done { margin: 0; padding: 14px; text-align: center; font-size: 1.125rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); }
 .backup { display: flex; flex-direction: column; gap: 4px; color: inherit; text-decoration: none; border-color: var(--hard); }
+.storageNotice { display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem; }
+.storageNotice p { margin: 0; }
 .version { margin: 8px 0 0; text-align: center; font-size: 0.75rem; }

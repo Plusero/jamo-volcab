@@ -31,6 +31,11 @@ export function DataSettings() {
   return (
     <section className="card">
       <h2>数据</h2>
+      <div className={`muted ${styles.dataHelp}`}>
+        <p>学习进度、备注和设置会自动保存在当前设备的当前浏览器中，不会上传云端，也不会在不同设备或浏览器间自动同步。</p>
+        <p>换设备或浏览器时，请先在原浏览器中「导出备份」，将备份文件传到新设备，再在新浏览器中「导入备份」。导入会覆盖当前浏览器的全部学习数据，不会合并两边的进度。</p>
+        <p>请定期导出备份。清除网站数据可能导致记录丢失；无痕模式下的记录在关闭窗口后可能被清除。</p>
+      </div>
       <p className="muted" style={{ margin: '0 0 8px' }}>
         上次导出：{settings.lastExportAtMs === null ? '从未' : formatDateTime(settings.lastExportAtMs)}
       </p>

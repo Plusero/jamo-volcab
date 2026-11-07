@@ -53,6 +53,14 @@ export function TodayPage() {
         </Link>
       )}
 
+      <aside className={`card ${styles.storageNotice}`} aria-label="数据保存与同步">
+        <strong>数据保存在当前浏览器</strong>
+        <p className="muted">
+          学习进度、备注和设置会自动保存在本机，不会上传云端，也不会在不同设备或浏览器间自动同步。
+        </p>
+        <Link to="/settings">查看备份与换设备说明</Link>
+      </aside>
+
       <p className={`muted ${styles.version}`}>词库版本 {vocab.version}</p>
     </div>
   );
