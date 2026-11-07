@@ -7,6 +7,7 @@
   border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg);
 }
 .check { width: 24px; height: 24px; }
+.voiceSelect { width: min(65%, 320px); min-height: 44px; padding: 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); }
 .choices { display: flex; flex-wrap: wrap; gap: 4px 16px; }
 .choice { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
 .choice input { width: 20px; height: 20px; }

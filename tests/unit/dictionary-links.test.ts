@@ -56,6 +56,15 @@ function voice(lang: string): SpeechSynthesisVoice {
 }
 
 describe('pickDutchVoice', () => {
+  it('使用用户选中的荷兰语语音；该语音不在当前设备上时自动选择', () => {
+    const nl = { ...voice('nl-NL'), voiceURI: 'xander' };
+    const be = { ...voice('nl-BE'), voiceURI: 'ellen' };
+    const en = { ...voice('en-US'), voiceURI: 'english' };
+    expect(pickDutchVoice([nl, be, en], 'ellen')).toBe(be);
+    expect(pickDutchVoice([nl, be, en], 'missing')).toBe(nl);
+    expect(pickDutchVoice([nl, be, en], 'english')).toBe(nl);
+  });
+
   it('nl-NL 优先于 nl-BE 和其他 nl 语音', () => {
     const be = voice('nl-BE');
     const nl = voice('nl-NL');

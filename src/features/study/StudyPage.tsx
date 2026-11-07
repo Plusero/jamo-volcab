@@ -20,7 +20,7 @@ type View = {
 
 export function StudyPage() {
   const { db, vocab, settings } = useApp();
-  const voice = useDutchVoice();
+  const voice = useDutchVoice(settings.speechVoiceURI);
   const [view, setView] = useState<View | null>(null);
   const [busy, setBusy] = useState(false);
   const [undoable, setUndoable] = useState(0); // 本页面会话里已评分、还可以撤销的次数

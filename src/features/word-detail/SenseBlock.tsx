@@ -5,9 +5,9 @@ import styles from './WordDetailPage.module.css';
 
 /** 一个词义：中文义、例句（带发音）、搭配、主题、等级和审校状态。 */
 export function SenseBlock({ sense, current }: { sense: Sense; current: boolean }) {
-  const voice = useDutchVoice();
   const { play, error } = useSpeak();
   const { settings, vocab } = useApp();
+  const voice = useDutchVoice(settings.speechVoiceURI);
   const cefr = vocab.lexemeById.get(sense.lexemeId)?.cefr;
   return (
     <section className={`card ${styles.sense} ${current ? styles.current : ''}`}>

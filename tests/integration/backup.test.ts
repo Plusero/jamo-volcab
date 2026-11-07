@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { exportBackup, parseBackup, restoreBackup } from '../../src/application/backup';
 import { updateNote } from '../../src/application/notes';
+import { saveSettings } from '../../src/application/settings';
 import { getToday, rate } from '../../src/application/study';
 import { getScheduler } from '../../src/domain/scheduler';
 import type { AppDb } from '../../src/data/db';
@@ -28,12 +29,14 @@ async function seeded() {
 describe('备份', () => {
   it('导出后导入空库，数据一致，下一次调度结果相同', async () => {
     const a = await seeded();
+    await saveSettings(a, { speechVoiceURI: 'ellen' });
     const { json, fileName } = await exportBackup(a, T0);
     expect(fileName).toMatch(/^dutch-vocab-backup-\d{8}T\d{6}Z\.json$/);
 
     const b = await newDb();
     await restoreBackup(b, parseBackup(json));
     expect(await dump(b)).toEqual(await dump(a));
+    expect((await b.settings.get('main'))?.speechVoiceURI).toBe('ellen');
 
     const s = await getScheduler();
     const [ca, cb] = [(await a.cards.get('s-0'))!, (await b.cards.get('s-0'))!];
@@ -44,6 +47,16 @@ describe('备份', () => {
     expect(() => parseBackup('{"format":')).toThrow();
     expect(() => parseBackup(JSON.stringify({ format: 'other', formatVersion: 1 }))).toThrow();
     expect(() => parseBackup(JSON.stringify({ format: 'dutch-vocab-backup', formatVersion: 2, createdAt: '', data: {} }))).toThrow();
+  });
+
+  it('旧备份没有语音选择字段时仍可恢复学习记录', async () => {
+    const a = await seeded();
+    const file = parseBackup((await exportBackup(a, T0)).json);
+    delete file.data.settings!.speechVoiceURI;
+    const b = await newDb();
+    await restoreBackup(b, parseBackup(JSON.stringify(file)));
+    expect(await dump(b)).toEqual(await dump(a));
+    expect((await b.settings.get('main'))?.speechVoiceURI).toBeUndefined();
   });
 
   it('旧版备份中的 { newQuota } 当日计划会被丢弃，其余数据照常恢复', async () => {

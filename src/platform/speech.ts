@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-type SpeechErrorCode = SpeechSynthesisErrorCode | 'start-timeout';
+type SpeechErrorCode = SpeechSynthesisErrorCode | 'start-timeout' | 'ended-before-start';
 type SpeechState = 'started' | 'ended';
 type AudioSessionNavigator = Navigator & { audioSession?: { type: string } };
 
@@ -8,28 +8,34 @@ type AudioSessionNavigator = Navigator & { audioSession?: { type: string } };
 let activeSpeech: { utterance: SpeechSynthesisUtterance; dispose: () => boolean } | null = null;
 
 /** 从语音列表里挑荷兰语：nl-NL 优先，其次 nl-BE，再其次任何 nl 开头的。找不到返回 null。 */
-export function pickDutchVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
+export function pickDutchVoice(voices: SpeechSynthesisVoice[], preferredURI?: string | null): SpeechSynthesisVoice | null {
   const lang = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase();
   return (
-    voices.find((v) => lang(v) === 'nl-nl')
+    voices.find((v) => !!preferredURI && v.voiceURI === preferredURI && lang(v).startsWith('nl'))
+    ?? voices.find((v) => lang(v) === 'nl-nl')
     ?? voices.find((v) => lang(v) === 'nl-be')
     ?? voices.find((v) => lang(v).startsWith('nl'))
     ?? null
   );
 }
 
-/** 当前可用的荷兰语语音；语音列表异步加载，所以要监听 voiceschanged。没有语音时返回 null，界面隐藏发音按钮。 */
-export function useDutchVoice(): SpeechSynthesisVoice | null {
-  const [voice, setVoice] = useState<SpeechSynthesisVoice | null>(null);
+/** 设备提供的荷兰语语音；列表会在下载语音后发生变化。 */
+export function useDutchVoices(): SpeechSynthesisVoice[] {
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   useEffect(() => {
     const synth = window.speechSynthesis;
     if (!synth) return;
-    const update = () => setVoice(pickDutchVoice(synth.getVoices()));
+    const update = () => setVoices(synth.getVoices().filter((v) => v.lang.toLowerCase().startsWith('nl')));
     update();
     synth.addEventListener('voiceschanged', update);
     return () => synth.removeEventListener('voiceschanged', update);
   }, []);
-  return voice;
+  return voices;
+}
+
+/** 优先使用用户选择；该语音在当前设备不存在时仍可使用自动选择。 */
+export function useDutchVoice(preferredURI?: string | null): SpeechSynthesisVoice | null {
+  return pickDutchVoice(useDutchVoices(), preferredURI);
 }
 
 /** 同步在点击事件中朗读；voice 为 null 时由系统按 nl-NL 选择语音。 */
@@ -47,6 +53,7 @@ export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'n
   if (voice) utterance.voice = voice;
   utterance.lang = voice?.lang.replace('_', '-') ?? 'nl-NL';
   utterance.rate = rate === 'slow' ? 0.7 : 1;
+  let started = false;
 
   function dispose(): boolean {
     if (activeSpeech?.utterance !== utterance) return false;
@@ -63,11 +70,14 @@ export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'n
   }, 8000);
   utterance.onstart = () => {
     if (activeSpeech?.utterance !== utterance) return;
+    started = true;
     window.clearTimeout(startTimer);
     onState?.('started');
   };
   utterance.onend = () => {
-    if (dispose()) onState?.('ended');
+    if (!dispose()) return;
+    if (started) onState?.('ended');
+    else onError('ended-before-start');
   };
   utterance.onerror = (event) => {
     if (!dispose()) return;
@@ -87,10 +97,14 @@ export function useSpeak() {
     setStatus('正在请求朗读…');
     speak(text, voice, rate, (code) => {
       setStatus('');
-      setError(code === 'start-timeout'
-        ? '浏览器在 8 秒内没有开始朗读（start-timeout）。请在设备的语音设置中试听荷兰语语音，确认已下载且能播放。'
-        : `朗读失败（${code}）。请检查系统荷兰语语音和音频输出。`);
-    }, (state) => setStatus(state === 'started' ? '浏览器报告已开始朗读。' : '浏览器报告朗读已结束。'));
+      if (code === 'start-timeout') {
+        setError('浏览器在 8 秒内没有开始朗读（start-timeout）。可在网站「设置 → 发音」中选择其他荷兰语语音试听。');
+      } else if (code === 'ended-before-start') {
+        setError('浏览器只报告结束，未报告开始（ended-before-start）。可在网站「设置 → 发音」中选择其他荷兰语语音试听。');
+      } else {
+        setError(`朗读失败（${code}）。请检查系统荷兰语语音和音频输出。`);
+      }
+    }, (state) => setStatus(state === 'started' ? '浏览器报告已开始朗读。' : '浏览器已依次报告开始和结束；这不能确认实际有声音。'));
   }
   return { play, error, status };
 }

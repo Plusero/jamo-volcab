@@ -3,6 +3,11 @@ import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import { speak } from '../../src/platform/speech';
 import { WordFront } from '../../src/features/study/WordFront';
+import { PrefsSettings } from '../../src/features/settings/PrefsSettings';
+import { useApp, type AppState } from '../../src/app/AppContext';
+import { DEFAULT_SETTINGS } from '../../src/application/settings';
+
+vi.mock('../../src/app/AppContext', () => ({ useApp: vi.fn() }));
 
 class Utterance {
   voice: SpeechSynthesisVoice | null = null;
@@ -14,15 +19,18 @@ class Utterance {
   constructor(public text: string) {}
 }
 
-const voice = { name: 'Xander', lang: 'nl-NL' } as SpeechSynthesisVoice;
+const voice = { name: 'Xander', lang: 'nl-NL', voiceURI: 'xander' } as SpeechSynthesisVoice;
+const ellen = { name: 'Ellen', lang: 'nl-BE', voiceURI: 'ellen' } as SpeechSynthesisVoice;
 const synth = {
   speaking: false, pending: false, paused: false,
   cancel: vi.fn(), resume: vi.fn(), speak: vi.fn<(utterance: Utterance) => void>(),
+  getVoices: vi.fn(), addEventListener: vi.fn(), removeEventListener: vi.fn(),
 };
 
 beforeEach(() => {
   vi.useFakeTimers();
   synth.speaking = synth.pending = synth.paused = false;
+  synth.getVoices.mockReturnValue([voice, ellen, { name: 'English', lang: 'en-US', voiceURI: 'english' }]);
   vi.stubGlobal('speechSynthesis', synth);
   vi.stubGlobal('SpeechSynthesisUtterance', Utterance);
 });
@@ -93,6 +101,17 @@ it('收到开始事件后取消启动超时检测，完整保留长例句的播�
   expect(onState.mock.calls).toEqual([['started'], ['ended']]);
 });
 
+it('只收到结束事件时报告未收到开始事件，不显示正常结束状态', () => {
+  const onError = vi.fn();
+  const onState = vi.fn();
+  speak('Goedemorgen!', voice, 'normal', onError, onState);
+  synth.speak.mock.calls[0]![0].onend!();
+  expect(onError).toHaveBeenCalledExactlyOnceWith('ended-before-start');
+  expect(onState).not.toHaveBeenCalled();
+  vi.advanceTimersByTime(8000);
+  expect(onError).toHaveBeenCalledOnce();
+});
+
 it('新语句取代旧语句后，旧事件和旧计时器不影响新播放', () => {
   const oldError = vi.fn();
   const newError = vi.fn();
@@ -132,4 +151,19 @@ it('单词与例句通过同一播放逻辑朗读，显示系统错误，再次�
   fireEvent.click(screen.getByRole('button', { name: '朗读例句' }));
   expect(synth.speak.mock.calls[1]![0].text).toBe('Ik heb een fiets.');
   expect(screen.queryByRole('alert')).not.toBeInTheDocument();
+});
+
+it('设置列出设备荷兰语语音，保存选择并用选中的语音试听', () => {
+  const updateSettings = vi.fn();
+  vi.mocked(useApp).mockReturnValue({ settings: DEFAULT_SETTINGS, updateSettings } as unknown as AppState);
+  const { rerender } = render(<PrefsSettings />);
+  const select = screen.getByRole('combobox', { name: '朗读语音' });
+  expect(screen.getByRole('option', { name: 'Ellen（nl-BE）' })).toBeInTheDocument();
+  expect(screen.queryByRole('option', { name: /English/ })).not.toBeInTheDocument();
+  fireEvent.change(select, { target: { value: 'ellen' } });
+  expect(updateSettings).toHaveBeenCalledWith({ speechVoiceURI: 'ellen' });
+  vi.mocked(useApp).mockReturnValue({ settings: { ...DEFAULT_SETTINGS, speechVoiceURI: 'ellen' }, updateSettings } as unknown as AppState);
+  rerender(<PrefsSettings />);
+  fireEvent.click(screen.getByRole('button', { name: '试听 Ellen' }));
+  expect(synth.speak.mock.calls[0]![0].voice).toBe(ellen);
 });
