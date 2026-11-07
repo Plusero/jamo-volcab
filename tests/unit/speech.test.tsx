@@ -9,6 +9,8 @@ class Utterance {
   lang = '';
   rate = 1;
   onerror: ((event: SpeechSynthesisErrorEvent) => void) | null = null;
+  onstart: (() => void) | null = null;
+  onend: (() => void) | null = null;
   constructor(public text: string) {}
 }
 
@@ -19,13 +21,17 @@ const synth = {
 };
 
 beforeEach(() => {
+  vi.useFakeTimers();
   synth.speaking = synth.pending = synth.paused = false;
   vi.stubGlobal('speechSynthesis', synth);
   vi.stubGlobal('SpeechSynthesisUtterance', Utterance);
 });
 
 afterEach(() => {
+  synth.speak.mock.calls.at(-1)?.[0].onend?.();
   cleanup();
+  vi.clearAllTimers();
+  vi.useRealTimers();
   vi.resetAllMocks();
   vi.unstubAllGlobals();
 });
@@ -56,14 +62,61 @@ it('系统默认试听只指定荷兰语，不绑定 Xander', () => {
   expect(synth.speak.mock.calls[0]![0]).toMatchObject({ voice: null, lang: 'nl-NL', rate: 1 });
 });
 
-it('播放错误向调用方报告，主动取消或打断不报错', () => {
+it.each(['canceled', 'interrupted', 'synthesis-failed'] as const)('播放错误 %s 只在非主动中断时报告', (error) => {
   const onError = vi.fn();
   speak('fiets', voice, 'normal', onError);
   const utterance = synth.speak.mock.calls[0]![0];
-  for (const error of ['canceled', 'interrupted', 'synthesis-failed']) {
-    utterance.onerror!({ error } as SpeechSynthesisErrorEvent);
-  }
-  expect(onError.mock.calls).toEqual([['synthesis-failed']]);
+  utterance.onerror!({ error } as SpeechSynthesisErrorEvent);
+  expect(onError.mock.calls).toEqual(error === 'synthesis-failed' ? [[error]] : []);
+  vi.advanceTimersByTime(8000);
+  expect(onError.mock.calls).toEqual(error === 'synthesis-failed' ? [[error]] : []);
+});
+
+it('没有任何开始或错误事件时，超时后停止队列并报告启动失败', () => {
+  const onError = vi.fn();
+  speak('fiets', voice, 'normal', onError);
+  vi.advanceTimersByTime(8000);
+  expect(synth.cancel).toHaveBeenCalledOnce();
+  expect(onError).toHaveBeenCalledExactlyOnceWith('start-timeout');
+});
+
+it('收到开始事件后取消启动超时检测，完整保留长例句的播放', () => {
+  const onError = vi.fn();
+  const onState = vi.fn();
+  speak('Ik heb een fiets.', voice, 'normal', onError, onState);
+  const utterance = synth.speak.mock.calls[0]![0];
+  utterance.onstart!();
+  vi.advanceTimersByTime(20000);
+  expect(onError).not.toHaveBeenCalled();
+  expect(synth.cancel).not.toHaveBeenCalled();
+  utterance.onend!();
+  expect(onState.mock.calls).toEqual([['started'], ['ended']]);
+});
+
+it('新语句取代旧语句后，旧事件和旧计时器不影响新播放', () => {
+  const oldError = vi.fn();
+  const newError = vi.fn();
+  speak('fiets', voice, 'normal', oldError);
+  const oldUtterance = synth.speak.mock.calls[0]![0];
+  vi.advanceTimersByTime(4000);
+  speak('boek', voice, 'normal', newError);
+  oldUtterance.onstart!();
+  oldUtterance.onend!();
+  oldUtterance.onerror!({ error: 'synthesis-failed' } as SpeechSynthesisErrorEvent);
+  vi.advanceTimersByTime(4000);
+  expect(oldError).not.toHaveBeenCalled();
+  expect(newError).not.toHaveBeenCalled();
+  vi.advanceTimersByTime(4000);
+  expect(newError).toHaveBeenCalledExactlyOnceWith('start-timeout');
+});
+
+it('支持 AudioSession 时使用 playback，在结束后还原原来的类型', () => {
+  const audioSession = { type: 'auto' };
+  vi.stubGlobal('navigator', { audioSession });
+  speak('fiets', voice, 'normal', vi.fn());
+  expect(audioSession.type).toBe('playback');
+  synth.speak.mock.calls[0]![0].onend!();
+  expect(audioSession.type).toBe('auto');
 });
 
 it('单词与例句通过同一播放逻辑朗读，显示系统错误，再次点击清除旧错误', () => {

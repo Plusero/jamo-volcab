@@ -24,7 +24,7 @@ function Radios<T extends string>({ name, options, value, onChange }: {
 export function PrefsSettings() {
   const { settings, updateSettings } = useApp();
   const voice = useDutchVoice();
-  const { play, error } = useSpeak();
+  const { play, error, status } = useSpeak();
   return (
     <>
       <section className="card">
@@ -41,6 +41,7 @@ export function PrefsSettings() {
           </>
         )}
         {error && <p className={styles.error} role="alert">{error}</p>}
+        <div className="muted" role="status">{status}</div>
       </section>
       <section className="card">
         <h2>外观</h2>
