@@ -2,7 +2,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../../app/AppContext';
 import { searchSenses } from '../../application/vocab';
-import type { Card } from '../../domain/types';
+import { CEFR_LEVELS, type Card } from '../../domain/types';
 import { posLabel } from '../shared/word';
 import { TextbookFrequency } from '../shared/TextbookFrequency';
 import { CefrBadge } from '../shared/CefrBadge';
@@ -26,6 +26,7 @@ export function LibraryPage() {
   const [q, setQ] = useState('');
   const [pos, setPos] = useState('');
   const [topic, setTopic] = useState('');
+  const [level, setLevel] = useState('');
   const [state, setState] = useState<StateFilter>('all');
   const [page, setPage] = useState(0);
 
@@ -42,9 +43,9 @@ export function LibraryPage() {
 
   const rows = useMemo(() => {
     if (!cards) return [];
-    const all = searchSenses(vocab, { q, pos: pos || undefined, topic: topic || undefined }, 0, Infinity).rows;
+    const all = searchSenses(vocab, { q, pos: pos || undefined, topic: topic || undefined, level: level || undefined }, 0, Infinity).rows;
     return state === 'all' ? all : all.filter((r) => stateOf(cards.get(r.sense.id)) === state);
-  }, [vocab, cards, q, pos, topic, state]);
+  }, [vocab, cards, q, pos, topic, level, state]);
 
   const pageCount = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
   const current = Math.min(page, pageCount - 1);
@@ -66,6 +67,10 @@ export function LibraryPage() {
           value={q} onChange={(e) => reset(setQ)(e.target.value)}
         />
         <div className={styles.selects}>
+          <select aria-label="CEFR 等级" value={level} onChange={(e) => reset(setLevel)(e.target.value)}>
+            <option value="">全部等级</option>
+            {CEFR_LEVELS.map((l) => <option key={l} value={l}>CEFR {l}</option>)}
+          </select>
           <select aria-label="词性" value={pos} onChange={(e) => reset(setPos)(e.target.value)}>
             <option value="">全部词性</option>
             {posList.map((p) => <option key={p} value={p}>{posLabel(p)}</option>)}

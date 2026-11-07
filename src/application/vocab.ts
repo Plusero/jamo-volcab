@@ -24,7 +24,7 @@ export function indexVocab(v: Vocab): VocabIndex {
   };
 }
 
-export type SearchFilter = { q?: string; pos?: string; topic?: string };
+export type SearchFilter = { q?: string; pos?: string; topic?: string; level?: string };
 export type SearchRow = { sense: Sense; lexeme: Lexeme };
 
 export function searchSenses(ix: VocabIndex, f: SearchFilter, offset = 0, limit = 50) {
@@ -33,6 +33,7 @@ export function searchSenses(ix: VocabIndex, f: SearchFilter, offset = 0, limit 
   for (const id of ix.senseOrder) {
     const sense = ix.senseById.get(id)!;
     const lexeme = ix.lexemeById.get(sense.lexemeId)!;
+    if (f.level && lexeme.cefr?.final_level !== f.level) continue;
     if (f.pos && lexeme.pos !== f.pos) continue;
     if (f.topic && !sense.topics.includes(f.topic)) continue;
     if (q && !lexeme.lemma.toLowerCase().includes(q) && !sense.zh.includes(q)) continue;
