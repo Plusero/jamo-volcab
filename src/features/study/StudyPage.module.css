@@ -3,6 +3,7 @@
 /* 正面 */
 .front { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 32px var(--gap); text-align: center; }
 .lemma { font-size: 2.25rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+.meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; }
 .badge { position: absolute; top: 12px; left: 12px; padding: 0 8px; font-size: 0.75rem; border-radius: 999px; background: var(--accent); color: var(--accent-text); }
 .speak { min-width: 44px; min-height: 44px; font-size: 1.5rem; border: 1px solid var(--border); border-radius: 999px; background: var(--bg); cursor: pointer; }
 .speakSmall { flex: none; min-width: 44px; min-height: 44px; margin: -8px -8px -8px 0; border: 0; background: none; cursor: pointer; }

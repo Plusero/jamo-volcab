@@ -71,10 +71,41 @@ export type BackupFile = z.infer<typeof BackupFile>;
 
 /* --------------------------------- 词库 --------------------------------- */
 
+export const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
+export const CefrLevel = z.enum(CEFR_LEVELS);
+export type CefrLevel = z.infer<typeof CefrLevel>;
+
+export const CefrThresholds = z.object({
+  min_frequency: z.number().finite().positive(),
+  min_dispersion: z.number().finite().nonnegative(),
+});
+export type CefrThresholds = z.infer<typeof CefrThresholds>;
+
+/** null 表示原始数据缺失，与真实的 0 区分；F、D 不求和、不补值。 */
+export const CefrEvidence = z.object({
+  word: z.string(),
+  tag: z.string(),
+  F: z.record(CefrLevel, z.number().finite().nonnegative().nullable()),
+  D: z.record(CefrLevel, z.number().finite().nullable()),
+});
+export type CefrEvidence = z.infer<typeof CefrEvidence>;
+
+export const CefrAssessment = z.object({
+  first_occurrence_level: CefrLevel.nullable(),
+  suggested_level: CefrLevel.nullable(),
+  final_level: CefrLevel.nullable(),
+  review_status: z.enum(['reliable', 'needs_review', 'insufficient_evidence']),
+  raw: z.array(CefrEvidence).min(1),
+});
+export type CefrAssessment = z.infer<typeof CefrAssessment>;
+
 export const Lexeme = z.object({
   id: z.string(),
   lemma: z.string().min(1),
   pos: z.string(),
+  /** NT2Lex 全部原始词条按 SFI@TOTAL 降序的名次；同形同词性取最高名次。 */
+  textbookFrequencyRank: z.number().int().positive().optional(),
+  cefr: CefrAssessment.optional(),
   article: z.enum(['de', 'het', 'de/het']).optional(),
   plural: z.string().optional(),
   verbForms: z.object({
@@ -101,6 +132,7 @@ export type Sense = z.infer<typeof Sense>;
 /** public/vocabulary/vocab.json；senses 的顺序即新词学习顺序。 */
 export const Vocab = z.object({
   version: z.string(),
+  cefr_thresholds: CefrThresholds.optional(),
   lexemes: z.array(Lexeme),
   senses: z.array(Sense),
 });

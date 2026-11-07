@@ -2,6 +2,11 @@
 .back { display: inline-flex; align-items: center; min-height: 44px; }
 .title { margin: 0; font-size: 1.6rem; overflow-wrap: anywhere; }
 .forms { margin: 4px 0 0; color: var(--muted); }
+.cefr { overflow-x: auto; font-size: 0.875rem; }
+.cefr summary { cursor: pointer; }
+.cefr table { width: 100%; margin-top: 12px; border-collapse: collapse; }
+.cefr caption { text-align: left; overflow-wrap: anywhere; }
+.cefr th, .cefr td { padding: 4px; border-bottom: 1px solid var(--border); text-align: left; }
 .sense { display: grid; gap: 8px; }
 .current { border-color: var(--accent); border-width: 2px; }
 .zh { font-weight: 600; font-size: 1.1rem; }

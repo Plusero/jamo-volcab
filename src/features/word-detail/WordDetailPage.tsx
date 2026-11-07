@@ -2,6 +2,9 @@ import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useApp } from '../../app/AppContext';
 import { posLabel } from '../shared/word';
+import { TextbookFrequency } from '../shared/TextbookFrequency';
+import { CefrBadge } from '../shared/CefrBadge';
+import { CefrDetails } from './CefrDetails';
 import { LearningPanel } from './LearningPanel';
 import { LookupLinks } from './LookupLinks';
 import { SenseBlock } from './SenseBlock';
@@ -25,12 +28,15 @@ export function WordDetailPage() {
       <Link to="/library" className={styles.back}>← 词库</Link>
       <header>
         <h1 className={styles.title}>{lexeme.article ? `${lexeme.article} ` : ''}{lexeme.lemma}</h1>
+        <CefrBadge assessment={lexeme.cefr} />
         <p className={styles.forms}>
           {posLabel(lexeme.pos)}
           {lexeme.plural && ` · 复数 ${lexeme.plural}`}
           {vf && ` · ${vf.past} / ${vf.pastParticiple}（${vf.aux}）`}
         </p>
+        <TextbookFrequency rank={lexeme.textbookFrequencyRank} />
       </header>
+      {lexeme.cefr && <CefrDetails assessment={lexeme.cefr} />}
       {siblings.map((s) => <SenseBlock key={s.id} sense={s} current={s.id === sense.id} />)}
       <LearningPanel key={sense.id} senseId={sense.id} />
       <LookupLinks lexeme={lexeme} sense={sense} />

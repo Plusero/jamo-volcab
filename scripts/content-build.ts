@@ -5,8 +5,28 @@
 import { createHash } from 'node:crypto';
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { loadCurated, validateVocab } from './content-lib';
+import { CefrThresholds } from '../src/domain/types';
+import type { CefrAssessment } from '../src/domain/types';
+import { classifyCefr } from './nt2lex-cefr';
 
-const vocab = loadCurated();
+const cefrThresholds = CefrThresholds.parse(JSON.parse(readFileSync('content/sources/cefr-config.json', 'utf8')));
+const vocab = { ...loadCurated(), cefr_thresholds: cefrThresholds };
+const { ranks: textbookRanks } = JSON.parse(readFileSync('content/manifests/nt2lex-frequency-v1.json', 'utf8')) as {
+  ranks: Record<string, number>;
+};
+const { entries: cefrEntries } = JSON.parse(readFileSync('content/manifests/nt2lex-cefr-v1.json', 'utf8')) as {
+  entries: Record<string, CefrAssessment>;
+};
+for (const lexeme of vocab.lexemes) {
+  lexeme.textbookFrequencyRank = textbookRanks[`${lexeme.lemma}\t${lexeme.pos}`];
+  const cefr = cefrEntries[`${lexeme.lemma}\t${lexeme.pos}`];
+  if (cefr) lexeme.cefr = classifyCefr(cefr.raw, cefrThresholds);
+}
+const lexemesById = new Map(vocab.lexemes.map((lexeme) => [lexeme.id, lexeme]));
+for (const sense of vocab.senses) {
+  const level = lexemesById.get(sense.lexemeId)?.cefr?.final_level;
+  if (level) sense.level = level; // 没有 NT2Lex 证据时保留现有词义等级。
+}
 
 // 新词学习顺序：按对应参考项的 A1+A2+B1 词频降序；没对上参考项的（如 extra.json）排在最后。
 type Freq = { A1: number; A2: number; B1: number };
@@ -32,7 +52,7 @@ if (problems.length > 0) {
 const hash = createHash('sha256').update(JSON.stringify(vocab)).digest('hex').slice(0, 8);
 const date = new Date().toISOString().slice(0, 10).replaceAll('-', '');
 const version = `${date}-${hash}`;
-const json = JSON.stringify({ version, lexemes: vocab.lexemes, senses: vocab.senses });
+const json = JSON.stringify({ version, ...vocab });
 
 mkdirSync('public/vocabulary', { recursive: true });
 writeFileSync('public/vocabulary/vocab.json', json);

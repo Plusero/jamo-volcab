@@ -17,6 +17,7 @@
 .main { min-width: 0; }
 .lemma { font-weight: 600; overflow-wrap: anywhere; }
 .zh { color: var(--muted); font-size: 0.9rem; overflow-wrap: anywhere; }
+.frequency { font-size: 0.8rem; }
 .badge { flex: none; font-size: 0.8rem; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
 .learning { color: var(--good); border-color: var(--good); }
 .suspended { color: var(--hard); border-color: var(--hard); }

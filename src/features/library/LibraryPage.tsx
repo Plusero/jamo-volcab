@@ -4,6 +4,8 @@ import { useApp } from '../../app/AppContext';
 import { searchSenses } from '../../application/vocab';
 import type { Card } from '../../domain/types';
 import { posLabel } from '../shared/word';
+import { TextbookFrequency } from '../shared/TextbookFrequency';
+import { CefrBadge } from '../shared/CefrBadge';
 import styles from './LibraryPage.module.css';
 import { useAsync } from '../../app/useAsync';
 
@@ -87,6 +89,8 @@ export function LibraryPage() {
                 <span className={styles.main}>
                   <div className={styles.lemma}>{lexeme.article ? `${lexeme.article} ` : ''}{lexeme.lemma}</div>
                   <div className={styles.zh}>{sense.zh}</div>
+                  <CefrBadge assessment={lexeme.cefr} />
+                  <div className={styles.frequency}><TextbookFrequency rank={lexeme.textbookFrequencyRank} /></div>
                 </span>
                 <span className={`${styles.badge} ${styles[st]}`}>{STATE_LABEL[st]}</span>
               </Link>

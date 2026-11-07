@@ -1,5 +1,7 @@
 import type { Lexeme } from '../../domain/types';
 import { displayForm, posLabel, spokenForm } from '../shared/word';
+import { TextbookFrequency } from '../shared/TextbookFrequency';
+import { CefrBadge } from '../shared/CefrBadge';
 import { SpeakButton } from './SpeakButton';
 import styles from './StudyPage.module.css';
 
@@ -15,7 +17,11 @@ export function WordFront({ lexeme, isNew, voice, rate }: Props) {
     <div className={`card ${styles.front}`}>
       {isNew && <span className={styles.badge}>新词</span>}
       <div className={styles.lemma}>{displayForm(lexeme)}</div>
-      <div className="muted">{posLabel(lexeme.pos)}</div>
+      <div className={styles.meta}>
+        <span className="muted">{posLabel(lexeme.pos)}</span>
+        <CefrBadge assessment={lexeme.cefr} />
+      </div>
+      <TextbookFrequency rank={lexeme.textbookFrequencyRank} />
       <SpeakButton text={spokenForm(lexeme)} voice={voice} rate={rate} label="朗读单词" />
     </div>
   );

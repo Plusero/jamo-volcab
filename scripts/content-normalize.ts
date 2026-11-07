@@ -1,6 +1,7 @@
 /**
  * npm run content:normalize
  * NT2Lex 基础版 TSV -> content/manifests/reference-set-b1-v1.json（冻结的 B1 及以下参考清单）。
+ * 同时生成完整词频排名和 CEFR 分级证据清单。
  *
  * 规则：
  * - 候选 = F@A1、F@A2、F@B1 任一 > 0 的行。
@@ -15,16 +16,15 @@
  */
 import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { normalizeNt2LexEntry, textbookFrequencyRanks } from './nt2lex';
+import { classifyCefr, parseNt2LexNumber } from './nt2lex-cefr';
+import { CEFR_LEVELS, CefrThresholds } from '../src/domain/types';
+import type { CefrEvidence } from '../src/domain/types';
 
 const LEVELS = ['A1', 'A2', 'B1'] as const;
 type Level = (typeof LEVELS)[number];
 type Freq = Record<Level, number>;
 type Group = { lemma: string; pos: string; tags: Set<string>; words: Set<string>; freq: Freq; specOnly: boolean; tokens: number };
-
-const POS: Record<string, string> = {
-  N: 'noun', WW: 'verb', ADJ: 'adjective', BW: 'adverb', VZ: 'preposition', VG: 'conjunction',
-  VNW: 'pronoun', TW: 'numeral', LID: 'article', TSW: 'interjection', SPEC: 'special',
-};
 
 const src = (JSON.parse(readFileSync('content/sources/sources.json', 'utf8')) as {
   sources: { id: string; localFile: string; sha256: string }[];
@@ -41,28 +41,35 @@ const col = (name: string) => {
 };
 const fCol = LEVELS.map((l) => col(`F@${l}`));
 const num = (v: string) => (v === '-' ? 0 : Number(v));
+const sfiCol = col('SFI@TOTAL');
+const textbookRanks = textbookFrequencyRanks(lines.map((row) => ({ word: row[0], tag: row[1], sfiTotal: Number(row[sfiCol]) })));
+const cefrThresholds = CefrThresholds.parse(JSON.parse(readFileSync('content/sources/cefr-config.json', 'utf8')));
+const cefrColumns = CEFR_LEVELS.map((level) => ({ level, f: col(`F@${level}`), d: col(`D@${level}`) }));
+const cefrGroups = new Map<string, CefrEvidence[]>();
 
 const groups = new Map<string, Group>();
 let candidates = 0;
 for (const row of lines) {
   if (row.length !== header.length) throw new Error(`列数不符: ${row[0]}`);
+  const { word, lemma, pos, specOnly } = normalizeNt2LexEntry(row[0], row[1]);
+  const key = `${lemma}\t${pos}`;
+  const raw: CefrEvidence = {
+    word: row[0], tag: row[1],
+    F: Object.fromEntries(cefrColumns.map(({ level, f }) => [level, parseNt2LexNumber(row[f])])) as CefrEvidence['F'],
+    D: Object.fromEntries(cefrColumns.map(({ level, d }) => [level, parseNt2LexNumber(row[d])])) as CefrEvidence['D'],
+  };
+  const evidence = cefrGroups.get(key) ?? [];
+  evidence.push(raw);
+  cefrGroups.set(key, evidence);
   const f = fCol.map((i) => num(row[i]));
   if (f.some(Number.isNaN)) throw new Error(`频次不是数字: ${row[0]}`);
   if (!f.some((x) => x > 0)) continue;
   candidates++;
-  const word = row[0].normalize('NFC').trim().replace(/\s+/g, ' ');
-  const tagList = row[1].trim().split(/\s+/);
-  const cgn = tagList.map((t) => t.replace(/\(.*$/, ''));
-  for (const c of cgn) if (!(c in POS)) throw new Error(`未知 CGN 标签 ${row[1]} @ ${word}`);
-  const spec = cgn.includes('SPEC');
-  const lemma = spec ? word : word.toLowerCase();
-  const pos = tagList.length > 1 ? 'phrase' : POS[cgn[0]];
-  const key = `${lemma}\t${pos}`;
   const g = groups.get(key) ?? { lemma, pos, tags: new Set(), words: new Set(), freq: { A1: 0, A2: 0, B1: 0 }, specOnly: true, tokens: word.split(' ').length };
   g.tags.add(row[1]);
   g.words.add(word);
   LEVELS.forEach((l, i) => (g.freq[l] += f[i]));
-  g.specOnly &&= cgn.every((c) => c === 'SPEC');
+  g.specOnly &&= specOnly;
   groups.set(key, g);
 }
 
@@ -109,6 +116,18 @@ const out = {
 };
 mkdirSync('content/manifests', { recursive: true });
 writeFileSync('content/manifests/reference-set-b1-v1.json', JSON.stringify(out, null, 2) + '\n');
+writeFileSync('content/manifests/nt2lex-frequency-v1.json', JSON.stringify({
+  source: out.source,
+  totalEntries: lines.length,
+  rule: '全部原始词条按 SFI@TOTAL 降序排名；同分保持原始行顺序；同一 (lemma, pos) 取最高名次',
+  ranks: textbookRanks,
+}, null, 2) + '\n');
+// 每个词条一行，便于核对原始证据并控制生成文件大小；无需原始 TSV 即可在 CI 构建。
+const cefrEntries = [...cefrGroups].map(([key, raw]) => `    ${JSON.stringify(key)}: ${JSON.stringify(classifyCefr(raw, cefrThresholds))}`);
+writeFileSync('content/manifests/nt2lex-cefr-v1.json', '{\n'
+  + `  "source": ${JSON.stringify(out.source)},\n`
+  + `  "thresholds": ${JSON.stringify(cefrThresholds)},\n`
+  + '  "entries": {\n' + cefrEntries.join(',\n') + '\n  }\n}\n');
 
 console.log(counts);
 const byReason = new Map<string, number>();

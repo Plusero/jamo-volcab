@@ -25,7 +25,7 @@ const PLACEHOLDER = /TODO|TBD|待补/i;
 
 export function validateVocab(v: { lexemes: Lexeme[]; senses: Sense[] }): string[] {
   const problems: string[] = [];
-  const parsed = Vocab.safeParse({ version: 'validate', lexemes: v.lexemes, senses: v.senses });
+  const parsed = Vocab.safeParse({ version: 'validate', ...v });
   if (!parsed.success) {
     for (const issue of parsed.error.issues) problems.push(`schema: ${issue.path.join('.')}: ${issue.message}`);
   }
