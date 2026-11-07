@@ -19,6 +19,8 @@ export class AppDb extends Dexie {
       notes: 'senseId',
       settings: '',
     });
+    // v2：dayPlans 从 { newQuota } 改为 { dueCount }。旧计划直接清掉，当天打开时会重建。
+    this.version(2).upgrade((tx) => tx.table('dayPlans').clear());
   }
 
   get userTables() {

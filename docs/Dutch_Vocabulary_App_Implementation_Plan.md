@@ -58,7 +58,7 @@ src/platform/     语音、文件、查词链接
 | 轻松（在设置里开启） | Easy |
 
 - 用 ts-fsrs v6 的 `DefaultScheduler` → `newCard` / `review`，关闭 fuzz。卡片保存库返回的全部字段，日期转成毫秒，另存一个 `dueAtMs` 用作索引。
-- **每日计划**：当天第一次打开时算出 `newQuota = min(新词上限, max(0, 每日目标 − D))` 并保存，D 是学习日结束前到期的旧卡数。之后刷新不会重算。
+- **每日计划**：当天第一次打开时记下 D（学习日结束前到期的旧卡数）并保存，之后刷新不会重算。新词额度 `min(新词上限, max(0, 每日目标 − D))` 每次按当前设置计算，所以改设置立即生效。
 - **出题顺序**：已到期的学习/重学卡 → 今天到期的复习卡 → 新词（按词库顺序取还没有卡的词义）。积压超过目标时新词额度为 0。当前没有可学的卡但稍后还有时，显示「稍后还有 X 张」。
 - **学习日**：时间存 UTC 毫秒；按设置里的 IANA 时区和本地 04:00 用日历计算学习日，不直接减 24 小时，这样夏令时也正确。
 - **撤销**：每条日志保存评分前的卡片 `before`（新卡为 `null`）。撤销最后一条时，删掉这条日志并还原卡片；如果是新卡就删掉卡片，额度会因为日志减少而自然退回。
@@ -78,7 +78,7 @@ Sense  = { id, lexemeId, zh, examples: { nl, zh }[], collocations?, topics, leve
 |---|---|
 | `cards` | `senseId`（主键）、`fsrs`、`dueAtMs`、`suspended` |
 | `reviewLogs` | 自增 `id`、`senseId`、`rating`、`reviewedAtMs`、`before` |
-| `dayPlans` | `dayKey`、`newQuota`（今天已引入的新卡数由当天 `before = null` 的日志算出，不另存计数） |
+| `dayPlans` | `dayKey`、`dueCount`（D；额度按当前设置现算，已引入的新卡数由当天 `before = null` 的日志算出） |
 | `notes` | `senseId`、`text`、`starred` |
 | `settings` | 单行设置，包含 `lastExportAtMs` |
 

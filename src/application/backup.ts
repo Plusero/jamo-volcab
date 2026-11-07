@@ -32,7 +32,7 @@ export async function restoreBackup(db: AppDb, file: BackupFile): Promise<void> 
     await Promise.all(db.userTables.map((t) => t.clear()));
     await db.cards.bulkAdd(cards);
     await db.reviewLogs.bulkAdd(reviewLogs);
-    await db.dayPlans.bulkAdd(dayPlans);
+    await db.dayPlans.bulkAdd(dayPlans.filter((p) => 'dueCount' in p));
     await db.notes.bulkAdd(notes);
     if (settings) await db.settings.put(settings, 'main');
   });

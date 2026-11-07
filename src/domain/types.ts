@@ -32,9 +32,10 @@ export const ReviewLog = z.object({
 });
 export type ReviewLog = z.infer<typeof ReviewLog>;
 
+/** 当天第一次打开时固定的到期旧卡数 D。新词额度由它和当前设置算出，所以改设置立即生效。 */
 export const DayPlan = z.object({
   dayKey: z.string(),
-  newQuota: z.number().int(),
+  dueCount: z.number().int(),
 });
 export type DayPlan = z.infer<typeof DayPlan>;
 
@@ -60,7 +61,8 @@ export const BackupFile = z.object({
   data: z.object({
     cards: z.array(Card),
     reviewLogs: z.array(ReviewLog),
-    dayPlans: z.array(DayPlan),
+    // 旧版备份里的 { dayKey, newQuota } 也接受，恢复时丢弃（当天计划会自动重建）
+    dayPlans: z.array(z.union([DayPlan, z.object({ dayKey: z.string(), newQuota: z.number() })])),
     notes: z.array(Note),
     settings: Settings.nullable(),
   }),

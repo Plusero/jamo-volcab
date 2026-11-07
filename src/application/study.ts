@@ -13,6 +13,8 @@ function dayOf(s: Settings, nowMs: number) {
 export type Today = {
   dayKey: string;
   plan: DayPlan;
+  /** 今天的新词额度：由当天固定的 D 和当前设置算出 */
+  newQuota: number;
   /** 今天已引入的新卡数（从今天的日志推出） */
   newIntroduced: number;
   queue: Queue;
@@ -20,7 +22,7 @@ export type Today = {
 };
 
 /**
- * 今日状态。当天第一次调用时固定新词额度，之后刷新不会重算。
+ * 今日状态。当天第一次调用时固定到期数 D，之后刷新不会重算；新词额度随当前设置变化。
  * @param senseOrder 词库中未退役词义的学习顺序
  */
 export async function getToday(db: AppDb, senseOrder: readonly string[], nowMs: number): Promise<Today> {
@@ -30,13 +32,14 @@ export async function getToday(db: AppDb, senseOrder: readonly string[], nowMs: 
 
   let plan = await db.dayPlans.get(day.dayKey);
   if (!plan) {
-    plan = { dayKey: day.dayKey, newQuota: newQuota(settings, due.length) };
+    plan = { dayKey: day.dayKey, dueCount: due.length };
     await db.dayPlans.put(plan);
   }
 
   const logsToday = await db.reviewLogs.where('reviewedAtMs').between(day.startMs, day.endMs).toArray();
   const newIntroduced = logsToday.filter((l) => l.before === null).length;
-  const newLeft = plan.newQuota - newIntroduced;
+  const quota = newQuota(settings, plan.dueCount);
+  const newLeft = quota - newIntroduced;
   const known = new Set(await db.cards.toCollection().primaryKeys());
   const newSenseIds: string[] = [];
   for (const id of senseOrder) {
@@ -47,6 +50,7 @@ export async function getToday(db: AppDb, senseOrder: readonly string[], nowMs: 
   return {
     dayKey: day.dayKey,
     plan,
+    newQuota: quota,
     newIntroduced,
     queue: buildQueue(due, newSenseIds, nowMs),
     reviewedToday: logsToday.length,

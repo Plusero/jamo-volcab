@@ -1,12 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import { getToday, rate, setSuspended, undoLast } from '../../src/application/study';
+import { saveSettings } from '../../src/application/settings';
 import { DAY, MIN, newDb, SENSES, T0 } from './helpers';
 
 describe('学习流程', () => {
   it('评分新卡：写入一张卡和一条日志，扣减新词额度', async () => {
     const db = await newDb();
     const t0 = await getToday(db, SENSES, T0);
-    expect(t0.plan.newQuota).toBe(20);
+    expect(t0.newQuota).toBe(20);
     expect(t0.queue.newSenseIds[0]).toBe('s-0');
 
     await rate(db, 's-0', 'Good', T0);
@@ -29,6 +30,19 @@ describe('学习流程', () => {
     expect((await getToday(db, SENSES, T0 + 2 * MIN)).queue.newSenseIds).toEqual([]);
   });
 
+  it('修改设置后，当天的新词额度立即生效（D 保持不变）', async () => {
+    const db = await newDb({ newLimit: 3 });
+    await getToday(db, SENSES, T0);
+    for (const id of ['s-0', 's-1', 's-2']) await rate(db, id, 'Good', T0);
+    expect((await getToday(db, SENSES, T0 + MIN)).queue.newSenseIds).toEqual([]);
+
+    await saveSettings(db, { newLimit: 10 });
+    const t = await getToday(db, SENSES, T0 + 2 * MIN);
+    expect(t.newQuota).toBe(10);
+    expect(t.queue.newSenseIds).toHaveLength(7);
+    expect(t.plan.dueCount).toBe(0);
+  });
+
   it('Again 的卡稍后出现，到期后排在新词之前', async () => {
     const db = await newDb();
     await getToday(db, SENSES, T0);
@@ -45,7 +59,7 @@ describe('学习流程', () => {
     for (const id of SENSES.slice(0, 8)) await rate(db, id, 'Good', T0 - 30 * DAY);
     const t = await getToday(db, SENSES, T0);
     expect(t.queue.due).toHaveLength(8);
-    expect(t.plan.newQuota).toBe(0);
+    expect(t.newQuota).toBe(0);
   });
 
   it('撤销新卡：删除卡片和日志，退回额度', async () => {

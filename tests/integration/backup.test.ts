@@ -46,6 +46,16 @@ describe('备份', () => {
     expect(() => parseBackup(JSON.stringify({ format: 'dutch-vocab-backup', formatVersion: 2, createdAt: '', data: {} }))).toThrow();
   });
 
+  it('旧版备份中的 { newQuota } 当日计划会被丢弃，其余数据照常恢复', async () => {
+    const a = await seeded();
+    const file = parseBackup((await exportBackup(a, T0)).json);
+    const legacy = parseBackup(JSON.stringify({ ...file, data: { ...file.data, dayPlans: [{ dayKey: '2026-06-10', newQuota: 20 }] } }));
+    const b = await newDb();
+    await restoreBackup(b, legacy);
+    expect(await b.dayPlans.count()).toBe(0);
+    expect(await b.cards.count()).toBe(2);
+  });
+
   it('恢复中途失败时事务回滚，原有数据不变', async () => {
     const db = await seeded();
     const original = await dump(db);
