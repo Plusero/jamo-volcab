@@ -19,7 +19,6 @@
 .note { display: flex; flex-direction: column; gap: 4px; }
 .star { min-width: 44px; min-height: 44px; font-size: 1.5rem; line-height: 1; border: 0; background: none; color: var(--accent); cursor: pointer; }
 .textarea { width: 100%; padding: 8px; resize: vertical; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); }
-.link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 4px; border: 0; background: none; color: var(--accent); font-size: 0.9375rem; text-decoration: underline; cursor: pointer; }
 
 .detail { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; color: inherit; }
 

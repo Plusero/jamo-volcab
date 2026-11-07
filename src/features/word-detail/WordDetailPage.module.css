@@ -17,6 +17,4 @@
 .tag { font-size: 0.8rem; padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
 .draft { color: var(--hard); border-color: var(--hard); }
 .note { width: 100%; min-height: 96px; padding: 8px 12px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); resize: vertical; }
-.links { display: flex; gap: 8px; flex-wrap: wrap; }
-.link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 4px; }
 h2 { margin: 0 0 8px; font-size: 1.1rem; }

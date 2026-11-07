@@ -1,0 +1,27 @@
+.actions {
+  --google-logo: #4285f4;
+  --claude-logo: #d97757;
+  --gemini-blue: #4b90ff;
+  --gemini-pink: #d96570;
+  display: grid; gap: 12px;
+}
+.lookupGrid, .aiGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.action {
+  display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
+  min-width: 0; min-height: 80px; padding: 10px 4px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); color: var(--text); font-size: 0.875rem;
+  text-decoration: none; cursor: pointer;
+}
+.action:hover { border-color: var(--accent); }
+.secondary { display: block; color: var(--muted); font-size: 0.75rem; }
+.logo { flex: none; display: inline-block; width: 28px; height: 28px; background: var(--text); mask: center / contain no-repeat; }
+.google { mask-image: url('../../assets/brands/googletranslate.svg'); background: var(--google-logo); }
+.deepl { mask-image: url('../../assets/brands/deepl.svg'); }
+.openai { mask-image: url('../../assets/brands/openai.svg'); }
+.gemini { mask-image: url('../../assets/brands/googlegemini.svg'); background: linear-gradient(45deg, var(--gemini-blue), var(--gemini-pink)); }
+.claude { mask-image: url('../../assets/brands/claude.svg'); background: var(--claude-logo); }
+.qwen { mask: none; background: url('../../assets/brands/qwen.svg') center / contain no-repeat; }
+.doubao { mask: none; background: url('../../assets/brands/doubao.png') center / contain no-repeat; }
+.book { mask-image: url('../../assets/brands/book.svg'); }
+.notice { margin: 0; font-size: 0.8125rem; color: var(--muted); }

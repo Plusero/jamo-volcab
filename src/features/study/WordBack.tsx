@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useApp } from '../../app/AppContext';
 import { getNote, updateNote } from '../../application/notes';
-import { copyText, googleTranslateUrl, VAN_DALE_URL } from '../../platform/dictionary-links';
+import { LookupActions } from '../shared/LookupActions';
 import type { Lexeme, Note, Sense } from '../../domain/types';
 import { SpeakButton } from './SpeakButton';
 import styles from './StudyPage.module.css';
@@ -43,12 +43,7 @@ export function WordBack({ sense, lexeme, voice, rate }: Props) {
 
       <NoteEditor senseId={sense.id} />
 
-      <div className="row">
-        <a className={styles.link} href={googleTranslateUrl(lexeme.lemma)} target="_blank" rel="noopener noreferrer">Google 翻译</a>
-        <a className={styles.link} href={googleTranslateUrl(sense.examples[0].nl)} target="_blank" rel="noopener noreferrer">翻译例句</a>
-        <a className={styles.link} href={VAN_DALE_URL} target="_blank" rel="noopener noreferrer">Van Dale（需登录）</a>
-        <button type="button" className={styles.link} onClick={() => void copyText(lexeme.lemma)}>复制词条</button>
-      </div>
+      <LookupActions lexeme={lexeme} sense={sense} />
     </div>
   );
 }
