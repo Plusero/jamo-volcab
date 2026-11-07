@@ -25,12 +25,28 @@ export function useDutchVoice(): SpeechSynthesisVoice | null {
   return voice;
 }
 
-/** 朗读。先取消队列里的旧语句，慢速为 0.7 倍速。 */
-export function speak(text: string, voice: SpeechSynthesisVoice, rate: 'normal' | 'slow'): void {
-  speechSynthesis.cancel();
+/** 同步在点击事件中朗读；voice 为 null 时由系统按 nl-NL 选择语音。 */
+export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'normal' | 'slow', onError: (code: SpeechSynthesisErrorCode) => void): void {
+  const synth = window.speechSynthesis;
+  if (synth.speaking || synth.pending) synth.cancel();
+  if (synth.paused) synth.resume();
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.voice = voice;
-  utterance.lang = voice.lang;
+  if (voice) utterance.voice = voice;
+  utterance.lang = voice?.lang.replace('_', '-') ?? 'nl-NL';
   utterance.rate = rate === 'slow' ? 0.7 : 1;
-  speechSynthesis.speak(utterance);
+  utterance.onerror = (event) => {
+    // 点击另一段内容会主动打断旧语句，不属于播放故障。
+    if (event.error !== 'canceled' && event.error !== 'interrupted') onError(event.error);
+  };
+  synth.speak(utterance);
+}
+
+/** 页面内显示系统报告的朗读错误；不自动重试或更换语音。 */
+export function useSpeak() {
+  const [error, setError] = useState('');
+  function play(text: string, voice: SpeechSynthesisVoice | null, rate: 'normal' | 'slow') {
+    setError('');
+    speak(text, voice, rate, (code) => setError(`朗读失败（${code}）。请检查系统荷兰语语音和音频输出。`));
+  }
+  return { play, error };
 }

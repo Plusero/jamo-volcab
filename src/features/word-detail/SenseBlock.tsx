@@ -1,11 +1,12 @@
 import type { Sense } from '../../domain/types';
-import { speak, useDutchVoice } from '../../platform/speech';
+import { useDutchVoice, useSpeak } from '../../platform/speech';
 import { useApp } from '../../app/AppContext';
 import styles from './WordDetailPage.module.css';
 
 /** 一个词义：中文义、例句（带发音）、搭配、主题、等级和审校状态。 */
 export function SenseBlock({ sense, current }: { sense: Sense; current: boolean }) {
   const voice = useDutchVoice();
+  const { play, error } = useSpeak();
   const { settings, vocab } = useApp();
   const cefr = vocab.lexemeById.get(sense.lexemeId)?.cefr;
   return (
@@ -15,7 +16,7 @@ export function SenseBlock({ sense, current }: { sense: Sense; current: boolean 
         {sense.examples.map((ex) => (
           <li key={ex.nl} className={styles.example}>
             {voice && (
-              <button className="btn" aria-label="播放例句" onClick={() => speak(ex.nl, voice, settings.speechRate)}>🔊</button>
+              <button type="button" className="btn" aria-label="播放例句" onClick={() => play(ex.nl, voice, settings.speechRate)}>🔊</button>
             )}
             <div className={styles.exampleText}>
               <div>{ex.nl}</div>
@@ -24,6 +25,7 @@ export function SenseBlock({ sense, current }: { sense: Sense; current: boolean 
           </li>
         ))}
       </ul>
+      {error && <p role="alert">{error}</p>}
       {sense.collocations && sense.collocations.length > 0 && (
         <div><span className="muted">搭配：</span>{sense.collocations.join('；')}</div>
       )}
