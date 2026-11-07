@@ -1,0 +1,706 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-bedelen-verb",
+   "lemma": "bedelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bedelde",
+    "pastParticiple": "gebedeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-welzijn-noun",
+   "lemma": "welzijn",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-gevel-noun",
+   "lemma": "gevel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gevels"
+  },
+  {
+   "id": "lx-spoken-verb",
+   "lemma": "spoken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "spookte",
+    "pastParticiple": "gespookt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-schel-adjective",
+   "lemma": "schel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-door-middel-van-phrase",
+   "lemma": "door middel van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-ingrijpen-verb",
+   "lemma": "ingrijpen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "greep in",
+    "pastParticiple": "ingegrepen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-voornaam-adjective",
+   "lemma": "voornaam",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-document-noun",
+   "lemma": "document",
+   "pos": "noun",
+   "article": "het",
+   "plural": "documenten"
+  },
+  {
+   "id": "lx-sympathie-noun",
+   "lemma": "sympathie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "sympathieën"
+  },
+  {
+   "id": "lx-grondslag-noun",
+   "lemma": "grondslag",
+   "pos": "noun",
+   "article": "de",
+   "plural": "grondslagen"
+  },
+  {
+   "id": "lx-dominant-adjective",
+   "lemma": "dominant",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-lusten-verb",
+   "lemma": "lusten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "lustte",
+    "pastParticiple": "gelust",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-luik-noun",
+   "lemma": "luik",
+   "pos": "noun",
+   "article": "het",
+   "plural": "luiken"
+  },
+  {
+   "id": "lx-achter-de-rug-phrase",
+   "lemma": "achter de rug",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-studentenstad-noun",
+   "lemma": "studentenstad",
+   "pos": "noun",
+   "article": "de",
+   "plural": "studentensteden"
+  },
+  {
+   "id": "lx-zuur-adjective",
+   "lemma": "zuur",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-remmen-verb",
+   "lemma": "remmen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "remde",
+    "pastParticiple": "geremd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verspillen-verb",
+   "lemma": "verspillen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verspilde",
+    "pastParticiple": "verspild",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-nationaliteit-noun",
+   "lemma": "nationaliteit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "nationaliteiten"
+  },
+  {
+   "id": "lx-trui-noun",
+   "lemma": "trui",
+   "pos": "noun",
+   "article": "de",
+   "plural": "truien"
+  },
+  {
+   "id": "lx-klassieker-noun",
+   "lemma": "klassieker",
+   "pos": "noun",
+   "article": "de",
+   "plural": "klassiekers"
+  },
+  {
+   "id": "lx-receptie-noun",
+   "lemma": "receptie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "recepties"
+  },
+  {
+   "id": "lx-studieadviseur-noun",
+   "lemma": "studieadviseur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "studieadviseurs"
+  },
+  {
+   "id": "lx-account-noun",
+   "lemma": "account",
+   "pos": "noun",
+   "article": "het",
+   "plural": "accounts"
+  },
+  {
+   "id": "lx-personage-noun",
+   "lemma": "personage",
+   "pos": "noun",
+   "article": "het",
+   "plural": "personages"
+  },
+  {
+   "id": "lx-zelfde-adjective",
+   "lemma": "zelfde",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-instorten-verb",
+   "lemma": "instorten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "stortte in",
+    "pastParticiple": "ingestort",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-snauwen-verb",
+   "lemma": "snauwen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "snauwde",
+    "pastParticiple": "gesnauwd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-wenkbrauw-noun",
+   "lemma": "wenkbrauw",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wenkbrauwen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-bedelen-verb-1",
+   "lexemeId": "lx-bedelen-verb",
+   "zh": "乞讨",
+   "examples": [
+    {
+     "nl": "De man bedelde om geld bij het station.",
+     "zh": "那个男人在车站附近乞讨。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-welzijn-noun-1",
+   "lexemeId": "lx-welzijn-noun",
+   "zh": "福祉；幸福",
+   "examples": [
+    {
+     "nl": "Goed welzijn hangt ook af van voldoende slaap.",
+     "zh": "良好的身心状态也取决于充足的睡眠。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gevel-noun-1",
+   "lexemeId": "lx-gevel-noun",
+   "zh": "外墙；正面",
+   "examples": [
+    {
+     "nl": "De gevel van het oude huis is rood.",
+     "zh": "这栋老房子的外墙是红色的。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-spoken-verb-1",
+   "lexemeId": "lx-spoken-verb",
+   "zh": "闹鬼；作祟",
+   "examples": [
+    {
+     "nl": "Volgens mijn oma spookte het vroeger in dit huis.",
+     "zh": "我奶奶说这栋房子以前闹过鬼。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schel-adjective-1",
+   "lexemeId": "lx-schel-adjective",
+   "zh": "尖厉的；刺耳的",
+   "examples": [
+    {
+     "nl": "Een schel geluid kwam uit de kleine luidspreker.",
+     "zh": "一个刺耳的声音从小扬声器里传来。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-door-middel-van-phrase-1",
+   "lexemeId": "lx-door-middel-van-phrase",
+   "zh": "通过；借助",
+   "examples": [
+    {
+     "nl": "We betaalden de rekening door middel van een app.",
+     "zh": "我们通过一个应用支付了账单。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ingrijpen-verb-1",
+   "lexemeId": "lx-ingrijpen-verb",
+   "zh": "干预；介入",
+   "examples": [
+    {
+     "nl": "De leraar greep in toen de kinderen ruzie maakten.",
+     "zh": "孩子们吵架时，老师进行了干预。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voornaam-adjective-1",
+   "lexemeId": "lx-voornaam-adjective",
+   "zh": "显要的；重要的",
+   "examples": [
+    {
+     "nl": "Een voorname gast opende het nieuwe museum.",
+     "zh": "一位重要嘉宾为新博物馆揭幕。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-document-noun-1",
+   "lexemeId": "lx-document-noun",
+   "zh": "文件；文档",
+   "examples": [
+    {
+     "nl": "Stuur het document vandaag nog naar mijn collega.",
+     "zh": "今天就把文件发给我的同事。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-sympathie-noun-1",
+   "lexemeId": "lx-sympathie-noun",
+   "zh": "同情；好感",
+   "examples": [
+    {
+     "nl": "Ik voelde meteen sympathie voor de vriendelijke buurvrouw.",
+     "zh": "我立刻对这位友善的邻居产生了好感。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-grondslag-noun-1",
+   "lexemeId": "lx-grondslag-noun",
+   "zh": "基础；根据",
+   "examples": [
+    {
+     "nl": "Vertrouwen vormt de grondslag van een goede samenwerking.",
+     "zh": "信任是良好合作的基础。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-dominant-adjective-1",
+   "lexemeId": "lx-dominant-adjective",
+   "zh": "占主导地位的；强势的",
+   "examples": [
+    {
+     "nl": "In deze groep heeft één stem een dominante invloed.",
+     "zh": "在这个群体中，一个声音具有主导影响力。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lusten-verb-1",
+   "lexemeId": "lx-lusten-verb",
+   "zh": "喜欢吃；想吃",
+   "examples": [
+    {
+     "nl": "Mijn kinderen lusten geen spruitjes bij het avondeten.",
+     "zh": "我的孩子们晚饭时不爱吃抱子甘蓝。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-luik-noun-1",
+   "lexemeId": "lx-luik-noun",
+   "zh": "百叶窗；舱口",
+   "examples": [
+    {
+     "nl": "Doe het luik dicht voordat het gaat regenen.",
+     "zh": "下雨前把百叶窗关上。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-achter-de-rug-phrase-1",
+   "lexemeId": "lx-achter-de-rug-phrase",
+   "zh": "已经经历过；已完成",
+   "examples": [
+    {
+     "nl": "Ze heeft haar eerste examen eindelijk achter de rug.",
+     "zh": "她终于考完了第一场考试。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-studentenstad-noun-1",
+   "lexemeId": "lx-studentenstad-noun",
+   "zh": "大学城",
+   "examples": [
+    {
+     "nl": "Leiden is een bekende studentenstad in Nederland.",
+     "zh": "莱顿是荷兰一座著名的大学城。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zuur-adjective-1",
+   "lexemeId": "lx-zuur-adjective",
+   "zh": "酸的；酸味的",
+   "examples": [
+    {
+     "nl": "Deze citroen smaakt veel te zuur voor mij.",
+     "zh": "这个柠檬对我来说太酸了。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-remmen-verb-1",
+   "lexemeId": "lx-remmen-verb",
+   "zh": "刹车；减速",
+   "examples": [
+    {
+     "nl": "De fietser remde voor het rode verkeerslicht.",
+     "zh": "骑车人在红灯前刹车了。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verspillen-verb-1",
+   "lexemeId": "lx-verspillen-verb",
+   "zh": "浪费",
+   "examples": [
+    {
+     "nl": "We verspillen geen water tijdens het tandenpoetsen.",
+     "zh": "刷牙时我们不浪费水。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-nationaliteit-noun-1",
+   "lexemeId": "lx-nationaliteit-noun",
+   "zh": "国籍",
+   "examples": [
+    {
+     "nl": "Op het formulier vult u uw nationaliteit in.",
+     "zh": "请在表格上填写您的国籍。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-trui-noun-1",
+   "lexemeId": "lx-trui-noun",
+   "zh": "毛衣",
+   "examples": [
+    {
+     "nl": "Hij droeg een warme trui tijdens de wandeling.",
+     "zh": "散步时他穿了一件暖和的毛衣。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-klassieker-noun-1",
+   "lexemeId": "lx-klassieker-noun",
+   "zh": "经典作品；经典车型",
+   "examples": [
+    {
+     "nl": "Deze film is een klassieker uit de jaren tachtig.",
+     "zh": "这部电影是八十年代的一部经典作品。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-receptie-noun-1",
+   "lexemeId": "lx-receptie-noun",
+   "zh": "接待处；招待会",
+   "examples": [
+    {
+     "nl": "Meld je bij de receptie wanneer je aankomt.",
+     "zh": "到达后请到接待处登记。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-studieadviseur-noun-1",
+   "lexemeId": "lx-studieadviseur-noun",
+   "zh": "学业顾问",
+   "examples": [
+    {
+     "nl": "De studieadviseur hielp mij met mijn vakkenkeuze.",
+     "zh": "学业顾问帮我选择了课程。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-account-noun-1",
+   "lexemeId": "lx-account-noun",
+   "zh": "账户；账号",
+   "examples": [
+    {
+     "nl": "Je kunt een account aanmaken met je e-mailadres.",
+     "zh": "你可以用电子邮件地址创建一个账号。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-personage-noun-1",
+   "lexemeId": "lx-personage-noun",
+   "zh": "人物；角色",
+   "examples": [
+    {
+     "nl": "Het hoofdpersonage woont alleen in een klein dorp.",
+     "zh": "主人公独自住在一个小村庄里。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zelfde-adjective-1",
+   "lexemeId": "lx-zelfde-adjective",
+   "zh": "同一个；相同的",
+   "examples": [
+    {
+     "nl": "We nemen morgen dezelfde trein naar Amsterdam.",
+     "zh": "我们明天乘同一班火车去阿姆斯特丹。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-instorten-verb-1",
+   "lexemeId": "lx-instorten-verb",
+   "zh": "倒塌；崩塌",
+   "examples": [
+    {
+     "nl": "Een oude schuur stortte in tijdens de storm.",
+     "zh": "暴风雨中，一间旧棚屋倒塌了。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-snauwen-verb-1",
+   "lexemeId": "lx-snauwen-verb",
+   "zh": "厉声说；呵斥",
+   "examples": [
+    {
+     "nl": "De vermoeide chauffeur snauwde tegen zijn passagier.",
+     "zh": "疲惫的司机冲乘客厉声说话。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wenkbrauw-noun-1",
+   "lexemeId": "lx-wenkbrauw-noun",
+   "zh": "眉毛",
+   "examples": [
+    {
+     "nl": "Ze trok één wenkbrauw op toen hij dat vertelde.",
+     "zh": "他说那件事时，她挑起了一边眉毛。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  }
+ ]
+}

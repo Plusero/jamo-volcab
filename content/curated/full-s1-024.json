@@ -1,0 +1,1943 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-informatieverschaffing-noun",
+   "lemma": "informatieverschaffing",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-kalendermaand-noun",
+   "lemma": "kalendermaand",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kalendermaanden"
+  },
+  {
+   "id": "lx-niet-nakoming-noun",
+   "lemma": "niet-nakoming",
+   "pos": "noun",
+   "article": "de",
+   "plural": "niet-nakomingen"
+  },
+  {
+   "id": "lx-overeenkomen-verb",
+   "lemma": "overeenkomen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kwam overeen",
+    "pastParticiple": "overeengekomen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-redelijkerwijs-adverb",
+   "lemma": "redelijkerwijs",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-verbeuren-verb",
+   "lemma": "verbeuren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verbeurde",
+    "pastParticiple": "verbeurd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-hazenkop-noun",
+   "lemma": "hazenkop",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hazenkoppen"
+  },
+  {
+   "id": "lx-waterskiën-verb",
+   "lemma": "waterskiën",
+   "pos": "verb",
+   "verbForms": {
+    "past": "waterskiede",
+    "pastParticiple": "gewaterskied",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-inrijden-verb",
+   "lemma": "inrijden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "reed in",
+    "pastParticiple": "ingereden",
+    "aux": "hebben/zijn"
+   }
+  },
+  {
+   "id": "lx-bierlucht-noun",
+   "lemma": "bierlucht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "bierluchtjes"
+  },
+  {
+   "id": "lx-diepgang-noun",
+   "lemma": "diepgang",
+   "pos": "noun",
+   "article": "de",
+   "plural": "diepgangen"
+  },
+  {
+   "id": "lx-handkus-noun",
+   "lemma": "handkus",
+   "pos": "noun",
+   "article": "de",
+   "plural": "handkussen"
+  },
+  {
+   "id": "lx-hypocriet-adjective",
+   "lemma": "hypocriet",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-make-up-noun",
+   "lemma": "make-up",
+   "pos": "noun",
+   "article": "de",
+   "plural": "make-ups"
+  },
+  {
+   "id": "lx-muzieksmaak-noun",
+   "lemma": "muzieksmaak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "muzieksmaken"
+  },
+  {
+   "id": "lx-onaantastbaar-adjective",
+   "lemma": "onaantastbaar",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-satanist-noun",
+   "lemma": "satanist",
+   "pos": "noun",
+   "article": "de",
+   "plural": "satanisten"
+  },
+  {
+   "id": "lx-transpiratie-noun",
+   "lemma": "transpiratie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-kapsel-noun",
+   "lemma": "kapsel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "kapsels"
+  },
+  {
+   "id": "lx-dorpsschool-noun",
+   "lemma": "dorpsschool",
+   "pos": "noun",
+   "article": "de",
+   "plural": "dorpsscholen"
+  },
+  {
+   "id": "lx-hersentumor-noun",
+   "lemma": "hersentumor",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hersentumoren"
+  },
+  {
+   "id": "lx-overeenstemmen-verb",
+   "lemma": "overeenstemmen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "stemde overeen",
+    "pastParticiple": "overeengestemd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-tekstschrijver-noun",
+   "lemma": "tekstschrijver",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tekstschrijvers"
+  },
+  {
+   "id": "lx-acuut-adjective",
+   "lemma": "acuut",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-bedenktijd-noun",
+   "lemma": "bedenktijd",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-hoorzitting-noun",
+   "lemma": "hoorzitting",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hoorzittingen"
+  },
+  {
+   "id": "lx-levensverhaal-noun",
+   "lemma": "levensverhaal",
+   "pos": "noun",
+   "article": "het",
+   "plural": "levensverhalen"
+  },
+  {
+   "id": "lx-spreekbeurt-noun",
+   "lemma": "spreekbeurt",
+   "pos": "noun",
+   "article": "de",
+   "plural": "spreekbeurten"
+  },
+  {
+   "id": "lx-zenuwcel-noun",
+   "lemma": "zenuwcel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zenuwcellen"
+  },
+  {
+   "id": "lx-devoot-adjective",
+   "lemma": "devoot",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-grootheid-noun",
+   "lemma": "grootheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "grootheden"
+  },
+  {
+   "id": "lx-lacherig-adjective",
+   "lemma": "lacherig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-saamhorigheidsgevoel-noun",
+   "lemma": "saamhorigheidsgevoel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-spruitjesteler-noun",
+   "lemma": "spruitjesteler",
+   "pos": "noun",
+   "article": "de",
+   "plural": "spruitjestelers"
+  },
+  {
+   "id": "lx-te-midden-van-phrase",
+   "lemma": "te midden van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-tromgeroffel-noun",
+   "lemma": "tromgeroffel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-vereerder-noun",
+   "lemma": "vereerder",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vereerders"
+  },
+  {
+   "id": "lx-belastingdienst-noun",
+   "lemma": "belastingdienst",
+   "pos": "noun",
+   "article": "de",
+   "plural": "belastingdiensten"
+  },
+  {
+   "id": "lx-afhandeling-noun",
+   "lemma": "afhandeling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "afhandelingen"
+  },
+  {
+   "id": "lx-boetegeld-noun",
+   "lemma": "boetegeld",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-gereed-adjective",
+   "lemma": "gereed",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-ingebruikname-noun",
+   "lemma": "ingebruikname",
+   "pos": "noun",
+   "article": "de",
+   "plural": "ingebruiknamen"
+  },
+  {
+   "id": "lx-naslag-noun",
+   "lemma": "naslag",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-persoonslegitimatie-noun",
+   "lemma": "persoonslegitimatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "persoonslegitimaties"
+  },
+  {
+   "id": "lx-transactie-noun",
+   "lemma": "transactie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "transacties"
+  },
+  {
+   "id": "lx-voor-rekening-van-phrase",
+   "lemma": "voor rekening van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-afbetalen-verb",
+   "lemma": "afbetalen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "betaalde af",
+    "pastParticiple": "afbetaald",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-passage-noun",
+   "lemma": "passage",
+   "pos": "noun",
+   "article": "de",
+   "plural": "passages"
+  },
+  {
+   "id": "lx-wat-voor-een-phrase",
+   "lemma": "wat voor een",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-aanblazen-verb",
+   "lemma": "aanblazen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "blies aan",
+    "pastParticiple": "aangeblazen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-ambachtelijk-adjective",
+   "lemma": "ambachtelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-binnenrijm-noun",
+   "lemma": "binnenrijm",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-gastschrijver-noun",
+   "lemma": "gastschrijver",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gastschrijvers"
+  },
+  {
+   "id": "lx-hulpkreet-noun",
+   "lemma": "hulpkreet",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hulpkreten"
+  },
+  {
+   "id": "lx-kunstfactor-noun",
+   "lemma": "kunstfactor",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kunstfactoren"
+  },
+  {
+   "id": "lx-manifest-noun",
+   "lemma": "manifest",
+   "pos": "noun",
+   "article": "het",
+   "plural": "manifesten"
+  },
+  {
+   "id": "lx-onbekommerd-adjective",
+   "lemma": "onbekommerd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-schrijfinstrumentarium-noun",
+   "lemma": "schrijfinstrumentarium",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-spitzen-noun",
+   "lemma": "spitzen",
+   "pos": "noun",
+   "article": "de",
+   "plural": "spitzen"
+  },
+  {
+   "id": "lx-te-gast-phrase",
+   "lemma": "te gast",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-zitvlees-noun",
+   "lemma": "zitvlees",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-floepen-verb",
+   "lemma": "floepen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "floepte",
+    "pastParticiple": "gefloept",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-schooier-noun",
+   "lemma": "schooier",
+   "pos": "noun",
+   "article": "de",
+   "plural": "schooiers"
+  },
+  {
+   "id": "lx-aanscherpen-verb",
+   "lemma": "aanscherpen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "scherpte aan",
+    "pastParticiple": "aangescherpt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-competitief-adjective",
+   "lemma": "competitief",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hotelkosten-noun",
+   "lemma": "hotelkosten",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hotelkosten"
+  },
+  {
+   "id": "lx-jobmarkt-noun",
+   "lemma": "jobmarkt",
+   "pos": "noun",
+   "article": "de",
+   "plural": "jobmarkten"
+  },
+  {
+   "id": "lx-managementontwikkeling-noun",
+   "lemma": "managementontwikkeling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "managementontwikkelingen"
+  },
+  {
+   "id": "lx-output-noun",
+   "lemma": "output",
+   "pos": "noun",
+   "article": "de",
+   "plural": "outputs"
+  },
+  {
+   "id": "lx-simulatie-noun",
+   "lemma": "simulatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "simulaties"
+  },
+  {
+   "id": "lx-spelsituatie-noun",
+   "lemma": "spelsituatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "spelsituaties"
+  },
+  {
+   "id": "lx-toewijzen-verb",
+   "lemma": "toewijzen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "wees toe",
+    "pastParticiple": "toegewezen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verduidelijken-verb",
+   "lemma": "verduidelijken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verduidelijkte",
+    "pastParticiple": "verduidelijkt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-biecht-noun",
+   "lemma": "biecht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "biechten"
+  },
+  {
+   "id": "lx-rad-noun",
+   "lemma": "rad",
+   "pos": "noun",
+   "article": "het",
+   "plural": "raderen"
+  },
+  {
+   "id": "lx-zondigen-verb",
+   "lemma": "zondigen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zondigde",
+    "pastParticiple": "gezondigd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-gesis-noun",
+   "lemma": "gesis",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-kaft-noun",
+   "lemma": "kaft",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kaften"
+  },
+  {
+   "id": "lx-africhten-verb",
+   "lemma": "africhten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "richtte af",
+    "pastParticiple": "afgericht",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-antiracistisch-adjective",
+   "lemma": "antiracistisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-bij-voorbaat-phrase",
+   "lemma": "bij voorbaat",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-dagblad-noun",
+   "lemma": "dagblad",
+   "pos": "noun",
+   "article": "het",
+   "plural": "dagbladen"
+  },
+  {
+   "id": "lx-doorgewinterd-adjective",
+   "lemma": "doorgewinterd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-hoeder-noun",
+   "lemma": "hoeder",
+   "pos": "noun",
+   "article": "de",
+   "plural": "hoeders"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-informatieverschaffing-noun-1",
+   "lexemeId": "lx-informatieverschaffing-noun",
+   "zh": "信息提供",
+   "examples": [
+    {
+     "nl": "Goede informatieverschaffing helpt klanten de juiste keuze maken.",
+     "zh": "良好的信息提供有助于顾客作出正确选择。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kalendermaand-noun-1",
+   "lexemeId": "lx-kalendermaand-noun",
+   "zh": "日历月",
+   "examples": [
+    {
+     "nl": "De cursus duurt precies één kalendermaand.",
+     "zh": "这门课程正好持续一个日历月。"
+    }
+   ],
+   "topics": [
+    "时间"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-niet-nakoming-noun-1",
+   "lexemeId": "lx-niet-nakoming-noun",
+   "zh": "未履行；违约",
+   "examples": [
+    {
+     "nl": "Niet-nakoming van het contract kan een boete opleveren.",
+     "zh": "不履行合同可能导致罚款。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-overeenkomen-verb-1",
+   "lexemeId": "lx-overeenkomen-verb",
+   "zh": "一致；达成一致",
+   "examples": [
+    {
+     "nl": "De prijzen kwamen overeen met onze eerdere afspraak.",
+     "zh": "价格与我们先前的约定一致。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-redelijkerwijs-adverb-1",
+   "lexemeId": "lx-redelijkerwijs-adverb",
+   "zh": "合理地；按理",
+   "examples": [
+    {
+     "nl": "Redelijkerwijs kun je niet alles op één dag doen.",
+     "zh": "按理说，你不可能一天内完成所有事。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verbeuren-verb-1",
+   "lexemeId": "lx-verbeuren-verb",
+   "zh": "丧失；被罚没",
+   "examples": [
+    {
+     "nl": "Wie te laat komt, kan zijn recht op vergoeding verbeuren.",
+     "zh": "迟到的人可能会失去获得赔偿的权利。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hazenkop-noun-1",
+   "lexemeId": "lx-hazenkop-noun",
+   "zh": "兔头；兔子头部",
+   "examples": [
+    {
+     "nl": "Op de foto stond een hazenkop met lange oren.",
+     "zh": "照片上有一只长耳朵的兔头。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-waterskiën-verb-1",
+   "lexemeId": "lx-waterskiën-verb",
+   "zh": "滑水",
+   "examples": [
+    {
+     "nl": "In de zomer waterskiën mijn vrienden vaak op het meer.",
+     "zh": "夏天我的朋友们常在湖上滑水。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-inrijden-verb-1",
+   "lexemeId": "lx-inrijden-verb",
+   "zh": "开车撞上；驶入",
+   "examples": [
+    {
+     "nl": "De vrachtwagen reed tegen een paal in.",
+     "zh": "卡车撞上了一根柱子。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bierlucht-noun-1",
+   "lexemeId": "lx-bierlucht-noun",
+   "zh": "啤酒味",
+   "examples": [
+    {
+     "nl": "Na het feest hing een sterke bierlucht in de kamer.",
+     "zh": "派对结束后，房间里有一股浓烈的啤酒味。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-diepgang-noun-1",
+   "lexemeId": "lx-diepgang-noun",
+   "zh": "深度；内涵",
+   "examples": [
+    {
+     "nl": "Het boek heeft veel diepgang en blijft interessant.",
+     "zh": "这本书内涵丰富，读起来仍然有趣。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-handkus-noun-1",
+   "lexemeId": "lx-handkus-noun",
+   "zh": "吻手礼",
+   "examples": [
+    {
+     "nl": "De bezoeker gaf de koningin een handkus.",
+     "zh": "访客向女王行了吻手礼。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hypocriet-adjective-1",
+   "lexemeId": "lx-hypocriet-adjective",
+   "zh": "虚伪的",
+   "examples": [
+    {
+     "nl": "Het was hypocriet om anderen voor dezelfde fout te straffen.",
+     "zh": "因为同样的错误惩罚别人是虚伪的。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-make-up-noun-1",
+   "lexemeId": "lx-make-up-noun",
+   "zh": "化妆品；化妆",
+   "examples": [
+    {
+     "nl": "Ze gebruikt weinig make-up voor haar werk.",
+     "zh": "她上班时很少化妆。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-muzieksmaak-noun-1",
+   "lexemeId": "lx-muzieksmaak-noun",
+   "zh": "音乐品味",
+   "examples": [
+    {
+     "nl": "Onze muzieksmaak is heel verschillend.",
+     "zh": "我们的音乐品味很不一样。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onaantastbaar-adjective-1",
+   "lexemeId": "lx-onaantastbaar-adjective",
+   "zh": "不可侵犯的；牢不可破的",
+   "examples": [
+    {
+     "nl": "Haar vertrouwen in het team leek onaantastbaar.",
+     "zh": "她对团队的信任似乎牢不可破。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-satanist-noun-1",
+   "lexemeId": "lx-satanist-noun",
+   "zh": "撒旦教徒",
+   "examples": [
+    {
+     "nl": "De satanist vertelde over zijn geloof tijdens het interview.",
+     "zh": "这位撒旦教徒在采访中谈到了自己的信仰。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-transpiratie-noun-1",
+   "lexemeId": "lx-transpiratie-noun",
+   "zh": "出汗；汗液",
+   "examples": [
+    {
+     "nl": "Door transpiratie verloor hij veel vocht tijdens het sporten.",
+     "zh": "运动时他因出汗流失了很多水分。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kapsel-noun-1",
+   "lexemeId": "lx-kapsel-noun",
+   "zh": "发型",
+   "examples": [
+    {
+     "nl": "Haar nieuwe kapsel past goed bij haar gezicht.",
+     "zh": "她的新发型很适合她的脸型。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dorpsschool-noun-1",
+   "lexemeId": "lx-dorpsschool-noun",
+   "zh": "乡村学校",
+   "examples": [
+    {
+     "nl": "De dorpsschool organiseert vrijdag een feest voor ouders.",
+     "zh": "乡村学校星期五为家长们举办庆祝活动。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hersentumor-noun-1",
+   "lexemeId": "lx-hersentumor-noun",
+   "zh": "脑瘤",
+   "examples": [
+    {
+     "nl": "De arts ontdekte een kleine hersentumor tijdens de scan.",
+     "zh": "医生在扫描时发现了一个小脑瘤。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-overeenstemmen-verb-1",
+   "lexemeId": "lx-overeenstemmen-verb",
+   "zh": "一致；符合",
+   "examples": [
+    {
+     "nl": "Zijn mening stemt overeen met die van de meerderheid.",
+     "zh": "他的意见与大多数人的意见一致。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-tekstschrijver-noun-1",
+   "lexemeId": "lx-tekstschrijver-noun",
+   "zh": "文案撰写人；歌词作者",
+   "examples": [
+    {
+     "nl": "De tekstschrijver werkte samen met een componist.",
+     "zh": "文案撰写人与一位作曲家合作。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-acuut-adjective-1",
+   "lexemeId": "lx-acuut-adjective",
+   "zh": "急性的；紧急的",
+   "examples": [
+    {
+     "nl": "De patiënt had acute pijn in zijn buik.",
+     "zh": "病人腹部出现了急性疼痛。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bedenktijd-noun-1",
+   "lexemeId": "lx-bedenktijd-noun",
+   "zh": "考虑时间",
+   "examples": [
+    {
+     "nl": "Je krijgt een week bedenktijd voor je beslissing.",
+     "zh": "你有一周时间考虑这个决定。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoorzitting-noun-1",
+   "lexemeId": "lx-hoorzitting-noun",
+   "zh": "听证会",
+   "examples": [
+    {
+     "nl": "Tijdens de hoorzitting mochten bewoners hun mening geven.",
+     "zh": "听证会上，居民可以发表意见。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-levensverhaal-noun-1",
+   "lexemeId": "lx-levensverhaal-noun",
+   "zh": "人生故事",
+   "examples": [
+    {
+     "nl": "Mijn oma vertelde haar levensverhaal aan de kleinkinderen.",
+     "zh": "我祖母把自己的人生故事讲给孙辈们听。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-spreekbeurt-noun-1",
+   "lexemeId": "lx-spreekbeurt-noun",
+   "zh": "课堂发言；口头报告",
+   "examples": [
+    {
+     "nl": "Voor de spreekbeurt koos hij een onderwerp over dieren.",
+     "zh": "他为口头报告选择了一个关于动物的主题。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zenuwcel-noun-1",
+   "lexemeId": "lx-zenuwcel-noun",
+   "zh": "神经细胞",
+   "examples": [
+    {
+     "nl": "Een zenuwcel stuurt signalen door het lichaam.",
+     "zh": "神经细胞在身体中传递信号。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-devoot-adjective-1",
+   "lexemeId": "lx-devoot-adjective",
+   "zh": "虔诚的",
+   "examples": [
+    {
+     "nl": "De devote bezoekers zongen zacht in de kerk.",
+     "zh": "虔诚的访客在教堂里轻声歌唱。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-grootheid-noun-1",
+   "lexemeId": "lx-grootheid-noun",
+   "zh": "伟大；重要人物",
+   "examples": [
+    {
+     "nl": "De grootheid van de kunstenaar werd pas later erkend.",
+     "zh": "这位艺术家的伟大后来才得到认可。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-lacherig-adjective-1",
+   "lexemeId": "lx-lacherig-adjective",
+   "zh": "爱笑的；有点想笑的",
+   "examples": [
+    {
+     "nl": "De kinderen werden lacherig tijdens de lange les.",
+     "zh": "长课上孩子们开始爱笑起来。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-saamhorigheidsgevoel-noun-1",
+   "lexemeId": "lx-saamhorigheidsgevoel-noun",
+   "zh": "归属感；团结感",
+   "examples": [
+    {
+     "nl": "De club gaf nieuwe leden een sterk saamhorigheidsgevoel.",
+     "zh": "这个俱乐部让新成员有强烈的归属感。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-spruitjesteler-noun-1",
+   "lexemeId": "lx-spruitjesteler-noun",
+   "zh": "抱子甘蓝种植者",
+   "examples": [
+    {
+     "nl": "De spruitjesteler oogstte zijn groenten in oktober.",
+     "zh": "这位抱子甘蓝种植者在十月收获蔬菜。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-te-midden-van-phrase-1",
+   "lexemeId": "lx-te-midden-van-phrase",
+   "zh": "在……之中",
+   "examples": [
+    {
+     "nl": "Het huis ligt te midden van hoge bomen.",
+     "zh": "这栋房子坐落在高大的树木之间。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tromgeroffel-noun-1",
+   "lexemeId": "lx-tromgeroffel-noun",
+   "zh": "鼓声；擂鼓声",
+   "examples": [
+    {
+     "nl": "Het tromgeroffel kondigde de voorstelling aan.",
+     "zh": "鼓声预告了演出的开始。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vereerder-noun-1",
+   "lexemeId": "lx-vereerder-noun",
+   "zh": "崇拜者；爱慕者",
+   "examples": [
+    {
+     "nl": "Een vereerder stuurde haar elke week bloemen.",
+     "zh": "一位爱慕者每周都给她送花。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-belastingdienst-noun-1",
+   "lexemeId": "lx-belastingdienst-noun",
+   "zh": "税务局",
+   "examples": [
+    {
+     "nl": "De belastingdienst stuurde een brief over mijn aangifte.",
+     "zh": "税务局寄来一封关于我申报的信。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-afhandeling-noun-1",
+   "lexemeId": "lx-afhandeling-noun",
+   "zh": "处理；办结",
+   "examples": [
+    {
+     "nl": "De afhandeling van de aanvraag duurde enkele weken.",
+     "zh": "申请的处理花了几个星期。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-boetegeld-noun-1",
+   "lexemeId": "lx-boetegeld-noun",
+   "zh": "罚金；罚款",
+   "examples": [
+    {
+     "nl": "Het boetegeld moest binnen dertig dagen worden betaald.",
+     "zh": "罚款必须在三十天内缴清。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gereed-adjective-1",
+   "lexemeId": "lx-gereed-adjective",
+   "zh": "准备好的；完成的",
+   "examples": [
+    {
+     "nl": "De maaltijd is bijna gereed voor de gasten.",
+     "zh": "给客人的饭菜快准备好了。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ingebruikname-noun-1",
+   "lexemeId": "lx-ingebruikname-noun",
+   "zh": "投入使用；启用",
+   "examples": [
+    {
+     "nl": "De ingebruikname van het station vond maandag plaats.",
+     "zh": "车站星期一正式启用。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-naslag-noun-1",
+   "lexemeId": "lx-naslag-noun",
+   "zh": "查阅；参考",
+   "examples": [
+    {
+     "nl": "Voor naslag gebruiken studenten vaak een online woordenboek.",
+     "zh": "学生们常用在线词典作参考。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-persoonslegitimatie-noun-1",
+   "lexemeId": "lx-persoonslegitimatie-noun",
+   "zh": "个人身份证明",
+   "examples": [
+    {
+     "nl": "Bij de controle vroeg de medewerker om persoonslegitimatie.",
+     "zh": "检查时，工作人员要求提供个人身份证明。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-transactie-noun-1",
+   "lexemeId": "lx-transactie-noun",
+   "zh": "交易；事务",
+   "examples": [
+    {
+     "nl": "De bank controleerde iedere transactie op fraude.",
+     "zh": "银行检查了每笔交易是否存在欺诈。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voor-rekening-van-phrase-1",
+   "lexemeId": "lx-voor-rekening-van-phrase",
+   "zh": "由……承担费用；记在……账上",
+   "examples": [
+    {
+     "nl": "De lunch was voor rekening van de organisatie.",
+     "zh": "午餐费用由组织承担。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-afbetalen-verb-1",
+   "lexemeId": "lx-afbetalen-verb",
+   "zh": "还清；分期偿还",
+   "examples": [
+    {
+     "nl": "We betalen de lening elke maand een beetje af.",
+     "zh": "我们每个月还一部分贷款。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-passage-noun-1",
+   "lexemeId": "lx-passage-noun",
+   "zh": "段落；通道",
+   "examples": [
+    {
+     "nl": "De passage tussen de winkels is erg smal.",
+     "zh": "商店之间的通道很窄。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wat-voor-een-phrase-1",
+   "lexemeId": "lx-wat-voor-een-phrase",
+   "zh": "什么样的；哪一种",
+   "examples": [
+    {
+     "nl": "Wat voor een boek lees je op dit moment?",
+     "zh": "你现在在读什么样的书？"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanblazen-verb-1",
+   "lexemeId": "lx-aanblazen-verb",
+   "zh": "吹旺；煽动",
+   "examples": [
+    {
+     "nl": "De wind blies het vuur in de haard aan.",
+     "zh": "风吹旺了壁炉里的火。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ambachtelijk-adjective-1",
+   "lexemeId": "lx-ambachtelijk-adjective",
+   "zh": "手工制作的；传统工艺的",
+   "examples": [
+    {
+     "nl": "Deze ambachtelijke kaas wordt op de boerderij gemaakt.",
+     "zh": "这种手工奶酪是在农场制作的。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-binnenrijm-noun-1",
+   "lexemeId": "lx-binnenrijm-noun",
+   "zh": "行内韵；内部押韵",
+   "examples": [
+    {
+     "nl": "De dichter gebruikte binnenrijm in deze korte regel.",
+     "zh": "诗人在这句短诗中使用了行内韵。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gastschrijver-noun-1",
+   "lexemeId": "lx-gastschrijver-noun",
+   "zh": "客座作者",
+   "examples": [
+    {
+     "nl": "Een gastschrijver levert volgende maand een artikel.",
+     "zh": "一位客座作者下个月会投稿一篇文章。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hulpkreet-noun-1",
+   "lexemeId": "lx-hulpkreet-noun",
+   "zh": "求救声；呼救",
+   "examples": [
+    {
+     "nl": "Een hulpkreet klonk vanuit het donkere huis.",
+     "zh": "黑暗的房子里传来一声呼救。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kunstfactor-noun-1",
+   "lexemeId": "lx-kunstfactor-noun",
+   "zh": "艺术因素；艺术系数",
+   "examples": [
+    {
+     "nl": "De kunstfactor speelt een rol in deze beoordeling.",
+     "zh": "艺术因素在这项评估中发挥作用。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-manifest-noun-1",
+   "lexemeId": "lx-manifest-noun",
+   "zh": "宣言；纲领",
+   "examples": [
+    {
+     "nl": "De groep publiceerde een manifest over klimaatbeleid.",
+     "zh": "这个团体发布了一份关于气候政策的宣言。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onbekommerd-adjective-1",
+   "lexemeId": "lx-onbekommerd-adjective",
+   "zh": "无忧无虑的",
+   "examples": [
+    {
+     "nl": "De kinderen speelden onbekommerd in de tuin.",
+     "zh": "孩子们在花园里无忧无虑地玩耍。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schrijfinstrumentarium-noun-1",
+   "lexemeId": "lx-schrijfinstrumentarium-noun",
+   "zh": "写作工具；写作手段",
+   "examples": [
+    {
+     "nl": "De docent bespreekt het schrijfinstrumentarium van de auteur.",
+     "zh": "老师讨论了作者使用的写作手段。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-spitzen-noun-1",
+   "lexemeId": "lx-spitzen-noun",
+   "zh": "芭蕾舞足尖鞋（复数）",
+   "examples": [
+    {
+     "nl": "De ballerina zette haar spitzen voorzichtig neer.",
+     "zh": "芭蕾舞演员小心地放下她的足尖鞋。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-te-gast-phrase-1",
+   "lexemeId": "lx-te-gast-phrase",
+   "zh": "做客；作为客人",
+   "examples": [
+    {
+     "nl": "We waren te gast bij mijn tante in Haarlem.",
+     "zh": "我们在哈勒姆的姨妈家做客。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zitvlees-noun-1",
+   "lexemeId": "lx-zitvlees-noun",
+   "zh": "久坐的耐力；耐心坐着的能力",
+   "examples": [
+    {
+     "nl": "Voor deze lange vergadering heb je zitvlees nodig.",
+     "zh": "开这么长的会需要有耐心坐着的能力。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-floepen-verb-1",
+   "lexemeId": "lx-floepen-verb",
+   "zh": "迅速移动；突然出现",
+   "examples": [
+    {
+     "nl": "Een kat floepte snel onder het bed vandaan.",
+     "zh": "一只猫迅速从床底下窜了出来。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schooier-noun-1",
+   "lexemeId": "lx-schooier-noun",
+   "zh": "乞丐；流浪汉",
+   "examples": [
+    {
+     "nl": "De schooier vroeg voorbijgangers om een beetje geld.",
+     "zh": "乞丐向路人要一点钱。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanscherpen-verb-1",
+   "lexemeId": "lx-aanscherpen-verb",
+   "zh": "收紧；强化",
+   "examples": [
+    {
+     "nl": "De school scherpte de regels voor telefoongebruik aan.",
+     "zh": "学校收紧了手机使用规定。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-competitief-adjective-1",
+   "lexemeId": "lx-competitief-adjective",
+   "zh": "竞争性的；好胜的",
+   "examples": [
+    {
+     "nl": "De competitieve speler wilde iedere wedstrijd winnen.",
+     "zh": "这位好胜的选手想赢下每一场比赛。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hotelkosten-noun-1",
+   "lexemeId": "lx-hotelkosten-noun",
+   "zh": "酒店费用（复数）",
+   "examples": [
+    {
+     "nl": "De hotelkosten zijn inbegrepen in het reisbudget.",
+     "zh": "酒店费用包含在旅行预算中。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-jobmarkt-noun-1",
+   "lexemeId": "lx-jobmarkt-noun",
+   "zh": "就业市场",
+   "examples": [
+    {
+     "nl": "De jobmarkt verandert snel door nieuwe technologie.",
+     "zh": "新技术正在迅速改变就业市场。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-managementontwikkeling-noun-1",
+   "lexemeId": "lx-managementontwikkeling-noun",
+   "zh": "管理发展；管理能力发展",
+   "examples": [
+    {
+     "nl": "Managementontwikkeling helpt leidinggevenden betere keuzes maken.",
+     "zh": "管理发展帮助领导者作出更好的选择。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-output-noun-1",
+   "lexemeId": "lx-output-noun",
+   "zh": "产出；输出",
+   "examples": [
+    {
+     "nl": "De output van de fabriek steeg dit jaar.",
+     "zh": "这家工厂今年的产出增加了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-simulatie-noun-1",
+   "lexemeId": "lx-simulatie-noun",
+   "zh": "模拟；仿真",
+   "examples": [
+    {
+     "nl": "De simulatie liet zien wat er bij brand gebeurt.",
+     "zh": "模拟展示了火灾发生时会出现什么情况。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-spelsituatie-noun-1",
+   "lexemeId": "lx-spelsituatie-noun",
+   "zh": "比赛局面；游戏情境",
+   "examples": [
+    {
+     "nl": "De trainer besprak een lastige spelsituatie met het team.",
+     "zh": "教练和团队讨论了一个棘手的比赛局面。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-toewijzen-verb-1",
+   "lexemeId": "lx-toewijzen-verb",
+   "zh": "分配；指派",
+   "examples": [
+    {
+     "nl": "De docent wees iedere student een eigen onderwerp toe.",
+     "zh": "老师给每位学生分配了一个主题。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verduidelijken-verb-1",
+   "lexemeId": "lx-verduidelijken-verb",
+   "zh": "解释清楚；阐明",
+   "examples": [
+    {
+     "nl": "Kun je je antwoord met een voorbeeld verduidelijken?",
+     "zh": "你能用一个例子把回答解释清楚吗？"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-biecht-noun-1",
+   "lexemeId": "lx-biecht-noun",
+   "zh": "忏悔；告解",
+   "examples": [
+    {
+     "nl": "Na de biecht voelde hij zich opgelucht.",
+     "zh": "忏悔后，他感到轻松了。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-rad-noun-1",
+   "lexemeId": "lx-rad-noun",
+   "zh": "车轮",
+   "examples": [
+    {
+     "nl": "Een houten rad stond tegen de oude schuur.",
+     "zh": "一个木车轮靠在旧棚屋旁边。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zondigen-verb-1",
+   "lexemeId": "lx-zondigen-verb",
+   "zh": "犯罪；违反；犯错",
+   "examples": [
+    {
+     "nl": "Hij zondigde tegen de regels van de club.",
+     "zh": "他违反了俱乐部的规定。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gesis-noun-1",
+   "lexemeId": "lx-gesis-noun",
+   "zh": "嘶嘶声",
+   "examples": [
+    {
+     "nl": "Het gesis van de slang maakte de kinderen bang.",
+     "zh": "蛇发出的嘶嘶声吓坏了孩子们。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kaft-noun-1",
+   "lexemeId": "lx-kaft-noun",
+   "zh": "书皮；封面",
+   "examples": [
+    {
+     "nl": "De kaft van mijn schrift is helemaal versleten.",
+     "zh": "我笔记本的封面已经磨破了。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-africhten-verb-1",
+   "lexemeId": "lx-africhten-verb",
+   "zh": "训练；驯服",
+   "examples": [
+    {
+     "nl": "De hondentrainer richtte de jonge hond rustig af.",
+     "zh": "训犬师耐心地训练这只小狗。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-antiracistisch-adjective-1",
+   "lexemeId": "lx-antiracistisch-adjective",
+   "zh": "反种族主义的",
+   "examples": [
+    {
+     "nl": "De school organiseerde een antiracistische bijeenkomst.",
+     "zh": "学校组织了一场反种族主义集会。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bij-voorbaat-phrase-1",
+   "lexemeId": "lx-bij-voorbaat-phrase",
+   "zh": "预先；事先",
+   "examples": [
+    {
+     "nl": "Bedankt bij voorbaat voor uw snelle reactie.",
+     "zh": "先谢谢您迅速回复。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dagblad-noun-1",
+   "lexemeId": "lx-dagblad-noun",
+   "zh": "日报",
+   "examples": [
+    {
+     "nl": "Het dagblad bracht vandaag nieuws over de verkiezingen.",
+     "zh": "这份日报今天报道了选举消息。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doorgewinterd-adjective-1",
+   "lexemeId": "lx-doorgewinterd-adjective",
+   "zh": "经验丰富的；老练的",
+   "examples": [
+    {
+     "nl": "Een doorgewinterde gids kent alle paden in het bos.",
+     "zh": "经验丰富的导游熟悉森林里的所有小路。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoeder-noun-1",
+   "lexemeId": "lx-hoeder-noun",
+   "zh": "守护者；看守人",
+   "examples": [
+    {
+     "nl": "De hoeder lette goed op de schapen.",
+     "zh": "看守人仔细照看着羊群。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B2",
+   "review": "draft"
+  }
+ ]
+}

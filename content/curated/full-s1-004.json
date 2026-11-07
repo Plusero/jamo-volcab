@@ -1,0 +1,706 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-onweer-noun",
+   "lemma": "onweer",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-zus-adverb",
+   "lemma": "zus",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-hierover-adverb",
+   "lemma": "hierover",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-ploffen-verb",
+   "lemma": "ploffen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "plofte",
+    "pastParticiple": "geploft",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-vet-noun",
+   "lemma": "vet",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vetten"
+  },
+  {
+   "id": "lx-onderaan-adverb",
+   "lemma": "onderaan",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-uithalen-verb",
+   "lemma": "uithalen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "haalde uit",
+    "pastParticiple": "uitgehaald",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-besef-noun",
+   "lemma": "besef",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-kennelijk-adjective",
+   "lemma": "kennelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-insect-noun",
+   "lemma": "insect",
+   "pos": "noun",
+   "article": "het",
+   "plural": "insecten"
+  },
+  {
+   "id": "lx-meegeven-verb",
+   "lemma": "meegeven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "gaf mee",
+    "pastParticiple": "meegegeven",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-gigantisch-adjective",
+   "lemma": "gigantisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-noteren-verb",
+   "lemma": "noteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "noteerde",
+    "pastParticiple": "genoteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-benoemen-verb",
+   "lemma": "benoemen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "benoemde",
+    "pastParticiple": "benoemd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-gemeenschappelijk-adjective",
+   "lemma": "gemeenschappelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-onverwacht-adjective",
+   "lemma": "onverwacht",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-toevoegen-verb",
+   "lemma": "toevoegen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "voegde toe",
+    "pastParticiple": "toegevoegd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-langzamerhand-adverb",
+   "lemma": "langzamerhand",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-voor-elkaar-phrase",
+   "lemma": "voor elkaar",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-uitlopen-verb",
+   "lemma": "uitlopen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liep uit",
+    "pastParticiple": "uitgelopen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-vooroordeel-noun",
+   "lemma": "vooroordeel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "vooroordelen"
+  },
+  {
+   "id": "lx-voorzien-verb",
+   "lemma": "voorzien",
+   "pos": "verb",
+   "verbForms": {
+    "past": "voorzag",
+    "pastParticiple": "voorzien",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-aanvaarden-verb",
+   "lemma": "aanvaarden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "aanvaardde",
+    "pastParticiple": "aanvaard",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-voorwerp-noun",
+   "lemma": "voorwerp",
+   "pos": "noun",
+   "article": "het",
+   "plural": "voorwerpen"
+  },
+  {
+   "id": "lx-vertegenwoordiger-noun",
+   "lemma": "vertegenwoordiger",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vertegenwoordigers"
+  },
+  {
+   "id": "lx-uitstekend-adjective",
+   "lemma": "uitstekend",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-fan-noun",
+   "lemma": "fan",
+   "pos": "noun",
+   "article": "de",
+   "plural": "fans"
+  },
+  {
+   "id": "lx-streven-verb",
+   "lemma": "streven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "streefde",
+    "pastParticiple": "gestreefd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-operatie-noun",
+   "lemma": "operatie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "operaties"
+  },
+  {
+   "id": "lx-melding-noun",
+   "lemma": "melding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "meldingen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-onweer-noun-1",
+   "lexemeId": "lx-onweer-noun",
+   "zh": "雷雨",
+   "examples": [
+    {
+     "nl": "Door het onweer moesten we binnen blijven.",
+     "zh": "因为雷雨，我们不得不待在室内。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zus-adverb-1",
+   "lexemeId": "lx-zus-adverb",
+   "zh": "这样；那样",
+   "examples": [
+    {
+     "nl": "Vouw de handdoek zus en leg hem op tafel.",
+     "zh": "把毛巾这样折好，然后放在桌上。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hierover-adverb-1",
+   "lexemeId": "lx-hierover-adverb",
+   "zh": "关于这件事；对此",
+   "examples": [
+    {
+     "nl": "We praten morgen hierover tijdens de vergadering.",
+     "zh": "我们明天开会时讨论这件事。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-ploffen-verb-1",
+   "lexemeId": "lx-ploffen-verb",
+   "zh": "砰然爆裂；扑通落下",
+   "examples": [
+    {
+     "nl": "De ballon plofte toen het kind erop drukte.",
+     "zh": "孩子按气球时，气球啪地爆了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vet-noun-1",
+   "lexemeId": "lx-vet-noun",
+   "zh": "脂肪；油脂",
+   "examples": [
+    {
+     "nl": "Het vet in deze soep komt van vlees.",
+     "zh": "这汤里的油脂来自肉类。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderaan-adverb-1",
+   "lexemeId": "lx-onderaan-adverb",
+   "zh": "在底部；在下面",
+   "examples": [
+    {
+     "nl": "Onderaan de brief staat mijn telefoonnummer.",
+     "zh": "信的底部写着我的电话号码。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uithalen-verb-1",
+   "lexemeId": "lx-uithalen-verb",
+   "zh": "取出；猛击",
+   "examples": [
+    {
+     "nl": "Hij haalde de boeken voorzichtig uit de kast.",
+     "zh": "他小心地把书从柜子里拿出来。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-besef-noun-1",
+   "lexemeId": "lx-besef-noun",
+   "zh": "意识；认识",
+   "examples": [
+    {
+     "nl": "Pas later kreeg ik besef van het gevaar.",
+     "zh": "我后来才意识到危险。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-kennelijk-adjective-1",
+   "lexemeId": "lx-kennelijk-adjective",
+   "zh": "明显的；显然的",
+   "examples": [
+    {
+     "nl": "De kennelijke oorzaak van de storing was een kabel.",
+     "zh": "故障的明显原因是一根电缆。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-insect-noun-1",
+   "lexemeId": "lx-insect-noun",
+   "zh": "昆虫",
+   "examples": [
+    {
+     "nl": "Een insect vloog door het open raam naar binnen.",
+     "zh": "一只昆虫从开着的窗户飞了进来。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-meegeven-verb-1",
+   "lexemeId": "lx-meegeven-verb",
+   "zh": "交给；附上",
+   "examples": [
+    {
+     "nl": "De docent gaf ons extra oefeningen mee.",
+     "zh": "老师给我们布置了额外练习。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gigantisch-adjective-1",
+   "lexemeId": "lx-gigantisch-adjective",
+   "zh": "巨大的；极大的",
+   "examples": [
+    {
+     "nl": "Er stond een gigantisch gebouw naast het station.",
+     "zh": "车站旁边有一栋巨大的建筑。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-noteren-verb-1",
+   "lexemeId": "lx-noteren-verb",
+   "zh": "记下；记录",
+   "examples": [
+    {
+     "nl": "Noteer het adres voordat je de winkel verlaat.",
+     "zh": "离开商店前记下地址。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-benoemen-verb-1",
+   "lexemeId": "lx-benoemen-verb",
+   "zh": "任命；提及",
+   "examples": [
+    {
+     "nl": "De gemeente benoemde haar tot nieuwe directeur.",
+     "zh": "市政府任命她为新主任。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gemeenschappelijk-adjective-1",
+   "lexemeId": "lx-gemeenschappelijk-adjective",
+   "zh": "共同的；共有的",
+   "examples": [
+    {
+     "nl": "We hebben een gemeenschappelijke rekening voor boodschappen.",
+     "zh": "我们有一个共同的账户用来买日用品。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-onverwacht-adjective-1",
+   "lexemeId": "lx-onverwacht-adjective",
+   "zh": "出乎意料的",
+   "examples": [
+    {
+     "nl": "Onverwacht begon het tijdens de wandeling te sneeuwen.",
+     "zh": "散步时意外地开始下雪了。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-toevoegen-verb-1",
+   "lexemeId": "lx-toevoegen-verb",
+   "zh": "添加；补充",
+   "examples": [
+    {
+     "nl": "Voeg een beetje zout toe aan de saus.",
+     "zh": "往酱汁里加一点盐。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-langzamerhand-adverb-1",
+   "lexemeId": "lx-langzamerhand-adverb",
+   "zh": "渐渐地；逐渐地",
+   "examples": [
+    {
+     "nl": "De oude straat wordt langzamerhand steeds rustiger.",
+     "zh": "这条老街渐渐变得越来越安静。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voor-elkaar-phrase-1",
+   "lexemeId": "lx-voor-elkaar-phrase",
+   "zh": "彼此；互相",
+   "examples": [
+    {
+     "nl": "De twee zussen zorgen goed voor elkaar.",
+     "zh": "两姐妹彼此照顾得很好。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitlopen-verb-1",
+   "lexemeId": "lx-uitlopen-verb",
+   "zh": "超时；延长",
+   "examples": [
+    {
+     "nl": "De vergadering liep gisteren bijna een uur uit.",
+     "zh": "昨天的会议超时了将近一个小时。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vooroordeel-noun-1",
+   "lexemeId": "lx-vooroordeel-noun",
+   "zh": "偏见",
+   "examples": [
+    {
+     "nl": "Een vooroordeel kan een eerlijk gesprek verhinderen.",
+     "zh": "偏见可能妨碍坦诚的交谈。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voorzien-verb-1",
+   "lexemeId": "lx-voorzien-verb",
+   "zh": "提供；预见",
+   "examples": [
+    {
+     "nl": "De school voorziet alle leerlingen van een laptop.",
+     "zh": "学校为所有学生提供一台笔记本电脑。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aanvaarden-verb-1",
+   "lexemeId": "lx-aanvaarden-verb",
+   "zh": "接受；承认",
+   "examples": [
+    {
+     "nl": "Hij aanvaardde de uitnodiging voor het diner.",
+     "zh": "他接受了晚餐邀请。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voorwerp-noun-1",
+   "lexemeId": "lx-voorwerp-noun",
+   "zh": "物品；物体",
+   "examples": [
+    {
+     "nl": "Leg ieder voorwerp terug op zijn plaats.",
+     "zh": "把每件物品都放回原处。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vertegenwoordiger-noun-1",
+   "lexemeId": "lx-vertegenwoordiger-noun",
+   "zh": "代表；销售代表",
+   "examples": [
+    {
+     "nl": "Een vertegenwoordiger bezocht onze winkel gisteren.",
+     "zh": "一位代表昨天拜访了我们的商店。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitstekend-adjective-1",
+   "lexemeId": "lx-uitstekend-adjective",
+   "zh": "出色的；极好的",
+   "examples": [
+    {
+     "nl": "Ze spreekt uitstekend Nederlands na twee jaar.",
+     "zh": "两年后，她的荷兰语说得非常出色。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-fan-noun-1",
+   "lexemeId": "lx-fan-noun",
+   "zh": "爱好者；粉丝",
+   "examples": [
+    {
+     "nl": "Mijn broer is fan van deze voetbalclub.",
+     "zh": "我哥哥是这家足球俱乐部的球迷。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-streven-verb-1",
+   "lexemeId": "lx-streven-verb",
+   "zh": "努力；力求",
+   "examples": [
+    {
+     "nl": "Wij streven naar betere zorg voor ouderen.",
+     "zh": "我们努力为老年人提供更好的照护。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-operatie-noun-1",
+   "lexemeId": "lx-operatie-noun",
+   "zh": "手术；行动",
+   "examples": [
+    {
+     "nl": "Na de operatie bleef hij drie dagen thuis.",
+     "zh": "手术后他在家休息了三天。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-melding-noun-1",
+   "lexemeId": "lx-melding-noun",
+   "zh": "报告；通知",
+   "examples": [
+    {
+     "nl": "De politie ontving een melding over geluidsoverlast.",
+     "zh": "警方收到一则关于噪音扰民的举报。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

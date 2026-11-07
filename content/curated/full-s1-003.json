@@ -1,0 +1,696 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-dialect-noun",
+   "lemma": "dialect",
+   "pos": "noun",
+   "article": "het",
+   "plural": "dialecten"
+  },
+  {
+   "id": "lx-elders-adverb",
+   "lemma": "elders",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-verslaven-verb",
+   "lemma": "verslaven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verslaafde",
+    "pastParticiple": "verslaafd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-hoogtepunt-noun",
+   "lemma": "hoogtepunt",
+   "pos": "noun",
+   "article": "het",
+   "plural": "hoogtepunten"
+  },
+  {
+   "id": "lx-ook-nog-eens-phrase",
+   "lemma": "ook nog eens",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-opvoeden-verb",
+   "lemma": "opvoeden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "voedde op",
+    "pastParticiple": "opgevoed",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-registreren-verb",
+   "lemma": "registreren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "registreerde",
+    "pastParticiple": "geregistreerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-onlangs-adverb",
+   "lemma": "onlangs",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-interview-noun",
+   "lemma": "interview",
+   "pos": "noun",
+   "article": "het",
+   "plural": "interviews"
+  },
+  {
+   "id": "lx-kwestie-noun",
+   "lemma": "kwestie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kwesties"
+  },
+  {
+   "id": "lx-italiaans-adjective",
+   "lemma": "italiaans",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-scherm-noun",
+   "lemma": "scherm",
+   "pos": "noun",
+   "article": "het",
+   "plural": "schermen"
+  },
+  {
+   "id": "lx-beïnvloeden-verb",
+   "lemma": "beïnvloeden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "beïnvloedde",
+    "pastParticiple": "beïnvloed",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-misbruik-noun",
+   "lemma": "misbruik",
+   "pos": "noun",
+   "article": "het",
+   "plural": "misbruiken"
+  },
+  {
+   "id": "lx-grof-adjective",
+   "lemma": "grof",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-ontwerp-noun",
+   "lemma": "ontwerp",
+   "pos": "noun",
+   "article": "het",
+   "plural": "ontwerpen"
+  },
+  {
+   "id": "lx-naakt-adjective",
+   "lemma": "naakt",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-voort-adverb",
+   "lemma": "voort",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-voeden-verb",
+   "lemma": "voeden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "voedde",
+    "pastParticiple": "gevoed",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-paddenstoel-noun",
+   "lemma": "paddenstoel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "paddenstoelen"
+  },
+  {
+   "id": "lx-vervoeren-verb",
+   "lemma": "vervoeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "vervoerde",
+    "pastParticiple": "vervoerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-inschrijving-noun",
+   "lemma": "inschrijving",
+   "pos": "noun",
+   "article": "de",
+   "plural": "inschrijvingen"
+  },
+  {
+   "id": "lx-zekerheid-noun",
+   "lemma": "zekerheid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zekerheden"
+  },
+  {
+   "id": "lx-tentoonstelling-noun",
+   "lemma": "tentoonstelling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tentoonstellingen"
+  },
+  {
+   "id": "lx-biologisch-adjective",
+   "lemma": "biologisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-juridisch-adjective",
+   "lemma": "juridisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-faculteit-noun",
+   "lemma": "faculteit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "faculteiten"
+  },
+  {
+   "id": "lx-wijk-noun",
+   "lemma": "wijk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wijken"
+  },
+  {
+   "id": "lx-cirkel-noun",
+   "lemma": "cirkel",
+   "pos": "noun",
+   "article": "de",
+   "plural": "cirkels"
+  },
+  {
+   "id": "lx-vuilnisbak-noun",
+   "lemma": "vuilnisbak",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vuilnisbakken"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-dialect-noun-1",
+   "lexemeId": "lx-dialect-noun",
+   "zh": "方言",
+   "examples": [
+    {
+     "nl": "Mijn grootmoeder spreekt nog het lokale dialect.",
+     "zh": "我祖母仍然说当地的方言。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-elders-adverb-1",
+   "lexemeId": "lx-elders-adverb",
+   "zh": "在别处；其他地方",
+   "examples": [
+    {
+     "nl": "De kinderen spelen vandaag elders in het park.",
+     "zh": "孩子们今天在公园的另一处玩耍。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verslaven-verb-1",
+   "lexemeId": "lx-verslaven-verb",
+   "zh": "使上瘾",
+   "examples": [
+    {
+     "nl": "Gokken kan mensen aan sterke spanning verslaven.",
+     "zh": "赌博会让人对强烈刺激上瘾。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-hoogtepunt-noun-1",
+   "lexemeId": "lx-hoogtepunt-noun",
+   "zh": "高潮；顶点",
+   "examples": [
+    {
+     "nl": "Het concert bereikte zijn hoogtepunt met dat laatste lied.",
+     "zh": "音乐会以最后一首歌达到高潮。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ook-nog-eens-phrase-1",
+   "lexemeId": "lx-ook-nog-eens-phrase",
+   "zh": "而且；此外还",
+   "examples": [
+    {
+     "nl": "Ze vergat ook nog eens haar telefoon thuis.",
+     "zh": "她还把手机忘在家里了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-opvoeden-verb-1",
+   "lexemeId": "lx-opvoeden-verb",
+   "zh": "抚养；教育",
+   "examples": [
+    {
+     "nl": "Mijn ouders voedden vier kinderen in Utrecht op.",
+     "zh": "我父母在乌得勒支抚养了四个孩子。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-registreren-verb-1",
+   "lexemeId": "lx-registreren-verb",
+   "zh": "登记；注册",
+   "examples": [
+    {
+     "nl": "U moet uw nieuwe adres online registreren.",
+     "zh": "您必须在线登记新地址。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-onlangs-adverb-1",
+   "lexemeId": "lx-onlangs-adverb",
+   "zh": "最近；不久前",
+   "examples": [
+    {
+     "nl": "We hebben onlangs een nieuwe buurvrouw ontmoet.",
+     "zh": "我们最近认识了一位新邻居。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-interview-noun-1",
+   "lexemeId": "lx-interview-noun",
+   "zh": "采访；面试",
+   "examples": [
+    {
+     "nl": "Het interview met de schrijver verschijnt morgen online.",
+     "zh": "对这位作家的采访明天会在线发布。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kwestie-noun-1",
+   "lexemeId": "lx-kwestie-noun",
+   "zh": "问题；事情",
+   "examples": [
+    {
+     "nl": "Dat is een lastige kwestie voor onze familie.",
+     "zh": "那对我们家来说是个棘手的问题。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-italiaans-adjective-1",
+   "lexemeId": "lx-italiaans-adjective",
+   "zh": "意大利的；意大利语的",
+   "examples": [
+    {
+     "nl": "Wij eten vanavond in een Italiaans restaurant.",
+     "zh": "我们今晚在一家意大利餐馆吃饭。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-scherm-noun-1",
+   "lexemeId": "lx-scherm-noun",
+   "zh": "屏幕",
+   "examples": [
+    {
+     "nl": "Het scherm van mijn telefoon is kapot.",
+     "zh": "我手机的屏幕坏了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-beïnvloeden-verb-1",
+   "lexemeId": "lx-beïnvloeden-verb",
+   "zh": "影响",
+   "examples": [
+    {
+     "nl": "Slecht weer beïnvloedt mijn humeur vaak.",
+     "zh": "坏天气经常影响我的心情。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-misbruik-noun-1",
+   "lexemeId": "lx-misbruik-noun",
+   "zh": "滥用；虐待",
+   "examples": [
+    {
+     "nl": "De organisatie bestrijdt misbruik van persoonlijke gegevens.",
+     "zh": "该组织打击个人信息滥用。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-grof-adjective-1",
+   "lexemeId": "lx-grof-adjective",
+   "zh": "粗糙的；粗鲁的",
+   "examples": [
+    {
+     "nl": "Hij maakte een grove grap tijdens het diner.",
+     "zh": "晚餐时他开了个粗俗的玩笑。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ontwerp-noun-1",
+   "lexemeId": "lx-ontwerp-noun",
+   "zh": "设计；方案",
+   "examples": [
+    {
+     "nl": "Het ontwerp van de brug won een prijs.",
+     "zh": "这座桥的设计获得了一个奖项。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-naakt-adjective-1",
+   "lexemeId": "lx-naakt-adjective",
+   "zh": "裸体的；赤裸的",
+   "examples": [
+    {
+     "nl": "Het kind liep naakt door de tuin.",
+     "zh": "那个孩子赤身裸体地在花园里跑。"
+    }
+   ],
+   "topics": [
+    "身体"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voort-adverb-1",
+   "lexemeId": "lx-voort-adverb",
+   "zh": "继续；向前",
+   "examples": [
+    {
+     "nl": "Ondanks de regen ging de wedstrijd gewoon voort.",
+     "zh": "尽管下雨，比赛还是照常继续。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-voeden-verb-1",
+   "lexemeId": "lx-voeden-verb",
+   "zh": "喂养；滋养",
+   "examples": [
+    {
+     "nl": "De moeder voedt haar baby om de drie uur.",
+     "zh": "母亲每隔三个小时喂一次宝宝。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-paddenstoel-noun-1",
+   "lexemeId": "lx-paddenstoel-noun",
+   "zh": "蘑菇",
+   "examples": [
+    {
+     "nl": "Deze paddenstoel groeit alleen in vochtige bossen.",
+     "zh": "这种蘑菇只生长在潮湿的森林里。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vervoeren-verb-1",
+   "lexemeId": "lx-vervoeren-verb",
+   "zh": "运输；运送",
+   "examples": [
+    {
+     "nl": "Vrachtwagens vervoeren de groenten naar de winkels.",
+     "zh": "卡车把蔬菜运到商店。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-inschrijving-noun-1",
+   "lexemeId": "lx-inschrijving-noun",
+   "zh": "登记；报名",
+   "examples": [
+    {
+     "nl": "De inschrijving voor de cursus sluit volgende week.",
+     "zh": "课程报名下周截止。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-zekerheid-noun-1",
+   "lexemeId": "lx-zekerheid-noun",
+   "zh": "确定性；保障",
+   "examples": [
+    {
+     "nl": "Een vast contract geeft haar meer zekerheid.",
+     "zh": "一份固定合同给她更多保障。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-tentoonstelling-noun-1",
+   "lexemeId": "lx-tentoonstelling-noun",
+   "zh": "展览",
+   "examples": [
+    {
+     "nl": "De tentoonstelling over fotografie opent zaterdag.",
+     "zh": "摄影展星期六开幕。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-biologisch-adjective-1",
+   "lexemeId": "lx-biologisch-adjective",
+   "zh": "生物的；有机的",
+   "examples": [
+    {
+     "nl": "Wij kopen biologische melk bij de markt.",
+     "zh": "我们在集市上买有机牛奶。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-juridisch-adjective-1",
+   "lexemeId": "lx-juridisch-adjective",
+   "zh": "法律的",
+   "examples": [
+    {
+     "nl": "Voor juridisch advies maakt zij een afspraak.",
+     "zh": "她预约了法律咨询。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-faculteit-noun-1",
+   "lexemeId": "lx-faculteit-noun",
+   "zh": "学院；系",
+   "examples": [
+    {
+     "nl": "De faculteit organiseert volgende maand een open dag.",
+     "zh": "学院下个月将举办开放日。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wijk-noun-1",
+   "lexemeId": "lx-wijk-noun",
+   "zh": "街区；城区",
+   "examples": [
+    {
+     "nl": "In deze wijk wonen veel jonge gezinnen.",
+     "zh": "这个街区住着许多年轻家庭。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-cirkel-noun-1",
+   "lexemeId": "lx-cirkel-noun",
+   "zh": "圆；圆圈",
+   "examples": [
+    {
+     "nl": "Teken een grote cirkel op het papier.",
+     "zh": "在纸上画一个大圆圈。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vuilnisbak-noun-1",
+   "lexemeId": "lx-vuilnisbak-noun",
+   "zh": "垃圾桶",
+   "examples": [
+    {
+     "nl": "Gooi de lege fles in de vuilnisbak.",
+     "zh": "把空瓶子扔进垃圾桶。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

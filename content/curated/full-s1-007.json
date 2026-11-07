@@ -1,0 +1,672 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-uitvoerig-adjective",
+   "lemma": "uitvoerig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-aankoop-noun",
+   "lemma": "aankoop",
+   "pos": "noun",
+   "article": "de",
+   "plural": "aankopen"
+  },
+  {
+   "id": "lx-arrogant-adjective",
+   "lemma": "arrogant",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-verrader-noun",
+   "lemma": "verrader",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verraders"
+  },
+  {
+   "id": "lx-talloos-adjective",
+   "lemma": "talloos",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vooruitgang-noun",
+   "lemma": "vooruitgang",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-checken-verb",
+   "lemma": "checken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "checkte",
+    "pastParticiple": "gecheckt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-participium-noun",
+   "lemma": "participium",
+   "pos": "noun",
+   "article": "het",
+   "plural": "participia"
+  },
+  {
+   "id": "lx-lunchen-verb",
+   "lemma": "lunchen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "lunchte",
+    "pastParticiple": "geluncht",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-voorbijkomen-verb",
+   "lemma": "voorbijkomen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kwam voorbij",
+    "pastParticiple": "voorbijgekomen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-gehandicapt-adjective",
+   "lemma": "gehandicapt",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-administratie-noun",
+   "lemma": "administratie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "administraties"
+  },
+  {
+   "id": "lx-vrouwelijk-adjective",
+   "lemma": "vrouwelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-rechtdoor-adverb",
+   "lemma": "rechtdoor",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-vergelijking-noun",
+   "lemma": "vergelijking",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vergelijkingen"
+  },
+  {
+   "id": "lx-koloniaal-adjective",
+   "lemma": "koloniaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-deelname-noun",
+   "lemma": "deelname",
+   "pos": "noun",
+   "article": "de",
+   "plural": "deelnames"
+  },
+  {
+   "id": "lx-leefmilieu-noun",
+   "lemma": "leefmilieu",
+   "pos": "noun",
+   "article": "het",
+   "plural": "leefmilieus"
+  },
+  {
+   "id": "lx-handdruk-noun",
+   "lemma": "handdruk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "handdrukken"
+  },
+  {
+   "id": "lx-geheel-adjective",
+   "lemma": "geheel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-islam-noun",
+   "lemma": "islam",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-echtpaar-noun",
+   "lemma": "echtpaar",
+   "pos": "noun",
+   "article": "het",
+   "plural": "echtparen"
+  },
+  {
+   "id": "lx-vakbond-noun",
+   "lemma": "vakbond",
+   "pos": "noun",
+   "article": "de",
+   "plural": "vakbonden"
+  },
+  {
+   "id": "lx-platteland-noun",
+   "lemma": "platteland",
+   "pos": "noun",
+   "article": "het",
+   "plural": "—"
+  },
+  {
+   "id": "lx-omgangstaal-noun",
+   "lemma": "omgangstaal",
+   "pos": "noun",
+   "article": "de",
+   "plural": "omgangstalen"
+  },
+  {
+   "id": "lx-legitimatiebewijs-noun",
+   "lemma": "legitimatiebewijs",
+   "pos": "noun",
+   "article": "het",
+   "plural": "legitimatiebewijzen"
+  },
+  {
+   "id": "lx-verplegen-verb",
+   "lemma": "verplegen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verpleegde",
+    "pastParticiple": "verpleegd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-vrijlaten-verb",
+   "lemma": "vrijlaten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "liet vrij",
+    "pastParticiple": "vrijgelaten",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-stroming-noun",
+   "lemma": "stroming",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stromingen"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-uitvoerig-adjective-1",
+   "lexemeId": "lx-uitvoerig-adjective",
+   "zh": "详尽的；详细的",
+   "examples": [
+    {
+     "nl": "De gids gaf een uitvoerige uitleg over de tentoonstelling.",
+     "zh": "导游详细介绍了这次展览。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aankoop-noun-1",
+   "lexemeId": "lx-aankoop-noun",
+   "zh": "购买；购置物",
+   "examples": [
+    {
+     "nl": "Bewaar de bon na iedere aankoop in de winkel.",
+     "zh": "每次购物后都把收据保存好。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-arrogant-adjective-1",
+   "lexemeId": "lx-arrogant-adjective",
+   "zh": "傲慢的",
+   "examples": [
+    {
+     "nl": "De arrogante man luisterde niet naar onze uitleg.",
+     "zh": "那个傲慢的男人不听我们的解释。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verrader-noun-1",
+   "lexemeId": "lx-verrader-noun",
+   "zh": "叛徒；背叛者",
+   "examples": [
+    {
+     "nl": "Iedereen zag hem als een verrader van zijn vrienden.",
+     "zh": "大家都把他看作背叛朋友的人。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-talloos-adjective-1",
+   "lexemeId": "lx-talloos-adjective",
+   "zh": "无数的；众多的",
+   "examples": [
+    {
+     "nl": "Talloze bezoekers kwamen gisteren naar het museum.",
+     "zh": "昨天有无数访客来到博物馆。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vooruitgang-noun-1",
+   "lexemeId": "lx-vooruitgang-noun",
+   "zh": "进步；进展",
+   "examples": [
+    {
+     "nl": "De leerling boekt goede vooruitgang met haar Nederlands.",
+     "zh": "这名学生的荷兰语进步很大。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-checken-verb-1",
+   "lexemeId": "lx-checken-verb",
+   "zh": "检查；核实",
+   "examples": [
+    {
+     "nl": "Ik checkte de vertrektijd voordat we naar het station gingen.",
+     "zh": "去车站前，我核实了出发时间。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-participium-noun-1",
+   "lexemeId": "lx-participium-noun",
+   "zh": "分词",
+   "examples": [
+    {
+     "nl": "De docent legt uit hoe een participium wordt gevormd.",
+     "zh": "老师解释分词是如何构成的。"
+    }
+   ],
+   "topics": [
+    "语法"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-lunchen-verb-1",
+   "lexemeId": "lx-lunchen-verb",
+   "zh": "吃午饭",
+   "examples": [
+    {
+     "nl": "We lunchen meestal samen op kantoor.",
+     "zh": "我们通常在办公室一起吃午饭。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-voorbijkomen-verb-1",
+   "lexemeId": "lx-voorbijkomen-verb",
+   "zh": "经过；路过",
+   "examples": [
+    {
+     "nl": "Mijn buurman kwam gisteren even voor een kop koffie voorbij.",
+     "zh": "我的邻居昨天路过，进来喝了杯咖啡。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-gehandicapt-adjective-1",
+   "lexemeId": "lx-gehandicapt-adjective",
+   "zh": "残疾的",
+   "examples": [
+    {
+     "nl": "De ingang is geschikt voor gehandicapte bezoekers.",
+     "zh": "这个入口适合残障访客使用。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-administratie-noun-1",
+   "lexemeId": "lx-administratie-noun",
+   "zh": "行政；行政部门",
+   "examples": [
+    {
+     "nl": "De administratie verwerkt alle aanvragen binnen vijf dagen.",
+     "zh": "行政部门会在五天内处理所有申请。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vrouwelijk-adjective-1",
+   "lexemeId": "lx-vrouwelijk-adjective",
+   "zh": "女性的；阴性的",
+   "examples": [
+    {
+     "nl": "De vrouwelijke arts werkt vandaag op de eerste verdieping.",
+     "zh": "这位女医生今天在二楼工作。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-rechtdoor-adverb-1",
+   "lexemeId": "lx-rechtdoor-adverb",
+   "zh": "直走",
+   "examples": [
+    {
+     "nl": "Loop rechtdoor tot je het grote plein ziet.",
+     "zh": "一直往前走，直到看见大广场。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vergelijking-noun-1",
+   "lexemeId": "lx-vergelijking-noun",
+   "zh": "比较；比较式",
+   "examples": [
+    {
+     "nl": "De vergelijking tussen beide telefoons is eenvoudig.",
+     "zh": "这两部手机之间的比较很简单。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-koloniaal-adjective-1",
+   "lexemeId": "lx-koloniaal-adjective",
+   "zh": "殖民地的；殖民主义的",
+   "examples": [
+    {
+     "nl": "Het museum toont het koloniale verleden van de stad.",
+     "zh": "博物馆展示了这座城市的殖民历史。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-deelname-noun-1",
+   "lexemeId": "lx-deelname-noun",
+   "zh": "参与；参加",
+   "examples": [
+    {
+     "nl": "Deelname aan de workshop is voor iedereen gratis.",
+     "zh": "所有人都可以免费参加这个工作坊。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-leefmilieu-noun-1",
+   "lexemeId": "lx-leefmilieu-noun",
+   "zh": "生活环境；生态环境",
+   "examples": [
+    {
+     "nl": "De fabriek probeert het leefmilieu minder te belasten.",
+     "zh": "这家工厂努力减少对生态环境的影响。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-handdruk-noun-1",
+   "lexemeId": "lx-handdruk-noun",
+   "zh": "握手",
+   "examples": [
+    {
+     "nl": "Zijn stevige handdruk maakte meteen een goede indruk.",
+     "zh": "他有力的握手立刻给人留下好印象。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-geheel-adjective-1",
+   "lexemeId": "lx-geheel-adjective",
+   "zh": "整体的；全部的",
+   "examples": [
+    {
+     "nl": "De gehele familie kwam zondag bij elkaar.",
+     "zh": "全家人星期天聚在了一起。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-islam-noun-1",
+   "lexemeId": "lx-islam-noun",
+   "zh": "伊斯兰教",
+   "examples": [
+    {
+     "nl": "De islam is een belangrijke wereldgodsdienst.",
+     "zh": "伊斯兰教是一种重要的世界宗教。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-echtpaar-noun-1",
+   "lexemeId": "lx-echtpaar-noun",
+   "zh": "夫妻；夫妇",
+   "examples": [
+    {
+     "nl": "Het echtpaar woont al vijftig jaar in dit huis.",
+     "zh": "这对夫妇已经在这栋房子里住了五十年。"
+    }
+   ],
+   "topics": [
+    "家庭"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vakbond-noun-1",
+   "lexemeId": "lx-vakbond-noun",
+   "zh": "工会",
+   "examples": [
+    {
+     "nl": "De vakbond onderhandelt namens de werknemers over loon.",
+     "zh": "工会代表员工就薪资进行谈判。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-platteland-noun-1",
+   "lexemeId": "lx-platteland-noun",
+   "zh": "乡村；农村",
+   "examples": [
+    {
+     "nl": "Mijn oom woont op het platteland bij Zwolle.",
+     "zh": "我叔叔住在兹沃勒附近的乡村。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-omgangstaal-noun-1",
+   "lexemeId": "lx-omgangstaal-noun",
+   "zh": "口语；日常用语",
+   "examples": [
+    {
+     "nl": "In de omgangstaal gebruiken mensen vaak korte vormen.",
+     "zh": "在日常口语中，人们常使用缩略形式。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-legitimatiebewijs-noun-1",
+   "lexemeId": "lx-legitimatiebewijs-noun",
+   "zh": "身份证件",
+   "examples": [
+    {
+     "nl": "Bij de ingang moet u uw legitimatiebewijs tonen.",
+     "zh": "入口处您必须出示身份证件。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verplegen-verb-1",
+   "lexemeId": "lx-verplegen-verb",
+   "zh": "护理；照料",
+   "examples": [
+    {
+     "nl": "Zij verpleegde haar vader na zijn operatie thuis.",
+     "zh": "父亲手术后，她在家照料他。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-vrijlaten-verb-1",
+   "lexemeId": "lx-vrijlaten-verb",
+   "zh": "释放；放开",
+   "examples": [
+    {
+     "nl": "De politie liet de man na het verhoor vrij.",
+     "zh": "警方讯问后释放了那名男子。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-stroming-noun-1",
+   "lexemeId": "lx-stroming-noun",
+   "zh": "潮流；流派",
+   "examples": [
+    {
+     "nl": "Deze stroming in de kunst ontstond in Frankrijk.",
+     "zh": "这种艺术流派起源于法国。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "A2",
+   "review": "draft"
+  }
+ ]
+}

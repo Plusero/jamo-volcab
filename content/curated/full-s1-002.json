@@ -1,0 +1,690 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-evenement-noun",
+   "lemma": "evenement",
+   "pos": "noun",
+   "article": "het",
+   "plural": "evenementen"
+  },
+  {
+   "id": "lx-emotioneel-adjective",
+   "lemma": "emotioneel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-opleiden-verb",
+   "lemma": "opleiden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "leidde op",
+    "pastParticiple": "opgeleid",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-dader-noun",
+   "lemma": "dader",
+   "pos": "noun",
+   "article": "de",
+   "plural": "daders"
+  },
+  {
+   "id": "lx-wereldberoemd-adjective",
+   "lemma": "wereldberoemd",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-zeilen-verb",
+   "lemma": "zeilen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "zeilde",
+    "pastParticiple": "gezeild",
+    "aux": "hebben/zijn"
+   }
+  },
+  {
+   "id": "lx-industrieel-adjective",
+   "lemma": "industrieel",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-honderd-noun",
+   "lemma": "honderd",
+   "pos": "noun",
+   "article": "het",
+   "plural": "honderden"
+  },
+  {
+   "id": "lx-overblijven-verb",
+   "lemma": "overblijven",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bleef over",
+    "pastParticiple": "overgebleven",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-strikt-adjective",
+   "lemma": "strikt",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-kijk-noun",
+   "lemma": "kijk",
+   "pos": "noun",
+   "article": "de",
+   "plural": "kijken"
+  },
+  {
+   "id": "lx-confronteren-verb",
+   "lemma": "confronteren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "confronteerde",
+    "pastParticiple": "geconfronteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-onderscheid-noun",
+   "lemma": "onderscheid",
+   "pos": "noun",
+   "article": "het",
+   "plural": "onderscheidingen"
+  },
+  {
+   "id": "lx-verrichten-verb",
+   "lemma": "verrichten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verrichtte",
+    "pastParticiple": "verricht",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-ambitieus-adjective",
+   "lemma": "ambitieus",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-aziatisch-adjective",
+   "lemma": "aziatisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-meubel-noun",
+   "lemma": "meubel",
+   "pos": "noun",
+   "article": "het",
+   "plural": "meubels"
+  },
+  {
+   "id": "lx-doorgaans-adverb",
+   "lemma": "doorgaans",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-uit-de-grond-phrase",
+   "lemma": "uit de grond",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-plaatselijk-adjective",
+   "lemma": "plaatselijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-universitair-adjective",
+   "lemma": "universitair",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-investeren-verb",
+   "lemma": "investeren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "investeerde",
+    "pastParticiple": "geïnvesteerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-miljard-noun",
+   "lemma": "miljard",
+   "pos": "noun",
+   "article": "het",
+   "plural": "miljarden"
+  },
+  {
+   "id": "lx-massaal-adjective",
+   "lemma": "massaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-video-noun",
+   "lemma": "video",
+   "pos": "noun",
+   "article": "de",
+   "plural": "video's"
+  },
+  {
+   "id": "lx-zitting-noun",
+   "lemma": "zitting",
+   "pos": "noun",
+   "article": "de",
+   "plural": "zittingen"
+  },
+  {
+   "id": "lx-met-naam-phrase",
+   "lemma": "met naam",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-structuur-noun",
+   "lemma": "structuur",
+   "pos": "noun",
+   "article": "de",
+   "plural": "structuren"
+  },
+  {
+   "id": "lx-type-noun",
+   "lemma": "type",
+   "pos": "noun",
+   "article": "het",
+   "plural": "types"
+  },
+  {
+   "id": "lx-theorie-noun",
+   "lemma": "theorie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "theorieën"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-evenement-noun-1",
+   "lexemeId": "lx-evenement-noun",
+   "zh": "活动；事件",
+   "examples": [
+    {
+     "nl": "Het evenement trekt bezoekers uit de hele regio.",
+     "zh": "这项活动吸引了整个地区的游客。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-emotioneel-adjective-1",
+   "lexemeId": "lx-emotioneel-adjective",
+   "zh": "情绪激动的；情感上的",
+   "examples": [
+    {
+     "nl": "Na het telefoontje werd hij erg emotioneel.",
+     "zh": "接到电话后，他情绪变得很激动。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-opleiden-verb-1",
+   "lexemeId": "lx-opleiden-verb",
+   "zh": "培训；培养",
+   "examples": [
+    {
+     "nl": "Het ziekenhuis leidt nieuwe verpleegkundigen op.",
+     "zh": "这家医院培训新的护士。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-dader-noun-1",
+   "lexemeId": "lx-dader-noun",
+   "zh": "作案者；肇事者",
+   "examples": [
+    {
+     "nl": "De dader werd door de politie snel gevonden.",
+     "zh": "警方很快找到了作案者。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wereldberoemd-adjective-1",
+   "lexemeId": "lx-wereldberoemd-adjective",
+   "zh": "世界闻名的",
+   "examples": [
+    {
+     "nl": "De wereldberoemde schilder woonde vroeger in dit huis.",
+     "zh": "这位世界闻名的画家以前住在这栋房子里。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zeilen-verb-1",
+   "lexemeId": "lx-zeilen-verb",
+   "zh": "帆船航行",
+   "examples": [
+    {
+     "nl": "In de zomer zeilen mijn ouders vaak op zee.",
+     "zh": "夏天我父母经常在海上航行。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-industrieel-adjective-1",
+   "lexemeId": "lx-industrieel-adjective",
+   "zh": "工业的",
+   "examples": [
+    {
+     "nl": "De industriële fabriek ligt buiten het dorp.",
+     "zh": "这家工业工厂位于村子外面。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-honderd-noun-1",
+   "lexemeId": "lx-honderd-noun",
+   "zh": "一百；百",
+   "examples": [
+    {
+     "nl": "Het getal honderd staat bovenaan de lijst.",
+     "zh": "数字一百在列表的最上面。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-overblijven-verb-1",
+   "lexemeId": "lx-overblijven-verb",
+   "zh": "剩下；留下",
+   "examples": [
+    {
+     "nl": "Er bleef na het eten nog soep over.",
+     "zh": "吃完饭后还剩下一些汤。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-strikt-adjective-1",
+   "lexemeId": "lx-strikt-adjective",
+   "zh": "严格的；严谨的",
+   "examples": [
+    {
+     "nl": "Onze leraar is strikt met deadlines.",
+     "zh": "我们的老师对截止日期要求很严格。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kijk-noun-1",
+   "lexemeId": "lx-kijk-noun",
+   "zh": "看法；视角",
+   "examples": [
+    {
+     "nl": "Mijn kijk op het werk veranderde na mijn stage.",
+     "zh": "实习后，我对这份工作的看法改变了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-confronteren-verb-1",
+   "lexemeId": "lx-confronteren-verb",
+   "zh": "使面对；使正视",
+   "examples": [
+    {
+     "nl": "De manager confronteerde hem met de ontbrekende cijfers.",
+     "zh": "经理让他面对缺失的数据。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-onderscheid-noun-1",
+   "lexemeId": "lx-onderscheid-noun",
+   "zh": "区别；差别",
+   "examples": [
+    {
+     "nl": "We maken onderscheid tussen feiten en meningen.",
+     "zh": "我们区分事实和意见。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verrichten-verb-1",
+   "lexemeId": "lx-verrichten-verb",
+   "zh": "进行；执行",
+   "examples": [
+    {
+     "nl": "De arts verricht vandaag een kleine operatie.",
+     "zh": "医生今天进行一项小手术。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ambitieus-adjective-1",
+   "lexemeId": "lx-ambitieus-adjective",
+   "zh": "有抱负的；雄心勃勃的",
+   "examples": [
+    {
+     "nl": "De ambitieuze student wil later advocaat worden.",
+     "zh": "这位有抱负的学生以后想当律师。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aziatisch-adjective-1",
+   "lexemeId": "lx-aziatisch-adjective",
+   "zh": "亚洲的",
+   "examples": [
+    {
+     "nl": "In dit restaurant serveren ze Aziatische gerechten.",
+     "zh": "这家餐馆供应亚洲菜。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A1",
+   "review": "draft"
+  },
+  {
+   "id": "s-meubel-noun-1",
+   "lexemeId": "lx-meubel-noun",
+   "zh": "家具；家具件",
+   "examples": [
+    {
+     "nl": "Dit meubel past goed naast de boekenkast.",
+     "zh": "这件家具放在书柜旁边很合适。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-doorgaans-adverb-1",
+   "lexemeId": "lx-doorgaans-adverb",
+   "zh": "通常；一般来说",
+   "examples": [
+    {
+     "nl": "De winkel is doorgaans tot acht uur open.",
+     "zh": "这家店通常营业到八点。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-uit-de-grond-phrase-1",
+   "lexemeId": "lx-uit-de-grond-phrase",
+   "zh": "从地里；从土中",
+   "examples": [
+    {
+     "nl": "In april komen de eerste bloemen uit de grond.",
+     "zh": "四月里，第一批花从土里冒出来。"
+    }
+   ],
+   "topics": [
+    "自然"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-plaatselijk-adjective-1",
+   "lexemeId": "lx-plaatselijk-adjective",
+   "zh": "当地的；局部的",
+   "examples": [
+    {
+     "nl": "De plaatselijke krant schrijft over het nieuwe zwembad.",
+     "zh": "当地报纸报道了新游泳池的消息。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-universitair-adjective-1",
+   "lexemeId": "lx-universitair-adjective",
+   "zh": "大学的；大学级别的",
+   "examples": [
+    {
+     "nl": "Zij volgt een universitaire opleiding in Leiden.",
+     "zh": "她在莱顿读大学课程。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-investeren-verb-1",
+   "lexemeId": "lx-investeren-verb",
+   "zh": "投资；投入",
+   "examples": [
+    {
+     "nl": "Het bedrijf investeert volgend jaar in duurzame energie.",
+     "zh": "公司明年将投资可持续能源。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-miljard-noun-1",
+   "lexemeId": "lx-miljard-noun",
+   "zh": "十亿",
+   "examples": [
+    {
+     "nl": "Het land geeft jaarlijks miljarden uit aan onderwijs.",
+     "zh": "这个国家每年在教育上花费数十亿。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-massaal-adjective-1",
+   "lexemeId": "lx-massaal-adjective",
+   "zh": "大规模的；大量的",
+   "examples": [
+    {
+     "nl": "Massale regenval veroorzaakte gisteren veel problemen.",
+     "zh": "昨天的大量降雨造成了许多问题。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-video-noun-1",
+   "lexemeId": "lx-video-noun",
+   "zh": "视频",
+   "examples": [
+    {
+     "nl": "Ik stuur je straks een video van het concert.",
+     "zh": "我一会儿给你发一段音乐会的视频。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zitting-noun-1",
+   "lexemeId": "lx-zitting-noun",
+   "zh": "庭审；会议；座次",
+   "examples": [
+    {
+     "nl": "De zitting begint om negen uur in de rechtbank.",
+     "zh": "庭审九点在法院开始。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-met-naam-phrase-1",
+   "lexemeId": "lx-met-naam-phrase",
+   "zh": "尤其；特别是",
+   "examples": [
+    {
+     "nl": "Met name jonge kinderen hebben extra rust nodig.",
+     "zh": "尤其是年幼的孩子需要额外休息。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-structuur-noun-1",
+   "lexemeId": "lx-structuur-noun",
+   "zh": "结构；构造",
+   "examples": [
+    {
+     "nl": "De structuur van het verslag is heel duidelijk.",
+     "zh": "报告的结构非常清晰。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-type-noun-1",
+   "lexemeId": "lx-type-noun",
+   "zh": "类型；种类",
+   "examples": [
+    {
+     "nl": "Welk type fiets gebruikt u voor woon-werkverkeer?",
+     "zh": "您通勤用哪种类型的自行车？"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-theorie-noun-1",
+   "lexemeId": "lx-theorie-noun",
+   "zh": "理论",
+   "examples": [
+    {
+     "nl": "De theorie klinkt logisch, maar de praktijk is anders.",
+     "zh": "这个理论听起来合乎逻辑，但实际情况不同。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

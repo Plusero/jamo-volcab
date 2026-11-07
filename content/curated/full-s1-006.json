@@ -1,0 +1,670 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-oprichting-noun",
+   "lemma": "oprichting",
+   "pos": "noun",
+   "article": "de",
+   "plural": "oprichtingen"
+  },
+  {
+   "id": "lx-bevorderen-verb",
+   "lemma": "bevorderen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bevorderde",
+    "pastParticiple": "bevorderd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-verslaving-noun",
+   "lemma": "verslaving",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verslavingen"
+  },
+  {
+   "id": "lx-gelovige-noun",
+   "lemma": "gelovige",
+   "pos": "noun",
+   "article": "de",
+   "plural": "gelovigen"
+  },
+  {
+   "id": "lx-wacht-noun",
+   "lemma": "wacht",
+   "pos": "noun",
+   "article": "de",
+   "plural": "wachten"
+  },
+  {
+   "id": "lx-capaciteit-noun",
+   "lemma": "capaciteit",
+   "pos": "noun",
+   "article": "de",
+   "plural": "capaciteiten"
+  },
+  {
+   "id": "lx-fantasie-noun",
+   "lemma": "fantasie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "fantasieën"
+  },
+  {
+   "id": "lx-afvragen-verb",
+   "lemma": "afvragen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "vroeg zich af",
+    "pastParticiple": "zich afgevraagd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-in-opdracht-van-phrase",
+   "lemma": "in opdracht van",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-constructie-noun",
+   "lemma": "constructie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "constructies"
+  },
+  {
+   "id": "lx-driehonderd-numeral",
+   "lemma": "driehonderd",
+   "pos": "numeral"
+  },
+  {
+   "id": "lx-schrijfster-noun",
+   "lemma": "schrijfster",
+   "pos": "noun",
+   "article": "de",
+   "plural": "schrijfsters"
+  },
+  {
+   "id": "lx-depressie-noun",
+   "lemma": "depressie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "depressies"
+  },
+  {
+   "id": "lx-afschaffen-verb",
+   "lemma": "afschaffen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "schafte af",
+    "pastParticiple": "afgeschaft",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-kenmerken-verb",
+   "lemma": "kenmerken",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kenmerkte",
+    "pastParticiple": "gekenmerkt",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-psychisch-adjective",
+   "lemma": "psychisch",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-amerikaans-adjective",
+   "lemma": "amerikaans",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-spoedig-adjective",
+   "lemma": "spoedig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-gunstig-adjective",
+   "lemma": "gunstig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vandaag-de-dag-phrase",
+   "lemma": "vandaag de dag",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-fraai-adjective",
+   "lemma": "fraai",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-introduceren-verb",
+   "lemma": "introduceren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "introduceerde",
+    "pastParticiple": "geïntroduceerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-uitroepen-verb",
+   "lemma": "uitroepen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "riep uit",
+    "pastParticiple": "uitgeroepen",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-meedelen-verb",
+   "lemma": "meedelen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "deelde mee",
+    "pastParticiple": "meegedeeld",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-buitenkant-noun",
+   "lemma": "buitenkant",
+   "pos": "noun",
+   "article": "de",
+   "plural": "buitenkanten"
+  },
+  {
+   "id": "lx-haags-adjective",
+   "lemma": "haags",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-wettelijk-adjective",
+   "lemma": "wettelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-vermoedelijk-adjective",
+   "lemma": "vermoedelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-eindeloos-adjective",
+   "lemma": "eindeloos",
+   "pos": "adjective"
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-oprichting-noun-1",
+   "lexemeId": "lx-oprichting-noun",
+   "zh": "成立；创立",
+   "examples": [
+    {
+     "nl": "De oprichting van de club vond twintig jaar geleden plaats.",
+     "zh": "这个俱乐部成立于二十年前。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-bevorderen-verb-1",
+   "lexemeId": "lx-bevorderen-verb",
+   "zh": "促进；推动",
+   "examples": [
+    {
+     "nl": "Regelmatig bewegen bevordert een goede gezondheid.",
+     "zh": "经常运动有益于健康。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verslaving-noun-1",
+   "lexemeId": "lx-verslaving-noun",
+   "zh": "成瘾",
+   "examples": [
+    {
+     "nl": "Zijn verslaving aan gokken kostte hem veel geld.",
+     "zh": "他赌博成瘾，损失了很多钱。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gelovige-noun-1",
+   "lexemeId": "lx-gelovige-noun",
+   "zh": "信徒；有信仰的人",
+   "examples": [
+    {
+     "nl": "Een gelovige bezoekt elke zondag deze kerk.",
+     "zh": "一位信徒每周日都去这座教堂。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-wacht-noun-1",
+   "lexemeId": "lx-wacht-noun",
+   "zh": "守卫；值班",
+   "examples": [
+    {
+     "nl": "De wacht controleerde onze passen bij de ingang.",
+     "zh": "守卫在入口处检查了我们的证件。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-capaciteit-noun-1",
+   "lexemeId": "lx-capaciteit-noun",
+   "zh": "能力；容量",
+   "examples": [
+    {
+     "nl": "De zaal heeft capaciteit voor tweehonderd bezoekers.",
+     "zh": "这个大厅可容纳两百名访客。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-fantasie-noun-1",
+   "lexemeId": "lx-fantasie-noun",
+   "zh": "想象；幻想",
+   "examples": [
+    {
+     "nl": "Kinderen gebruiken hun fantasie tijdens het spelen.",
+     "zh": "孩子们玩耍时会发挥想象力。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-afvragen-verb-1",
+   "lexemeId": "lx-afvragen-verb",
+   "zh": "自问；想知道",
+   "examples": [
+    {
+     "nl": "Ik vraag me af waarom de trein vertraging heeft.",
+     "zh": "我想知道火车为什么晚点。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-in-opdracht-van-phrase-1",
+   "lexemeId": "lx-in-opdracht-van-phrase",
+   "zh": "受……委托；按照……的指示",
+   "examples": [
+    {
+     "nl": "De architect ontwierp dit huis in opdracht van de gemeente.",
+     "zh": "建筑师受市政府委托设计了这栋房子。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-constructie-noun-1",
+   "lexemeId": "lx-constructie-noun",
+   "zh": "结构；构造",
+   "examples": [
+    {
+     "nl": "De constructie van de brug is sterk genoeg.",
+     "zh": "这座桥的结构足够坚固。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-driehonderd-numeral-1",
+   "lexemeId": "lx-driehonderd-numeral",
+   "zh": "三百",
+   "examples": [
+    {
+     "nl": "Driehonderd mensen bezochten gisteren het museum.",
+     "zh": "昨天有三百人参观了博物馆。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-schrijfster-noun-1",
+   "lexemeId": "lx-schrijfster-noun",
+   "zh": "女作家",
+   "examples": [
+    {
+     "nl": "De schrijfster presenteert vanavond haar nieuwe roman.",
+     "zh": "这位女作家今晚介绍她的新小说。"
+    }
+   ],
+   "topics": [
+    "文化"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-depressie-noun-1",
+   "lexemeId": "lx-depressie-noun",
+   "zh": "抑郁症；萧条",
+   "examples": [
+    {
+     "nl": "Na maanden voelde hij zich vrij van zijn depressie.",
+     "zh": "几个月后，他感到自己摆脱了抑郁症。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-afschaffen-verb-1",
+   "lexemeId": "lx-afschaffen-verb",
+   "zh": "废除；取消",
+   "examples": [
+    {
+     "nl": "De school schafte de oude regel vorig jaar af.",
+     "zh": "学校去年废除了这条旧规定。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-kenmerken-verb-1",
+   "lexemeId": "lx-kenmerken-verb",
+   "zh": "是……的特征；标志",
+   "examples": [
+    {
+     "nl": "Zijn rustige stem kenmerkt hem als een geduldige leraar.",
+     "zh": "他平静的声音体现出他是一位耐心的老师。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-psychisch-adjective-1",
+   "lexemeId": "lx-psychisch-adjective",
+   "zh": "心理的；精神上的",
+   "examples": [
+    {
+     "nl": "Zij kreeg psychische steun na het ongeluk.",
+     "zh": "事故后，她得到了心理支持。"
+    }
+   ],
+   "topics": [
+    "健康"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-amerikaans-adjective-1",
+   "lexemeId": "lx-amerikaans-adjective",
+   "zh": "美国的；美式的",
+   "examples": [
+    {
+     "nl": "Mijn buurman kookt vaak Amerikaans eten thuis.",
+     "zh": "我邻居常在家做美式食物。"
+    }
+   ],
+   "topics": [
+    "饮食"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-spoedig-adjective-1",
+   "lexemeId": "lx-spoedig-adjective",
+   "zh": "迅速的；很快的",
+   "examples": [
+    {
+     "nl": "We hopen op een spoedige reactie van de verhuurder.",
+     "zh": "我们希望房东尽快回复。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gunstig-adjective-1",
+   "lexemeId": "lx-gunstig-adjective",
+   "zh": "有利的；顺利的",
+   "examples": [
+    {
+     "nl": "De weersvoorspelling is gunstig voor onze fietstocht.",
+     "zh": "天气预报对我们的骑行很有利。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vandaag-de-dag-phrase-1",
+   "lexemeId": "lx-vandaag-de-dag-phrase",
+   "zh": "如今；现今",
+   "examples": [
+    {
+     "nl": "Vandaag de dag bestellen veel mensen online boodschappen.",
+     "zh": "如今许多人在网上订购日用品。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-fraai-adjective-1",
+   "lexemeId": "lx-fraai-adjective",
+   "zh": "漂亮的；优美的",
+   "examples": [
+    {
+     "nl": "Vanaf het balkon hebben we een fraai uitzicht.",
+     "zh": "从阳台上可以看到优美的景色。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-introduceren-verb-1",
+   "lexemeId": "lx-introduceren-verb",
+   "zh": "介绍；引入",
+   "examples": [
+    {
+     "nl": "De docent introduceerde een nieuw onderwerp tijdens de les.",
+     "zh": "老师在课上介绍了一个新主题。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uitroepen-verb-1",
+   "lexemeId": "lx-uitroepen-verb",
+   "zh": "喊出；宣布",
+   "examples": [
+    {
+     "nl": "De winnaar riep luid de naam van zijn team uit.",
+     "zh": "获胜者大声喊出了自己队伍的名字。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-meedelen-verb-1",
+   "lexemeId": "lx-meedelen-verb",
+   "zh": "告知；通知",
+   "examples": [
+    {
+     "nl": "De school deelt de uitslag morgen aan ouders mee.",
+     "zh": "学校明天会把结果通知家长。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-buitenkant-noun-1",
+   "lexemeId": "lx-buitenkant-noun",
+   "zh": "外面；外侧",
+   "examples": [
+    {
+     "nl": "De buitenkant van het huis is pas geschilderd.",
+     "zh": "房子的外墙刚刚粉刷过。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-haags-adjective-1",
+   "lexemeId": "lx-haags-adjective",
+   "zh": "海牙的",
+   "examples": [
+    {
+     "nl": "De Haagse markt is op maandag erg druk.",
+     "zh": "海牙的集市星期一非常热闹。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-wettelijk-adjective-1",
+   "lexemeId": "lx-wettelijk-adjective",
+   "zh": "法律规定的；法定的",
+   "examples": [
+    {
+     "nl": "Iedere werknemer heeft recht op wettelijk betaald verlof.",
+     "zh": "每位员工都有权享受法定带薪休假。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-vermoedelijk-adjective-1",
+   "lexemeId": "lx-vermoedelijk-adjective",
+   "zh": "可能的；推测的",
+   "examples": [
+    {
+     "nl": "De vermoedelijke oorzaak was een lege batterij.",
+     "zh": "推测的原因是电池没电了。"
+    }
+   ],
+   "topics": [
+    "日常"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-eindeloos-adjective-1",
+   "lexemeId": "lx-eindeloos-adjective",
+   "zh": "无尽的；没完没了的",
+   "examples": [
+    {
+     "nl": "Na een eindeloze vergadering gingen we eindelijk naar huis.",
+     "zh": "漫长的会议结束后，我们终于回家了。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}

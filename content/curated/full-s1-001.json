@@ -1,0 +1,704 @@
+{
+ "lexemes": [
+  {
+   "id": "lx-feit-noun",
+   "lemma": "feit",
+   "pos": "noun",
+   "article": "het",
+   "plural": "feiten"
+  },
+  {
+   "id": "lx-zeventien-numeral",
+   "lemma": "zeventien",
+   "pos": "numeral"
+  },
+  {
+   "id": "lx-consument-noun",
+   "lemma": "consument",
+   "pos": "noun",
+   "article": "de",
+   "plural": "consumenten"
+  },
+  {
+   "id": "lx-verspreiden-verb",
+   "lemma": "verspreiden",
+   "pos": "verb",
+   "verbForms": {
+    "past": "verspreidde",
+    "pastParticiple": "verspreid",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-nationaal-adjective",
+   "lemma": "nationaal",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-rond-de-phrase",
+   "lemma": "rond de",
+   "pos": "phrase"
+  },
+  {
+   "id": "lx-terechtkomen-verb",
+   "lemma": "terechtkomen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "kwam terecht",
+    "pastParticiple": "terechtgekomen",
+    "aux": "zijn"
+   }
+  },
+  {
+   "id": "lx-waarderen-verb",
+   "lemma": "waarderen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "waardeerde",
+    "pastParticiple": "gewaardeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-ervaren-verb",
+   "lemma": "ervaren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "ervoer",
+    "pastParticiple": "ervaren",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-aldus-adverb",
+   "lemma": "aldus",
+   "pos": "adverb"
+  },
+  {
+   "id": "lx-conflict-noun",
+   "lemma": "conflict",
+   "pos": "noun",
+   "article": "het",
+   "plural": "conflicten"
+  },
+  {
+   "id": "lx-schriftelijk-adjective",
+   "lemma": "schriftelijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-beweren-verb",
+   "lemma": "beweren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "beweerde",
+    "pastParticiple": "beweerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-menselijk-adjective",
+   "lemma": "menselijk",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-functie-noun",
+   "lemma": "functie",
+   "pos": "noun",
+   "article": "de",
+   "plural": "functies"
+  },
+  {
+   "id": "lx-stelling-noun",
+   "lemma": "stelling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "stellingen"
+  },
+  {
+   "id": "lx-verklaring-noun",
+   "lemma": "verklaring",
+   "pos": "noun",
+   "article": "de",
+   "plural": "verklaringen"
+  },
+  {
+   "id": "lx-festival-noun",
+   "lemma": "festival",
+   "pos": "noun",
+   "article": "het",
+   "plural": "festivals"
+  },
+  {
+   "id": "lx-communiceren-verb",
+   "lemma": "communiceren",
+   "pos": "verb",
+   "verbForms": {
+    "past": "communiceerde",
+    "pastParticiple": "gecommuniceerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-tegenstelling-noun",
+   "lemma": "tegenstelling",
+   "pos": "noun",
+   "article": "de",
+   "plural": "tegenstellingen"
+  },
+  {
+   "id": "lx-bestuderen-verb",
+   "lemma": "bestuderen",
+   "pos": "verb",
+   "verbForms": {
+    "past": "bestudeerde",
+    "pastParticiple": "bestudeerd",
+    "aux": "hebben"
+   }
+  },
+  {
+   "id": "lx-arbeid-noun",
+   "lemma": "arbeid",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-taboe-noun",
+   "lemma": "taboe",
+   "pos": "noun",
+   "article": "het",
+   "plural": "taboes"
+  },
+  {
+   "id": "lx-gebrek-noun",
+   "lemma": "gebrek",
+   "pos": "noun",
+   "article": "het",
+   "plural": "gebreken"
+  },
+  {
+   "id": "lx-akkoord-adjective",
+   "lemma": "akkoord",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-schade-noun",
+   "lemma": "schade",
+   "pos": "noun",
+   "article": "de",
+   "plural": "—"
+  },
+  {
+   "id": "lx-schadevergoeding-noun",
+   "lemma": "schadevergoeding",
+   "pos": "noun",
+   "article": "de",
+   "plural": "schadevergoedingen"
+  },
+  {
+   "id": "lx-krachtig-adjective",
+   "lemma": "krachtig",
+   "pos": "adjective"
+  },
+  {
+   "id": "lx-techniek-noun",
+   "lemma": "techniek",
+   "pos": "noun",
+   "article": "de",
+   "plural": "technieken"
+  },
+  {
+   "id": "lx-uiten-verb",
+   "lemma": "uiten",
+   "pos": "verb",
+   "verbForms": {
+    "past": "uitte",
+    "pastParticiple": "geuit",
+    "aux": "hebben"
+   }
+  }
+ ],
+ "senses": [
+  {
+   "id": "s-feit-noun-1",
+   "lexemeId": "lx-feit-noun",
+   "zh": "事实；事实情况",
+   "examples": [
+    {
+     "nl": "De feiten staan duidelijk in het rapport.",
+     "zh": "事实清楚地写在报告里。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-zeventien-numeral-1",
+   "lexemeId": "lx-zeventien-numeral",
+   "zh": "十七",
+   "examples": [
+    {
+     "nl": "Zeventien studenten wachten voor de deur.",
+     "zh": "十七名学生在门外等候。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-consument-noun-1",
+   "lexemeId": "lx-consument-noun",
+   "zh": "消费者",
+   "examples": [
+    {
+     "nl": "De consument vergelijkt prijzen voordat hij koopt.",
+     "zh": "消费者购买前会比较价格。"
+    }
+   ],
+   "topics": [
+    "购物"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-verspreiden-verb-1",
+   "lexemeId": "lx-verspreiden-verb",
+   "zh": "传播；散布",
+   "examples": [
+    {
+     "nl": "De organisatie verspreidt informatie over gezond eten.",
+     "zh": "这个组织传播健康饮食的信息。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-nationaal-adjective-1",
+   "lexemeId": "lx-nationaal-adjective",
+   "zh": "全国的；国家的",
+   "examples": [
+    {
+     "nl": "De nationale feestdag valt dit jaar op maandag.",
+     "zh": "今年的国庆日是星期一。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-rond-de-phrase-1",
+   "lexemeId": "lx-rond-de-phrase",
+   "zh": "大约；在……周围",
+   "examples": [
+    {
+     "nl": "Rond de honderd mensen kwamen naar het feest.",
+     "zh": "大约一百人来参加了派对。"
+    }
+   ],
+   "topics": [
+    "数量"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-terechtkomen-verb-1",
+   "lexemeId": "lx-terechtkomen-verb",
+   "zh": "到达；落入某种处境",
+   "examples": [
+    {
+     "nl": "Na de verhuizing kwamen we in een rustige buurt terecht.",
+     "zh": "搬家后，我们住进了一个安静的街区。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-waarderen-verb-1",
+   "lexemeId": "lx-waarderen-verb",
+   "zh": "欣赏；重视",
+   "examples": [
+    {
+     "nl": "Ik waardeer je hulp tijdens deze moeilijke week.",
+     "zh": "我很感谢你在这个困难的一周里给予的帮助。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-ervaren-verb-1",
+   "lexemeId": "lx-ervaren-verb",
+   "zh": "经历；体验",
+   "examples": [
+    {
+     "nl": "Veel reizigers ervaren hier grote gastvrijheid.",
+     "zh": "许多旅客在这里感受到热情好客。"
+    }
+   ],
+   "topics": [
+    "出行"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-aldus-adverb-1",
+   "lexemeId": "lx-aldus-adverb",
+   "zh": "如此；据此",
+   "examples": [
+    {
+     "nl": "De directeur zei aldus dat het plan doorgaat.",
+     "zh": "主管这样表示，计划会继续进行。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-conflict-noun-1",
+   "lexemeId": "lx-conflict-noun",
+   "zh": "冲突；争执",
+   "examples": [
+    {
+     "nl": "Het conflict tussen de buren duurde weken.",
+     "zh": "邻居之间的冲突持续了好几个星期。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schriftelijk-adjective-1",
+   "lexemeId": "lx-schriftelijk-adjective",
+   "zh": "书面的",
+   "examples": [
+    {
+     "nl": "U ontvangt binnenkort een schriftelijke bevestiging per brief.",
+     "zh": "您很快会收到一封书面确认信。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-beweren-verb-1",
+   "lexemeId": "lx-beweren-verb",
+   "zh": "声称；断言",
+   "examples": [
+    {
+     "nl": "Hij beweert dat hij de sleutel gisteren terugbracht.",
+     "zh": "他声称自己昨天把钥匙还回去了。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-menselijk-adjective-1",
+   "lexemeId": "lx-menselijk-adjective",
+   "zh": "人的；人性的",
+   "examples": [
+    {
+     "nl": "Een menselijke fout veroorzaakte de vertraging.",
+     "zh": "一个人为失误导致了延误。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-functie-noun-1",
+   "lexemeId": "lx-functie-noun",
+   "zh": "功能；职位",
+   "examples": [
+    {
+     "nl": "Deze functie vraagt ervaring met computers.",
+     "zh": "这个职位要求有电脑经验。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-stelling-noun-1",
+   "lexemeId": "lx-stelling-noun",
+   "zh": "论点；命题",
+   "examples": [
+    {
+     "nl": "De student verdedigt zijn stelling tijdens het debat.",
+     "zh": "学生在辩论中为自己的论点辩护。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-verklaring-noun-1",
+   "lexemeId": "lx-verklaring-noun",
+   "zh": "解释；声明",
+   "examples": [
+    {
+     "nl": "De politie vroeg om een verklaring van de getuige.",
+     "zh": "警方要求目击者作出说明。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-festival-noun-1",
+   "lexemeId": "lx-festival-noun",
+   "zh": "节日；音乐节",
+   "examples": [
+    {
+     "nl": "We bezoeken elk jaar een festival in augustus.",
+     "zh": "我们每年八月都会参加一个音乐节。"
+    }
+   ],
+   "topics": [
+    "休闲"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-communiceren-verb-1",
+   "lexemeId": "lx-communiceren-verb",
+   "zh": "交流；沟通",
+   "examples": [
+    {
+     "nl": "Mijn collega's communiceren vaak via e-mail.",
+     "zh": "我的同事们经常通过电子邮件沟通。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-tegenstelling-noun-1",
+   "lexemeId": "lx-tegenstelling-noun",
+   "zh": "对立；反差",
+   "examples": [
+    {
+     "nl": "De tegenstelling tussen theorie en praktijk is duidelijk.",
+     "zh": "理论和实践之间的对立很明显。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-bestuderen-verb-1",
+   "lexemeId": "lx-bestuderen-verb",
+   "zh": "研究；仔细学习",
+   "examples": [
+    {
+     "nl": "Zij bestudeert elke avond haar aantekeningen.",
+     "zh": "她每天晚上都仔细学习自己的笔记。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-arbeid-noun-1",
+   "lexemeId": "lx-arbeid-noun",
+   "zh": "劳动；工作",
+   "examples": [
+    {
+     "nl": "Arbeid in de bouw kan lichamelijk zwaar zijn.",
+     "zh": "建筑行业的劳动可能很辛苦。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-taboe-noun-1",
+   "lexemeId": "lx-taboe-noun",
+   "zh": "禁忌",
+   "examples": [
+    {
+     "nl": "In sommige families is praten over geld een taboe.",
+     "zh": "在一些家庭里，谈钱是一种禁忌。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-gebrek-noun-1",
+   "lexemeId": "lx-gebrek-noun",
+   "zh": "缺乏；不足",
+   "examples": [
+    {
+     "nl": "Door een gebrek aan tijd bleef het project onaf.",
+     "zh": "由于时间不足，项目没有完成。"
+    }
+   ],
+   "topics": [
+    "工作"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-akkoord-adjective-1",
+   "lexemeId": "lx-akkoord-adjective",
+   "zh": "同意的；达成一致的",
+   "examples": [
+    {
+     "nl": "We zijn akkoord met de nieuwe afspraken.",
+     "zh": "我们同意新的约定。"
+    }
+   ],
+   "topics": [
+    "交流"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schade-noun-1",
+   "lexemeId": "lx-schade-noun",
+   "zh": "损害；损失",
+   "examples": [
+    {
+     "nl": "De storm veroorzaakte veel schade aan het dak.",
+     "zh": "暴风雨对屋顶造成了很大损坏。"
+    }
+   ],
+   "topics": [
+    "住房"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-schadevergoeding-noun-1",
+   "lexemeId": "lx-schadevergoeding-noun",
+   "zh": "损害赔偿金",
+   "examples": [
+    {
+     "nl": "De reiziger kreeg een schadevergoeding voor de vertraging.",
+     "zh": "旅客因延误获得了赔偿。"
+    }
+   ],
+   "topics": [
+    "社会"
+   ],
+   "level": "B1",
+   "review": "draft"
+  },
+  {
+   "id": "s-krachtig-adjective-1",
+   "lexemeId": "lx-krachtig-adjective",
+   "zh": "有力的；强劲的",
+   "examples": [
+    {
+     "nl": "De krachtige wind duwde de deur open.",
+     "zh": "强风把门吹开了。"
+    }
+   ],
+   "topics": [
+    "天气"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-techniek-noun-1",
+   "lexemeId": "lx-techniek-noun",
+   "zh": "技术；技巧",
+   "examples": [
+    {
+     "nl": "Met deze techniek schilder je sneller.",
+     "zh": "用这种技巧画画会更快。"
+    }
+   ],
+   "topics": [
+    "学习"
+   ],
+   "level": "A2",
+   "review": "draft"
+  },
+  {
+   "id": "s-uiten-verb-1",
+   "lexemeId": "lx-uiten-verb",
+   "zh": "表达；吐露",
+   "examples": [
+    {
+     "nl": "Zij uitte haar zorgen tijdens het gesprek.",
+     "zh": "她在谈话中表达了自己的担忧。"
+    }
+   ],
+   "topics": [
+    "情感"
+   ],
+   "level": "B1",
+   "review": "draft"
+  }
+ ]
+}
