@@ -1,0 +1,17 @@
+.page { display: grid; gap: var(--gap); }
+.back { display: inline-flex; align-items: center; min-height: 44px; }
+.title { margin: 0; font-size: 1.6rem; overflow-wrap: anywhere; }
+.forms { margin: 4px 0 0; color: var(--muted); }
+.sense { display: grid; gap: 8px; }
+.current { border-color: var(--accent); border-width: 2px; }
+.zh { font-weight: 600; font-size: 1.1rem; }
+.examples { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.example { display: flex; gap: 8px; align-items: flex-start; }
+.exampleText { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { font-size: 0.8rem; padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
+.draft { color: var(--hard); border-color: var(--hard); }
+.note { width: 100%; min-height: 96px; padding: 8px 12px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); resize: vertical; }
+.links { display: flex; gap: 8px; flex-wrap: wrap; }
+.link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 4px; }
+h2 { margin: 0 0 8px; font-size: 1.1rem; }

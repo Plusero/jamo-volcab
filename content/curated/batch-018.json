@@ -1,0 +1,3011 @@
+{
+  "lexemes": [
+    {
+      "id": "lx-geraken-verb",
+      "lemma": "geraken",
+      "pos": "verb",
+      "verbForms": {
+        "past": "geraakte",
+        "pastParticiple": "geraakt",
+        "aux": "zijn"
+      }
+    },
+    {
+      "id": "lx-gewoonte-noun",
+      "lemma": "gewoonte",
+      "pos": "noun",
+      "article": "de",
+      "plural": "gewoonten"
+    },
+    {
+      "id": "lx-gisteravond-adverb",
+      "lemma": "gisteravond",
+      "pos": "adverb"
+    },
+    {
+      "id": "lx-grinniken-verb",
+      "lemma": "grinniken",
+      "pos": "verb",
+      "verbForms": {
+        "past": "grinnikte",
+        "pastParticiple": "gegrinnikt",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-haast-adverb",
+      "lemma": "haast",
+      "pos": "adverb"
+    },
+    {
+      "id": "lx-heet-adjective",
+      "lemma": "heet",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-heilig-adjective",
+      "lemma": "heilig",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-hekel-noun",
+      "lemma": "hekel",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-in-de-lucht-phrase",
+      "lemma": "in de lucht",
+      "pos": "phrase"
+    },
+    {
+      "id": "lx-informeren-verb",
+      "lemma": "informeren",
+      "pos": "verb",
+      "verbForms": {
+        "past": "informeerde",
+        "pastParticiple": "geïnformeerd",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-internationaal-adjective",
+      "lemma": "internationaal",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-jonkvrouw-noun",
+      "lemma": "jonkvrouw",
+      "pos": "noun",
+      "article": "de",
+      "plural": "jonkvrouwen"
+    },
+    {
+      "id": "lx-jus-noun",
+      "lemma": "jus",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-klaarmaken-verb",
+      "lemma": "klaarmaken",
+      "pos": "verb",
+      "verbForms": {
+        "past": "maakte klaar",
+        "pastParticiple": "klaargemaakt",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-klappen-verb",
+      "lemma": "klappen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "klapte",
+        "pastParticiple": "geklapt",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-kleuren-verb",
+      "lemma": "kleuren",
+      "pos": "verb",
+      "verbForms": {
+        "past": "kleurde",
+        "pastParticiple": "gekleurd",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-krans-noun",
+      "lemma": "krans",
+      "pos": "noun",
+      "article": "de",
+      "plural": "kransen"
+    },
+    {
+      "id": "lx-kruid-noun",
+      "lemma": "kruid",
+      "pos": "noun",
+      "article": "het",
+      "plural": "kruiden"
+    },
+    {
+      "id": "lx-kwartier-noun",
+      "lemma": "kwartier",
+      "pos": "noun",
+      "article": "het",
+      "plural": "kwartieren"
+    },
+    {
+      "id": "lx-lastig-adjective",
+      "lemma": "lastig",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-lijk-noun",
+      "lemma": "lijk",
+      "pos": "noun",
+      "article": "het",
+      "plural": "lijken"
+    },
+    {
+      "id": "lx-locatie-noun",
+      "lemma": "locatie",
+      "pos": "noun",
+      "article": "de",
+      "plural": "locaties"
+    },
+    {
+      "id": "lx-logisch-adjective",
+      "lemma": "logisch",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-loon-noun",
+      "lemma": "loon",
+      "pos": "noun",
+      "article": "het",
+      "plural": "lonen"
+    },
+    {
+      "id": "lx-maag-noun",
+      "lemma": "maag",
+      "pos": "noun",
+      "article": "de",
+      "plural": "magen"
+    },
+    {
+      "id": "lx-machtig-adjective",
+      "lemma": "machtig",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-middeleeuwen-noun",
+      "lemma": "middeleeuwen",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-minimaal-adjective",
+      "lemma": "minimaal",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-moord-noun",
+      "lemma": "moord",
+      "pos": "noun",
+      "article": "de",
+      "plural": "moorden"
+    },
+    {
+      "id": "lx-morgenochtend-adverb",
+      "lemma": "morgenochtend",
+      "pos": "adverb"
+    },
+    {
+      "id": "lx-mos-noun",
+      "lemma": "mos",
+      "pos": "noun",
+      "article": "het",
+      "plural": "mossen"
+    },
+    {
+      "id": "lx-mouw-noun",
+      "lemma": "mouw",
+      "pos": "noun",
+      "article": "de",
+      "plural": "mouwen"
+    },
+    {
+      "id": "lx-naaien-verb",
+      "lemma": "naaien",
+      "pos": "verb",
+      "verbForms": {
+        "past": "naaide",
+        "pastParticiple": "genaaid",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-ober-noun",
+      "lemma": "ober",
+      "pos": "noun",
+      "article": "de",
+      "plural": "obers"
+    },
+    {
+      "id": "lx-ok-interjection",
+      "lemma": "ok",
+      "pos": "interjection"
+    },
+    {
+      "id": "lx-olie-noun",
+      "lemma": "olie",
+      "pos": "noun",
+      "article": "de",
+      "plural": "oliën"
+    },
+    {
+      "id": "lx-omhelzen-verb",
+      "lemma": "omhelzen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "omhelsde",
+        "pastParticiple": "omhelsd",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-onmogelijk-adjective",
+      "lemma": "onmogelijk",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-onrustig-adjective",
+      "lemma": "onrustig",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-ontslaan-verb",
+      "lemma": "ontslaan",
+      "pos": "verb",
+      "verbForms": {
+        "past": "ontsloeg",
+        "pastParticiple": "ontslagen",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-opgelucht-adjective",
+      "lemma": "opgelucht",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-opsluiten-verb",
+      "lemma": "opsluiten",
+      "pos": "verb",
+      "verbForms": {
+        "past": "sloot op",
+        "pastParticiple": "opgesloten",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-poot-noun",
+      "lemma": "poot",
+      "pos": "noun",
+      "article": "de",
+      "plural": "poten"
+    },
+    {
+      "id": "lx-proces-noun",
+      "lemma": "proces",
+      "pos": "noun",
+      "article": "het",
+      "plural": "processen"
+    },
+    {
+      "id": "lx-pudding-noun",
+      "lemma": "pudding",
+      "pos": "noun",
+      "article": "de",
+      "plural": "puddingen"
+    },
+    {
+      "id": "lx-ramp-noun",
+      "lemma": "ramp",
+      "pos": "noun",
+      "article": "de",
+      "plural": "rampen"
+    },
+    {
+      "id": "lx-rapport-noun",
+      "lemma": "rapport",
+      "pos": "noun",
+      "article": "het",
+      "plural": "rapporten"
+    },
+    {
+      "id": "lx-roos-noun",
+      "lemma": "roos",
+      "pos": "noun",
+      "article": "de",
+      "plural": "rozen"
+    },
+    {
+      "id": "lx-rukken-verb",
+      "lemma": "rukken",
+      "pos": "verb",
+      "verbForms": {
+        "past": "rukte",
+        "pastParticiple": "gerukt",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-schaap-noun",
+      "lemma": "schaap",
+      "pos": "noun",
+      "article": "het",
+      "plural": "schapen"
+    },
+    {
+      "id": "lx-sluier-noun",
+      "lemma": "sluier",
+      "pos": "noun",
+      "article": "de",
+      "plural": "sluiers"
+    },
+    {
+      "id": "lx-spek-noun",
+      "lemma": "spek",
+      "pos": "noun",
+      "article": "het",
+      "plural": "—"
+    },
+    {
+      "id": "lx-sprake-noun",
+      "lemma": "sprake",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-stadhuis-noun",
+      "lemma": "stadhuis",
+      "pos": "noun",
+      "article": "het",
+      "plural": "stadhuizen"
+    },
+    {
+      "id": "lx-stampen-verb",
+      "lemma": "stampen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "stampte",
+        "pastParticiple": "gestampt",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-stamppot-noun",
+      "lemma": "stamppot",
+      "pos": "noun",
+      "article": "de",
+      "plural": "stamppotten"
+    },
+    {
+      "id": "lx-tijger-noun",
+      "lemma": "tijger",
+      "pos": "noun",
+      "article": "de",
+      "plural": "tijgers"
+    },
+    {
+      "id": "lx-trainen-verb",
+      "lemma": "trainen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "trainde",
+        "pastParticiple": "getraind",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-troosten-verb",
+      "lemma": "troosten",
+      "pos": "verb",
+      "verbForms": {
+        "past": "troostte",
+        "pastParticiple": "getroost",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-trouw-noun",
+      "lemma": "trouw",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-turen-verb",
+      "lemma": "turen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "tuurde",
+        "pastParticiple": "getuurd",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-uitmaken-verb",
+      "lemma": "uitmaken",
+      "pos": "verb",
+      "verbForms": {
+        "past": "maakte uit",
+        "pastParticiple": "uitgemaakt",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-vaag-adjective",
+      "lemma": "vaag",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-veekoopman-noun",
+      "lemma": "veekoopman",
+      "pos": "noun",
+      "article": "de",
+      "plural": "veekooplieden"
+    },
+    {
+      "id": "lx-verderop-adverb",
+      "lemma": "verderop",
+      "pos": "adverb"
+    },
+    {
+      "id": "lx-verleden-noun",
+      "lemma": "verleden",
+      "pos": "noun",
+      "article": "het",
+      "plural": "—"
+    },
+    {
+      "id": "lx-verrassing-noun",
+      "lemma": "verrassing",
+      "pos": "noun",
+      "article": "de",
+      "plural": "verrassingen"
+    },
+    {
+      "id": "lx-versieren-verb",
+      "lemma": "versieren",
+      "pos": "verb",
+      "verbForms": {
+        "past": "versierde",
+        "pastParticiple": "versierd",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-vertalen-verb",
+      "lemma": "vertalen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "vertaalde",
+        "pastParticiple": "vertaald",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-visite-noun",
+      "lemma": "visite",
+      "pos": "noun",
+      "article": "de",
+      "plural": "visites"
+    },
+    {
+      "id": "lx-vlecht-noun",
+      "lemma": "vlecht",
+      "pos": "noun",
+      "article": "de",
+      "plural": "vlechten"
+    },
+    {
+      "id": "lx-voeding-noun",
+      "lemma": "voeding",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-voldoend-adjective",
+      "lemma": "voldoend",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-wedden-verb",
+      "lemma": "wedden",
+      "pos": "verb",
+      "verbForms": {
+        "past": "wedde",
+        "pastParticiple": "gewed",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-wedstrijd-noun",
+      "lemma": "wedstrijd",
+      "pos": "noun",
+      "article": "de",
+      "plural": "wedstrijden"
+    },
+    {
+      "id": "lx-wennen-verb",
+      "lemma": "wennen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "wende",
+        "pastParticiple": "gewend",
+        "aux": "zijn"
+      }
+    },
+    {
+      "id": "lx-winkelen-verb",
+      "lemma": "winkelen",
+      "pos": "verb",
+      "verbForms": {
+        "past": "winkelde",
+        "pastParticiple": "gewinkeld",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-zout-noun",
+      "lemma": "zout",
+      "pos": "noun",
+      "article": "het",
+      "plural": "—"
+    },
+    {
+      "id": "lx-zwembadpas-noun",
+      "lemma": "zwembadpas",
+      "pos": "noun",
+      "article": "de",
+      "plural": "zwembadpassen"
+    },
+    {
+      "id": "lx-alleenstaand-adjective",
+      "lemma": "alleenstaand",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-gebeurtenis-noun",
+      "lemma": "gebeurtenis",
+      "pos": "noun",
+      "article": "de",
+      "plural": "gebeurtenissen"
+    },
+    {
+      "id": "lx-huidig-adjective",
+      "lemma": "huidig",
+      "pos": "adjective"
+    },
+    {
+      "id": "lx-maatregel-noun",
+      "lemma": "maatregel",
+      "pos": "noun",
+      "article": "de",
+      "plural": "maatregelen"
+    },
+    {
+      "id": "lx-partner-noun",
+      "lemma": "partner",
+      "pos": "noun",
+      "article": "de",
+      "plural": "partners"
+    },
+    {
+      "id": "lx-piercing-noun",
+      "lemma": "piercing",
+      "pos": "noun",
+      "article": "de",
+      "plural": "piercings"
+    },
+    {
+      "id": "lx-portret-noun",
+      "lemma": "portret",
+      "pos": "noun",
+      "article": "het",
+      "plural": "portretten"
+    },
+    {
+      "id": "lx-steun-noun",
+      "lemma": "steun",
+      "pos": "noun",
+      "article": "de",
+      "plural": "—"
+    },
+    {
+      "id": "lx-strip-noun",
+      "lemma": "strip",
+      "pos": "noun",
+      "article": "de",
+      "plural": "strips"
+    },
+    {
+      "id": "lx-dertien-numeral",
+      "lemma": "dertien",
+      "pos": "numeral"
+    },
+    {
+      "id": "lx-feliciteren-verb",
+      "lemma": "feliciteren",
+      "pos": "verb",
+      "verbForms": {
+        "past": "feliciteerde",
+        "pastParticiple": "gefeliciteerd",
+        "aux": "hebben"
+      }
+    },
+    {
+      "id": "lx-garage-noun",
+      "lemma": "garage",
+      "pos": "noun",
+      "article": "de",
+      "plural": "garages"
+    },
+    {
+      "id": "lx-gas-noun",
+      "lemma": "gas",
+      "pos": "noun",
+      "article": "het",
+      "plural": "gassen"
+    },
+    {
+      "id": "lx-hamburger-noun",
+      "lemma": "hamburger",
+      "pos": "noun",
+      "article": "de",
+      "plural": "hamburgers"
+    },
+    {
+      "id": "lx-lerares-noun",
+      "lemma": "lerares",
+      "pos": "noun",
+      "article": "de",
+      "plural": "leraressen"
+    },
+    {
+      "id": "lx-mmm-adverb",
+      "lemma": "mmm",
+      "pos": "adverb"
+    },
+    {
+      "id": "lx-ontbijten-verb",
+      "lemma": "ontbijten",
+      "pos": "verb",
+      "verbForms": {
+        "past": "ontbeet",
+        "pastParticiple": "ontbeten",
+        "aux": "hebben"
+      }
+    }
+  ],
+  "senses": [
+    {
+      "id": "s-geraken-verb-1",
+      "lexemeId": "lx-geraken-verb",
+      "zh": "到达；设法得到（比利时荷兰语中多见）",
+      "examples": [
+        {
+          "nl": "Hoe geraak ik van hier naar het station?",
+          "zh": "我从这里怎么去车站？"
+        },
+        {
+          "nl": "Ik geraak er niet uit.",
+          "zh": "我弄不明白（走不出来）。"
+        }
+      ],
+      "collocations": [
+        "ergens geraken 到达某处"
+      ],
+      "topics": [
+        "出行"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-gewoonte-noun-1",
+      "lexemeId": "lx-gewoonte-noun",
+      "zh": "习惯；习俗",
+      "examples": [
+        {
+          "nl": "Het is mijn gewoonte om vroeg op te staan.",
+          "zh": "早起是我的习惯。"
+        },
+        {
+          "nl": "In ons land hebben we andere gewoonten.",
+          "zh": "在我们国家有不同的习俗。"
+        }
+      ],
+      "collocations": [
+        "uit gewoonte 出于习惯",
+        "de gewoonte hebben om 有……的习惯"
+      ],
+      "topics": [
+        "日常",
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-gisteravond-adverb-1",
+      "lexemeId": "lx-gisteravond-adverb",
+      "zh": "昨晚",
+      "examples": [
+        {
+          "nl": "Gisteravond ben ik vroeg naar bed gegaan.",
+          "zh": "昨晚我很早就睡了。"
+        },
+        {
+          "nl": "Wat heb je gisteravond gedaan?",
+          "zh": "你昨晚做了什么？"
+        }
+      ],
+      "topics": [
+        "时间"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-grinniken-verb-1",
+      "lexemeId": "lx-grinniken-verb",
+      "zh": "窃笑；低声笑",
+      "examples": [
+        {
+          "nl": "Hij grinnikte om de grap.",
+          "zh": "他听了这个笑话偷偷笑了。"
+        },
+        {
+          "nl": "De kinderen grinnikten achter hun hand.",
+          "zh": "孩子们捂着嘴偷笑。"
+        }
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-haast-adverb-1",
+      "lexemeId": "lx-haast-adverb",
+      "zh": "几乎；差不多",
+      "examples": [
+        {
+          "nl": "Het is haast niet te geloven.",
+          "zh": "这几乎令人难以置信。"
+        },
+        {
+          "nl": "Ik was haast te laat voor de bus.",
+          "zh": "我差点赶不上公交车。"
+        }
+      ],
+      "collocations": [
+        "haast niet 几乎不",
+        "haast nooit 几乎从不"
+      ],
+      "topics": [
+        "语法"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-heet-adjective-1",
+      "lexemeId": "lx-heet-adjective",
+      "zh": "烫的；很热的",
+      "examples": [
+        {
+          "nl": "Pas op, de soep is heet!",
+          "zh": "小心，汤很烫！"
+        },
+        {
+          "nl": "Het was een hete zomer.",
+          "zh": "那是个炎热的夏天。"
+        }
+      ],
+      "collocations": [
+        "hete thee 烫茶",
+        "het is heet 天很热"
+      ],
+      "topics": [
+        "天气",
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-heilig-adjective-1",
+      "lexemeId": "lx-heilig-adjective",
+      "zh": "神圣的；圣洁的",
+      "examples": [
+        {
+          "nl": "Voor veel mensen is deze plek heilig.",
+          "zh": "对许多人来说，这个地方是神圣的。"
+        },
+        {
+          "nl": "De Heilige Maagd staat in de kerk.",
+          "zh": "圣母像立在教堂里。"
+        }
+      ],
+      "collocations": [
+        "een heilige plaats 圣地"
+      ],
+      "topics": [
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-hekel-noun-1",
+      "lexemeId": "lx-hekel-noun",
+      "zh": "厌恶；讨厌",
+      "examples": [
+        {
+          "nl": "Ik heb een hekel aan vroeg opstaan.",
+          "zh": "我讨厌早起。"
+        },
+        {
+          "nl": "Ze heeft een grote hekel aan spinnen.",
+          "zh": "她非常讨厌蜘蛛。"
+        }
+      ],
+      "collocations": [
+        "een hekel hebben aan 讨厌"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-in-de-lucht-phrase-1",
+      "lexemeId": "lx-in-de-lucht-phrase",
+      "zh": "在空中；在半空",
+      "examples": [
+        {
+          "nl": "De vogel vliegt in de lucht.",
+          "zh": "鸟在空中飞。"
+        },
+        {
+          "nl": "Het vliegtuig hangt hoog in de lucht.",
+          "zh": "飞机高高地悬在空中。"
+        }
+      ],
+      "collocations": [
+        "in de lucht zijn 在空中",
+        "in de lucht gooien 抛向空中"
+      ],
+      "topics": [
+        "自然"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-informeren-verb-1",
+      "lexemeId": "lx-informeren-verb",
+      "zh": "通知；告知；询问",
+      "examples": [
+        {
+          "nl": "Ik heb mijn baas over het probleem geïnformeerd.",
+          "zh": "我已就这个问题通知了我的老板。"
+        },
+        {
+          "nl": "Kun je informeren hoe laat de trein vertrekt?",
+          "zh": "你能问一下火车几点开吗？"
+        }
+      ],
+      "collocations": [
+        "informeren naar 询问",
+        "iemand informeren over 告知某人"
+      ],
+      "topics": [
+        "交流"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-internationaal-adjective-1",
+      "lexemeId": "lx-internationaal-adjective",
+      "zh": "国际的",
+      "examples": [
+        {
+          "nl": "Dit is een internationaal bedrijf.",
+          "zh": "这是一家国际公司。"
+        },
+        {
+          "nl": "Op school zitten veel internationale studenten.",
+          "zh": "学校里有很多国际学生。"
+        }
+      ],
+      "collocations": [
+        "internationale studenten 国际学生"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-jonkvrouw-noun-1",
+      "lexemeId": "lx-jonkvrouw-noun",
+      "zh": "（古）年轻的贵族小姐；少女",
+      "examples": [
+        {
+          "nl": "In het verhaal redt de ridder een jonkvrouw.",
+          "zh": "故事里骑士救了一位贵族小姐。"
+        },
+        {
+          "nl": "De jonkvrouw woonde in een groot kasteel.",
+          "zh": "那位贵族小姐住在一座大城堡里。"
+        }
+      ],
+      "topics": [
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-jus-noun-1",
+      "lexemeId": "lx-jus-noun",
+      "zh": "肉汁；肉汤汁",
+      "examples": [
+        {
+          "nl": "Ik doe jus over de aardappelen.",
+          "zh": "我把肉汁浇在土豆上。"
+        },
+        {
+          "nl": "Bij het vlees eten we groenten en jus.",
+          "zh": "吃肉时我们配蔬菜和肉汁。"
+        }
+      ],
+      "collocations": [
+        "jus over het vlees 肉汁浇肉"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-klaarmaken-verb-1",
+      "lexemeId": "lx-klaarmaken-verb",
+      "zh": "准备好；做好",
+      "examples": [
+        {
+          "nl": "Ik maak het avondeten klaar.",
+          "zh": "我在准备晚饭。"
+        },
+        {
+          "nl": "Heb je je koffer al klaargemaakt?",
+          "zh": "你的行李箱已经收拾好了吗？"
+        }
+      ],
+      "collocations": [
+        "eten klaarmaken 做饭",
+        "zich klaarmaken 做好准备"
+      ],
+      "topics": [
+        "日常",
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-klappen-verb-1",
+      "lexemeId": "lx-klappen-verb",
+      "zh": "鼓掌；拍（手）",
+      "examples": [
+        {
+          "nl": "Na het concert klapte iedereen.",
+          "zh": "音乐会结束后大家都鼓掌。"
+        },
+        {
+          "nl": "De kinderen klappen in hun handen.",
+          "zh": "孩子们拍着手。"
+        }
+      ],
+      "collocations": [
+        "in de handen klappen 拍手"
+      ],
+      "topics": [
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-kleuren-verb-1",
+      "lexemeId": "lx-kleuren-verb",
+      "zh": "涂色；染色",
+      "examples": [
+        {
+          "nl": "De kinderen kleuren een tekening.",
+          "zh": "孩子们在给一幅画涂色。"
+        },
+        {
+          "nl": "Ze heeft haar haar rood gekleurd.",
+          "zh": "她把头发染成了红色。"
+        }
+      ],
+      "collocations": [
+        "kleuren in 涂上颜色"
+      ],
+      "topics": [
+        "日常",
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-kleuren-verb-2",
+      "lexemeId": "lx-kleuren-verb",
+      "zh": "（脸）泛红",
+      "examples": [
+        {
+          "nl": "Ze kleurde van schaamte.",
+          "zh": "她羞得脸红了。"
+        },
+        {
+          "nl": "Zijn wangen kleurden rood.",
+          "zh": "他的脸颊红了。"
+        }
+      ],
+      "topics": [
+        "情感",
+        "身体"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-krans-noun-1",
+      "lexemeId": "lx-krans-noun",
+      "zh": "花环；花圈",
+      "examples": [
+        {
+          "nl": "Ze droeg een krans van bloemen in haar haar.",
+          "zh": "她头发上戴着花环。"
+        },
+        {
+          "nl": "Op de begrafenis lagen veel kransen.",
+          "zh": "葬礼上摆着许多花圈。"
+        }
+      ],
+      "collocations": [
+        "een krans leggen 敬献花圈"
+      ],
+      "topics": [
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-kruid-noun-1",
+      "lexemeId": "lx-kruid-noun",
+      "zh": "香草；调味料",
+      "examples": [
+        {
+          "nl": "Ik doe verse kruiden in de soep.",
+          "zh": "我在汤里加新鲜香草。"
+        },
+        {
+          "nl": "Deze saus smaakt naar kruiden.",
+          "zh": "这酱汁有香草的味道。"
+        }
+      ],
+      "collocations": [
+        "verse kruiden 新鲜香草"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-kwartier-noun-1",
+      "lexemeId": "lx-kwartier-noun",
+      "zh": "一刻钟；十五分钟",
+      "examples": [
+        {
+          "nl": "Ik wacht al een kwartier op de bus.",
+          "zh": "我已经等了一刻钟的公交车。"
+        },
+        {
+          "nl": "Over een kwartier begint de film.",
+          "zh": "一刻钟后电影开始。"
+        }
+      ],
+      "collocations": [
+        "over een kwartier 一刻钟后"
+      ],
+      "topics": [
+        "时间"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-lastig-adjective-1",
+      "lexemeId": "lx-lastig-adjective",
+      "zh": "麻烦的；难办的；难缠的",
+      "examples": [
+        {
+          "nl": "Het is lastig om hier te parkeren.",
+          "zh": "在这里停车很麻烦。"
+        },
+        {
+          "nl": "Hij is een lastig kind.",
+          "zh": "他是个难缠的孩子。"
+        }
+      ],
+      "collocations": [
+        "iemand lastigvallen 打扰某人"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-lijk-noun-1",
+      "lexemeId": "lx-lijk-noun",
+      "zh": "尸体",
+      "examples": [
+        {
+          "nl": "De politie vond een lijk in het bos.",
+          "zh": "警方在森林里发现了一具尸体。"
+        },
+        {
+          "nl": "Het lijk is naar het ziekenhuis gebracht.",
+          "zh": "尸体被送到了医院。"
+        }
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-locatie-noun-1",
+      "lexemeId": "lx-locatie-noun",
+      "zh": "地点；位置",
+      "examples": [
+        {
+          "nl": "De locatie van het feest is nog geheim.",
+          "zh": "聚会的地点还保密。"
+        },
+        {
+          "nl": "Het hotel heeft een mooie locatie aan zee.",
+          "zh": "这家酒店位于海边，位置很好。"
+        }
+      ],
+      "collocations": [
+        "op locatie 在现场"
+      ],
+      "topics": [
+        "出行"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-logisch-adjective-1",
+      "lexemeId": "lx-logisch-adjective",
+      "zh": "合乎逻辑的；当然的",
+      "examples": [
+        {
+          "nl": "Dat is toch logisch?",
+          "zh": "这难道不是理所当然吗？"
+        },
+        {
+          "nl": "Zijn antwoord was niet logisch.",
+          "zh": "他的回答不合逻辑。"
+        }
+      ],
+      "collocations": [
+        "logisch denken 逻辑思考"
+      ],
+      "topics": [
+        "学习"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-loon-noun-1",
+      "lexemeId": "lx-loon-noun",
+      "zh": "工资；薪水",
+      "examples": [
+        {
+          "nl": "Mijn loon wordt elke maand betaald.",
+          "zh": "我的工资每月发放。"
+        },
+        {
+          "nl": "Hij krijgt een laag loon voor zijn werk.",
+          "zh": "他工作的工资很低。"
+        }
+      ],
+      "collocations": [
+        "het minimumloon 最低工资"
+      ],
+      "topics": [
+        "工作"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-maag-noun-1",
+      "lexemeId": "lx-maag-noun",
+      "zh": "胃",
+      "examples": [
+        {
+          "nl": "Ik heb pijn in mijn maag.",
+          "zh": "我胃疼。"
+        },
+        {
+          "nl": "Met een volle maag kun je niet goed zwemmen.",
+          "zh": "吃饱了肚子不能好好游泳。"
+        }
+      ],
+      "collocations": [
+        "maagpijn 胃痛"
+      ],
+      "topics": [
+        "身体",
+        "健康"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-machtig-adjective-1",
+      "lexemeId": "lx-machtig-adjective",
+      "zh": "强大的；有权势的",
+      "examples": [
+        {
+          "nl": "Het is een machtig land.",
+          "zh": "那是一个强大的国家。"
+        },
+        {
+          "nl": "Hij is een machtig man in de stad.",
+          "zh": "他是城里一个有权势的人。"
+        }
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-middeleeuwen-noun-1",
+      "lexemeId": "lx-middeleeuwen-noun",
+      "zh": "中世纪",
+      "examples": [
+        {
+          "nl": "Dit kasteel is gebouwd in de middeleeuwen.",
+          "zh": "这座城堡建于中世纪。"
+        },
+        {
+          "nl": "In de middeleeuwen leefden de meeste mensen op het platteland.",
+          "zh": "中世纪时大多数人住在乡下。"
+        }
+      ],
+      "collocations": [
+        "in de middeleeuwen 在中世纪"
+      ],
+      "topics": [
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-minimaal-adjective-1",
+      "lexemeId": "lx-minimaal-adjective",
+      "zh": "最低限度的；至少的",
+      "examples": [
+        {
+          "nl": "Je hebt minimaal twee uur nodig.",
+          "zh": "你至少需要两个小时。"
+        },
+        {
+          "nl": "Het verschil is minimaal.",
+          "zh": "差别微乎其微。"
+        }
+      ],
+      "collocations": [
+        "minimaal 至少"
+      ],
+      "topics": [
+        "数量"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-moord-noun-1",
+      "lexemeId": "lx-moord-noun",
+      "zh": "谋杀；凶杀案",
+      "examples": [
+        {
+          "nl": "De politie onderzoekt de moord.",
+          "zh": "警方正在调查这起谋杀案。"
+        },
+        {
+          "nl": "Hij is verdacht van moord.",
+          "zh": "他涉嫌谋杀。"
+        }
+      ],
+      "collocations": [
+        "een moord plegen 犯下谋杀"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-morgenochtend-adverb-1",
+      "lexemeId": "lx-morgenochtend-adverb",
+      "zh": "明天早上",
+      "examples": [
+        {
+          "nl": "Morgenochtend sta ik vroeg op.",
+          "zh": "明天早上我要早起。"
+        },
+        {
+          "nl": "We vertrekken morgenochtend om zeven uur.",
+          "zh": "我们明早七点出发。"
+        }
+      ],
+      "topics": [
+        "时间"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-mos-noun-1",
+      "lexemeId": "lx-mos-noun",
+      "zh": "苔藓",
+      "examples": [
+        {
+          "nl": "Op de oude muur groeit mos.",
+          "zh": "古老的墙上长着苔藓。"
+        },
+        {
+          "nl": "Het dak zit vol mos.",
+          "zh": "屋顶上长满了苔藓。"
+        }
+      ],
+      "topics": [
+        "自然"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-mouw-noun-1",
+      "lexemeId": "lx-mouw-noun",
+      "zh": "袖子",
+      "examples": [
+        {
+          "nl": "De mouwen van deze jas zijn te lang.",
+          "zh": "这件外套的袖子太长了。"
+        },
+        {
+          "nl": "Ze stroopte haar mouwen op en begon te werken.",
+          "zh": "她卷起袖子开始干活。"
+        }
+      ],
+      "collocations": [
+        "de mouwen opstropen 卷起袖子"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-naaien-verb-1",
+      "lexemeId": "lx-naaien-verb",
+      "zh": "缝；缝纫",
+      "examples": [
+        {
+          "nl": "Mijn oma naait een jurk voor mij.",
+          "zh": "我奶奶在为我缝一条裙子。"
+        },
+        {
+          "nl": "Kun je een knoop aan mijn jas naaien?",
+          "zh": "你能给我的外套缝一颗扣子吗？"
+        }
+      ],
+      "collocations": [
+        "een knoop aannaaien 缝扣子"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-ober-noun-1",
+      "lexemeId": "lx-ober-noun",
+      "zh": "服务员（男）；侍者",
+      "examples": [
+        {
+          "nl": "Ober, mag ik de rekening?",
+          "zh": "服务员，请结账。"
+        },
+        {
+          "nl": "De ober bracht de soep naar onze tafel.",
+          "zh": "服务员把汤端到我们的桌上。"
+        }
+      ],
+      "collocations": [
+        "de ober roepen 叫服务员"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-ok-interjection-1",
+      "lexemeId": "lx-ok-interjection",
+      "zh": "好的；行",
+      "examples": [
+        {
+          "nl": "Ok, dan zie ik je om acht uur.",
+          "zh": "好的，那我八点见你。"
+        },
+        {
+          "nl": "Is het ok als ik later kom?",
+          "zh": "我晚点来可以吗？"
+        }
+      ],
+      "topics": [
+        "交流"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-olie-noun-1",
+      "lexemeId": "lx-olie-noun",
+      "zh": "油；食用油",
+      "examples": [
+        {
+          "nl": "Ik bak de vis in een beetje olie.",
+          "zh": "我用一点油煎鱼。"
+        },
+        {
+          "nl": "Vergeet niet olie in de auto te doen.",
+          "zh": "别忘了给汽车加机油。"
+        }
+      ],
+      "collocations": [
+        "olijfolie 橄榄油"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-omhelzen-verb-1",
+      "lexemeId": "lx-omhelzen-verb",
+      "zh": "拥抱",
+      "examples": [
+        {
+          "nl": "Ze omhelsde haar zoon bij het station.",
+          "zh": "她在车站拥抱了儿子。"
+        },
+        {
+          "nl": "Ze omhelsden elkaar lang.",
+          "zh": "他们久久地拥抱在一起。"
+        }
+      ],
+      "collocations": [
+        "elkaar omhelzen 互相拥抱"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-onmogelijk-adjective-1",
+      "lexemeId": "lx-onmogelijk-adjective",
+      "zh": "不可能的；办不到的",
+      "examples": [
+        {
+          "nl": "Het is onmogelijk om dat in een uur te doen.",
+          "zh": "一个小时内做完那件事是不可能的。"
+        },
+        {
+          "nl": "Ze vroeg iets onmogelijks.",
+          "zh": "她提了个办不到的要求。"
+        }
+      ],
+      "collocations": [
+        "het is onmogelijk 这不可能"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-onrustig-adjective-1",
+      "lexemeId": "lx-onrustig-adjective",
+      "zh": "不安的；不平静的",
+      "examples": [
+        {
+          "nl": "De baby is vannacht onrustig.",
+          "zh": "宝宝今晚睡得不安稳。"
+        },
+        {
+          "nl": "Ik word onrustig van al dat lawaai.",
+          "zh": "这么吵让我心神不宁。"
+        }
+      ],
+      "collocations": [
+        "onrustig slapen 睡不安稳"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-ontslaan-verb-1",
+      "lexemeId": "lx-ontslaan-verb",
+      "zh": "解雇；开除",
+      "examples": [
+        {
+          "nl": "Het bedrijf heeft honderd mensen ontslagen.",
+          "zh": "公司解雇了一百人。"
+        },
+        {
+          "nl": "Ze is ontslagen omdat ze te laat kwam.",
+          "zh": "她因为迟到被开除了。"
+        }
+      ],
+      "collocations": [
+        "ontslag nemen 辞职",
+        "iemand ontslaan 解雇某人"
+      ],
+      "topics": [
+        "工作"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-opgelucht-adjective-1",
+      "lexemeId": "lx-opgelucht-adjective",
+      "zh": "松了一口气的；如释重负的",
+      "examples": [
+        {
+          "nl": "Ik was opgelucht dat alles goed ging.",
+          "zh": "一切顺利，我松了一口气。"
+        },
+        {
+          "nl": "Ze voelde zich opgelucht na het gesprek.",
+          "zh": "谈话之后她感到如释重负。"
+        }
+      ],
+      "collocations": [
+        "opgelucht ademhalen 松一口气"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-opsluiten-verb-1",
+      "lexemeId": "lx-opsluiten-verb",
+      "zh": "关起来；监禁",
+      "examples": [
+        {
+          "nl": "De politie sloot de dief op in een cel.",
+          "zh": "警察把小偷关进了牢房。"
+        },
+        {
+          "nl": "Ik heb de kat per ongeluk opgesloten.",
+          "zh": "我不小心把猫关起来了。"
+        }
+      ],
+      "collocations": [
+        "opgesloten zitten 被关着"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-poot-noun-1",
+      "lexemeId": "lx-poot-noun",
+      "zh": "（动物的）腿；爪；（家具的）腿",
+      "examples": [
+        {
+          "nl": "De hond heeft een pijnlijke poot.",
+          "zh": "这只狗的一只爪子疼。"
+        },
+        {
+          "nl": "Een poot van de tafel is kapot.",
+          "zh": "桌子有一条腿坏了。"
+        }
+      ],
+      "collocations": [
+        "op zijn achterpoten staan 用后腿站立"
+      ],
+      "topics": [
+        "自然",
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-proces-noun-1",
+      "lexemeId": "lx-proces-noun",
+      "zh": "过程；进程",
+      "examples": [
+        {
+          "nl": "Leren is een lang proces.",
+          "zh": "学习是一个漫长的过程。"
+        },
+        {
+          "nl": "Het proces van het maken van kaas duurt weken.",
+          "zh": "做奶酪的过程要花几周。"
+        }
+      ],
+      "collocations": [
+        "in het proces 在过程中"
+      ],
+      "topics": [
+        "学习",
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-proces-noun-2",
+      "lexemeId": "lx-proces-noun",
+      "zh": "审判；诉讼",
+      "examples": [
+        {
+          "nl": "Het proces tegen de man begint morgen.",
+          "zh": "针对该男子的审判明天开始。"
+        },
+        {
+          "nl": "Ze won het proces.",
+          "zh": "她赢了官司。"
+        }
+      ],
+      "collocations": [
+        "een proces voeren 打官司"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-pudding-noun-1",
+      "lexemeId": "lx-pudding-noun",
+      "zh": "布丁",
+      "examples": [
+        {
+          "nl": "Als toetje eten we chocoladepudding.",
+          "zh": "甜点我们吃巧克力布丁。"
+        },
+        {
+          "nl": "Mijn oma maakt heerlijke pudding.",
+          "zh": "我奶奶做的布丁很好吃。"
+        }
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-ramp-noun-1",
+      "lexemeId": "lx-ramp-noun",
+      "zh": "灾难；灾祸",
+      "examples": [
+        {
+          "nl": "Door de storm gebeurde er een ramp.",
+          "zh": "暴风雨造成了一场灾难。"
+        },
+        {
+          "nl": "Het is een ramp als we te laat komen.",
+          "zh": "要是我们迟到就糟了。"
+        }
+      ],
+      "collocations": [
+        "een ramp voorkomen 避免灾难"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-rapport-noun-1",
+      "lexemeId": "lx-rapport-noun",
+      "zh": "报告；成绩单",
+      "examples": [
+        {
+          "nl": "Ik moet een rapport schrijven voor mijn werk.",
+          "zh": "我得为工作写一份报告。"
+        },
+        {
+          "nl": "Mijn dochter kreeg een goed rapport van school.",
+          "zh": "我女儿拿到了学校给的好成绩单。"
+        }
+      ],
+      "collocations": [
+        "een rapport schrijven 写报告"
+      ],
+      "topics": [
+        "工作",
+        "学习"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-roos-noun-1",
+      "lexemeId": "lx-roos-noun",
+      "zh": "玫瑰；蔷薇",
+      "examples": [
+        {
+          "nl": "Hij gaf haar een rode roos.",
+          "zh": "他送给她一朵红玫瑰。"
+        },
+        {
+          "nl": "In de tuin bloeien de rozen.",
+          "zh": "花园里玫瑰盛开。"
+        }
+      ],
+      "collocations": [
+        "een bos rozen 一束玫瑰"
+      ],
+      "topics": [
+        "自然"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-rukken-verb-1",
+      "lexemeId": "lx-rukken-verb",
+      "zh": "猛拉；猛扯",
+      "examples": [
+        {
+          "nl": "Hij rukte aan de deur, maar die ging niet open.",
+          "zh": "他使劲拉门，但门打不开。"
+        },
+        {
+          "nl": "De hond rukt aan zijn riem.",
+          "zh": "狗在猛拽它的皮带。"
+        }
+      ],
+      "collocations": [
+        "rukken aan 猛拉"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-schaap-noun-1",
+      "lexemeId": "lx-schaap-noun",
+      "zh": "绵羊",
+      "examples": [
+        {
+          "nl": "In de wei staan veel schapen.",
+          "zh": "草地上有很多绵羊。"
+        },
+        {
+          "nl": "De boer scheert zijn schapen in het voorjaar.",
+          "zh": "农夫春天给羊剪毛。"
+        }
+      ],
+      "collocations": [
+        "een kudde schapen 一群羊"
+      ],
+      "topics": [
+        "自然"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-sluier-noun-1",
+      "lexemeId": "lx-sluier-noun",
+      "zh": "面纱；（薄薄的）一层",
+      "examples": [
+        {
+          "nl": "De bruid droeg een witte sluier.",
+          "zh": "新娘戴着白色的面纱。"
+        },
+        {
+          "nl": "Er hing een sluier van mist over het veld.",
+          "zh": "田野上笼罩着一层薄雾。"
+        }
+      ],
+      "topics": [
+        "文化",
+        "自然"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-spek-noun-1",
+      "lexemeId": "lx-spek-noun",
+      "zh": "培根；肥肉",
+      "examples": [
+        {
+          "nl": "Ik bak spek bij de eieren.",
+          "zh": "我煎蛋时配着培根。"
+        },
+        {
+          "nl": "Dit spek is te vet voor mij.",
+          "zh": "这块肥肉对我来说太油腻了。"
+        }
+      ],
+      "collocations": [
+        "spek en eieren 培根煎蛋"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-sprake-noun-1",
+      "lexemeId": "lx-sprake-noun",
+      "zh": "谈及；提及（用于固定搭配）",
+      "examples": [
+        {
+          "nl": "Er is geen sprake van een probleem.",
+          "zh": "根本不存在什么问题。"
+        },
+        {
+          "nl": "Tijdens de vergadering kwam het budget ter sprake.",
+          "zh": "会议上谈到了预算。"
+        }
+      ],
+      "collocations": [
+        "sprake zijn van 存在……；涉及",
+        "ter sprake komen 被谈及",
+        "geen sprake van! 绝对不行！"
+      ],
+      "topics": [
+        "交流"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-stadhuis-noun-1",
+      "lexemeId": "lx-stadhuis-noun",
+      "zh": "市政厅",
+      "examples": [
+        {
+          "nl": "We trouwen volgende maand in het stadhuis.",
+          "zh": "我们下个月在市政厅结婚。"
+        },
+        {
+          "nl": "Het stadhuis staat midden in het centrum.",
+          "zh": "市政厅位于市中心。"
+        }
+      ],
+      "collocations": [
+        "op het stadhuis 在市政厅"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-stampen-verb-1",
+      "lexemeId": "lx-stampen-verb",
+      "zh": "跺脚；用力踩",
+      "examples": [
+        {
+          "nl": "Het kind stampte boos met zijn voet.",
+          "zh": "孩子生气地跺脚。"
+        },
+        {
+          "nl": "Hij stampt de sneeuw van zijn laarzen.",
+          "zh": "他跺掉靴子上的雪。"
+        }
+      ],
+      "collocations": [
+        "met de voet stampen 跺脚"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-stampen-verb-2",
+      "lexemeId": "lx-stampen-verb",
+      "zh": "捣碎；捣烂",
+      "examples": [
+        {
+          "nl": "Ik stamp de aardappelen voor de stamppot.",
+          "zh": "我把土豆捣碎做土豆泥杂烩。"
+        },
+        {
+          "nl": "Je kunt de knoflook in een vijzel stampen.",
+          "zh": "你可以在研钵里把蒜捣碎。"
+        }
+      ],
+      "collocations": [
+        "aardappelen stampen 捣土豆泥"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-stamppot-noun-1",
+      "lexemeId": "lx-stamppot-noun",
+      "zh": "土豆泥杂烩（荷兰传统菜）",
+      "examples": [
+        {
+          "nl": "In de winter eten we vaak stamppot met worst.",
+          "zh": "冬天我们常吃配香肠的土豆泥杂烩。"
+        },
+        {
+          "nl": "Boerenkool stamppot is een typisch Nederlands gerecht.",
+          "zh": "羽衣甘蓝土豆泥是典型的荷兰菜。"
+        }
+      ],
+      "collocations": [
+        "stamppot met worst 土豆泥杂烩配香肠"
+      ],
+      "topics": [
+        "饮食",
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-tijger-noun-1",
+      "lexemeId": "lx-tijger-noun",
+      "zh": "老虎",
+      "examples": [
+        {
+          "nl": "In de dierentuin zagen we een tijger.",
+          "zh": "我们在动物园看到了一只老虎。"
+        },
+        {
+          "nl": "De tijger is een gevaarlijk dier.",
+          "zh": "老虎是危险的动物。"
+        }
+      ],
+      "topics": [
+        "自然"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-trainen-verb-1",
+      "lexemeId": "lx-trainen-verb",
+      "zh": "训练；锻炼",
+      "examples": [
+        {
+          "nl": "Ze traint drie keer per week voor de marathon.",
+          "zh": "她每周训练三次，为马拉松做准备。"
+        },
+        {
+          "nl": "De coach traint het team.",
+          "zh": "教练训练球队。"
+        }
+      ],
+      "collocations": [
+        "hard trainen 刻苦训练"
+      ],
+      "topics": [
+        "休闲",
+        "健康"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-troosten-verb-1",
+      "lexemeId": "lx-troosten-verb",
+      "zh": "安慰；劝慰",
+      "examples": [
+        {
+          "nl": "Ze troostte het huilende kind.",
+          "zh": "她安慰那个哭泣的孩子。"
+        },
+        {
+          "nl": "Ik probeerde mijn vriend te troosten.",
+          "zh": "我试着安慰我的朋友。"
+        }
+      ],
+      "collocations": [
+        "iemand troosten 安慰某人"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-trouw-noun-1",
+      "lexemeId": "lx-trouw-noun",
+      "zh": "忠诚；忠实",
+      "examples": [
+        {
+          "nl": "Ik waardeer de trouw van mijn vrienden.",
+          "zh": "我很看重朋友的忠诚。"
+        },
+        {
+          "nl": "De hond is bekend om zijn trouw.",
+          "zh": "狗以忠诚著称。"
+        }
+      ],
+      "collocations": [
+        "trouw aan 对……忠诚"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-turen-verb-1",
+      "lexemeId": "lx-turen-verb",
+      "zh": "凝视；眯着眼看",
+      "examples": [
+        {
+          "nl": "Hij tuurde in de verte.",
+          "zh": "他凝视着远方。"
+        },
+        {
+          "nl": "Ze tuurde naar het kleine lettertje.",
+          "zh": "她眯着眼看那行小字。"
+        }
+      ],
+      "collocations": [
+        "turen naar 凝视"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-uitmaken-verb-1",
+      "lexemeId": "lx-uitmaken-verb",
+      "zh": "有关系；要紧（常用于否定）",
+      "examples": [
+        {
+          "nl": "Het maakt niet uit wanneer je komt.",
+          "zh": "你什么时候来都没关系。"
+        },
+        {
+          "nl": "Wat maakt het uit?",
+          "zh": "这有什么要紧？"
+        }
+      ],
+      "collocations": [
+        "het maakt niet uit 没关系"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-uitmaken-verb-2",
+      "lexemeId": "lx-uitmaken-verb",
+      "zh": "分手；结束（关系）",
+      "examples": [
+        {
+          "nl": "Hij heeft het gisteren uitgemaakt met zijn vriendin.",
+          "zh": "他昨天和女朋友分手了。"
+        },
+        {
+          "nl": "Zij wil het uitmaken.",
+          "zh": "她想分手。"
+        }
+      ],
+      "collocations": [
+        "het uitmaken met iemand 与某人分手"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-vaag-adjective-1",
+      "lexemeId": "lx-vaag-adjective",
+      "zh": "模糊的；含糊的",
+      "examples": [
+        {
+          "nl": "Ik heb maar een vaag idee wat hij bedoelt.",
+          "zh": "我只隐约知道他是什么意思。"
+        },
+        {
+          "nl": "Zijn antwoord was erg vaag.",
+          "zh": "他的回答很含糊。"
+        }
+      ],
+      "collocations": [
+        "een vaag idee 模糊的想法"
+      ],
+      "topics": [
+        "交流"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-veekoopman-noun-1",
+      "lexemeId": "lx-veekoopman-noun",
+      "zh": "牲畜贩子",
+      "examples": [
+        {
+          "nl": "De veekoopman kocht drie koeien op de markt.",
+          "zh": "牲畜贩子在市场上买了三头牛。"
+        },
+        {
+          "nl": "Mijn opa was veekoopman.",
+          "zh": "我爷爷是牲畜贩子。"
+        }
+      ],
+      "topics": [
+        "工作"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-verderop-adverb-1",
+      "lexemeId": "lx-verderop-adverb",
+      "zh": "前方不远处；再往前",
+      "examples": [
+        {
+          "nl": "Het station is hier even verderop.",
+          "zh": "车站就在这前面不远。"
+        },
+        {
+          "nl": "Verderop in de straat is een bakker.",
+          "zh": "街上再往前有一家面包店。"
+        }
+      ],
+      "topics": [
+        "出行"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-verleden-noun-1",
+      "lexemeId": "lx-verleden-noun",
+      "zh": "过去；往事",
+      "examples": [
+        {
+          "nl": "In het verleden woonde ik in Amsterdam.",
+          "zh": "过去我住在阿姆斯特丹。"
+        },
+        {
+          "nl": "Hij praat nooit over zijn verleden.",
+          "zh": "他从不谈论自己的过去。"
+        }
+      ],
+      "collocations": [
+        "in het verleden 在过去"
+      ],
+      "topics": [
+        "时间"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-verrassing-noun-1",
+      "lexemeId": "lx-verrassing-noun",
+      "zh": "惊喜；意外",
+      "examples": [
+        {
+          "nl": "Het feest was een verrassing voor haar.",
+          "zh": "这场聚会是给她的惊喜。"
+        },
+        {
+          "nl": "Wat een leuke verrassing!",
+          "zh": "真是个惊喜！"
+        }
+      ],
+      "collocations": [
+        "een verrassing zijn 是个惊喜"
+      ],
+      "topics": [
+        "情感"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-versieren-verb-1",
+      "lexemeId": "lx-versieren-verb",
+      "zh": "装饰；布置",
+      "examples": [
+        {
+          "nl": "We versieren de kerstboom samen.",
+          "zh": "我们一起装饰圣诞树。"
+        },
+        {
+          "nl": "Ze versierde de taart met aardbeien.",
+          "zh": "她用草莓装饰蛋糕。"
+        }
+      ],
+      "collocations": [
+        "de kamer versieren 布置房间"
+      ],
+      "topics": [
+        "日常",
+        "文化"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-vertalen-verb-1",
+      "lexemeId": "lx-vertalen-verb",
+      "zh": "翻译",
+      "examples": [
+        {
+          "nl": "Kun je deze tekst voor mij vertalen?",
+          "zh": "你能帮我翻译这段文字吗？"
+        },
+        {
+          "nl": "Het boek is in tien talen vertaald.",
+          "zh": "这本书被译成了十种语言。"
+        }
+      ],
+      "collocations": [
+        "vertalen naar het Nederlands 译成荷兰语"
+      ],
+      "topics": [
+        "学习",
+        "交流"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-visite-noun-1",
+      "lexemeId": "lx-visite-noun",
+      "zh": "来访；客人；出诊",
+      "examples": [
+        {
+          "nl": "We krijgen vanavond visite.",
+          "zh": "今晚我们家有客人来。"
+        },
+        {
+          "nl": "De dokter komt op visite.",
+          "zh": "医生上门出诊。"
+        }
+      ],
+      "collocations": [
+        "visite krijgen 有客人来",
+        "op visite gaan 去拜访"
+      ],
+      "topics": [
+        "日常",
+        "家庭"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-vlecht-noun-1",
+      "lexemeId": "lx-vlecht-noun",
+      "zh": "辫子",
+      "examples": [
+        {
+          "nl": "Ze heeft een lange vlecht.",
+          "zh": "她留着一条长辫子。"
+        },
+        {
+          "nl": "Mijn moeder maakt elke ochtend een vlecht in mijn haar.",
+          "zh": "我妈妈每天早上给我编辫子。"
+        }
+      ],
+      "collocations": [
+        "een vlecht maken 编辫子"
+      ],
+      "topics": [
+        "身体"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-voeding-noun-1",
+      "lexemeId": "lx-voeding-noun",
+      "zh": "营养；食物；饮食",
+      "examples": [
+        {
+          "nl": "Gezonde voeding is belangrijk voor kinderen.",
+          "zh": "健康的饮食对孩子很重要。"
+        },
+        {
+          "nl": "Ze let goed op haar voeding.",
+          "zh": "她很注意自己的饮食。"
+        }
+      ],
+      "collocations": [
+        "gezonde voeding 健康饮食"
+      ],
+      "topics": [
+        "饮食",
+        "健康"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-voldoend-adjective-1",
+      "lexemeId": "lx-voldoend-adjective",
+      "zh": "足够的（常用形式 voldoende）",
+      "examples": [
+        {
+          "nl": "Heb je voldoende geld bij je?",
+          "zh": "你身上带够钱了吗？"
+        },
+        {
+          "nl": "Er was niet voldoend licht om te lezen.",
+          "zh": "光线不够，没法阅读。"
+        }
+      ],
+      "collocations": [
+        "voldoende tijd 足够的时间"
+      ],
+      "topics": [
+        "数量"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-wedden-verb-1",
+      "lexemeId": "lx-wedden-verb",
+      "zh": "打赌",
+      "examples": [
+        {
+          "nl": "Ik wed dat hij te laat komt.",
+          "zh": "我敢打赌他会迟到。"
+        },
+        {
+          "nl": "Ze wedden om een biertje.",
+          "zh": "他们赌一杯啤酒。"
+        }
+      ],
+      "collocations": [
+        "wedden om 为……打赌",
+        "ik wed dat… 我敢打赌……"
+      ],
+      "topics": [
+        "日常",
+        "休闲"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-wedstrijd-noun-1",
+      "lexemeId": "lx-wedstrijd-noun",
+      "zh": "比赛",
+      "examples": [
+        {
+          "nl": "De wedstrijd begint om twee uur.",
+          "zh": "比赛两点开始。"
+        },
+        {
+          "nl": "Wij hebben de wedstrijd gewonnen.",
+          "zh": "我们赢了这场比赛。"
+        }
+      ],
+      "collocations": [
+        "een wedstrijd winnen 赢得比赛",
+        "een wedstrijd spelen 进行比赛"
+      ],
+      "topics": [
+        "休闲"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-wennen-verb-1",
+      "lexemeId": "lx-wennen-verb",
+      "zh": "习惯；适应",
+      "examples": [
+        {
+          "nl": "Ik moet nog wennen aan de nieuwe school.",
+          "zh": "我还得适应新学校。"
+        },
+        {
+          "nl": "Het went snel.",
+          "zh": "很快就会习惯的。"
+        }
+      ],
+      "collocations": [
+        "wennen aan 习惯于",
+        "gewend zijn aan 习惯于"
+      ],
+      "topics": [
+        "日常"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-winkelen-verb-1",
+      "lexemeId": "lx-winkelen-verb",
+      "zh": "逛街购物",
+      "examples": [
+        {
+          "nl": "Op zaterdag gaan we winkelen in de stad.",
+          "zh": "星期六我们去市里逛街购物。"
+        },
+        {
+          "nl": "Ze houdt van winkelen.",
+          "zh": "她喜欢逛街购物。"
+        }
+      ],
+      "collocations": [
+        "gaan winkelen 去逛街"
+      ],
+      "topics": [
+        "购物"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-zout-noun-1",
+      "lexemeId": "lx-zout-noun",
+      "zh": "盐",
+      "examples": [
+        {
+          "nl": "Wil je wat zout in de soep?",
+          "zh": "你要在汤里加点盐吗？"
+        },
+        {
+          "nl": "Er zit te veel zout in dit gerecht.",
+          "zh": "这道菜盐放多了。"
+        }
+      ],
+      "collocations": [
+        "peper en zout 胡椒和盐"
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-zwembadpas-noun-1",
+      "lexemeId": "lx-zwembadpas-noun",
+      "zh": "游泳池通行证；游泳卡",
+      "examples": [
+        {
+          "nl": "Ik heb een zwembadpas voor het hele jaar.",
+          "zh": "我有一张全年的游泳卡。"
+        },
+        {
+          "nl": "Vergeet je zwembadpas niet bij de ingang te laten zien.",
+          "zh": "别忘了在入口出示你的游泳卡。"
+        }
+      ],
+      "topics": [
+        "休闲"
+      ],
+      "level": "A2",
+      "review": "draft"
+    },
+    {
+      "id": "s-alleenstaand-adjective-1",
+      "lexemeId": "lx-alleenstaand-adjective",
+      "zh": "单身的；独居的",
+      "examples": [
+        {
+          "nl": "Zij is een alleenstaande moeder.",
+          "zh": "她是一位单亲妈妈。"
+        },
+        {
+          "nl": "Veel alleenstaande mensen wonen in de stad.",
+          "zh": "许多单身人士住在城市里。"
+        }
+      ],
+      "collocations": [
+        "alleenstaande moeder 单亲妈妈"
+      ],
+      "topics": [
+        "社会",
+        "家庭"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-gebeurtenis-noun-1",
+      "lexemeId": "lx-gebeurtenis-noun",
+      "zh": "事件；发生的事",
+      "examples": [
+        {
+          "nl": "Dat was een bijzondere gebeurtenis voor ons.",
+          "zh": "那对我们来说是一件特别的事。"
+        },
+        {
+          "nl": "De krant schrijft over de gebeurtenissen van gisteren.",
+          "zh": "报纸报道了昨天发生的事件。"
+        }
+      ],
+      "collocations": [
+        "een belangrijke gebeurtenis 重要事件"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-huidig-adjective-1",
+      "lexemeId": "lx-huidig-adjective",
+      "zh": "目前的；现在的",
+      "examples": [
+        {
+          "nl": "De huidige regering is net gekozen.",
+          "zh": "现任政府刚刚当选。"
+        },
+        {
+          "nl": "Wat is je huidige adres?",
+          "zh": "你现在的地址是什么？"
+        }
+      ],
+      "collocations": [
+        "de huidige situatie 目前的情况"
+      ],
+      "topics": [
+        "社会",
+        "时间"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-maatregel-noun-1",
+      "lexemeId": "lx-maatregel-noun",
+      "zh": "措施；办法",
+      "examples": [
+        {
+          "nl": "De regering neemt nieuwe maatregelen tegen de armoede.",
+          "zh": "政府采取了新的措施来对付贫困。"
+        },
+        {
+          "nl": "Dat is een goede maatregel.",
+          "zh": "这是个好措施。"
+        }
+      ],
+      "collocations": [
+        "maatregelen nemen 采取措施"
+      ],
+      "topics": [
+        "社会"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-partner-noun-1",
+      "lexemeId": "lx-partner-noun",
+      "zh": "伴侣；合作伙伴",
+      "examples": [
+        {
+          "nl": "Hij komt met zijn partner naar het feest.",
+          "zh": "他会带着伴侣来参加聚会。"
+        },
+        {
+          "nl": "Ons bedrijf zoekt een nieuwe partner.",
+          "zh": "我们公司在寻找新的合作伙伴。"
+        }
+      ],
+      "collocations": [
+        "zakelijke partner 商业伙伴"
+      ],
+      "topics": [
+        "家庭",
+        "工作"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-piercing-noun-1",
+      "lexemeId": "lx-piercing-noun",
+      "zh": "穿孔饰品；穿孔",
+      "examples": [
+        {
+          "nl": "Ze heeft een piercing in haar neus.",
+          "zh": "她鼻子上戴着鼻环。"
+        },
+        {
+          "nl": "Laat je een piercing zetten?",
+          "zh": "你要去打洞（做穿孔）吗？"
+        }
+      ],
+      "collocations": [
+        "een piercing laten zetten 去穿孔"
+      ],
+      "topics": [
+        "身体",
+        "日常"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-portret-noun-1",
+      "lexemeId": "lx-portret-noun",
+      "zh": "肖像；画像",
+      "examples": [
+        {
+          "nl": "Aan de muur hangt een portret van mijn opa.",
+          "zh": "墙上挂着我爷爷的肖像。"
+        },
+        {
+          "nl": "De schilder maakte een portret van haar.",
+          "zh": "画家为她画了一幅肖像。"
+        }
+      ],
+      "collocations": [
+        "een portret schilderen 画肖像"
+      ],
+      "topics": [
+        "文化"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-steun-noun-1",
+      "lexemeId": "lx-steun-noun",
+      "zh": "支持；援助；支撑",
+      "examples": [
+        {
+          "nl": "Dank je voor je steun.",
+          "zh": "谢谢你的支持。"
+        },
+        {
+          "nl": "Ze heeft veel steun van haar familie.",
+          "zh": "她得到家人很多的支持。"
+        }
+      ],
+      "collocations": [
+        "steun geven 提供支持",
+        "steun zoeken bij 向……寻求支持"
+      ],
+      "topics": [
+        "情感",
+        "社会"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-strip-noun-1",
+      "lexemeId": "lx-strip-noun",
+      "zh": "漫画；连环画",
+      "examples": [
+        {
+          "nl": "Mijn zoontje leest graag strips.",
+          "zh": "我的小儿子喜欢看漫画。"
+        },
+        {
+          "nl": "Kuifje is een bekende strip.",
+          "zh": "丁丁是一部著名的漫画。"
+        }
+      ],
+      "collocations": [
+        "een stripboek 漫画书"
+      ],
+      "topics": [
+        "休闲",
+        "文化"
+      ],
+      "level": "B1",
+      "review": "draft"
+    },
+    {
+      "id": "s-dertien-numeral-1",
+      "lexemeId": "lx-dertien-numeral",
+      "zh": "十三",
+      "examples": [
+        {
+          "nl": "Mijn zoon is dertien jaar oud.",
+          "zh": "我儿子十三岁。"
+        },
+        {
+          "nl": "Er zijn dertien kinderen in de klas.",
+          "zh": "班上有十三个孩子。"
+        }
+      ],
+      "topics": [
+        "数量"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-feliciteren-verb-1",
+      "lexemeId": "lx-feliciteren-verb",
+      "zh": "祝贺",
+      "examples": [
+        {
+          "nl": "Ik wil je feliciteren met je nieuwe baan.",
+          "zh": "我想祝贺你找到新工作。"
+        },
+        {
+          "nl": "Ze feliciteerde hem met zijn verjaardag.",
+          "zh": "她祝他生日快乐。"
+        }
+      ],
+      "collocations": [
+        "feliciteren met 祝贺（某事）",
+        "gefeliciteerd! 恭喜！"
+      ],
+      "topics": [
+        "交流"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-garage-noun-1",
+      "lexemeId": "lx-garage-noun",
+      "zh": "车库",
+      "examples": [
+        {
+          "nl": "De auto staat in de garage.",
+          "zh": "车停在车库里。"
+        },
+        {
+          "nl": "We hebben een huis met een grote garage.",
+          "zh": "我们的房子有一个大车库。"
+        }
+      ],
+      "collocations": [
+        "de auto in de garage zetten 把车停进车库"
+      ],
+      "topics": [
+        "住房",
+        "出行"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-garage-noun-2",
+      "lexemeId": "lx-garage-noun",
+      "zh": "汽车修理厂",
+      "examples": [
+        {
+          "nl": "Mijn auto staat bij de garage.",
+          "zh": "我的车在修理厂。"
+        },
+        {
+          "nl": "De garage repareert de remmen.",
+          "zh": "修理厂在修刹车。"
+        }
+      ],
+      "collocations": [
+        "naar de garage brengen 送去修理"
+      ],
+      "topics": [
+        "出行"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-gas-noun-1",
+      "lexemeId": "lx-gas-noun",
+      "zh": "煤气；气体",
+      "examples": [
+        {
+          "nl": "We koken op gas.",
+          "zh": "我们用煤气做饭。"
+        },
+        {
+          "nl": "Het gas is vandaag duurder geworden.",
+          "zh": "煤气今天涨价了。"
+        }
+      ],
+      "collocations": [
+        "het gas aanzetten 打开煤气"
+      ],
+      "topics": [
+        "住房",
+        "自然"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-hamburger-noun-1",
+      "lexemeId": "lx-hamburger-noun",
+      "zh": "汉堡包",
+      "examples": [
+        {
+          "nl": "Ik neem een hamburger met friet.",
+          "zh": "我要一个汉堡配薯条。"
+        },
+        {
+          "nl": "Mijn zoon eet graag hamburgers.",
+          "zh": "我儿子爱吃汉堡。"
+        }
+      ],
+      "topics": [
+        "饮食"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-lerares-noun-1",
+      "lexemeId": "lx-lerares-noun",
+      "zh": "女老师",
+      "examples": [
+        {
+          "nl": "Onze lerares geeft les in het Nederlands.",
+          "zh": "我们的女老师用荷兰语上课。"
+        },
+        {
+          "nl": "Mijn moeder is lerares op een basisschool.",
+          "zh": "我妈妈是小学女老师。"
+        }
+      ],
+      "topics": [
+        "学习",
+        "工作"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-mmm-adverb-1",
+      "lexemeId": "lx-mmm-adverb",
+      "zh": "嗯（表示好吃、满意或思索）",
+      "examples": [
+        {
+          "nl": "Mmm, wat ruikt dat lekker!",
+          "zh": "嗯，真香！"
+        },
+        {
+          "nl": "Mmm, ik weet het nog niet zeker.",
+          "zh": "嗯，我还不太确定。"
+        }
+      ],
+      "topics": [
+        "交流"
+      ],
+      "level": "A1",
+      "review": "draft"
+    },
+    {
+      "id": "s-ontbijten-verb-1",
+      "lexemeId": "lx-ontbijten-verb",
+      "zh": "吃早饭",
+      "examples": [
+        {
+          "nl": "Wij ontbijten altijd om half acht.",
+          "zh": "我们总是七点半吃早饭。"
+        },
+        {
+          "nl": "Heb je al ontbeten?",
+          "zh": "你吃过早饭了吗？"
+        }
+      ],
+      "collocations": [
+        "ontbijten met 早餐吃……"
+      ],
+      "topics": [
+        "饮食",
+        "日常"
+      ],
+      "level": "A1",
+      "review": "draft"
+    }
+  ]
+}

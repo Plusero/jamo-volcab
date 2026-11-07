@@ -1,0 +1,100 @@
+{"referenceId": "ref-pet-noun", "status": "included", "senseIds": ["s-pet-noun-1"]}
+{"referenceId": "ref-pijl-noun", "status": "included", "senseIds": ["s-pijl-noun-1"]}
+{"referenceId": "ref-praat-noun", "status": "included", "senseIds": ["s-praat-noun-1"]}
+{"referenceId": "ref-reclame-noun", "status": "included", "senseIds": ["s-reclame-noun-1"]}
+{"referenceId": "ref-regelmatig-adjective", "status": "included", "senseIds": ["s-regelmatig-adjective-1"]}
+{"referenceId": "ref-rij-noun", "status": "included", "senseIds": ["s-rij-noun-1"]}
+{"referenceId": "ref-rover-noun", "status": "included", "senseIds": ["s-rover-noun-1"]}
+{"referenceId": "ref-schuldig-adjective", "status": "included", "senseIds": ["s-schuldig-adjective-1", "s-schuldig-adjective-2"]}
+{"referenceId": "ref-slikken-verb", "status": "included", "senseIds": ["s-slikken-verb-1"]}
+{"referenceId": "ref-stal-noun", "status": "included", "senseIds": ["s-stal-noun-1"]}
+{"referenceId": "ref-stijgen-verb", "status": "included", "senseIds": ["s-stijgen-verb-1"]}
+{"referenceId": "ref-stof-noun", "status": "included", "senseIds": ["s-stof-noun-1", "s-stof-noun-2"]}
+{"referenceId": "ref-storten-verb", "status": "included", "senseIds": ["s-storten-verb-1", "s-storten-verb-2"]}
+{"referenceId": "ref-strijden-verb", "status": "included", "senseIds": ["s-strijden-verb-1"]}
+{"referenceId": "ref-telkens-adverb", "status": "included", "senseIds": ["s-telkens-adverb-1"]}
+{"referenceId": "ref-tikken-verb", "status": "included", "senseIds": ["s-tikken-verb-1", "s-tikken-verb-2"]}
+{"referenceId": "ref-toneel-noun", "status": "included", "senseIds": ["s-toneel-noun-1", "s-toneel-noun-2"]}
+{"referenceId": "ref-vanmorgen-adverb", "status": "included", "senseIds": ["s-vanmorgen-adverb-1"]}
+{"referenceId": "ref-vasthouden-verb", "status": "included", "senseIds": ["s-vasthouden-verb-1"]}
+{"referenceId": "ref-verdelen-verb", "status": "included", "senseIds": ["s-verdelen-verb-1"]}
+{"referenceId": "ref-verstandig-adjective", "status": "included", "senseIds": ["s-verstandig-adjective-1"]}
+{"referenceId": "ref-vlucht-noun", "status": "included", "senseIds": ["s-vlucht-noun-1", "s-vlucht-noun-2"]}
+{"referenceId": "ref-vrijheid-noun", "status": "included", "senseIds": ["s-vrijheid-noun-1"]}
+{"referenceId": "ref-waarmee-adverb", "status": "included", "senseIds": ["s-waarmee-adverb-1", "s-waarmee-adverb-2"]}
+{"referenceId": "ref-wanhopig-adjective", "status": "included", "senseIds": ["s-wanhopig-adjective-1"]}
+{"referenceId": "ref-warmte-noun", "status": "included", "senseIds": ["s-warmte-noun-1"]}
+{"referenceId": "ref-weglopen-verb", "status": "included", "senseIds": ["s-weglopen-verb-1"]}
+{"referenceId": "ref-weigeren-verb", "status": "included", "senseIds": ["s-weigeren-verb-1"]}
+{"referenceId": "ref-wens-noun", "status": "included", "senseIds": ["s-wens-noun-1"]}
+{"referenceId": "ref-wolk-noun", "status": "included", "senseIds": ["s-wolk-noun-1"]}
+{"referenceId": "ref-wrijven-verb", "status": "included", "senseIds": ["s-wrijven-verb-1"]}
+{"referenceId": "ref-zadel-noun", "status": "included", "senseIds": ["s-zadel-noun-1"]}
+{"referenceId": "ref-zand-noun", "status": "included", "senseIds": ["s-zand-noun-1"]}
+{"referenceId": "ref-zodra-conjunction", "status": "included", "senseIds": ["s-zodra-conjunction-1"]}
+{"referenceId": "ref-zoen-noun", "status": "included", "senseIds": ["s-zoen-noun-1"]}
+{"referenceId": "ref-zuster-noun", "status": "included", "senseIds": ["s-zuster-noun-1", "s-zuster-noun-2"]}
+{"referenceId": "ref-ambtenaar-noun", "status": "included", "senseIds": ["s-ambtenaar-noun-1"]}
+{"referenceId": "ref-diligence-noun", "status": "excluded", "excludeReason": "diligence 为英语/法语借词（古旧的驿站马车），在荷兰语日常中几乎不用，多半是语料中的英文 due diligence 等外来词噪声，不适合做学习卡"}
+{"referenceId": "ref-gedrag-noun", "status": "included", "senseIds": ["s-gedrag-noun-1"]}
+{"referenceId": "ref-ongeval-noun", "status": "included", "senseIds": ["s-ongeval-noun-1"]}
+{"referenceId": "ref-president-noun", "status": "included", "senseIds": ["s-president-noun-1"]}
+{"referenceId": "ref-produceren-verb", "status": "included", "senseIds": ["s-produceren-verb-1"]}
+{"referenceId": "ref-samenleving-noun", "status": "included", "senseIds": ["s-samenleving-noun-1"]}
+{"referenceId": "ref-tiener-noun", "status": "included", "senseIds": ["s-tiener-noun-1"]}
+{"referenceId": "ref-s-ochtend-phrase", "status": "included", "senseIds": ["s-s-ochtend-phrase-1"]}
+{"referenceId": "ref-achternaam-noun", "status": "included", "senseIds": ["s-achternaam-noun-1"]}
+{"referenceId": "ref-griep-noun", "status": "included", "senseIds": ["s-griep-noun-1"]}
+{"referenceId": "ref-koorts-noun", "status": "included", "senseIds": ["s-koorts-noun-1"]}
+{"referenceId": "ref-spel-verb", "status": "excluded", "excludeReason": "语料词形还原/词性标注错误：spel 作动词只是 spellen（拼写）的第一人称变位形式，或是名词 spel（游戏）被误标；不宜以 spel 为动词词条"}
+{"referenceId": "ref-t-shirt-noun", "status": "included", "senseIds": ["s-t-shirt-noun-1"]}
+{"referenceId": "ref-tram-noun", "status": "included", "senseIds": ["s-tram-noun-1"]}
+{"referenceId": "ref-verbieden-verb", "status": "included", "senseIds": ["s-verbieden-verb-1"]}
+{"referenceId": "ref-weleens-adverb", "status": "included", "senseIds": ["s-weleens-adverb-1"]}
+{"referenceId": "ref-zes-uur-phrase", "status": "included", "senseIds": ["s-zes-uur-phrase-1"]}
+{"referenceId": "ref-aannemen-verb", "status": "included", "senseIds": ["s-aannemen-verb-1", "s-aannemen-verb-2", "s-aannemen-verb-3"]}
+{"referenceId": "ref-adel-noun", "status": "included", "senseIds": ["s-adel-noun-1"]}
+{"referenceId": "ref-advies-noun", "status": "included", "senseIds": ["s-advies-noun-1"]}
+{"referenceId": "ref-afdeling-noun", "status": "included", "senseIds": ["s-afdeling-noun-1"]}
+{"referenceId": "ref-afpakken-verb", "status": "included", "senseIds": ["s-afpakken-verb-1"]}
+{"referenceId": "ref-afstand-noun", "status": "included", "senseIds": ["s-afstand-noun-1"]}
+{"referenceId": "ref-algemeen-adjective", "status": "included", "senseIds": ["s-algemeen-adjective-1"]}
+{"referenceId": "ref-atlas-noun", "status": "included", "senseIds": ["s-atlas-noun-1"]}
+{"referenceId": "ref-avontuur-noun", "status": "included", "senseIds": ["s-avontuur-noun-1"]}
+{"referenceId": "ref-balzaal-noun", "status": "included", "senseIds": ["s-balzaal-noun-1"]}
+{"referenceId": "ref-belangstelling-noun", "status": "included", "senseIds": ["s-belangstelling-noun-1"]}
+{"referenceId": "ref-binden-verb", "status": "included", "senseIds": ["s-binden-verb-1"]}
+{"referenceId": "ref-blank-adjective", "status": "included", "senseIds": ["s-blank-adjective-1", "s-blank-adjective-2"]}
+{"referenceId": "ref-boerderij-noun", "status": "included", "senseIds": ["s-boerderij-noun-1"]}
+{"referenceId": "ref-bruidegom-noun", "status": "included", "senseIds": ["s-bruidegom-noun-1"]}
+{"referenceId": "ref-buitenlander-noun", "status": "included", "senseIds": ["s-buitenlander-noun-1"]}
+{"referenceId": "ref-daarop-adverb", "status": "included", "senseIds": ["s-daarop-adverb-1", "s-daarop-adverb-2"]}
+{"referenceId": "ref-dan-wel-phrase", "status": "included", "senseIds": ["s-dan-wel-phrase-1"]}
+{"referenceId": "ref-doek-noun", "status": "included", "senseIds": ["s-doek-noun-1", "s-doek-noun-2"]}
+{"referenceId": "ref-donderdag-special", "status": "included", "senseIds": ["s-donderdag-special-1"]}
+{"referenceId": "ref-drijven-verb", "status": "included", "senseIds": ["s-drijven-verb-1", "s-drijven-verb-2"]}
+{"referenceId": "ref-dronken-adjective", "status": "included", "senseIds": ["s-dronken-adjective-1"]}
+{"referenceId": "ref-economie-noun", "status": "included", "senseIds": ["s-economie-noun-1"]}
+{"referenceId": "ref-emmer-noun", "status": "included", "senseIds": ["s-emmer-noun-1"]}
+{"referenceId": "ref-enig-adjective", "status": "included", "senseIds": ["s-enig-adjective-1", "s-enig-adjective-2"]}
+{"referenceId": "ref-galg-noun", "status": "included", "senseIds": ["s-galg-noun-1"]}
+{"referenceId": "ref-gedachte-noun", "status": "included", "senseIds": ["s-gedachte-noun-1"]}
+{"referenceId": "ref-gelukken-verb", "status": "included", "senseIds": ["s-gelukken-verb-1"]}
+{"referenceId": "ref-gerecht-noun", "status": "included", "senseIds": ["s-gerecht-noun-1", "s-gerecht-noun-2"]}
+{"referenceId": "ref-harnas-noun", "status": "included", "senseIds": ["s-harnas-noun-1"]}
+{"referenceId": "ref-hartelijk-adjective", "status": "included", "senseIds": ["s-hartelijk-adjective-1"]}
+{"referenceId": "ref-herhalen-verb", "status": "included", "senseIds": ["s-herhalen-verb-1"]}
+{"referenceId": "ref-hogeschool-noun", "status": "included", "senseIds": ["s-hogeschool-noun-1"]}
+{"referenceId": "ref-hol-adjective", "status": "included", "senseIds": ["s-hol-adjective-1"]}
+{"referenceId": "ref-hollands-adjective", "status": "included", "senseIds": ["s-hollands-adjective-1"]}
+{"referenceId": "ref-ingaan-verb", "status": "included", "senseIds": ["s-ingaan-verb-1", "s-ingaan-verb-2"]}
+{"referenceId": "ref-juichen-verb", "status": "included", "senseIds": ["s-juichen-verb-1"]}
+{"referenceId": "ref-keurig-adjective", "status": "included", "senseIds": ["s-keurig-adjective-1"]}
+{"referenceId": "ref-knielen-verb", "status": "included", "senseIds": ["s-knielen-verb-1"]}
+{"referenceId": "ref-koetsier-noun", "status": "included", "senseIds": ["s-koetsier-noun-1"]}
+{"referenceId": "ref-kostbaar-adjective", "status": "included", "senseIds": ["s-kostbaar-adjective-1"]}
+{"referenceId": "ref-kwaliteit-noun", "status": "included", "senseIds": ["s-kwaliteit-noun-1"]}
+{"referenceId": "ref-leunen-verb", "status": "included", "senseIds": ["s-leunen-verb-1"]}
+{"referenceId": "ref-luid-adjective", "status": "included", "senseIds": ["s-luid-adjective-1"]}
+{"referenceId": "ref-maatschappelijk-adjective", "status": "included", "senseIds": ["s-maatschappelijk-adjective-1"]}
+{"referenceId": "ref-medisch-adjective", "status": "included", "senseIds": ["s-medisch-adjective-1"]}

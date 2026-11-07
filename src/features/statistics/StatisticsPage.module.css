@@ -1,0 +1,13 @@
+.page { display: grid; gap: var(--gap); }
+.page h1 { margin: 0; font-size: 1.4rem; }
+.page h2 { margin: 0 0 8px; font-size: 1.1rem; }
+.totals { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; }
+.num { font-size: 1.5rem; font-weight: 700; }
+.bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.bar { display: grid; grid-template-columns: 52px 1fr 64px; gap: 8px; align-items: center; font-size: 0.85rem; }
+.track { height: 12px; background: var(--bg); border-radius: 6px; overflow: hidden; display: flex; }
+.reviews { background: var(--easy); }
+.fresh { background: var(--accent); }
+.forecast { background: var(--good); }
+.counts { text-align: right; color: var(--muted); }
+.legend { display: flex; gap: 12px; font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }

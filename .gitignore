@@ -1,0 +1,13 @@
+node_modules
+dist
+dev-dist
+coverage-output
+test-results
+playwright-report
+*.local
+.DS_Store
+# 原始来源文件:保留 hash 与下载地址,默认不公开受限原文件(见 docs/CONTENT_SOURCES.md)
+content/sources/raw/
+# 构建生成的词库包由 CI 通过 content:build 重新生成
+public/vocabulary/
+.claude/

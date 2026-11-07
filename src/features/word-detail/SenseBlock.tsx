@@ -1,0 +1,36 @@
+import type { Sense } from '../../domain/types';
+import { speak, useDutchVoice } from '../../platform/speech';
+import { useApp } from '../../app/AppContext';
+import styles from './WordDetailPage.module.css';
+
+/** 一个词义：中文义、例句（带发音）、搭配、主题、等级和审校状态。 */
+export function SenseBlock({ sense, current }: { sense: Sense; current: boolean }) {
+  const voice = useDutchVoice();
+  const { settings } = useApp();
+  return (
+    <section className={`card ${styles.sense} ${current ? styles.current : ''}`}>
+      <div className={styles.zh}>{sense.zh}</div>
+      <ul className={styles.examples}>
+        {sense.examples.map((ex) => (
+          <li key={ex.nl} className={styles.example}>
+            {voice && (
+              <button className="btn" aria-label="播放例句" onClick={() => speak(ex.nl, voice, settings.speechRate)}>🔊</button>
+            )}
+            <div className={styles.exampleText}>
+              <div>{ex.nl}</div>
+              <div className="muted">{ex.zh}</div>
+            </div>
+          </li>
+        ))}
+      </ul>
+      {sense.collocations && sense.collocations.length > 0 && (
+        <div><span className="muted">搭配：</span>{sense.collocations.join('；')}</div>
+      )}
+      <div className={styles.tags}>
+        {sense.topics.map((t) => <span key={t} className={styles.tag}>{t}</span>)}
+        <span className={styles.tag}>{sense.level}</span>
+        {sense.review === 'draft' && <span className={`${styles.tag} ${styles.draft}`}>草稿</span>}
+      </div>
+    </section>
+  );
+}

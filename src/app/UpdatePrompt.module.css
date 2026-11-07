@@ -1,0 +1,27 @@
+.banner {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(var(--tabbar-h) + var(--safe-bottom) + 8px);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: min(640px, calc(100% - 2 * var(--gap)));
+  padding: 8px 12px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions .btn {
+  min-height: 36px;
+}

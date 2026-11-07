@@ -1,0 +1,1509 @@
+{
+ "batch": "batch-005",
+ "items": [
+  {
+   "id": "ref-touw-noun",
+   "lemma": "touw",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 46,
+    "B1": 6
+   },
+   "level": "A2",
+   "totalFreq": 52
+  },
+  {
+   "id": "ref-zak-noun",
+   "lemma": "zak",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 37,
+    "B1": 15
+   },
+   "level": "A2",
+   "totalFreq": 52
+  },
+  {
+   "id": "ref-hetzelfde-adjective",
+   "lemma": "hetzelfde",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 29,
+    "B1": 21
+   },
+   "level": "A1",
+   "totalFreq": 51
+  },
+  {
+   "id": "ref-krant-noun",
+   "lemma": "krant",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 14,
+    "B1": 36
+   },
+   "level": "A1",
+   "totalFreq": 51
+  },
+  {
+   "id": "ref-doden-verb",
+   "lemma": "doden",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 45,
+    "B1": 6
+   },
+   "level": "A2",
+   "totalFreq": 51
+  },
+  {
+   "id": "ref-kist-noun",
+   "lemma": "kist",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 45,
+    "B1": 6
+   },
+   "level": "A2",
+   "totalFreq": 51
+  },
+  {
+   "id": "ref-voorbij-adjective",
+   "lemma": "voorbij",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 26,
+    "B1": 25
+   },
+   "level": "A2",
+   "totalFreq": 51
+  },
+  {
+   "id": "ref-voordat-conjunction",
+   "lemma": "voordat",
+   "pos": "conjunction",
+   "tags": [
+    "VG(onder)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 34,
+    "B1": 17
+   },
+   "level": "A2",
+   "totalFreq": 51
+  },
+  {
+   "id": "ref-pak-noun",
+   "lemma": "pak",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 21,
+    "B1": 28
+   },
+   "level": "A1",
+   "totalFreq": 50
+  },
+  {
+   "id": "ref-slim-adjective",
+   "lemma": "slim",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 34,
+    "B1": 15
+   },
+   "level": "A1",
+   "totalFreq": 50
+  },
+  {
+   "id": "ref-manier-noun",
+   "lemma": "manier",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 20,
+    "B1": 30
+   },
+   "level": "A2",
+   "totalFreq": 50
+  },
+  {
+   "id": "ref-vampier-noun",
+   "lemma": "vampier",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 50,
+    "B1": 0
+   },
+   "level": "A2",
+   "totalFreq": 50
+  },
+  {
+   "id": "ref-verschillend-adjective",
+   "lemma": "verschillend",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 20,
+    "B1": 30
+   },
+   "level": "A2",
+   "totalFreq": 50
+  },
+  {
+   "id": "ref-letten-verb",
+   "lemma": "letten",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 30,
+    "B1": 19
+   },
+   "level": "A2",
+   "totalFreq": 49
+  },
+  {
+   "id": "ref-nog-eens-phrase",
+   "lemma": "nog eens",
+   "pos": "phrase",
+   "tags": [
+    "BW() ADJ()",
+    "BW() BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 32,
+    "B1": 17
+   },
+   "level": "A2",
+   "totalFreq": 49
+  },
+  {
+   "id": "ref-rand-noun",
+   "lemma": "rand",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 13,
+    "B1": 36
+   },
+   "level": "A2",
+   "totalFreq": 49
+  },
+  {
+   "id": "ref-vlaams-adjective",
+   "lemma": "vlaams",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 49
+   },
+   "level": "B1",
+   "totalFreq": 49
+  },
+  {
+   "id": "ref-blauw-adjective",
+   "lemma": "blauw",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 7,
+    "A2": 30,
+    "B1": 11
+   },
+   "level": "A1",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-varen-verb",
+   "lemma": "varen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 41,
+    "B1": 6
+   },
+   "level": "A1",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-vorig-adjective",
+   "lemma": "vorig",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 12,
+    "B1": 35
+   },
+   "level": "A1",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-duwen-verb",
+   "lemma": "duwen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 28,
+    "B1": 20
+   },
+   "level": "A2",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-gezellig-adjective",
+   "lemma": "gezellig",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 23,
+    "B1": 25
+   },
+   "level": "A2",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-sloep-noun",
+   "lemma": "sloep",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 48,
+    "B1": 0
+   },
+   "level": "A2",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-vechten-verb",
+   "lemma": "vechten",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 39,
+    "B1": 9
+   },
+   "level": "A2",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-verliezen-verb",
+   "lemma": "verliezen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 35,
+    "B1": 13
+   },
+   "level": "A2",
+   "totalFreq": 48
+  },
+  {
+   "id": "ref-allebei-pronoun",
+   "lemma": "allebei",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(onbep,det)"
+   ],
+   "freq": {
+    "A1": 10,
+    "A2": 27,
+    "B1": 10
+   },
+   "level": "A1",
+   "totalFreq": 47
+  },
+  {
+   "id": "ref-oma-noun",
+   "lemma": "oma",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 41,
+    "B1": 2
+   },
+   "level": "A1",
+   "totalFreq": 47
+  },
+  {
+   "id": "ref-universiteit-noun",
+   "lemma": "universiteit",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 16,
+    "B1": 30
+   },
+   "level": "A1",
+   "totalFreq": 47
+  },
+  {
+   "id": "ref-zuchten-verb",
+   "lemma": "zuchten",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 34,
+    "B1": 13
+   },
+   "level": "A2",
+   "totalFreq": 47
+  },
+  {
+   "id": "ref-regering-noun",
+   "lemma": "regering",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 47
+   },
+   "level": "B1",
+   "totalFreq": 47
+  },
+  {
+   "id": "ref-s-avond-phrase",
+   "lemma": "'s avond",
+   "pos": "phrase",
+   "tags": [
+    "BW() N(soort)",
+    "LID(bep) N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 27,
+    "B1": 18
+   },
+   "level": "A1",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-been-noun",
+   "lemma": "been",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 31,
+    "B1": 14
+   },
+   "level": "A1",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-meest-pronoun",
+   "lemma": "meest",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(onbep,grad)"
+   ],
+   "freq": {
+    "A1": 2,
+    "A2": 25,
+    "B1": 19
+   },
+   "level": "A1",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-sinds-preposition",
+   "lemma": "sinds",
+   "pos": "preposition",
+   "tags": [
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 11,
+    "B1": 31
+   },
+   "level": "A1",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-zondag-special",
+   "lemma": "zondag",
+   "pos": "special",
+   "tags": [
+    "SPEC(deeleigen)"
+   ],
+   "freq": {
+    "A1": 6,
+    "A2": 26,
+    "B1": 14
+   },
+   "level": "A1",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-miljoen-noun",
+   "lemma": "miljoen",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 15,
+    "B1": 31
+   },
+   "level": "A2",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-neer-adverb",
+   "lemma": "neer",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 30,
+    "B1": 16
+   },
+   "level": "A2",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-niet-eens-phrase",
+   "lemma": "niet eens",
+   "pos": "phrase",
+   "tags": [
+    "BW() ADJ()",
+    "BW() BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 37,
+    "B1": 9
+   },
+   "level": "A2",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-toren-noun",
+   "lemma": "toren",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 43,
+    "B1": 3
+   },
+   "level": "A2",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-zorg-noun",
+   "lemma": "zorg",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 16,
+    "B1": 30
+   },
+   "level": "A2",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-zwaard-noun",
+   "lemma": "zwaard",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 46,
+    "B1": 0
+   },
+   "level": "A2",
+   "totalFreq": 46
+  },
+  {
+   "id": "ref-moe-noun",
+   "lemma": "moe",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 41,
+    "B1": 3
+   },
+   "level": "A1",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-regenen-verb",
+   "lemma": "regenen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 2,
+    "A2": 8,
+    "B1": 35
+   },
+   "level": "A1",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-schoen-noun",
+   "lemma": "schoen",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 2,
+    "A2": 33,
+    "B1": 10
+   },
+   "level": "A1",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-website-noun",
+   "lemma": "website",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 8,
+    "A2": 9,
+    "B1": 28
+   },
+   "level": "A1",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-wijn-noun",
+   "lemma": "wijn",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 20,
+    "B1": 24
+   },
+   "level": "A1",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-aflopen-verb",
+   "lemma": "aflopen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 27,
+    "B1": 18
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-bewegen-verb",
+   "lemma": "bewegen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 29,
+    "B1": 16
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-dief-noun",
+   "lemma": "dief",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 44,
+    "B1": 1
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-glas-noun",
+   "lemma": "glas",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 7,
+    "B1": 38
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-lip-noun",
+   "lemma": "lip",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 35,
+    "B1": 10
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-raar-adjective",
+   "lemma": "raar",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 37,
+    "B1": 8
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-sleutel-noun",
+   "lemma": "sleutel",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 40,
+    "B1": 5
+   },
+   "level": "A2",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-regent-noun",
+   "lemma": "regent",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 45
+   },
+   "level": "B1",
+   "totalFreq": 45
+  },
+  {
+   "id": "ref-bloem-noun",
+   "lemma": "bloem",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 31,
+    "B1": 13
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-koe-noun",
+   "lemma": "koe",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 39,
+    "B1": 5
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-namelijk-adverb",
+   "lemma": "namelijk",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 17,
+    "B1": 27
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-onderwijs-noun",
+   "lemma": "onderwijs",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 23,
+    "B1": 21
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-prins-noun",
+   "lemma": "prins",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 40,
+    "B1": 4
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-stap-noun",
+   "lemma": "stap",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 22,
+    "B1": 22
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-stom-adjective",
+   "lemma": "stom",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 22,
+    "B1": 22
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-vijand-noun",
+   "lemma": "vijand",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 40,
+    "B1": 4
+   },
+   "level": "A2",
+   "totalFreq": 44
+  },
+  {
+   "id": "ref-rest-noun",
+   "lemma": "rest",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 27,
+    "B1": 15
+   },
+   "level": "A1",
+   "totalFreq": 43
+  },
+  {
+   "id": "ref-zes-numeral",
+   "lemma": "zes",
+   "pos": "numeral",
+   "tags": [
+    "TW(hoofd)",
+    "TW(rang)"
+   ],
+   "freq": {
+    "A1": 5,
+    "A2": 13,
+    "B1": 25
+   },
+   "level": "A1",
+   "totalFreq": 43
+  },
+  {
+   "id": "ref-cursus-noun",
+   "lemma": "cursus",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 15,
+    "B1": 28
+   },
+   "level": "A2",
+   "totalFreq": 43
+  },
+  {
+   "id": "ref-half-adjective",
+   "lemma": "half",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 24,
+    "B1": 19
+   },
+   "level": "A2",
+   "totalFreq": 43
+  },
+  {
+   "id": "ref-kussen-verb",
+   "lemma": "kussen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 12,
+    "B1": 31
+   },
+   "level": "A2",
+   "totalFreq": 43
+  },
+  {
+   "id": "ref-overheid-noun",
+   "lemma": "overheid",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 3,
+    "B1": 40
+   },
+   "level": "A2",
+   "totalFreq": 43
+  },
+  {
+   "id": "ref-dezelfde-adjective",
+   "lemma": "dezelfde",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 5,
+    "A2": 13,
+    "B1": 24
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-foto-noun",
+   "lemma": "foto",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 2,
+    "A2": 4,
+    "B1": 36
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-kat-noun",
+   "lemma": "kat",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 37,
+    "B1": 1
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-klant-noun",
+   "lemma": "klant",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 25,
+    "B1": 13
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-kleur-noun",
+   "lemma": "kleur",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 2,
+    "A2": 25,
+    "B1": 15
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-slaap-noun",
+   "lemma": "slaap",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 27,
+    "B1": 14
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-tevreden-adjective",
+   "lemma": "tevreden",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 27,
+    "B1": 14
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-zomer-noun",
+   "lemma": "zomer",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 15,
+    "A2": 8,
+    "B1": 19
+   },
+   "level": "A1",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-agent-noun",
+   "lemma": "agent",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 17,
+    "B1": 25
+   },
+   "level": "A2",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-gesprek-noun",
+   "lemma": "gesprek",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 17,
+    "B1": 25
+   },
+   "level": "A2",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-schieten-verb",
+   "lemma": "schieten",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 23,
+    "B1": 19
+   },
+   "level": "A2",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-vlug-adjective",
+   "lemma": "vlug",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 26,
+    "B1": 16
+   },
+   "level": "A2",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-waarheid-noun",
+   "lemma": "waarheid",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 34,
+    "B1": 8
+   },
+   "level": "A2",
+   "totalFreq": 42
+  },
+  {
+   "id": "ref-groen-adjective",
+   "lemma": "groen",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 18,
+    "B1": 22
+   },
+   "level": "A1",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-niet-alleen-phrase",
+   "lemma": "niet alleen",
+   "pos": "phrase",
+   "tags": [
+    "BW() BW()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 24,
+    "B1": 16
+   },
+   "level": "A1",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-persoon-noun",
+   "lemma": "persoon",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 16,
+    "B1": 24
+   },
+   "level": "A1",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-stok-noun",
+   "lemma": "stok",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 16,
+    "A2": 19,
+    "B1": 6
+   },
+   "level": "A1",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-bekijken-verb",
+   "lemma": "bekijken",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 18,
+    "B1": 23
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-direct-adjective",
+   "lemma": "direct",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 21,
+    "B1": 20
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-duidelijk-adjective",
+   "lemma": "duidelijk",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 17,
+    "B1": 24
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-laag-adjective",
+   "lemma": "laag",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 17,
+    "B1": 24
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-lucht-noun",
+   "lemma": "lucht",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 29,
+    "B1": 12
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-meester-noun",
+   "lemma": "meester",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 37,
+    "B1": 4
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-ridder-noun",
+   "lemma": "ridder",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 39,
+    "B1": 2
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-schuld-noun",
+   "lemma": "schuld",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 22,
+    "B1": 19
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-veilig-adjective",
+   "lemma": "veilig",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 27,
+    "B1": 14
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-voorzichtig-adjective",
+   "lemma": "voorzichtig",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 37,
+    "B1": 4
+   },
+   "level": "A2",
+   "totalFreq": 41
+  },
+  {
+   "id": "ref-cadeau-noun",
+   "lemma": "cadeau",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 27,
+    "B1": 9
+   },
+   "level": "A1",
+   "totalFreq": 40
+  },
+  {
+   "id": "ref-missen-verb",
+   "lemma": "missen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 24,
+    "B1": 15
+   },
+   "level": "A1",
+   "totalFreq": 40
+  },
+  {
+   "id": "ref-normaal-adjective",
+   "lemma": "normaal",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 14,
+    "A2": 10,
+    "B1": 16
+   },
+   "level": "A1",
+   "totalFreq": 40
+  },
+  {
+   "id": "ref-speciaal-adjective",
+   "lemma": "speciaal",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 3,
+    "A2": 14,
+    "B1": 23
+   },
+   "level": "A1",
+   "totalFreq": 40
+  },
+  {
+   "id": "ref-belgisch-adjective",
+   "lemma": "belgisch",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 4,
+    "B1": 36
+   },
+   "level": "A2",
+   "totalFreq": 40
+  }
+ ]
+}

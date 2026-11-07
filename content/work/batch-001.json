@@ -1,0 +1,1535 @@
+{
+ "batch": "batch-001",
+ "items": [
+  {
+   "id": "ref-de-article",
+   "lemma": "de",
+   "pos": "article",
+   "tags": [
+    "LID(bep)"
+   ],
+   "freq": {
+    "A1": 553,
+    "A2": 7279,
+    "B1": 5782
+   },
+   "level": "A1",
+   "totalFreq": 13614
+  },
+  {
+   "id": "ref-een-article",
+   "lemma": "een",
+   "pos": "article",
+   "tags": [
+    "LID(onbep)"
+   ],
+   "freq": {
+    "A1": 377,
+    "A2": 3646,
+    "B1": 3170
+   },
+   "level": "A1",
+   "totalFreq": 7193
+  },
+  {
+   "id": "ref-hij-pronoun",
+   "lemma": "hij",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 278,
+    "A2": 3910,
+    "B1": 1569
+   },
+   "level": "A1",
+   "totalFreq": 5757
+  },
+  {
+   "id": "ref-ik-pronoun",
+   "lemma": "ik",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 429,
+    "A2": 3156,
+    "B1": 1854
+   },
+   "level": "A1",
+   "totalFreq": 5439
+  },
+  {
+   "id": "ref-het-article",
+   "lemma": "het",
+   "pos": "article",
+   "tags": [
+    "LID(bep)"
+   ],
+   "freq": {
+    "A1": 215,
+    "A2": 2492,
+    "B1": 2068
+   },
+   "level": "A1",
+   "totalFreq": 4775
+  },
+  {
+   "id": "ref-van-preposition",
+   "lemma": "van",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 142,
+    "A2": 2326,
+    "B1": 2251
+   },
+   "level": "A1",
+   "totalFreq": 4719
+  },
+  {
+   "id": "ref-ze-pronoun",
+   "lemma": "ze",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 370,
+    "A2": 2206,
+    "B1": 1880
+   },
+   "level": "A1",
+   "totalFreq": 4456
+  },
+  {
+   "id": "ref-je-pronoun",
+   "lemma": "je",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)",
+    "VNW(pers,pron)",
+    "VNW(pr,pron)"
+   ],
+   "freq": {
+    "A1": 155,
+    "A2": 1736,
+    "B1": 1699
+   },
+   "level": "A1",
+   "totalFreq": 3590
+  },
+  {
+   "id": "ref-niet-adverb",
+   "lemma": "niet",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 195,
+    "A2": 1770,
+    "B1": 1397
+   },
+   "level": "A1",
+   "totalFreq": 3362
+  },
+  {
+   "id": "ref-het-pronoun",
+   "lemma": "het",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 119,
+    "A2": 1814,
+    "B1": 1178
+   },
+   "level": "A1",
+   "totalFreq": 3111
+  },
+  {
+   "id": "ref-dat-pronoun",
+   "lemma": "dat",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,det)",
+    "VNW(aanw,pron)",
+    "VNW(betr,pron)"
+   ],
+   "freq": {
+    "A1": 55,
+    "A2": 1240,
+    "B1": 928
+   },
+   "level": "A1",
+   "totalFreq": 2223
+  },
+  {
+   "id": "ref-die-pronoun",
+   "lemma": "die",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,det)",
+    "VNW(aanw,pron)",
+    "VNW(betr,pron)"
+   ],
+   "freq": {
+    "A1": 17,
+    "A2": 1103,
+    "B1": 1057
+   },
+   "level": "A1",
+   "totalFreq": 2177
+  },
+  {
+   "id": "ref-zijn-pronoun",
+   "lemma": "zijn",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)"
+   ],
+   "freq": {
+    "A1": 70,
+    "A2": 1461,
+    "B1": 639
+   },
+   "level": "A1",
+   "totalFreq": 2170
+  },
+  {
+   "id": "ref-dat-conjunction",
+   "lemma": "dat",
+   "pos": "conjunction",
+   "tags": [
+    "VG(onder)"
+   ],
+   "freq": {
+    "A1": 60,
+    "A2": 1109,
+    "B1": 892
+   },
+   "level": "A1",
+   "totalFreq": 2061
+  },
+  {
+   "id": "ref-te-preposition",
+   "lemma": "te",
+   "pos": "preposition",
+   "tags": [
+    "VZ(init)",
+    "VZ(versm)"
+   ],
+   "freq": {
+    "A1": 37,
+    "A2": 992,
+    "B1": 990
+   },
+   "level": "A1",
+   "totalFreq": 2019
+  },
+  {
+   "id": "ref-er-pronoun",
+   "lemma": "er",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,adv-pron)",
+    "VNW(onbep,adv-pron)"
+   ],
+   "freq": {
+    "A1": 56,
+    "A2": 1082,
+    "B1": 838
+   },
+   "level": "A1",
+   "totalFreq": 1976
+  },
+  {
+   "id": "ref-voor-preposition",
+   "lemma": "voor",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 78,
+    "A2": 903,
+    "B1": 949
+   },
+   "level": "A1",
+   "totalFreq": 1930
+  },
+  {
+   "id": "ref-haar-pronoun",
+   "lemma": "haar",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)",
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 138,
+    "A2": 836,
+    "B1": 834
+   },
+   "level": "A1",
+   "totalFreq": 1808
+  },
+  {
+   "id": "ref-veel-pronoun",
+   "lemma": "veel",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(onbep,grad)"
+   ],
+   "freq": {
+    "A1": 142,
+    "A2": 768,
+    "B1": 804
+   },
+   "level": "A1",
+   "totalFreq": 1714
+  },
+  {
+   "id": "ref-aan-preposition",
+   "lemma": "aan",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 72,
+    "A2": 919,
+    "B1": 686
+   },
+   "level": "A1",
+   "totalFreq": 1677
+  },
+  {
+   "id": "ref-dan-adverb",
+   "lemma": "dan",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 64,
+    "A2": 1094,
+    "B1": 516
+   },
+   "level": "A1",
+   "totalFreq": 1674
+  },
+  {
+   "id": "ref-om-preposition",
+   "lemma": "om",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 52,
+    "A2": 754,
+    "B1": 610
+   },
+   "level": "A1",
+   "totalFreq": 1416
+  },
+  {
+   "id": "ref-wat-pronoun",
+   "lemma": "wat",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(excl,pron)",
+    "VNW(onbep,pron)",
+    "VNW(vb,pron)"
+   ],
+   "freq": {
+    "A1": 37,
+    "A2": 815,
+    "B1": 500
+   },
+   "level": "A1",
+   "totalFreq": 1352
+  },
+  {
+   "id": "ref-we-pronoun",
+   "lemma": "we",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 90,
+    "A2": 664,
+    "B1": 535
+   },
+   "level": "A1",
+   "totalFreq": 1289
+  },
+  {
+   "id": "ref-zullen-verb",
+   "lemma": "zullen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 12,
+    "A2": 765,
+    "B1": 486
+   },
+   "level": "A1",
+   "totalFreq": 1263
+  },
+  {
+   "id": "ref-u-pronoun",
+   "lemma": "u",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)",
+    "VNW(pr,pron)"
+   ],
+   "freq": {
+    "A1": 20,
+    "A2": 787,
+    "B1": 447
+   },
+   "level": "A1",
+   "totalFreq": 1254
+  },
+  {
+   "id": "ref-mijn-pronoun",
+   "lemma": "mijn",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)"
+   ],
+   "freq": {
+    "A1": 135,
+    "A2": 728,
+    "B1": 349
+   },
+   "level": "A1",
+   "totalFreq": 1212
+  },
+  {
+   "id": "ref-worden-verb",
+   "lemma": "worden",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 21,
+    "A2": 607,
+    "B1": 577
+   },
+   "level": "A1",
+   "totalFreq": 1205
+  },
+  {
+   "id": "ref-uit-preposition",
+   "lemma": "uit",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 29,
+    "A2": 653,
+    "B1": 487
+   },
+   "level": "A1",
+   "totalFreq": 1169
+  },
+  {
+   "id": "ref-hem-pronoun",
+   "lemma": "hem",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)",
+    "VNW(refl,pron)"
+   ],
+   "freq": {
+    "A1": 20,
+    "A2": 773,
+    "B1": 370
+   },
+   "level": "A1",
+   "totalFreq": 1163
+  },
+  {
+   "id": "ref-nog-adverb",
+   "lemma": "nog",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 25,
+    "A2": 681,
+    "B1": 435
+   },
+   "level": "A1",
+   "totalFreq": 1141
+  },
+  {
+   "id": "ref-zo-adverb",
+   "lemma": "zo",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 24,
+    "A2": 669,
+    "B1": 409
+   },
+   "level": "A1",
+   "totalFreq": 1102
+  },
+  {
+   "id": "ref-wel-adverb",
+   "lemma": "wel",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 28,
+    "A2": 612,
+    "B1": 429
+   },
+   "level": "A1",
+   "totalFreq": 1069
+  },
+  {
+   "id": "ref-of-conjunction",
+   "lemma": "of",
+   "pos": "conjunction",
+   "tags": [
+    "VG(neven)",
+    "VG(onder)"
+   ],
+   "freq": {
+    "A1": 25,
+    "A2": 370,
+    "B1": 550
+   },
+   "level": "A1",
+   "totalFreq": 945
+  },
+  {
+   "id": "ref-over-preposition",
+   "lemma": "over",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 33,
+    "A2": 416,
+    "B1": 428
+   },
+   "level": "A1",
+   "totalFreq": 877
+  },
+  {
+   "id": "ref-heel-adjective",
+   "lemma": "heel",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 66,
+    "A2": 469,
+    "B1": 276
+   },
+   "level": "A1",
+   "totalFreq": 811
+  },
+  {
+   "id": "ref-daar-pronoun",
+   "lemma": "daar",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,adv-pron)"
+   ],
+   "freq": {
+    "A1": 21,
+    "A2": 488,
+    "B1": 252
+   },
+   "level": "A1",
+   "totalFreq": 761
+  },
+  {
+   "id": "ref-mens-noun",
+   "lemma": "mens",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 54,
+    "A2": 423,
+    "B1": 273
+   },
+   "level": "A1",
+   "totalFreq": 750
+  },
+  {
+   "id": "ref-geen-pronoun",
+   "lemma": "geen",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(onbep,det)"
+   ],
+   "freq": {
+    "A1": 50,
+    "A2": 365,
+    "B1": 326
+   },
+   "level": "A1",
+   "totalFreq": 741
+  },
+  {
+   "id": "ref-lopen-verb",
+   "lemma": "lopen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 56,
+    "A2": 487,
+    "B1": 173
+   },
+   "level": "A1",
+   "totalFreq": 716
+  },
+  {
+   "id": "ref-door-preposition",
+   "lemma": "door",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 5,
+    "A2": 335,
+    "B1": 298
+   },
+   "level": "A1",
+   "totalFreq": 638
+  },
+  {
+   "id": "ref-weer-adverb",
+   "lemma": "weer",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 25,
+    "A2": 410,
+    "B1": 195
+   },
+   "level": "A1",
+   "totalFreq": 630
+  },
+  {
+   "id": "ref-al-adverb",
+   "lemma": "al",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 10,
+    "A2": 360,
+    "B1": 257
+   },
+   "level": "A1",
+   "totalFreq": 627
+  },
+  {
+   "id": "ref-zich-pronoun",
+   "lemma": "zich",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(refl,pron)"
+   ],
+   "freq": {
+    "A1": 5,
+    "A2": 265,
+    "B1": 293
+   },
+   "level": "A1",
+   "totalFreq": 563
+  },
+  {
+   "id": "ref-ander-adjective",
+   "lemma": "ander",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 35,
+    "A2": 266,
+    "B1": 257
+   },
+   "level": "A1",
+   "totalFreq": 558
+  },
+  {
+   "id": "ref-hier-pronoun",
+   "lemma": "hier",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,adv-pron)"
+   ],
+   "freq": {
+    "A1": 17,
+    "A2": 331,
+    "B1": 208
+   },
+   "level": "A1",
+   "totalFreq": 556
+  },
+  {
+   "id": "ref-dit-pronoun",
+   "lemma": "dit",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,det)",
+    "VNW(aanw,pron)"
+   ],
+   "freq": {
+    "A1": 7,
+    "A2": 321,
+    "B1": 218
+   },
+   "level": "A1",
+   "totalFreq": 546
+  },
+  {
+   "id": "ref-me-pronoun",
+   "lemma": "me",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pr,pron)"
+   ],
+   "freq": {
+    "A1": 16,
+    "A2": 336,
+    "B1": 192
+   },
+   "level": "A1",
+   "totalFreq": 544
+  },
+  {
+   "id": "ref-ja-interjection",
+   "lemma": "ja",
+   "pos": "interjection",
+   "tags": [
+    "TSW()"
+   ],
+   "freq": {
+    "A1": 24,
+    "A2": 307,
+    "B1": 200
+   },
+   "level": "A1",
+   "totalFreq": 531
+  },
+  {
+   "id": "ref-maar-adverb",
+   "lemma": "maar",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 8,
+    "A2": 326,
+    "B1": 178
+   },
+   "level": "A1",
+   "totalFreq": 512
+  },
+  {
+   "id": "ref-ons-pronoun",
+   "lemma": "ons",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)",
+    "VNW(pr,pron)"
+   ],
+   "freq": {
+    "A1": 20,
+    "A2": 257,
+    "B1": 229
+   },
+   "level": "A1",
+   "totalFreq": 506
+  },
+  {
+   "id": "ref-hun-pronoun",
+   "lemma": "hun",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)",
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 12,
+    "A2": 213,
+    "B1": 273
+   },
+   "level": "A1",
+   "totalFreq": 498
+  },
+  {
+   "id": "ref-hoe-adverb",
+   "lemma": "hoe",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 26,
+    "A2": 263,
+    "B1": 208
+   },
+   "level": "A1",
+   "totalFreq": 497
+  },
+  {
+   "id": "ref-een-numeral",
+   "lemma": "een",
+   "pos": "numeral",
+   "tags": [
+    "TW(hoofd)",
+    "TW(rang)"
+   ],
+   "freq": {
+    "A1": 9,
+    "A2": 260,
+    "B1": 219
+   },
+   "level": "A1",
+   "totalFreq": 488
+  },
+  {
+   "id": "ref-tegen-preposition",
+   "lemma": "tegen",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 43,
+    "A2": 264,
+    "B1": 168
+   },
+   "level": "A1",
+   "totalFreq": 475
+  },
+  {
+   "id": "ref-krijgen-verb",
+   "lemma": "krijgen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 18,
+    "A2": 246,
+    "B1": 200
+   },
+   "level": "A1",
+   "totalFreq": 464
+  },
+  {
+   "id": "ref-twee-numeral",
+   "lemma": "twee",
+   "pos": "numeral",
+   "tags": [
+    "TW(hoofd)",
+    "TW(rang)"
+   ],
+   "freq": {
+    "A1": 30,
+    "A2": 234,
+    "B1": 183
+   },
+   "level": "A1",
+   "totalFreq": 447
+  },
+  {
+   "id": "ref-mij-pronoun",
+   "lemma": "mij",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pr,pron)"
+   ],
+   "freq": {
+    "A1": 16,
+    "A2": 316,
+    "B1": 108
+   },
+   "level": "A1",
+   "totalFreq": 440
+  },
+  {
+   "id": "ref-even-adverb",
+   "lemma": "even",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 282,
+    "B1": 155
+   },
+   "level": "A2",
+   "totalFreq": 437
+  },
+  {
+   "id": "ref-koning-noun",
+   "lemma": "koning",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 398,
+    "B1": 29
+   },
+   "level": "A2",
+   "totalFreq": 427
+  },
+  {
+   "id": "ref-al-pronoun",
+   "lemma": "al",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(onbep,det)"
+   ],
+   "freq": {
+    "A1": 15,
+    "A2": 252,
+    "B1": 153
+   },
+   "level": "A1",
+   "totalFreq": 420
+  },
+  {
+   "id": "ref-alleen-adverb",
+   "lemma": "alleen",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 19,
+    "A2": 247,
+    "B1": 144
+   },
+   "level": "A1",
+   "totalFreq": 410
+  },
+  {
+   "id": "ref-waar-pronoun",
+   "lemma": "waar",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(vb,adv-pron)"
+   ],
+   "freq": {
+    "A1": 10,
+    "A2": 229,
+    "B1": 158
+   },
+   "level": "A1",
+   "totalFreq": 397
+  },
+  {
+   "id": "ref-weg-adverb",
+   "lemma": "weg",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 8,
+    "A2": 250,
+    "B1": 137
+   },
+   "level": "A1",
+   "totalFreq": 395
+  },
+  {
+   "id": "ref-zij-pronoun",
+   "lemma": "zij",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 37,
+    "A2": 194,
+    "B1": 155
+   },
+   "level": "A1",
+   "totalFreq": 386
+  },
+  {
+   "id": "ref-jij-pronoun",
+   "lemma": "jij",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 29,
+    "A2": 227,
+    "B1": 123
+   },
+   "level": "A1",
+   "totalFreq": 379
+  },
+  {
+   "id": "ref-nee-interjection",
+   "lemma": "nee",
+   "pos": "interjection",
+   "tags": [
+    "TSW()"
+   ],
+   "freq": {
+    "A1": 15,
+    "A2": 216,
+    "B1": 147
+   },
+   "level": "A1",
+   "totalFreq": 378
+  },
+  {
+   "id": "ref-roepen-verb",
+   "lemma": "roepen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 300,
+    "B1": 70
+   },
+   "level": "A2",
+   "totalFreq": 370
+  },
+  {
+   "id": "ref-lang-adjective",
+   "lemma": "lang",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 34,
+    "A2": 195,
+    "B1": 133
+   },
+   "level": "A1",
+   "totalFreq": 362
+  },
+  {
+   "id": "ref-laat-adjective",
+   "lemma": "laat",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 13,
+    "A2": 197,
+    "B1": 146
+   },
+   "level": "A1",
+   "totalFreq": 356
+  },
+  {
+   "id": "ref-na-preposition",
+   "lemma": "na",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 22,
+    "A2": 187,
+    "B1": 138
+   },
+   "level": "A1",
+   "totalFreq": 347
+  },
+  {
+   "id": "ref-mee-preposition",
+   "lemma": "mee",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)"
+   ],
+   "freq": {
+    "A1": 17,
+    "A2": 220,
+    "B1": 107
+   },
+   "level": "A1",
+   "totalFreq": 344
+  },
+  {
+   "id": "ref-echt-adjective",
+   "lemma": "echt",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 2,
+    "A2": 194,
+    "B1": 141
+   },
+   "level": "A1",
+   "totalFreq": 337
+  },
+  {
+   "id": "ref-tot-preposition",
+   "lemma": "tot",
+   "pos": "preposition",
+   "tags": [
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 11,
+    "A2": 141,
+    "B1": 173
+   },
+   "level": "A1",
+   "totalFreq": 325
+  },
+  {
+   "id": "ref-deze-pronoun",
+   "lemma": "deze",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(aanw,det)"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 168,
+    "B1": 151
+   },
+   "level": "A1",
+   "totalFreq": 323
+  },
+  {
+   "id": "ref-geld-noun",
+   "lemma": "geld",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 25,
+    "A2": 163,
+    "B1": 133
+   },
+   "level": "A1",
+   "totalFreq": 321
+  },
+  {
+   "id": "ref-erg-adjective",
+   "lemma": "erg",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 39,
+    "A2": 188,
+    "B1": 79
+   },
+   "level": "A1",
+   "totalFreq": 306
+  },
+  {
+   "id": "ref-snel-adjective",
+   "lemma": "snel",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 35,
+    "A2": 175,
+    "B1": 95
+   },
+   "level": "A1",
+   "totalFreq": 305
+  },
+  {
+   "id": "ref-natuurlijk-adjective",
+   "lemma": "natuurlijk",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 182,
+    "B1": 120
+   },
+   "level": "A1",
+   "totalFreq": 303
+  },
+  {
+   "id": "ref-hand-noun",
+   "lemma": "hand",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 195,
+    "B1": 95
+   },
+   "level": "A1",
+   "totalFreq": 291
+  },
+  {
+   "id": "ref-terug-adverb",
+   "lemma": "terug",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 18,
+    "A2": 160,
+    "B1": 103
+   },
+   "level": "A1",
+   "totalFreq": 281
+  },
+  {
+   "id": "ref-dus-adverb",
+   "lemma": "dus",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 133,
+    "B1": 143
+   },
+   "level": "A1",
+   "totalFreq": 280
+  },
+  {
+   "id": "ref-toen-adverb",
+   "lemma": "toen",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 1,
+    "A2": 162,
+    "B1": 93
+   },
+   "level": "A1",
+   "totalFreq": 256
+  },
+  {
+   "id": "ref-dan-conjunction",
+   "lemma": "dan",
+   "pos": "conjunction",
+   "tags": [
+    "VG(onder)"
+   ],
+   "freq": {
+    "A1": 7,
+    "A2": 122,
+    "B1": 123
+   },
+   "level": "A1",
+   "totalFreq": 252
+  },
+  {
+   "id": "ref-wie-pronoun",
+   "lemma": "wie",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(vb,pron)"
+   ],
+   "freq": {
+    "A1": 5,
+    "A2": 144,
+    "B1": 102
+   },
+   "level": "A1",
+   "totalFreq": 251
+  },
+  {
+   "id": "ref-kennen-verb",
+   "lemma": "kennen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 20,
+    "A2": 127,
+    "B1": 102
+   },
+   "level": "A1",
+   "totalFreq": 249
+  },
+  {
+   "id": "ref-pakken-verb",
+   "lemma": "pakken",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 17,
+    "A2": 148,
+    "B1": 83
+   },
+   "level": "A1",
+   "totalFreq": 248
+  },
+  {
+   "id": "ref-uw-pronoun",
+   "lemma": "uw",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(bez,det)"
+   ],
+   "freq": {
+    "A1": 3,
+    "A2": 139,
+    "B1": 106
+   },
+   "level": "A1",
+   "totalFreq": 248
+  },
+  {
+   "id": "ref-binnen-preposition",
+   "lemma": "binnen",
+   "pos": "preposition",
+   "tags": [
+    "VZ(fin)",
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 11,
+    "A2": 162,
+    "B1": 74
+   },
+   "level": "A1",
+   "totalFreq": 247
+  },
+  {
+   "id": "ref-meisje-noun",
+   "lemma": "meisje",
+   "pos": "noun",
+   "tags": [
+    "N(soort)"
+   ],
+   "freq": {
+    "A1": 17,
+    "A2": 164,
+    "B1": 65
+   },
+   "level": "A1",
+   "totalFreq": 246
+  },
+  {
+   "id": "ref-net-adverb",
+   "lemma": "net",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 153,
+    "B1": 91
+   },
+   "level": "A2",
+   "totalFreq": 244
+  },
+  {
+   "id": "ref-waarom-adverb",
+   "lemma": "waarom",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 9,
+    "A2": 131,
+    "B1": 103
+   },
+   "level": "A1",
+   "totalFreq": 243
+  },
+  {
+   "id": "ref-vaak-adjective",
+   "lemma": "vaak",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 12,
+    "A2": 95,
+    "B1": 135
+   },
+   "level": "A1",
+   "totalFreq": 242
+  },
+  {
+   "id": "ref-wij-pronoun",
+   "lemma": "wij",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(pers,pron)"
+   ],
+   "freq": {
+    "A1": 10,
+    "A2": 145,
+    "B1": 87
+   },
+   "level": "A1",
+   "totalFreq": 242
+  },
+  {
+   "id": "ref-eens-adverb",
+   "lemma": "eens",
+   "pos": "adverb",
+   "tags": [
+    "BW()"
+   ],
+   "freq": {
+    "A1": 0,
+    "A2": 125,
+    "B1": 117
+   },
+   "level": "A2",
+   "totalFreq": 242
+  },
+  {
+   "id": "ref-volgen-verb",
+   "lemma": "volgen",
+   "pos": "verb",
+   "tags": [
+    "WW()"
+   ],
+   "freq": {
+    "A1": 13,
+    "A2": 112,
+    "B1": 116
+   },
+   "level": "A1",
+   "totalFreq": 241
+  },
+  {
+   "id": "ref-iedereen-pronoun",
+   "lemma": "iedereen",
+   "pos": "pronoun",
+   "tags": [
+    "VNW(onbep,pron)"
+   ],
+   "freq": {
+    "A1": 17,
+    "A2": 133,
+    "B1": 90
+   },
+   "level": "A1",
+   "totalFreq": 240
+  },
+  {
+   "id": "ref-drie-numeral",
+   "lemma": "drie",
+   "pos": "numeral",
+   "tags": [
+    "TW(hoofd)",
+    "TW(rang)"
+   ],
+   "freq": {
+    "A1": 18,
+    "A2": 109,
+    "B1": 109
+   },
+   "level": "A1",
+   "totalFreq": 236
+  },
+  {
+   "id": "ref-jong-adjective",
+   "lemma": "jong",
+   "pos": "adjective",
+   "tags": [
+    "ADJ()"
+   ],
+   "freq": {
+    "A1": 4,
+    "A2": 74,
+    "B1": 157
+   },
+   "level": "A1",
+   "totalFreq": 235
+  },
+  {
+   "id": "ref-als-preposition",
+   "lemma": "als",
+   "pos": "preposition",
+   "tags": [
+    "VZ(init)"
+   ],
+   "freq": {
+    "A1": 5,
+    "A2": 115,
+    "B1": 114
+   },
+   "level": "A1",
+   "totalFreq": 234
+  }
+ ]
+}

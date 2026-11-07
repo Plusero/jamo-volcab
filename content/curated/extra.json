@@ -1,0 +1,54 @@
+{
+ "lexemes": [
+  { "id": "lx-goedemiddag-interjection", "lemma": "goedemiddag", "pos": "interjection" },
+  { "id": "lx-hè-interjection", "lemma": "hè", "pos": "interjection" },
+  { "id": "lx-jawel-interjection", "lemma": "jawel", "pos": "interjection" },
+  { "id": "lx-jazeker-interjection", "lemma": "jazeker", "pos": "interjection" },
+  { "id": "lx-tja-interjection", "lemma": "tja", "pos": "interjection" },
+  { "id": "lx-proost-interjection", "lemma": "proost", "pos": "interjection" }
+ ],
+ "senses": [
+  {
+   "id": "s-goedemiddag-interjection-1", "lexemeId": "lx-goedemiddag-interjection",
+   "zh": "下午好（问候语，约中午到傍晚）",
+   "examples": [{ "nl": "Goedemiddag, kan ik u helpen?", "zh": "下午好，有什么可以帮您的吗？" }],
+   "topics": ["交流"], "level": "A1", "review": "draft"
+  },
+  {
+   "id": "s-hè-interjection-1", "lexemeId": "lx-hè-interjection",
+   "zh": "（放在句末，求对方认同）……吧？是吧？",
+   "examples": [{ "nl": "Lekker weer vandaag, hè?", "zh": "今天天气真好，是吧？" }],
+   "topics": ["交流"], "level": "A2", "review": "draft"
+  },
+  {
+   "id": "s-hè-interjection-2", "lexemeId": "lx-hè-interjection",
+   "zh": "（表示失望、不满或惊讶）唉；啊？",
+   "examples": [{ "nl": "Hè, wat jammer dat je niet kunt komen!", "zh": "唉，你不能来真可惜！" }],
+   "topics": ["交流", "情感"], "level": "A2", "review": "draft"
+  },
+  {
+   "id": "s-jawel-interjection-1", "lexemeId": "lx-jawel-interjection",
+   "zh": "是的，当然（用来反驳对方的否定说法）",
+   "examples": [{ "nl": "Je hebt je huiswerk niet gemaakt. – Jawel, het ligt op tafel.", "zh": "你没做作业。——做了，就在桌上。" }],
+   "topics": ["交流"], "level": "A2", "review": "draft"
+  },
+  {
+   "id": "s-jazeker-interjection-1", "lexemeId": "lx-jazeker-interjection",
+   "zh": "当然；那还用说",
+   "examples": [{ "nl": "Kom je morgen ook? – Jazeker!", "zh": "你明天也来吗？——当然！" }],
+   "topics": ["交流"], "level": "A2", "review": "draft"
+  },
+  {
+   "id": "s-tja-interjection-1", "lexemeId": "lx-tja-interjection",
+   "zh": "嗯……；唉（表示犹豫或无奈）",
+   "examples": [{ "nl": "Tja, ik weet het eigenlijk niet.", "zh": "嗯……其实我也不知道。" }],
+   "topics": ["交流"], "level": "A2", "review": "draft"
+  },
+  {
+   "id": "s-proost-interjection-1", "lexemeId": "lx-proost-interjection",
+   "zh": "干杯",
+   "examples": [{ "nl": "Proost, op je verjaardag!", "zh": "干杯，祝你生日快乐！" }],
+   "topics": ["饮食", "交流"], "level": "A2", "review": "draft"
+  }
+ ]
+}

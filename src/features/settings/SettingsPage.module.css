@@ -1,0 +1,14 @@
+.page { display: grid; gap: var(--gap); }
+.page h1 { margin: 0; font-size: 1.4rem; }
+.page h2 { margin: 0 0 8px; font-size: 1.1rem; }
+.field { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; }
+.field input[type='number'], .field input[type='text'] {
+  width: 140px; min-height: 44px; padding: 0 12px; text-align: right;
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg);
+}
+.check { width: 24px; height: 24px; }
+.choices { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.choice { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
+.choice input { width: 20px; height: 20px; }
+.error { color: var(--again); margin: 0; font-size: 0.9rem; }
+.hidden { display: none; }

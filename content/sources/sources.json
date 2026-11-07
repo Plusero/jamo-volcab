@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "id": "nt2lex-cgn-v01",
+      "name": "NT2Lex (basic version, CGN parts of speech) v01",
+      "url": "https://cental.uclouvain.be/cefrlex/static/resources/nl/NT2Lex-CGN-v01.tsv",
+      "pageUrl": "https://cental.uclouvain.be/cefrlex/nt2lex/download/",
+      "version": "v01",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "retrievedAt": "2026-11-07",
+      "localFile": "content/sources/raw/NT2Lex-CGN-v01.tsv",
+      "sha256": "0acae87e65a6ceb4237dcf23c5576488338570f3431ac52e159b6fce9e1a0515",
+      "rows": 15227,
+      "role": "primary-reference",
+      "citation": "Tack, A., François, T., Desmet, P. & Fairon, C. (2018). NT2Lex: A CEFR-Graded Lexical Resource for Dutch as a Foreign Language Linked to Open Dutch WordNet. In Proceedings of the Thirteenth Workshop on Innovative Use of NLP for Building Educational Applications (pp. 137-146)."
+    },
+    {
+      "id": "nt2lex-cgn-odwn-v01",
+      "name": "NT2Lex (extended version, CGN+ODWN word senses) v01",
+      "url": "https://cental.uclouvain.be/cefrlex/static/resources/nl/NT2Lex-CGN+ODWN-v01.tsv",
+      "pageUrl": "https://cental.uclouvain.be/cefrlex/nt2lex/download/",
+      "version": "v01",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "retrievedAt": "2026-11-07",
+      "localFile": "content/sources/raw/NT2Lex-CGN+ODWN-v01.tsv",
+      "sha256": "37dc6b6e208d271e07283c082b3bf78ca07e28cc005ca445f52e6cd4ee0bc5b5",
+      "rows": 17743,
+      "role": "polysemy-cross-check",
+      "citation": "同上"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+import { useRef } from 'react';
+import { useApp } from '../../app/AppContext';
+import { exportBackup, parseBackup, restoreBackup } from '../../application/backup';
+import { shareOrDownload } from '../../platform/files';
+import { formatDateTime } from '../shared/word';
+import styles from './SettingsPage.module.css';
+
+export function DataSettings() {
+  const { db, settings, updateSettings } = useApp();
+  const fileInput = useRef<HTMLInputElement>(null);
+
+  async function doExport() {
+    const now = Date.now();
+    const { fileName, json } = await exportBackup(db, now);
+    await shareOrDownload(fileName, json);
+    await updateSettings({ lastExportAtMs: now }); // 刷新界面状态；exportBackup 已写入数据库
+  }
+
+  async function doImport(file: File) {
+    const backup = parseBackup(await file.text()); // 不合法会抛错，进入全局错误页
+    const ok = confirm(
+      `备份时间：${formatDateTime(Date.parse(backup.createdAt))}\n`
+      + `卡片 ${backup.data.cards.length} 张，复习记录 ${backup.data.reviewLogs.length} 条\n\n`
+      + '将覆盖本机所有学习数据',
+    );
+    if (!ok) return;
+    await restoreBackup(db, backup);
+    location.reload();
+  }
+
+  return (
+    <section className="card">
+      <h2>数据</h2>
+      <p className="muted" style={{ margin: '0 0 8px' }}>
+        上次导出：{settings.lastExportAtMs === null ? '从未' : formatDateTime(settings.lastExportAtMs)}
+      </p>
+      <div className="row">
+        <button className="btn primary" onClick={doExport}>导出备份</button>
+        <button className="btn" onClick={() => fileInput.current?.click()}>导入备份</button>
+        <input
+          ref={fileInput} className={styles.hidden} type="file" accept="application/json,.json"
+          onChange={async (e) => {
+            const file = e.target.files?.[0];
+            e.target.value = ''; // 允许再次选择同一文件
+            if (file) await doImport(file);
+          }}
+        />
+      </div>
+    </section>
+  );
+}
