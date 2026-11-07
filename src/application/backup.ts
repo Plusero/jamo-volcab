@@ -16,7 +16,7 @@ export async function exportBackup(db: AppDb, nowMs: number): Promise<{ fileName
   await saveSettings(db, { lastExportAtMs: nowMs });
   return {
     fileName: `dutch-vocab-backup-${createdAt.replace(/[-:]|\.\d+/g, '')}.json`,
-    json: JSON.stringify(file),
+    json: `${JSON.stringify(file, null, 2)}\n`,
   };
 }
 
