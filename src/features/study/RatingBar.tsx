@@ -5,11 +5,11 @@ import styles from './StudyPage.module.css';
 
 const GUIDE_KEY = 'ratingGuideSeen';
 
-const BUTTONS: { rating: Rating; label: string; color: string }[] = [
-  { rating: 'Again', label: '忘记', color: 'var(--again)' },
-  { rating: 'Hard', label: '模糊', color: 'var(--hard)' },
-  { rating: 'Good', label: '认识', color: 'var(--good)' },
-  { rating: 'Easy', label: '轻松', color: 'var(--easy)' },
+const BUTTONS: { rating: Rating; label: string; shortcut: string; color: string }[] = [
+  { rating: 'Again', label: '忘记', shortcut: '1', color: 'var(--again)' },
+  { rating: 'Hard', label: '模糊', shortcut: '2', color: 'var(--hard)' },
+  { rating: 'Good', label: '认识', shortcut: '3', color: 'var(--good)' },
+  { rating: 'Easy', label: '轻松', shortcut: '4', color: 'var(--easy)' },
 ];
 
 type Props = {
@@ -32,7 +32,9 @@ export function RatingBar({ revealed, easyButton, busy, onReveal, onRate }: Prop
   if (!revealed) {
     return (
       <div className={styles.bar}>
-        <button type="button" className="btn primary" onClick={onReveal}>显示答案</button>
+        <button type="button" className="btn primary" aria-keyshortcuts="Space" onClick={onReveal}>
+          显示答案<kbd className={styles.shortcut} aria-hidden="true">空格</kbd>
+        </button>
       </div>
     );
   }
@@ -47,8 +49,8 @@ export function RatingBar({ revealed, easyButton, busy, onReveal, onRate }: Prop
       <div className={styles.rates}>
         {BUTTONS.filter((b) => b.rating !== 'Easy' || easyButton).map((b) => (
           <button key={b.rating} type="button" className={styles.rate} style={{ color: b.color, borderColor: b.color }}
-            disabled={busy} onClick={() => onRate(b.rating)}>
-            {b.label}
+            disabled={busy} aria-keyshortcuts={b.shortcut} onClick={() => onRate(b.rating)}>
+            {b.label}<kbd className={styles.shortcut} aria-hidden="true">{b.shortcut}</kbd>
           </button>
         ))}
       </div>

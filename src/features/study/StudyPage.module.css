@@ -34,6 +34,22 @@
 .rates { display: flex; gap: 8px; }
 .rate { flex: 1; min-width: 0; min-height: 52px; border: 2px solid; border-radius: var(--radius); background: var(--surface); font-weight: 700; font-size: 1.0625rem; cursor: pointer; }
 .rate:disabled { opacity: 0.5; cursor: default; }
+.shortcut { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  .shortcut {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 0 5px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.5;
+    vertical-align: middle;
+    opacity: 0.8;
+  }
+}
 .guide { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding-left: 8px; font-size: 0.875rem; color: var(--muted); }
 .guideClose { flex: none; min-width: 44px; min-height: 44px; border: 0; background: none; font-size: 1.25rem; cursor: pointer; }
 
