@@ -11,6 +11,7 @@ export type Queue = {
   /** 今天还能引入的新词 */
   newSenseIds: string[];
   /** 今天稍后才到期的学习/重学卡 */
+  laterSenseIds: string[];
   laterToday: number;
   nextLaterAtMs: number | null;
 };
@@ -32,6 +33,7 @@ export function buildQueue(dueToday: Card[], newSenseIds: string[], nowMs: numbe
   return {
     due: [...learning.sort(byDue), ...review.sort(byDue)],
     newSenseIds,
+    laterSenseIds: later.map((c) => c.senseId),
     laterToday: later.length,
     nextLaterAtMs: later[0]?.dueAtMs ?? null,
   };

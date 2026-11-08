@@ -22,6 +22,7 @@ describe('buildQueue', () => {
     );
     expect(q.due.map((c) => c.senseId)).toEqual(['l-now', 'r0', 'r1']);
     expect(q.newSenseIds).toEqual(['n1']);
+    expect(q.laterSenseIds).toEqual(['l-later']);
     expect(q.laterToday).toBe(1);
     expect(q.nextLaterAtMs).toBe(2_000);
   });

@@ -30,12 +30,21 @@ export function StudyPage() {
   const [busy, setBusy] = useState(false);
   const [undoable, setUndoable] = useState(0); // 本页面会话里已评分、还可以撤销的次数
   const busyRef = useRef(false);
+  const earlyPracticeIds = useRef(new Set<string>());
   const [, setCrash] = useState();
 
   /** 重新计算今日队列并选出下一张；`showSenseId` 用于撤销后重新展示那张卡。 */
-  async function refresh(skipped: Set<string>, showSenseId?: string) {
+  async function refresh(skipped: Set<string>, showSenseId?: string, practiceEarly = false) {
     const { queue, reviewedToday, newIntroduced, reviewsCompletedToday } = await getToday(db, vocab.senseOrder, Date.now());
-    const ids = [...queue.due.map((c) => c.senseId), ...queue.newSenseIds];
+    if (practiceEarly) {
+      earlyPracticeIds.current = new Set(queue.laterSenseIds);
+      skipped = new Set([...skipped].filter((id) => !earlyPracticeIds.current.has(id)));
+    }
+    const ids = [
+      ...queue.due.map((c) => c.senseId),
+      ...queue.laterSenseIds.filter((id) => earlyPracticeIds.current.has(id)),
+      ...queue.newSenseIds,
+    ];
     const senseId = showSenseId ?? ids.find((id) => !skipped.has(id));
     setView({
       current: senseId === undefined ? null : { senseId, isNew: queue.newSenseIds.includes(senseId) },
@@ -69,6 +78,8 @@ export function StudyPage() {
   const reveal = () => setView((v) => v && { ...v, revealed: true });
   const onRate = (rating: Rating) => run(async () => {
     await rate(db, current!.senseId, rating, Date.now());
+    // 提前练习每张卡一遍；评分后再次进入等待的卡，需要主动开启下一轮。
+    earlyPracticeIds.current.delete(current!.senseId);
     setUndoable((n) => n + 1);
     await refresh(view!.skipped);
   });
@@ -80,6 +91,7 @@ export function StudyPage() {
     await refresh(skipped, senseId);
   });
   const onSkip = () => run(() => refresh(new Set(view!.skipped).add(current!.senseId)));
+  const onPracticeEarly = () => run(() => refresh(view!.skipped, undefined, true));
   const onSuspend = () => run(async () => {
     await setSuspended(db, current!.senseId, true, Date.now());
     await refresh(view!.skipped);
@@ -125,6 +137,11 @@ export function StudyPage() {
             <p className="muted">稍后还有 {view.laterToday} 张（约 {formatTime(view.nextLaterAtMs, settings.timeZone)}）</p>
           )}
           <Link to="/" className="btn primary">回到今日</Link>
+          {view.laterToday > 0 && (
+            <button type="button" className="btn" disabled={busy} onClick={onPracticeEarly}>
+              提前练习这 {view.laterToday} 张
+            </button>
+          )}
           {undoable > 0 && <button type="button" className="btn" disabled={busy} onClick={onUndo}>撤销</button>}
         </div>
       </div>

@@ -8,6 +8,7 @@ import { loadSettings } from '../../src/application/settings';
 import { rate, setSuspended } from '../../src/application/study';
 import { indexVocab } from '../../src/application/vocab';
 import type { AppDb } from '../../src/data/db';
+import { getScheduler } from '../../src/domain/scheduler';
 import { StudyPage } from '../../src/features/study/StudyPage';
 import { DAY, newDb, T0 } from './helpers';
 
@@ -87,6 +88,65 @@ it('没有待学词时显示已完成的进度条', async () => {
   render(<MemoryRouter><StudyPage /></MemoryRouter>);
   await screen.findByRole('heading', { name: '本轮完成' });
   expectProgress(0, 0, 0);
+  expect(screen.queryByRole('button', { name: /提前练习/ })).not.toBeInTheDocument();
+});
+
+it('提前练习只放行本轮待练卡，按实际时间评分，每张只练一次并支持撤销', async () => {
+  await rate(db, 'huilen-1', 'Again', T0);
+  await rate(db, 'stem-1', 'Again', T0);
+  await rate(db, 'stil-1', 'Good', T0);
+  const before = await db.cards.toArray();
+  const first = (await db.cards.get('huilen-1'))!;
+  const second = await db.cards.get('stem-1');
+  render(<MemoryRouter><StudyPage /></MemoryRouter>);
+  fireEvent.click(await screen.findByRole('button', { name: '提前练习这 2 张' }));
+  await screen.findByText('huilen');
+  await waitFor(() => expect(screen.getByRole('button', { name: '跳过' })).toBeEnabled());
+  expect(await db.cards.toArray()).toEqual(before);
+  expect(await db.reviewLogs.count()).toBe(3);
+
+  const answeredAt = T0 + 20_000;
+  expect(answeredAt).toBeLessThan(first.dueAtMs);
+  vi.mocked(Date.now).mockReturnValue(answeredAt);
+  for (const word of ['stem', null]) {
+    fireEvent.click(screen.getByRole('button', { name: '显示答案' }));
+    fireEvent.click(screen.getByRole('button', { name: '忘记' }));
+    if (word) await screen.findByText(word);
+    else await screen.findByRole('heading', { name: '本轮完成' });
+    await waitFor(() => expect(screen.getByRole('button', { name: '撤销' })).toBeEnabled());
+  }
+  const expected = (await getScheduler()).review(first.fsrs, 'Again', answeredAt);
+  expect(await db.cards.get('huilen-1')).toEqual({ ...first, ...expected });
+  expect((await db.reviewLogs.orderBy('id').last())?.reviewedAtMs).toBe(answeredAt);
+  expectProgress(2, 0, 5, 3);
+  expect(screen.getByRole('button', { name: '提前练习这 2 张' })).toBeVisible();
+
+  fireEvent.click(screen.getByRole('button', { name: '撤销' }));
+  await screen.findByText('stem 的释义');
+  expect(await db.cards.get('stem-1')).toEqual(second);
+  expectProgress(2, 0, 4, 3);
+});
+
+it('提前练习支持跳过和暂停，下一轮可主动重练跳过的卡', async () => {
+  for (const word of words) await rate(db, `${word}-1`, 'Again', T0);
+  render(<MemoryRouter><StudyPage /></MemoryRouter>);
+  fireEvent.click(await screen.findByRole('button', { name: '提前练习这 3 张' }));
+  await screen.findByText('huilen');
+  await waitFor(() => expect(screen.getByRole('button', { name: '跳过' })).toBeEnabled());
+  fireEvent.click(screen.getByRole('button', { name: '跳过' }));
+  await screen.findByText('stem');
+  await waitFor(() => expect(screen.getByRole('button', { name: '暂停' })).toBeEnabled());
+  fireEvent.click(screen.getByRole('button', { name: '暂停' }));
+  await screen.findByText('stil');
+  await waitFor(() => expect(screen.getByRole('button', { name: '跳过' })).toBeEnabled());
+  fireEvent.click(screen.getByRole('button', { name: '跳过' }));
+  await screen.findByRole('heading', { name: '本轮完成' });
+  await waitFor(() => expect(screen.getByRole('button', { name: '提前练习这 2 张' })).toBeEnabled());
+  expect((await db.cards.get('stem-1'))?.suspended).toBe(true);
+  expect(await db.reviewLogs.count()).toBe(3);
+  fireEvent.click(screen.getByRole('button', { name: '提前练习这 2 张' }));
+  await screen.findByText('huilen');
+  expectProgress(2, 0, 3, 3);
 });
 
 it('评分后更新今日进度，包含稍后复习；本轮完成和撤销时仍显示正确数量', async () => {
