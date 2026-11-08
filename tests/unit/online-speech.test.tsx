@@ -109,7 +109,7 @@ it('播放权限拒绝会显示错误，而不是报告播放结束', async () =
 it('没有系统语音也可播放单词和例句，网络错误可见，离开卡片停止播放', () => {
   const { unmount } = render(<WordFront lexeme={{ id: 'fiets', lemma: 'fiets', article: 'de', pos: 'noun' }}
     examples={[{ nl: 'Ik heb een fiets.', zh: '我有一辆自行车。' }]}
-    revealed={false} isNew voice={null} rate="normal" />);
+    revealed={false} isNew voice={null} rate="normal" speechMode="online" />);
   fireEvent.click(screen.getByRole('button', { name: '朗读单词' }));
   expect(new URL(AudioMock.instances[0]!.src).searchParams.get('q')).toBe('de fiets');
   act(() => AudioMock.instances[0]!.onerror!());
@@ -123,11 +123,17 @@ it('没有系统语音也可播放单词和例句，网络错误可见，离开�
   expect(current.src).toBe('');
 });
 
-it('旧设置默认在线发音，用户可以保存设备语音选项', () => {
+it('新设置和旧设置默认设备语音，用户仍可选择在线发音', () => {
+  expect(DEFAULT_SETTINGS.speechMode).toBe('system');
   const { speechMode: _mode, ...legacySettings } = DEFAULT_SETTINGS;
   const updateSettings = vi.fn();
   vi.mocked(useApp).mockReturnValue({ settings: legacySettings, updateSettings } as unknown as AppState);
   const { rerender } = render(<PrefsSettings />);
+  expect(screen.getByRole('radio', { name: '设备语音' })).toBeChecked();
+  fireEvent.click(screen.getByRole('radio', { name: '在线发音（Google）' }));
+  expect(updateSettings).toHaveBeenCalledWith({ speechMode: 'online' });
+  vi.mocked(useApp).mockReturnValue({ settings: { ...legacySettings, speechMode: 'online' }, updateSettings } as unknown as AppState);
+  rerender(<PrefsSettings />);
   expect(screen.getByRole('radio', { name: '在线发音（Google）' })).toBeChecked();
   fireEvent.click(screen.getByRole('button', { name: '试听在线发音' }));
   expect(AudioMock.instances[0]!.play).toHaveBeenCalledOnce();

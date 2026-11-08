@@ -6,7 +6,7 @@ import styles from './WordDetailPage.module.css';
 /** 一个词义：中文义、例句（带发音）、搭配、主题、等级和审校状态。 */
 export function SenseBlock({ sense, current }: { sense: Sense; current: boolean }) {
   const { settings, vocab } = useApp();
-  const mode = settings.speechMode ?? 'online';
+  const mode = settings.speechMode ?? 'system';
   const { play, error, status } = useSpeak(mode);
   const voice = useDutchVoice(settings.speechVoiceURI);
   const cefr = vocab.lexemeById.get(sense.lexemeId)?.cefr;

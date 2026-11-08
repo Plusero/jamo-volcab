@@ -16,7 +16,7 @@ type Props = {
   speechMode?: 'online' | 'system';
 };
 
-export function WordFront({ lexeme, examples, revealed, isNew, voice, rate, speechMode = 'online' }: Props) {
+export function WordFront({ lexeme, examples, revealed, isNew, voice, rate, speechMode = 'system' }: Props) {
   const { play, error, status } = useSpeak(speechMode);
   const canSpeak = speechMode === 'online' || voice !== null;
   return (

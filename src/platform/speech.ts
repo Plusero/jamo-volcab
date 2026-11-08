@@ -85,8 +85,8 @@ export function speak(text: string, voice: SpeechSynthesisVoice | null, rate: 'n
   return () => { if (dispose()) synth.cancel(); };
 }
 
-/** 在线发音为默认方式；系统语音由用户手动选择，不自动切换服务。 */
-export function useSpeak(mode: 'online' | 'system' = 'online') {
+/** 设备语音为默认方式；在线发音由用户手动选择，不自动切换服务。 */
+export function useSpeak(mode: 'online' | 'system' = 'system') {
   const [error, setError] = useState('');
   const [status, setStatus] = useState('');
   const stopPlayback = useRef<(() => void) | null>(null);

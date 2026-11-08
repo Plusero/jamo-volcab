@@ -26,7 +26,7 @@ export function PrefsSettings() {
   const { settings, updateSettings } = useApp();
   const voices = useDutchVoices();
   const voice = pickDutchVoice(voices, settings.speechVoiceURI);
-  const mode = settings.speechMode ?? 'online';
+  const mode = settings.speechMode ?? 'system';
   const { play, error, status } = useSpeak(mode);
   return (
     <>

@@ -138,10 +138,10 @@ it('页面释放自己的朗读时不会停止另一张卡片随后发起的朗�
   expect(synth.cancel).toHaveBeenCalledOnce();
 });
 
-it('单词与例句通过同一播放逻辑朗读，显示系统错误，再次点击清除旧错误', () => {
+it('单词与例句默认通过设备语音朗读，显示系统错误，再次点击清除旧错误', () => {
   render(<WordFront lexeme={{ id: 'fiets', lemma: 'fiets', pos: 'noun' }}
     examples={[{ nl: 'Ik heb een fiets.', zh: '我有一辆自行车。' }]}
-    revealed={false} isNew voice={voice} rate="normal" speechMode="system" />);
+    revealed={false} isNew voice={voice} rate="normal" />);
   synth.speak.mockImplementationOnce((utterance) => {
     utterance.onerror!({ error: 'synthesis-failed' } as SpeechSynthesisErrorEvent);
   });
