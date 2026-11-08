@@ -1,5 +1,17 @@
 .page { display: flex; flex-direction: column; gap: var(--gap); }
 
+/* 今日进度 */
+.progress:global(.card) { display: flex; flex-direction: column; gap: 8px; padding: 10px 12px; }
+.progressGroup { display: grid; grid-template-columns: auto minmax(24px, 1fr) 4ch auto; align-items: center; gap: 8px; font-size: 0.75rem; }
+.newProgress { --progress-color: var(--accent); }
+.reviewProgress { --progress-color: var(--easy); }
+.progressPercent { color: var(--progress-color); font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+.progressRemaining { color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.progressBar { display: block; appearance: none; width: 100%; min-width: 0; height: 6px; overflow: hidden; border: 0; border-radius: 999px; background: var(--border); color: var(--progress-color); }
+.progressBar::-webkit-progress-bar { background: var(--border); border-radius: 999px; }
+.progressBar::-webkit-progress-value { background: var(--progress-color); border-radius: 999px; }
+.progressBar::-moz-progress-bar { background: var(--progress-color); border-radius: 999px; }
+
 /* 正面 */
 .front { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 32px var(--gap); text-align: center; }
 .lemma { font-size: 2.25rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }

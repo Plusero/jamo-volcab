@@ -10,6 +10,22 @@ export default defineConfig({
   define: {
     __APP_VERSION__: JSON.stringify(process.env.npm_package_version ?? 'dev'),
   },
+  server: {
+    watch: {
+      // 当前开发环境的 inotify 额度会耗尽，使用轮询保留热更新。
+      usePolling: true,
+      interval: 500,
+      // 前端读取 public/vocabulary 构建产物，无需监听词库源文件和工作目录。
+      ignored: [
+        '**/content/**',
+        '**/data_private/**',
+        '**/secrets/**',
+        '**/dev-dist/**',
+        '**/coverage-output/**',
+        '**/playwright-report/**',
+      ],
+    },
+  },
   plugins: [
     react(),
     VitePWA({

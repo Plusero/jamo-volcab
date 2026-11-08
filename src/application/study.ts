@@ -19,6 +19,8 @@ export type Today = {
   newIntroduced: number;
   queue: Queue;
   reviewedToday: number;
+  /** 今天已复习且今天不再到期的词义数，重复复习只计一次。 */
+  reviewsCompletedToday: number;
 };
 
 /**
@@ -46,6 +48,8 @@ export async function getToday(db: AppDb, senseOrder: readonly string[], nowMs: 
     if (newSenseIds.length >= newLeft) break;
     if (!known.has(id)) newSenseIds.push(id);
   }
+  const completed = new Set(logsToday.filter((log) => log.before !== null).map((log) => log.senseId));
+  for (const card of due) completed.delete(card.senseId);
 
   return {
     dayKey: day.dayKey,
@@ -54,6 +58,7 @@ export async function getToday(db: AppDb, senseOrder: readonly string[], nowMs: 
     newIntroduced,
     queue: buildQueue(due, newSenseIds, nowMs),
     reviewedToday: logsToday.length,
+    reviewsCompletedToday: completed.size,
   };
 }
 

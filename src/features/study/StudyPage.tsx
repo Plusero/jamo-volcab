@@ -14,6 +14,11 @@ type View = {
   current: { senseId: string; isNew: boolean } | null;
   revealed: boolean;
   skipped: Set<string>;
+  reviewLeft: number;
+  newLeft: number;
+  reviewedToday: number;
+  newLearned: number;
+  reviewsCompleted: number;
   laterToday: number;
   nextLaterAtMs: number | null;
 };
@@ -29,13 +34,18 @@ export function StudyPage() {
 
   /** 重新计算今日队列并选出下一张；`showSenseId` 用于撤销后重新展示那张卡。 */
   async function refresh(skipped: Set<string>, showSenseId?: string) {
-    const { queue } = await getToday(db, vocab.senseOrder, Date.now());
+    const { queue, reviewedToday, newIntroduced, reviewsCompletedToday } = await getToday(db, vocab.senseOrder, Date.now());
     const ids = [...queue.due.map((c) => c.senseId), ...queue.newSenseIds];
     const senseId = showSenseId ?? ids.find((id) => !skipped.has(id));
     setView({
       current: senseId === undefined ? null : { senseId, isNew: queue.newSenseIds.includes(senseId) },
       revealed: showSenseId !== undefined,
       skipped,
+      reviewLeft: queue.due.length + queue.laterToday,
+      newLeft: queue.newSenseIds.length,
+      reviewedToday,
+      newLearned: newIntroduced,
+      reviewsCompleted: reviewsCompletedToday,
       laterToday: queue.laterToday,
       nextLaterAtMs: queue.nextLaterAtMs,
     });
@@ -96,9 +106,19 @@ export function StudyPage() {
 
   if (!view) return <div className="loading">加载中…</div>;
 
+  const progress = (
+    <section className={`card ${styles.progress}`} aria-label="今日学习进度" aria-live="polite" aria-atomic="true"
+      title={`今日已作答 ${view.reviewedToday} 次`}>
+      <StudyProgress label="新词" completed={view.newLearned} remaining={view.newLeft} className={styles.newProgress} />
+      <StudyProgress label="复习" completed={view.reviewsCompleted} remaining={view.reviewLeft}
+        laterToday={view.laterToday} className={styles.reviewProgress} />
+    </section>
+  );
+
   if (!current) {
     return (
       <div className={styles.page}>
+        {progress}
         <div className={`card ${styles.finished}`}>
           <h1>本轮完成</h1>
           {view.laterToday > 0 && view.nextLaterAtMs !== null && (
@@ -116,6 +136,7 @@ export function StudyPage() {
 
   return (
     <div className={styles.page}>
+      {progress}
       <WordFront key={`front:${sense.id}`} lexeme={lexeme} examples={sense.examples} revealed={view.revealed}
         isNew={current.isNew} voice={voice} rate={settings.speechRate} speechMode={settings.speechMode} />
       {view.revealed && (
@@ -135,6 +156,23 @@ export function StudyPage() {
 
       <RatingBar revealed={view.revealed} easyButton={settings.easyButton} busy={busy}
         onReveal={reveal} onRate={onRate} />
+    </div>
+  );
+}
+
+function StudyProgress({ label, completed, remaining, laterToday = 0, className }: {
+  label: string; completed: number; remaining: number; laterToday?: number; className: string;
+}) {
+  const total = completed + remaining;
+  const percent = total === 0 ? 100 : Math.floor(completed / total * 100);
+  return (
+    <div role="group" aria-label={label} className={`${styles.progressGroup} ${className}`}
+      title={`已完成 ${completed} / ${total} 个`}>
+      <strong>{label}</strong>
+      <progress className={styles.progressBar} value={total === 0 ? 1 : completed} max={total || 1}
+        aria-label={`${label}进度`} aria-valuetext={`已完成 ${completed} / ${total} 个，剩余 ${remaining} 个，${percent}%`} />
+      <span className={styles.progressPercent}>{percent}%</span>
+      <span className={styles.progressRemaining}>剩余 {remaining}{laterToday > 0 && <span>（稍后 {laterToday}）</span>}</span>
     </div>
   );
 }
