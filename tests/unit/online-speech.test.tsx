@@ -1,4 +1,5 @@
 // @vitest-environment jsdom
+import { readFileSync } from 'node:fs';
 import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import { googleSpeechUrl, playOnlineSpeech, stopOnlineSpeech } from '../../src/platform/online-speech';
@@ -46,6 +47,11 @@ it('在线 URL 保留特殊字符，指定荷兰语和正常／慢速', () => {
     expect(url.searchParams.get('ttsspeed')).toBe(rate === 'slow' ? '0.24' : '1');
   }
   expect(() => googleSpeechUrl('a'.repeat(201), 'normal')).toThrow(RangeError);
+});
+
+it('页面不向跨域请求发送 Referer，否则 Google 在线发音返回 404', () => {
+  const html = new DOMParser().parseFromString(readFileSync('index.html', 'utf8'), 'text/html');
+  expect(html.querySelector('meta[name="referrer"]')?.getAttribute('content')).toBe('same-origin');
 });
 
 it('在点击调用期间直接启动媒体播放，事件驱动播放状态', () => {
