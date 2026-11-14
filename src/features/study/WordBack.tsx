@@ -12,18 +12,20 @@ type Props = {
 
 /** 用 `key={sense.id}` 渲染，切换词义时状态自然重置。 */
 export function WordBack({ sense, lexeme }: Props) {
-  const forms = [
-    lexeme.plural && `复数 ${lexeme.plural}`,
-    lexeme.verbForms && `${lexeme.verbForms.past} · ${lexeme.verbForms.pastParticiple} · ${lexeme.verbForms.aux}`,
-  ].filter(Boolean);
+  const vf = lexeme.verbForms;
 
   return (
     <div className={`card ${styles.back}`}>
       <div className={styles.zh}>{sense.zh}</div>
 
-      {forms.length > 0 && <div className={styles.forms}>{forms.join('　')}</div>}
+      {(lexeme.plural || vf) && (
+        <div className={styles.forms}>
+          {lexeme.plural && <>复数 <span lang="nl">{lexeme.plural}</span>{vf && '　'}</>}
+          {vf && <span lang="nl">{vf.past} · {vf.pastParticiple} · {vf.aux}</span>}
+        </div>
+      )}
       {sense.collocations && sense.collocations.length > 0 && (
-        <div className={styles.forms}>搭配：{sense.collocations.join(' / ')}</div>
+        <div className={styles.forms}>搭配：<span lang="nl">{sense.collocations.join(' / ')}</span></div>
       )}
 
       <NoteEditor senseId={sense.id} />

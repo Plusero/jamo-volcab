@@ -30,6 +30,8 @@ export function StudyPage() {
   const [busy, setBusy] = useState(false);
   const [undoable, setUndoable] = useState(0); // 本页面会话里已评分、还可以撤销的次数
   const busyRef = useRef(false);
+  const pageRef = useRef<HTMLDivElement>(null);
+  const answerRef = useRef<HTMLElement>(null);
   const earlyPracticeIds = useRef(new Set<string>());
   const [, setCrash] = useState();
 
@@ -75,6 +77,12 @@ export function StudyPage() {
   }, []);
 
   const current = view?.current ?? null;
+  const revealed = view?.revealed;
+  useEffect(() => {
+    const target = revealed ? answerRef.current : pageRef.current?.querySelector('h1');
+    target?.focus();
+  }, [current?.senseId, revealed]);
+
   const reveal = () => setView((v) => v && { ...v, revealed: true });
   const onRate = (rating: Rating) => run(async () => {
     await rate(db, current!.senseId, rating, Date.now());
@@ -129,10 +137,10 @@ export function StudyPage() {
 
   if (!current) {
     return (
-      <div className={styles.page}>
+      <div ref={pageRef} className={styles.page}>
         {progress}
         <div className={`card ${styles.finished}`}>
-          <h1>本轮完成</h1>
+          <h1 tabIndex={-1}>本轮完成</h1>
           {view.laterToday > 0 && view.nextLaterAtMs !== null && (
             <p className="muted">稍后还有 {view.laterToday} 张（约 {formatTime(view.nextLaterAtMs, settings.timeZone)}）</p>
           )}
@@ -152,12 +160,12 @@ export function StudyPage() {
   const lexeme = vocab.lexemeById.get(sense.lexemeId)!;
 
   return (
-    <div className={styles.page}>
+    <div ref={pageRef} className={styles.page}>
       {progress}
       <WordFront key={`front:${sense.id}`} lexeme={lexeme} examples={sense.examples} revealed={view.revealed}
         isNew={current.isNew} voice={voice} rate={settings.speechRate} speechMode={settings.speechMode} />
       {view.revealed && (
-        <section key={`answer:${sense.id}`} className={`${styles.reveal} ${styles.answerReveal}`} aria-label="答案">
+        <section ref={answerRef} key={`answer:${sense.id}`} className={`${styles.reveal} ${styles.answerReveal}`} aria-label="答案" tabIndex={-1}>
           <div className={styles.revealContent}>
             <WordBack sense={sense} lexeme={lexeme} />
           </div>

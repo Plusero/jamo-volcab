@@ -20,7 +20,7 @@ export function StatisticsPage() {
   const [data] = useAsync(load);
   if (!data) return null;
   const { cards, logs } = data;
-  if (logs.length === 0 && cards.length === 0) return <p className="muted">还没有学习记录</p>;
+  if (logs.length === 0 && cards.length === 0) return <div className={styles.page}><h1>统计</h1><p className="muted">还没有学习记录</p></div>;
 
   const dayOf = (ms: number) => learningDayKey(ms, timeZone, dayBoundaryHour);
   const today = dayOf(Date.now());

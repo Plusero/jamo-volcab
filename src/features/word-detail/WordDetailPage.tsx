@@ -20,19 +20,19 @@ export function WordDetailPage() {
     [vocab, lexeme],
   );
 
-  if (!sense || !lexeme) return <p>未找到</p>;
+  if (!sense || !lexeme) return <h1>未找到</h1>;
   const vf = lexeme.verbForms;
 
   return (
     <div className={styles.page}>
       <Link to="/library" className={styles.back}>← 词库</Link>
       <header>
-        <h1 className={styles.title}>{lexeme.article ? `${lexeme.article} ` : ''}{lexeme.lemma}</h1>
+        <h1 className={styles.title} lang="nl">{lexeme.article ? `${lexeme.article} ` : ''}{lexeme.lemma}</h1>
         <CefrBadge assessment={lexeme.cefr} />
         <p className={styles.forms}>
           {posLabel(lexeme.pos)}
-          {lexeme.plural && ` · 复数 ${lexeme.plural}`}
-          {vf && ` · ${vf.past} / ${vf.pastParticiple}（${vf.aux}）`}
+          {lexeme.plural && <> · 复数 <span lang="nl">{lexeme.plural}</span></>}
+          {vf && <> · <span lang="nl">{vf.past} / {vf.pastParticiple}（{vf.aux}）</span></>}
         </p>
         <TextbookFrequency rank={lexeme.textbookFrequencyRank} />
       </header>

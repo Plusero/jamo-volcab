@@ -3,11 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="text-scale" content="scale" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      try {
+        const theme = localStorage.getItem('dutch-vocab-theme');
+        if (theme) {
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="color-scheme"]').content = theme;
+        }
+      } catch { /* localStorage 不可用时跟随系统，应用启动后读取 IndexedDB 设置。 */ }
+    </script>
     <meta name="theme-color" content="#e8590c" />
     <!-- 在线发音：Google translate_tts 收到非 Google 站点的 Referer 会返回 404。<audio> 没有 referrerpolicy 属性，只能用页面级策略：跨域请求不带 Referer，同源请求不变。 -->
     <meta name="referrer" content="same-origin" />
     <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="preload" href="%BASE_URL%vocabulary/vocab.json" as="fetch" crossorigin />
     <title>Dutch Vocab</title>
   </head>
   <body>

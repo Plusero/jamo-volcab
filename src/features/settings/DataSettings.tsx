@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { useApp } from '../../app/AppContext';
 import { exportBackup, parseBackup, restoreBackup } from '../../application/backup';
 import { shareOrDownload } from '../../platform/files';
+import { applyTheme } from '../../platform/theme';
 import { formatDateTime } from '../shared/word';
 import styles from './SettingsPage.module.css';
 
@@ -25,6 +26,7 @@ export function DataSettings() {
     );
     if (!ok) return;
     await restoreBackup(db, backup);
+    applyTheme(backup.data.settings?.theme ?? 'system');
     location.reload();
   }
 

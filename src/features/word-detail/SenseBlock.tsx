@@ -20,7 +20,7 @@ export function SenseBlock({ sense, current }: { sense: Sense; current: boolean 
               <button type="button" className="btn" aria-label="播放例句" onClick={() => play(ex.nl, voice, settings.speechRate)}>🔊</button>
             )}
             <div className={styles.exampleText}>
-              <div>{ex.nl}</div>
+              <div lang="nl">{ex.nl}</div>
               <div className="muted">{ex.zh}</div>
             </div>
           </li>
@@ -29,7 +29,7 @@ export function SenseBlock({ sense, current }: { sense: Sense; current: boolean 
       {error && <p role="alert">{error}</p>}
       {mode === 'online' && status && <div className="muted" role="status">{status}</div>}
       {sense.collocations && sense.collocations.length > 0 && (
-        <div><span className="muted">搭配：</span>{sense.collocations.join('；')}</div>
+        <div><span className="muted">搭配：</span><span lang="nl">{sense.collocations.join('；')}</span></div>
       )}
       <div className={styles.tags}>
         {sense.topics.map((t) => <span key={t} className={styles.tag}>{t}</span>)}

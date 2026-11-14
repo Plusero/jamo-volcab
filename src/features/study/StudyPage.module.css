@@ -6,7 +6,7 @@
 .newProgress { --progress-color: var(--accent); }
 .reviewProgress { --progress-color: var(--easy); }
 .progressPercent { color: var(--progress-color); font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
-.progressRemaining { color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.progressRemaining { color: var(--muted); font-variant-numeric: tabular-nums; }
 .progressBar { display: block; appearance: none; width: 100%; min-width: 0; height: 6px; overflow: hidden; border: 0; border-radius: 999px; background: var(--border); color: var(--progress-color); }
 .progressBar::-webkit-progress-bar { background: var(--border); border-radius: 999px; }
 .progressBar::-webkit-progress-value { background: var(--progress-color); border-radius: 999px; }
@@ -14,7 +14,7 @@
 
 /* 正面 */
 .front { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 32px var(--gap); text-align: center; }
-.lemma { font-size: 2.25rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+.lemma { margin: 0; font-size: 2.25rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
 .meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; }
 .badge { position: absolute; top: 12px; left: 12px; padding: 0 8px; font-size: 0.75rem; border-radius: 999px; background: var(--accent); color: var(--accent-text); }
 .speak { min-width: 44px; min-height: 44px; font-size: 1.5rem; border: 1px solid var(--border); border-radius: 999px; background: var(--bg); cursor: pointer; }
@@ -22,9 +22,12 @@
 
 /* 背面 */
 .back { display: flex; flex-direction: column; gap: var(--gap); }
-.reveal { display: grid; grid-template-rows: 1fr; animation: revealContent 200ms ease-out; }
+.reveal { display: grid; grid-template-rows: 1fr; }
 .revealContent { min-height: 0; overflow: hidden; overflow-wrap: anywhere; }
-.answerReveal { animation: revealContent 200ms ease-out, revealGap 200ms ease-out; }
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: revealContent 200ms ease-out; }
+  .answerReveal { animation: revealContent 200ms ease-out, revealGap 200ms ease-out; }
+}
 @keyframes revealContent {
   from { grid-template-rows: 0fr; opacity: 0; transform: translateY(4px); }
   to { grid-template-rows: 1fr; opacity: 1; transform: translateY(0); }
@@ -41,7 +44,7 @@
 .forms { color: var(--muted); overflow-wrap: anywhere; }
 .note { display: flex; flex-direction: column; gap: 4px; }
 .star { min-width: 44px; min-height: 44px; font-size: 1.5rem; line-height: 1; border: 0; background: none; color: var(--accent); cursor: pointer; }
-.textarea { width: 100%; padding: 8px; resize: vertical; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); }
+.textarea { width: 100%; padding: 8px; resize: vertical; border: 1px solid var(--control-border); border-radius: 8px; background: var(--bg); }
 
 .detail { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; color: inherit; }
 
@@ -57,6 +60,14 @@
 }
 .bar > :global(.btn) { min-height: 52px; font-size: 1.125rem; }
 .rates { display: flex; gap: 8px; }
+@media (max-width: 30em) {
+  .progressGroup { grid-template-columns: auto 1fr auto; }
+  .progressBar { grid-row: 2; grid-column: 1 / -1; }
+  .progressPercent { grid-column: 3; }
+  .progressRemaining { grid-row: 3; grid-column: 1 / -1; }
+  .rates { flex-wrap: wrap; }
+  .rates .rate { flex-basis: 6rem; }
+}
 .rate { flex: 1; min-width: 0; min-height: 52px; border: 2px solid; border-radius: var(--radius); background: var(--surface); font-weight: 700; font-size: 1.0625rem; cursor: pointer; }
 .rate:disabled { opacity: 0.5; cursor: default; }
 .shortcut { display: none; }

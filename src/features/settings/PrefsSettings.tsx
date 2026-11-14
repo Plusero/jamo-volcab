@@ -7,18 +7,19 @@ const RATES: [Settings['speechRate'], string][] = [['normal', '正常'], ['slow'
 const SPEECH_MODES: [NonNullable<Settings['speechMode']>, string][] = [['online', '在线发音（Google）'], ['system', '设备语音']];
 const THEMES: [Settings['theme'], string][] = [['system', '跟随系统'], ['light', '浅色'], ['dark', '深色']];
 
-function Radios<T extends string>({ name, options, value, onChange }: {
-  name: string; options: [T, string][]; value: T; onChange(v: T): void;
+function Radios<T extends string>({ name, label, options, value, onChange }: {
+  name: string; label: string; options: [T, string][]; value: T; onChange(v: T): void;
 }) {
   return (
-    <div className={styles.choices}>
+    <fieldset className={styles.choices}>
+      <legend>{label}</legend>
       {options.map(([v, label]) => (
         <label key={v} className={styles.choice}>
           <input type="radio" name={name} checked={value === v} onChange={() => onChange(v)} />
           {label}
         </label>
       ))}
-    </div>
+    </fieldset>
   );
 }
 
@@ -32,8 +33,8 @@ export function PrefsSettings() {
     <>
       <section className="card">
         <h2>发音</h2>
-        <Radios name="speech-mode" options={SPEECH_MODES} value={mode} onChange={(speechMode) => updateSettings({ speechMode })} />
-        <Radios name="rate" options={RATES} value={settings.speechRate} onChange={(speechRate) => updateSettings({ speechRate })} />
+        <Radios name="speech-mode" label="发音方式" options={SPEECH_MODES} value={mode} onChange={(speechMode) => updateSettings({ speechMode })} />
+        <Radios name="rate" label="语速" options={RATES} value={settings.speechRate} onChange={(speechRate) => updateSettings({ speechRate })} />
         {mode === 'online' ? (
           <>
             <p className="muted">需联网。点击喇叭时，将当前荷兰语单词或例句发送给 Google 合成并直接播放。兼容接口可能限流或暂时不可用。</p>
@@ -66,7 +67,7 @@ export function PrefsSettings() {
       </section>
       <section className="card">
         <h2>外观</h2>
-        <Radios name="theme" options={THEMES} value={settings.theme} onChange={(theme) => updateSettings({ theme })} />
+        <Radios name="theme" label="主题" options={THEMES} value={settings.theme} onChange={(theme) => updateSettings({ theme })} />
       </section>
     </>
   );

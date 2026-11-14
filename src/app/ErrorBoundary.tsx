@@ -1,5 +1,4 @@
 import { Component, type ReactNode } from 'react';
-import { exportBackup } from '../application/backup';
 import { downloadFile } from '../platform/files';
 import { db } from './AppContext';
 
@@ -28,6 +27,7 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, { error: u
   onRejection = (e: PromiseRejectionEvent) => this.setState({ error: e.reason });
 
   exportNow = async () => {
+    const { exportBackup } = await import('../application/backup');
     const { fileName, json } = await exportBackup(db, Date.now());
     downloadFile(fileName, json);
   };

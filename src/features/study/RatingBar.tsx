@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import type { Rating } from '../../domain/types';
 import { safeStorage } from './display';
 import styles from './StudyPage.module.css';
@@ -23,8 +23,10 @@ type Props = {
 /** 固定在标签栏上方：揭晓前是「显示答案」，揭晓后是评分按钮。 */
 export function RatingBar({ revealed, easyButton, busy, onReveal, onRate }: Props) {
   const [guideSeen, setGuideSeen] = useState(() => safeStorage.get(GUIDE_KEY) !== null);
+  const firstRating = useRef<HTMLButtonElement>(null);
 
   function dismissGuide() {
+    firstRating.current!.focus();
     safeStorage.set(GUIDE_KEY, '1');
     setGuideSeen(true);
   }
@@ -43,12 +45,12 @@ export function RatingBar({ revealed, easyButton, busy, onReveal, onRate }: Prop
       {!guideSeen && (
         <div className={styles.guide}>
           <span>揭晓后才觉得眼熟，请选"忘记"</span>
-          <button type="button" className={styles.guideClose} aria-label="关闭提示" onClick={dismissGuide}>×</button>
+          <button type="button" className={styles.guideClose} disabled={busy} aria-label="关闭提示" onClick={dismissGuide}>×</button>
         </div>
       )}
       <div className={styles.rates}>
         {BUTTONS.filter((b) => b.rating !== 'Easy' || easyButton).map((b) => (
-          <button key={b.rating} type="button" className={styles.rate} style={{ color: b.color, borderColor: b.color }}
+          <button ref={b.rating === 'Again' ? firstRating : undefined} key={b.rating} type="button" className={styles.rate} style={{ color: b.color, borderColor: b.color }}
             disabled={busy} aria-keyshortcuts={b.shortcut} onClick={() => onRate(b.rating)}>
             {b.label}<kbd className={styles.shortcut} aria-hidden="true">{b.shortcut}</kbd>
           </button>

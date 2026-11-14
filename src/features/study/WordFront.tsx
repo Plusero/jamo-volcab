@@ -22,7 +22,7 @@ export function WordFront({ lexeme, examples, revealed, isNew, voice, rate, spee
   return (
     <div className={`card ${styles.front}`}>
       {isNew && <span className={styles.badge}>新词</span>}
-      <div className={styles.lemma}>{displayForm(lexeme)}</div>
+      <h1 className={styles.lemma} lang="nl" tabIndex={-1}>{displayForm(lexeme)}</h1>
       <div className={styles.meta}>
         <span className="muted">{posLabel(lexeme.pos)}</span>
         <CefrBadge assessment={lexeme.cefr} />

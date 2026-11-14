@@ -260,3 +260,36 @@ it.each(['鼠标', '键盘'] as const)('%s 连续揭晓和评分后只保留当�
   expect(screen.getAllByRole('list', { name: '语境例句' })).toHaveLength(1);
   expect(await db.reviewLogs.count()).toBe(1);
 });
+
+it('揭晓、关闭提示、评分和撤销后将焦点交给当前内容', async () => {
+  localStorage.removeItem('ratingGuideSeen');
+  render(<MemoryRouter><StudyPage /></MemoryRouter>);
+  const heading = await screen.findByRole('heading', { level: 1, name: 'huilen' });
+  expect(heading).toHaveFocus();
+
+  const reveal = screen.getByRole('button', { name: '显示答案' });
+  reveal.focus();
+  fireEvent.click(reveal);
+  expect(screen.getByRole('region', { name: '答案' })).toHaveFocus();
+
+  const close = screen.getByRole('button', { name: '关闭提示' });
+  close.focus();
+  fireEvent.click(close);
+  expect(screen.getByRole('button', { name: '忘记' })).toHaveFocus();
+
+  const good = screen.getByRole('button', { name: '认识' });
+  good.focus();
+  fireEvent.click(good);
+  expect(await screen.findByRole('heading', { name: 'stem' })).toHaveFocus();
+  await waitFor(() => expect(screen.getByRole('button', { name: '撤销' })).toBeEnabled());
+  fireEvent.click(screen.getByRole('button', { name: '撤销' }));
+  await screen.findByText('huilen 的释义');
+  expect(screen.getByRole('region', { name: '答案' })).toHaveFocus();
+
+  for (const next of ['stem', 'stil', '本轮完成']) {
+    await waitFor(() => expect(screen.getByRole('button', { name: '跳过' })).toBeEnabled());
+    fireEvent.click(screen.getByRole('button', { name: '跳过' }));
+    expect(await screen.findByRole('heading', { name: next })).toHaveFocus();
+  }
+  localStorage.removeItem('ratingGuideSeen');
+});

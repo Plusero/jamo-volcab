@@ -61,29 +61,44 @@ export function LibraryPage() {
         <div className="muted">共 {vocab.senseOrder.length} 个词义 · 已开始学习 {cards ? cards.size : '…'} 个</div>
       </div>
 
-      <div className={styles.filters}>
-        <input
-          type="search" placeholder="搜索荷兰语或中文" aria-label="搜索"
-          value={q} onChange={(e) => reset(setQ)(e.target.value)}
-        />
+      <search className={styles.filters} aria-label="词库筛选">
+        <label>
+          搜索
+          <input
+            type="search" placeholder="搜索荷兰语或中文"
+            value={q} onChange={(e) => reset(setQ)(e.target.value)}
+          />
+        </label>
         <div className={styles.selects}>
-          <select aria-label="CEFR 等级" value={level} onChange={(e) => reset(setLevel)(e.target.value)}>
-            <option value="">全部等级</option>
-            {CEFR_LEVELS.map((l) => <option key={l} value={l}>CEFR {l}</option>)}
-          </select>
-          <select aria-label="词性" value={pos} onChange={(e) => reset(setPos)(e.target.value)}>
-            <option value="">全部词性</option>
-            {posList.map((p) => <option key={p} value={p}>{posLabel(p)}</option>)}
-          </select>
-          <select aria-label="主题" value={topic} onChange={(e) => reset(setTopic)(e.target.value)}>
-            <option value="">全部主题</option>
-            {topicList.map((t) => <option key={t} value={t}>{t}</option>)}
-          </select>
-          <select aria-label="学习状态" value={state} onChange={(e) => reset(setState)(e.target.value as StateFilter)}>
-            {STATE_OPTIONS.map(([v, label]) => <option key={v} value={v}>{label}</option>)}
-          </select>
+          <label>
+            CEFR 等级
+            <select value={level} onChange={(e) => reset(setLevel)(e.target.value)}>
+              <option value="">全部等级</option>
+              {CEFR_LEVELS.map((l) => <option key={l} value={l}>CEFR {l}</option>)}
+            </select>
+          </label>
+          <label>
+            词性
+            <select value={pos} onChange={(e) => reset(setPos)(e.target.value)}>
+              <option value="">全部词性</option>
+              {posList.map((p) => <option key={p} value={p}>{posLabel(p)}</option>)}
+            </select>
+          </label>
+          <label>
+            主题
+            <select value={topic} onChange={(e) => reset(setTopic)(e.target.value)}>
+              <option value="">全部主题</option>
+              {topicList.map((t) => <option key={t} value={t}>{t}</option>)}
+            </select>
+          </label>
+          <label>
+            学习状态
+            <select value={state} onChange={(e) => reset(setState)(e.target.value as StateFilter)}>
+              {STATE_OPTIONS.map(([v, label]) => <option key={v} value={v}>{label}</option>)}
+            </select>
+          </label>
         </div>
-      </div>
+      </search>
 
       <ul className={styles.list}>
         {visible.map(({ sense, lexeme }) => {
@@ -91,12 +106,12 @@ export function LibraryPage() {
           return (
             <li key={sense.id}>
               <Link to={`/word/${sense.id}`} className={styles.item}>
-                <span className={styles.main}>
-                  <div className={styles.lemma}>{lexeme.article ? `${lexeme.article} ` : ''}{lexeme.lemma}</div>
+                <div className={styles.main}>
+                  <div className={styles.lemma} lang="nl">{lexeme.article ? `${lexeme.article} ` : ''}{lexeme.lemma}</div>
                   <div className={styles.zh}>{sense.zh}</div>
                   <CefrBadge assessment={lexeme.cefr} />
                   <div className={styles.frequency}><TextbookFrequency rank={lexeme.textbookFrequencyRank} /></div>
-                </span>
+                </div>
                 <span className={`${styles.badge} ${styles[st]}`}>{STATE_LABEL[st]}</span>
               </Link>
             </li>
